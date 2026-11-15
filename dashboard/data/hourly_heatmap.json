@@ -1,0 +1,1178 @@
+[
+  {
+    "day_of_week": "Friday",
+    "hour": 0,
+    "txn_count": 128,
+    "fail_count": 6,
+    "failure_rate": 4.69
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 1,
+    "txn_count": 74,
+    "fail_count": 5,
+    "failure_rate": 6.76
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 2,
+    "txn_count": 40,
+    "fail_count": 3,
+    "failure_rate": 7.5
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 3,
+    "txn_count": 41,
+    "fail_count": 3,
+    "failure_rate": 7.32
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 4,
+    "txn_count": 44,
+    "fail_count": 0,
+    "failure_rate": 0.0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 5,
+    "txn_count": 72,
+    "fail_count": 7,
+    "failure_rate": 9.72
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 6,
+    "txn_count": 169,
+    "fail_count": 17,
+    "failure_rate": 10.06
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 7,
+    "txn_count": 239,
+    "fail_count": 25,
+    "failure_rate": 10.46
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 8,
+    "txn_count": 315,
+    "fail_count": 28,
+    "failure_rate": 8.89
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 9,
+    "txn_count": 395,
+    "fail_count": 41,
+    "failure_rate": 10.38
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 10,
+    "txn_count": 430,
+    "fail_count": 30,
+    "failure_rate": 6.98
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 11,
+    "txn_count": 488,
+    "fail_count": 45,
+    "failure_rate": 9.22
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 12,
+    "txn_count": 534,
+    "fail_count": 52,
+    "failure_rate": 9.74
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 13,
+    "txn_count": 486,
+    "fail_count": 36,
+    "failure_rate": 7.41
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 14,
+    "txn_count": 484,
+    "fail_count": 35,
+    "failure_rate": 7.23
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 15,
+    "txn_count": 377,
+    "fail_count": 22,
+    "failure_rate": 5.84
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 16,
+    "txn_count": 421,
+    "fail_count": 28,
+    "failure_rate": 6.65
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 17,
+    "txn_count": 544,
+    "fail_count": 48,
+    "failure_rate": 8.82
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 18,
+    "txn_count": 642,
+    "fail_count": 61,
+    "failure_rate": 9.5
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 19,
+    "txn_count": 693,
+    "fail_count": 61,
+    "failure_rate": 8.8
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 20,
+    "txn_count": 825,
+    "fail_count": 75,
+    "failure_rate": 9.09
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 21,
+    "txn_count": 715,
+    "fail_count": 61,
+    "failure_rate": 8.53
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 22,
+    "txn_count": 598,
+    "fail_count": 60,
+    "failure_rate": 10.03
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 23,
+    "txn_count": 398,
+    "fail_count": 30,
+    "failure_rate": 7.54
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 0,
+    "txn_count": 107,
+    "fail_count": 11,
+    "failure_rate": 10.28
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 1,
+    "txn_count": 77,
+    "fail_count": 8,
+    "failure_rate": 10.39
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 2,
+    "txn_count": 35,
+    "fail_count": 3,
+    "failure_rate": 8.57
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 3,
+    "txn_count": 43,
+    "fail_count": 1,
+    "failure_rate": 2.33
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 4,
+    "txn_count": 37,
+    "fail_count": 2,
+    "failure_rate": 5.41
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 5,
+    "txn_count": 67,
+    "fail_count": 8,
+    "failure_rate": 11.94
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 6,
+    "txn_count": 135,
+    "fail_count": 10,
+    "failure_rate": 7.41
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 7,
+    "txn_count": 249,
+    "fail_count": 22,
+    "failure_rate": 8.84
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 8,
+    "txn_count": 318,
+    "fail_count": 21,
+    "failure_rate": 6.6
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 9,
+    "txn_count": 396,
+    "fail_count": 36,
+    "failure_rate": 9.09
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 10,
+    "txn_count": 424,
+    "fail_count": 35,
+    "failure_rate": 8.25
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 11,
+    "txn_count": 467,
+    "fail_count": 45,
+    "failure_rate": 9.64
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 12,
+    "txn_count": 482,
+    "fail_count": 34,
+    "failure_rate": 7.05
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 13,
+    "txn_count": 495,
+    "fail_count": 42,
+    "failure_rate": 8.48
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 14,
+    "txn_count": 498,
+    "fail_count": 41,
+    "failure_rate": 8.23
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 15,
+    "txn_count": 388,
+    "fail_count": 39,
+    "failure_rate": 10.05
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 16,
+    "txn_count": 421,
+    "fail_count": 28,
+    "failure_rate": 6.65
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 17,
+    "txn_count": 525,
+    "fail_count": 43,
+    "failure_rate": 8.19
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 18,
+    "txn_count": 599,
+    "fail_count": 42,
+    "failure_rate": 7.01
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 19,
+    "txn_count": 681,
+    "fail_count": 58,
+    "failure_rate": 8.52
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 20,
+    "txn_count": 753,
+    "fail_count": 56,
+    "failure_rate": 7.44
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 21,
+    "txn_count": 728,
+    "fail_count": 70,
+    "failure_rate": 9.62
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 22,
+    "txn_count": 610,
+    "fail_count": 58,
+    "failure_rate": 9.51
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 23,
+    "txn_count": 385,
+    "fail_count": 37,
+    "failure_rate": 9.61
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 0,
+    "txn_count": 117,
+    "fail_count": 6,
+    "failure_rate": 5.13
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 1,
+    "txn_count": 48,
+    "fail_count": 5,
+    "failure_rate": 10.42
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 2,
+    "txn_count": 28,
+    "fail_count": 3,
+    "failure_rate": 10.71
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 3,
+    "txn_count": 33,
+    "fail_count": 3,
+    "failure_rate": 9.09
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 4,
+    "txn_count": 33,
+    "fail_count": 3,
+    "failure_rate": 9.09
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 5,
+    "txn_count": 64,
+    "fail_count": 2,
+    "failure_rate": 3.12
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 6,
+    "txn_count": 133,
+    "fail_count": 12,
+    "failure_rate": 9.02
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 7,
+    "txn_count": 202,
+    "fail_count": 14,
+    "failure_rate": 6.93
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 8,
+    "txn_count": 279,
+    "fail_count": 25,
+    "failure_rate": 8.96
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 9,
+    "txn_count": 318,
+    "fail_count": 31,
+    "failure_rate": 9.75
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 10,
+    "txn_count": 366,
+    "fail_count": 26,
+    "failure_rate": 7.1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 11,
+    "txn_count": 390,
+    "fail_count": 24,
+    "failure_rate": 6.15
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 12,
+    "txn_count": 419,
+    "fail_count": 42,
+    "failure_rate": 10.02
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 13,
+    "txn_count": 381,
+    "fail_count": 25,
+    "failure_rate": 6.56
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 14,
+    "txn_count": 352,
+    "fail_count": 35,
+    "failure_rate": 9.94
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 15,
+    "txn_count": 332,
+    "fail_count": 35,
+    "failure_rate": 10.54
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 16,
+    "txn_count": 360,
+    "fail_count": 35,
+    "failure_rate": 9.72
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 17,
+    "txn_count": 389,
+    "fail_count": 35,
+    "failure_rate": 9.0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 18,
+    "txn_count": 520,
+    "fail_count": 56,
+    "failure_rate": 10.77
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 19,
+    "txn_count": 564,
+    "fail_count": 61,
+    "failure_rate": 10.82
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 20,
+    "txn_count": 638,
+    "fail_count": 55,
+    "failure_rate": 8.62
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 21,
+    "txn_count": 592,
+    "fail_count": 44,
+    "failure_rate": 7.43
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 22,
+    "txn_count": 487,
+    "fail_count": 48,
+    "failure_rate": 9.86
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 23,
+    "txn_count": 316,
+    "fail_count": 33,
+    "failure_rate": 10.44
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 0,
+    "txn_count": 104,
+    "fail_count": 7,
+    "failure_rate": 6.73
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 1,
+    "txn_count": 54,
+    "fail_count": 4,
+    "failure_rate": 7.41
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 2,
+    "txn_count": 29,
+    "fail_count": 2,
+    "failure_rate": 6.9
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 3,
+    "txn_count": 19,
+    "fail_count": 2,
+    "failure_rate": 10.53
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 4,
+    "txn_count": 24,
+    "fail_count": 2,
+    "failure_rate": 8.33
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 5,
+    "txn_count": 54,
+    "fail_count": 2,
+    "failure_rate": 3.7
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 6,
+    "txn_count": 105,
+    "fail_count": 5,
+    "failure_rate": 4.76
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 7,
+    "txn_count": 188,
+    "fail_count": 16,
+    "failure_rate": 8.51
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 8,
+    "txn_count": 235,
+    "fail_count": 17,
+    "failure_rate": 7.23
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 9,
+    "txn_count": 348,
+    "fail_count": 36,
+    "failure_rate": 10.34
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 10,
+    "txn_count": 340,
+    "fail_count": 26,
+    "failure_rate": 7.65
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 11,
+    "txn_count": 370,
+    "fail_count": 35,
+    "failure_rate": 9.46
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 12,
+    "txn_count": 422,
+    "fail_count": 35,
+    "failure_rate": 8.29
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 13,
+    "txn_count": 395,
+    "fail_count": 35,
+    "failure_rate": 8.86
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 14,
+    "txn_count": 364,
+    "fail_count": 36,
+    "failure_rate": 9.89
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 15,
+    "txn_count": 298,
+    "fail_count": 27,
+    "failure_rate": 9.06
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 16,
+    "txn_count": 320,
+    "fail_count": 35,
+    "failure_rate": 10.94
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 17,
+    "txn_count": 430,
+    "fail_count": 33,
+    "failure_rate": 7.67
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 18,
+    "txn_count": 536,
+    "fail_count": 50,
+    "failure_rate": 9.33
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 19,
+    "txn_count": 517,
+    "fail_count": 39,
+    "failure_rate": 7.54
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 20,
+    "txn_count": 688,
+    "fail_count": 50,
+    "failure_rate": 7.27
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 21,
+    "txn_count": 549,
+    "fail_count": 54,
+    "failure_rate": 9.84
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 22,
+    "txn_count": 430,
+    "fail_count": 30,
+    "failure_rate": 6.98
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 23,
+    "txn_count": 323,
+    "fail_count": 29,
+    "failure_rate": 8.98
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 0,
+    "txn_count": 124,
+    "fail_count": 12,
+    "failure_rate": 9.68
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 1,
+    "txn_count": 73,
+    "fail_count": 5,
+    "failure_rate": 6.85
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 2,
+    "txn_count": 29,
+    "fail_count": 4,
+    "failure_rate": 13.79
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 3,
+    "txn_count": 31,
+    "fail_count": 4,
+    "failure_rate": 12.9
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 4,
+    "txn_count": 42,
+    "fail_count": 3,
+    "failure_rate": 7.14
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 5,
+    "txn_count": 87,
+    "fail_count": 7,
+    "failure_rate": 8.05
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 6,
+    "txn_count": 159,
+    "fail_count": 12,
+    "failure_rate": 7.55
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 7,
+    "txn_count": 239,
+    "fail_count": 17,
+    "failure_rate": 7.11
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 8,
+    "txn_count": 350,
+    "fail_count": 27,
+    "failure_rate": 7.71
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 9,
+    "txn_count": 408,
+    "fail_count": 39,
+    "failure_rate": 9.56
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 10,
+    "txn_count": 449,
+    "fail_count": 34,
+    "failure_rate": 7.57
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 11,
+    "txn_count": 470,
+    "fail_count": 52,
+    "failure_rate": 11.06
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 12,
+    "txn_count": 478,
+    "fail_count": 41,
+    "failure_rate": 8.58
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 13,
+    "txn_count": 472,
+    "fail_count": 39,
+    "failure_rate": 8.26
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 14,
+    "txn_count": 459,
+    "fail_count": 33,
+    "failure_rate": 7.19
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 15,
+    "txn_count": 427,
+    "fail_count": 46,
+    "failure_rate": 10.77
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 16,
+    "txn_count": 462,
+    "fail_count": 39,
+    "failure_rate": 8.44
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 17,
+    "txn_count": 546,
+    "fail_count": 40,
+    "failure_rate": 7.33
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 18,
+    "txn_count": 663,
+    "fail_count": 60,
+    "failure_rate": 9.05
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 19,
+    "txn_count": 733,
+    "fail_count": 61,
+    "failure_rate": 8.32
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 20,
+    "txn_count": 766,
+    "fail_count": 68,
+    "failure_rate": 8.88
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 21,
+    "txn_count": 711,
+    "fail_count": 60,
+    "failure_rate": 8.44
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 22,
+    "txn_count": 602,
+    "fail_count": 54,
+    "failure_rate": 8.97
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 23,
+    "txn_count": 414,
+    "fail_count": 46,
+    "failure_rate": 11.11
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 0,
+    "txn_count": 101,
+    "fail_count": 7,
+    "failure_rate": 6.93
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 1,
+    "txn_count": 66,
+    "fail_count": 8,
+    "failure_rate": 12.12
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 2,
+    "txn_count": 29,
+    "fail_count": 1,
+    "failure_rate": 3.45
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 3,
+    "txn_count": 55,
+    "fail_count": 8,
+    "failure_rate": 14.55
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 4,
+    "txn_count": 41,
+    "fail_count": 5,
+    "failure_rate": 12.2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 5,
+    "txn_count": 80,
+    "fail_count": 9,
+    "failure_rate": 11.25
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 6,
+    "txn_count": 170,
+    "fail_count": 12,
+    "failure_rate": 7.06
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 7,
+    "txn_count": 200,
+    "fail_count": 15,
+    "failure_rate": 7.5
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 8,
+    "txn_count": 309,
+    "fail_count": 30,
+    "failure_rate": 9.71
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 9,
+    "txn_count": 370,
+    "fail_count": 32,
+    "failure_rate": 8.65
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 10,
+    "txn_count": 414,
+    "fail_count": 41,
+    "failure_rate": 9.9
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 11,
+    "txn_count": 484,
+    "fail_count": 41,
+    "failure_rate": 8.47
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 12,
+    "txn_count": 526,
+    "fail_count": 37,
+    "failure_rate": 7.03
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 13,
+    "txn_count": 500,
+    "fail_count": 47,
+    "failure_rate": 9.4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 14,
+    "txn_count": 437,
+    "fail_count": 30,
+    "failure_rate": 6.86
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 15,
+    "txn_count": 382,
+    "fail_count": 35,
+    "failure_rate": 9.16
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 16,
+    "txn_count": 453,
+    "fail_count": 35,
+    "failure_rate": 7.73
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 17,
+    "txn_count": 528,
+    "fail_count": 40,
+    "failure_rate": 7.58
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 18,
+    "txn_count": 651,
+    "fail_count": 55,
+    "failure_rate": 8.45
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 19,
+    "txn_count": 712,
+    "fail_count": 54,
+    "failure_rate": 7.58
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 20,
+    "txn_count": 812,
+    "fail_count": 56,
+    "failure_rate": 6.9
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 21,
+    "txn_count": 714,
+    "fail_count": 67,
+    "failure_rate": 9.38
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 22,
+    "txn_count": 645,
+    "fail_count": 49,
+    "failure_rate": 7.6
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 23,
+    "txn_count": 390,
+    "fail_count": 32,
+    "failure_rate": 8.21
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 0,
+    "txn_count": 128,
+    "fail_count": 15,
+    "failure_rate": 11.72
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 1,
+    "txn_count": 83,
+    "fail_count": 8,
+    "failure_rate": 9.64
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 2,
+    "txn_count": 38,
+    "fail_count": 2,
+    "failure_rate": 5.26
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 3,
+    "txn_count": 37,
+    "fail_count": 0,
+    "failure_rate": 0.0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 4,
+    "txn_count": 54,
+    "fail_count": 7,
+    "failure_rate": 12.96
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 5,
+    "txn_count": 84,
+    "fail_count": 6,
+    "failure_rate": 7.14
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 6,
+    "txn_count": 176,
+    "fail_count": 12,
+    "failure_rate": 6.82
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 7,
+    "txn_count": 236,
+    "fail_count": 17,
+    "failure_rate": 7.2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 8,
+    "txn_count": 290,
+    "fail_count": 24,
+    "failure_rate": 8.28
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 9,
+    "txn_count": 369,
+    "fail_count": 25,
+    "failure_rate": 6.78
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 10,
+    "txn_count": 487,
+    "fail_count": 40,
+    "failure_rate": 8.21
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 11,
+    "txn_count": 513,
+    "fail_count": 38,
+    "failure_rate": 7.41
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 12,
+    "txn_count": 505,
+    "fail_count": 47,
+    "failure_rate": 9.31
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 13,
+    "txn_count": 468,
+    "fail_count": 45,
+    "failure_rate": 9.62
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 14,
+    "txn_count": 414,
+    "fail_count": 43,
+    "failure_rate": 10.39
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 15,
+    "txn_count": 381,
+    "fail_count": 29,
+    "failure_rate": 7.61
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 16,
+    "txn_count": 460,
+    "fail_count": 49,
+    "failure_rate": 10.65
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 17,
+    "txn_count": 509,
+    "fail_count": 47,
+    "failure_rate": 9.23
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 18,
+    "txn_count": 642,
+    "fail_count": 47,
+    "failure_rate": 7.32
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 19,
+    "txn_count": 690,
+    "fail_count": 42,
+    "failure_rate": 6.09
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 20,
+    "txn_count": 822,
+    "fail_count": 55,
+    "failure_rate": 6.69
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 21,
+    "txn_count": 769,
+    "fail_count": 56,
+    "failure_rate": 7.28
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 22,
+    "txn_count": 601,
+    "fail_count": 49,
+    "failure_rate": 8.15
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 23,
+    "txn_count": 391,
+    "fail_count": 30,
+    "failure_rate": 7.67
+  }
+]

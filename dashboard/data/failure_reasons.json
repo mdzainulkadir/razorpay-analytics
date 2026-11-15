@@ -1,0 +1,42 @@
+[
+  {
+    "failure_reason": "expired_card",
+    "count": 674,
+    "share_pct": 13.28
+  },
+  {
+    "failure_reason": "bank_server_down",
+    "count": 657,
+    "share_pct": 12.94
+  },
+  {
+    "failure_reason": "authentication_failed",
+    "count": 643,
+    "share_pct": 12.67
+  },
+  {
+    "failure_reason": "limit_exceeded",
+    "count": 641,
+    "share_pct": 12.63
+  },
+  {
+    "failure_reason": "invalid_card",
+    "count": 630,
+    "share_pct": 12.41
+  },
+  {
+    "failure_reason": "insufficient_funds",
+    "count": 619,
+    "share_pct": 12.19
+  },
+  {
+    "failure_reason": "risk_check_failed",
+    "count": 615,
+    "share_pct": 12.12
+  },
+  {
+    "failure_reason": "network_timeout",
+    "count": 597,
+    "share_pct": 11.76
+  }
+]

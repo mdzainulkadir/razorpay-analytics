@@ -1,0 +1,2802 @@
+[
+  {
+    "date": "2025-01-11",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 361.67,
+    "revenue": 0.78
+  },
+  {
+    "date": "2025-01-12",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 49.05,
+    "revenue": 0.61
+  },
+  {
+    "date": "2025-02-11",
+    "txn_count": 5,
+    "success_count": 5,
+    "gmv": 7991.2699999999995,
+    "revenue": 25.5
+  },
+  {
+    "date": "2025-02-12",
+    "txn_count": 6,
+    "success_count": 6,
+    "gmv": 5406.37,
+    "revenue": 22.950000000000003
+  },
+  {
+    "date": "2025-03-11",
+    "txn_count": 3,
+    "success_count": 3,
+    "gmv": 6674.780000000001,
+    "revenue": 80.52
+  },
+  {
+    "date": "2025-04-12",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 495.13,
+    "revenue": 1.15
+  },
+  {
+    "date": "2025-05-12",
+    "txn_count": 2,
+    "success_count": 2,
+    "gmv": 591.27,
+    "revenue": 3.19
+  },
+  {
+    "date": "2025-06-11",
+    "txn_count": 5,
+    "success_count": 5,
+    "gmv": 9298.949999999999,
+    "revenue": 37.290000000000006
+  },
+  {
+    "date": "2025-06-12",
+    "txn_count": 4,
+    "success_count": 4,
+    "gmv": 13546.789999999997,
+    "revenue": 95.75
+  },
+  {
+    "date": "2025-07-11",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 150.55,
+    "revenue": 2.15
+  },
+  {
+    "date": "2025-07-12",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 768.96,
+    "revenue": 2.23
+  },
+  {
+    "date": "2025-08-11",
+    "txn_count": 3,
+    "success_count": 3,
+    "gmv": 6009.549999999999,
+    "revenue": 96.53000000000002
+  },
+  {
+    "date": "2025-08-12",
+    "txn_count": 2,
+    "success_count": 2,
+    "gmv": 353.97999999999996,
+    "revenue": 4.0
+  },
+  {
+    "date": "2025-09-12",
+    "txn_count": 2,
+    "success_count": 2,
+    "gmv": 2350.6400000000003,
+    "revenue": 15.459999999999999
+  },
+  {
+    "date": "2025-10-12",
+    "txn_count": 4,
+    "success_count": 3,
+    "gmv": 1771.0900000000001,
+    "revenue": 9.45
+  },
+  {
+    "date": "2025-11-01",
+    "txn_count": 123,
+    "success_count": 106,
+    "gmv": 167601.83,
+    "revenue": 1376.31
+  },
+  {
+    "date": "2025-11-02",
+    "txn_count": 142,
+    "success_count": 129,
+    "gmv": 205251.87,
+    "revenue": 2481.06
+  },
+  {
+    "date": "2025-11-03",
+    "txn_count": 167,
+    "success_count": 153,
+    "gmv": 240776.53000000003,
+    "revenue": 2126.08
+  },
+  {
+    "date": "2025-11-04",
+    "txn_count": 142,
+    "success_count": 131,
+    "gmv": 290984.64,
+    "revenue": 3919.39
+  },
+  {
+    "date": "2025-11-05",
+    "txn_count": 167,
+    "success_count": 156,
+    "gmv": 293002.12,
+    "revenue": 3356.7400000000002
+  },
+  {
+    "date": "2025-11-06",
+    "txn_count": 173,
+    "success_count": 156,
+    "gmv": 290767.39,
+    "revenue": 2922.1000000000004
+  },
+  {
+    "date": "2025-11-07",
+    "txn_count": 171,
+    "success_count": 153,
+    "gmv": 209621.21000000002,
+    "revenue": 2290.25
+  },
+  {
+    "date": "2025-11-08",
+    "txn_count": 133,
+    "success_count": 123,
+    "gmv": 286634.38,
+    "revenue": 3234.19
+  },
+  {
+    "date": "2025-11-09",
+    "txn_count": 119,
+    "success_count": 112,
+    "gmv": 152404.33,
+    "revenue": 1489.4399999999998
+  },
+  {
+    "date": "2025-11-10",
+    "txn_count": 156,
+    "success_count": 139,
+    "gmv": 263109.36,
+    "revenue": 1935.6100000000001
+  },
+  {
+    "date": "2025-11-11",
+    "txn_count": 163,
+    "success_count": 149,
+    "gmv": 195797.41,
+    "revenue": 1821.9699999999998
+  },
+  {
+    "date": "2025-11-12",
+    "txn_count": 165,
+    "success_count": 152,
+    "gmv": 242068.46999999997,
+    "revenue": 2282.37
+  },
+  {
+    "date": "2025-11-13",
+    "txn_count": 179,
+    "success_count": 161,
+    "gmv": 253734.95,
+    "revenue": 3037.2299999999996
+  },
+  {
+    "date": "2025-11-14",
+    "txn_count": 162,
+    "success_count": 149,
+    "gmv": 207810.07,
+    "revenue": 1985.75
+  },
+  {
+    "date": "2025-11-15",
+    "txn_count": 138,
+    "success_count": 128,
+    "gmv": 200669.86000000002,
+    "revenue": 1526.39
+  },
+  {
+    "date": "2025-11-16",
+    "txn_count": 116,
+    "success_count": 106,
+    "gmv": 285170.80000000005,
+    "revenue": 3480.02
+  },
+  {
+    "date": "2025-11-17",
+    "txn_count": 139,
+    "success_count": 128,
+    "gmv": 274598.04,
+    "revenue": 2955.9
+  },
+  {
+    "date": "2025-11-18",
+    "txn_count": 158,
+    "success_count": 148,
+    "gmv": 176321.44,
+    "revenue": 1524.8799999999999
+  },
+  {
+    "date": "2025-11-19",
+    "txn_count": 135,
+    "success_count": 127,
+    "gmv": 184839.30000000002,
+    "revenue": 2041.7700000000002
+  },
+  {
+    "date": "2025-11-20",
+    "txn_count": 163,
+    "success_count": 152,
+    "gmv": 292272.13,
+    "revenue": 3448.16
+  },
+  {
+    "date": "2025-11-21",
+    "txn_count": 150,
+    "success_count": 130,
+    "gmv": 320144.41,
+    "revenue": 4811.33
+  },
+  {
+    "date": "2025-11-22",
+    "txn_count": 116,
+    "success_count": 108,
+    "gmv": 159986.41000000003,
+    "revenue": 1605.1899999999998
+  },
+  {
+    "date": "2025-11-23",
+    "txn_count": 132,
+    "success_count": 119,
+    "gmv": 111355.56,
+    "revenue": 922.58
+  },
+  {
+    "date": "2025-11-24",
+    "txn_count": 164,
+    "success_count": 148,
+    "gmv": 272192.12,
+    "revenue": 2842.83
+  },
+  {
+    "date": "2025-11-25",
+    "txn_count": 172,
+    "success_count": 161,
+    "gmv": 231897.16,
+    "revenue": 2134.06
+  },
+  {
+    "date": "2025-11-26",
+    "txn_count": 177,
+    "success_count": 159,
+    "gmv": 242197.72000000003,
+    "revenue": 2536.8999999999996
+  },
+  {
+    "date": "2025-11-27",
+    "txn_count": 143,
+    "success_count": 131,
+    "gmv": 198013.87,
+    "revenue": 1752.65
+  },
+  {
+    "date": "2025-11-28",
+    "txn_count": 159,
+    "success_count": 140,
+    "gmv": 240164.06,
+    "revenue": 2205.96
+  },
+  {
+    "date": "2025-11-29",
+    "txn_count": 105,
+    "success_count": 93,
+    "gmv": 126657.62999999999,
+    "revenue": 750.4499999999999
+  },
+  {
+    "date": "2025-11-30",
+    "txn_count": 112,
+    "success_count": 106,
+    "gmv": 148244.06999999998,
+    "revenue": 1365.11
+  },
+  {
+    "date": "2025-12-01",
+    "txn_count": 140,
+    "success_count": 131,
+    "gmv": 176232.98,
+    "revenue": 1824.9
+  },
+  {
+    "date": "2025-12-02",
+    "txn_count": 150,
+    "success_count": 140,
+    "gmv": 271049.76,
+    "revenue": 3076.2000000000003
+  },
+  {
+    "date": "2025-12-03",
+    "txn_count": 145,
+    "success_count": 135,
+    "gmv": 173512.27999999997,
+    "revenue": 1751.8499999999995
+  },
+  {
+    "date": "2025-12-04",
+    "txn_count": 127,
+    "success_count": 121,
+    "gmv": 246906.04000000004,
+    "revenue": 2557.0400000000004
+  },
+  {
+    "date": "2025-12-05",
+    "txn_count": 128,
+    "success_count": 119,
+    "gmv": 220171.06999999998,
+    "revenue": 1865.9900000000002
+  },
+  {
+    "date": "2025-12-06",
+    "txn_count": 109,
+    "success_count": 101,
+    "gmv": 136321.44,
+    "revenue": 1050.3799999999999
+  },
+  {
+    "date": "2025-12-07",
+    "txn_count": 143,
+    "success_count": 128,
+    "gmv": 141199.63,
+    "revenue": 1280.14
+  },
+  {
+    "date": "2025-12-08",
+    "txn_count": 153,
+    "success_count": 140,
+    "gmv": 219166.71999999997,
+    "revenue": 2098.2200000000003
+  },
+  {
+    "date": "2025-12-09",
+    "txn_count": 146,
+    "success_count": 137,
+    "gmv": 199695.75,
+    "revenue": 2009.6
+  },
+  {
+    "date": "2025-12-10",
+    "txn_count": 134,
+    "success_count": 123,
+    "gmv": 206360.22999999998,
+    "revenue": 1393.3900000000003
+  },
+  {
+    "date": "2025-12-11",
+    "txn_count": 152,
+    "success_count": 138,
+    "gmv": 236423.39000000004,
+    "revenue": 2032.88
+  },
+  {
+    "date": "2025-12-12",
+    "txn_count": 156,
+    "success_count": 143,
+    "gmv": 177348.2,
+    "revenue": 1777.9999999999998
+  },
+  {
+    "date": "2025-12-13",
+    "txn_count": 149,
+    "success_count": 132,
+    "gmv": 201062.55,
+    "revenue": 1814.9499999999998
+  },
+  {
+    "date": "2025-12-14",
+    "txn_count": 130,
+    "success_count": 116,
+    "gmv": 141894.64999999997,
+    "revenue": 1235.89
+  },
+  {
+    "date": "2025-12-15",
+    "txn_count": 146,
+    "success_count": 133,
+    "gmv": 192630.79,
+    "revenue": 1890.3899999999999
+  },
+  {
+    "date": "2025-12-16",
+    "txn_count": 140,
+    "success_count": 127,
+    "gmv": 155066.62,
+    "revenue": 1271.84
+  },
+  {
+    "date": "2025-12-17",
+    "txn_count": 156,
+    "success_count": 147,
+    "gmv": 208369.99,
+    "revenue": 1545.32
+  },
+  {
+    "date": "2025-12-18",
+    "txn_count": 167,
+    "success_count": 159,
+    "gmv": 332003.08999999997,
+    "revenue": 3066.12
+  },
+  {
+    "date": "2025-12-19",
+    "txn_count": 132,
+    "success_count": 117,
+    "gmv": 117589.98999999998,
+    "revenue": 1093.33
+  },
+  {
+    "date": "2025-12-20",
+    "txn_count": 127,
+    "success_count": 118,
+    "gmv": 190148.60000000003,
+    "revenue": 1542.07
+  },
+  {
+    "date": "2025-12-21",
+    "txn_count": 107,
+    "success_count": 102,
+    "gmv": 226061.79,
+    "revenue": 2558.0800000000004
+  },
+  {
+    "date": "2025-12-22",
+    "txn_count": 141,
+    "success_count": 132,
+    "gmv": 169206.56,
+    "revenue": 1896.7000000000003
+  },
+  {
+    "date": "2025-12-23",
+    "txn_count": 152,
+    "success_count": 133,
+    "gmv": 167592.21999999997,
+    "revenue": 1792.33
+  },
+  {
+    "date": "2025-12-24",
+    "txn_count": 159,
+    "success_count": 146,
+    "gmv": 168723.55,
+    "revenue": 1276.68
+  },
+  {
+    "date": "2025-12-25",
+    "txn_count": 147,
+    "success_count": 131,
+    "gmv": 192987.48,
+    "revenue": 1269.5700000000002
+  },
+  {
+    "date": "2025-12-26",
+    "txn_count": 167,
+    "success_count": 153,
+    "gmv": 178466.11,
+    "revenue": 1954.4199999999998
+  },
+  {
+    "date": "2025-12-27",
+    "txn_count": 121,
+    "success_count": 111,
+    "gmv": 128145.23000000003,
+    "revenue": 1452.4399999999998
+  },
+  {
+    "date": "2025-12-28",
+    "txn_count": 130,
+    "success_count": 115,
+    "gmv": 169740.05000000002,
+    "revenue": 1415.04
+  },
+  {
+    "date": "2025-12-29",
+    "txn_count": 158,
+    "success_count": 152,
+    "gmv": 314887.64,
+    "revenue": 2133.92
+  },
+  {
+    "date": "2025-12-30",
+    "txn_count": 150,
+    "success_count": 138,
+    "gmv": 211941.65,
+    "revenue": 1987.26
+  },
+  {
+    "date": "2025-12-31",
+    "txn_count": 145,
+    "success_count": 132,
+    "gmv": 272497.86000000004,
+    "revenue": 3106.06
+  },
+  {
+    "date": "2026-01-01",
+    "txn_count": 170,
+    "success_count": 160,
+    "gmv": 203405.09000000003,
+    "revenue": 1708.2399999999998
+  },
+  {
+    "date": "2026-01-02",
+    "txn_count": 148,
+    "success_count": 136,
+    "gmv": 180696.21000000002,
+    "revenue": 1805.05
+  },
+  {
+    "date": "2026-01-03",
+    "txn_count": 108,
+    "success_count": 95,
+    "gmv": 155718.68,
+    "revenue": 1691.4200000000003
+  },
+  {
+    "date": "2026-01-04",
+    "txn_count": 125,
+    "success_count": 117,
+    "gmv": 226916.13,
+    "revenue": 2483.11
+  },
+  {
+    "date": "2026-01-05",
+    "txn_count": 160,
+    "success_count": 144,
+    "gmv": 237785.06,
+    "revenue": 2109.58
+  },
+  {
+    "date": "2026-01-06",
+    "txn_count": 152,
+    "success_count": 137,
+    "gmv": 191161.12,
+    "revenue": 1478.42
+  },
+  {
+    "date": "2026-01-07",
+    "txn_count": 155,
+    "success_count": 147,
+    "gmv": 160719.44,
+    "revenue": 1496.4199999999998
+  },
+  {
+    "date": "2026-01-08",
+    "txn_count": 161,
+    "success_count": 143,
+    "gmv": 157209.22999999998,
+    "revenue": 1295.1
+  },
+  {
+    "date": "2026-01-09",
+    "txn_count": 163,
+    "success_count": 146,
+    "gmv": 276745.36,
+    "revenue": 2810.0
+  },
+  {
+    "date": "2026-01-10",
+    "txn_count": 115,
+    "success_count": 109,
+    "gmv": 149656.01,
+    "revenue": 1286.2699999999998
+  },
+  {
+    "date": "2026-01-11",
+    "txn_count": 132,
+    "success_count": 123,
+    "gmv": 197745.66000000003,
+    "revenue": 1639.4099999999999
+  },
+  {
+    "date": "2026-01-12",
+    "txn_count": 138,
+    "success_count": 129,
+    "gmv": 267440.87,
+    "revenue": 4102.9400000000005
+  },
+  {
+    "date": "2026-01-13",
+    "txn_count": 179,
+    "success_count": 165,
+    "gmv": 248470.22000000003,
+    "revenue": 2745.9000000000005
+  },
+  {
+    "date": "2026-01-14",
+    "txn_count": 148,
+    "success_count": 132,
+    "gmv": 182334.09,
+    "revenue": 1881.2
+  },
+  {
+    "date": "2026-01-15",
+    "txn_count": 176,
+    "success_count": 165,
+    "gmv": 241310.3,
+    "revenue": 1874.11
+  },
+  {
+    "date": "2026-01-16",
+    "txn_count": 155,
+    "success_count": 139,
+    "gmv": 235213.96000000002,
+    "revenue": 2538.04
+  },
+  {
+    "date": "2026-01-17",
+    "txn_count": 146,
+    "success_count": 131,
+    "gmv": 201993.61,
+    "revenue": 1647.27
+  },
+  {
+    "date": "2026-01-18",
+    "txn_count": 110,
+    "success_count": 105,
+    "gmv": 132970.65000000002,
+    "revenue": 1693.3199999999997
+  },
+  {
+    "date": "2026-01-19",
+    "txn_count": 167,
+    "success_count": 158,
+    "gmv": 218644.16999999998,
+    "revenue": 2160.55
+  },
+  {
+    "date": "2026-01-20",
+    "txn_count": 146,
+    "success_count": 132,
+    "gmv": 233909.91000000006,
+    "revenue": 2678.7200000000003
+  },
+  {
+    "date": "2026-01-21",
+    "txn_count": 157,
+    "success_count": 142,
+    "gmv": 275704.53,
+    "revenue": 2585.81
+  },
+  {
+    "date": "2026-01-22",
+    "txn_count": 147,
+    "success_count": 134,
+    "gmv": 160681.4,
+    "revenue": 1542.0299999999997
+  },
+  {
+    "date": "2026-01-23",
+    "txn_count": 147,
+    "success_count": 127,
+    "gmv": 231531.11999999997,
+    "revenue": 2325.95
+  },
+  {
+    "date": "2026-01-24",
+    "txn_count": 108,
+    "success_count": 101,
+    "gmv": 206045.60000000003,
+    "revenue": 1620.8700000000001
+  },
+  {
+    "date": "2026-01-25",
+    "txn_count": 129,
+    "success_count": 114,
+    "gmv": 173374.66999999998,
+    "revenue": 1663.39
+  },
+  {
+    "date": "2026-01-26",
+    "txn_count": 169,
+    "success_count": 150,
+    "gmv": 193516.56,
+    "revenue": 2002.09
+  },
+  {
+    "date": "2026-01-27",
+    "txn_count": 158,
+    "success_count": 151,
+    "gmv": 225272.96,
+    "revenue": 2450.3599999999997
+  },
+  {
+    "date": "2026-01-28",
+    "txn_count": 135,
+    "success_count": 123,
+    "gmv": 187818.82,
+    "revenue": 1822.3
+  },
+  {
+    "date": "2026-01-29",
+    "txn_count": 151,
+    "success_count": 147,
+    "gmv": 235107.6,
+    "revenue": 2457.21
+  },
+  {
+    "date": "2026-01-30",
+    "txn_count": 168,
+    "success_count": 152,
+    "gmv": 182454.7,
+    "revenue": 1289.19
+  },
+  {
+    "date": "2026-01-31",
+    "txn_count": 138,
+    "success_count": 128,
+    "gmv": 249797.32,
+    "revenue": 3295.03
+  },
+  {
+    "date": "2026-02-01",
+    "txn_count": 138,
+    "success_count": 129,
+    "gmv": 157030.24,
+    "revenue": 1323.3100000000002
+  },
+  {
+    "date": "2026-02-02",
+    "txn_count": 160,
+    "success_count": 145,
+    "gmv": 202149.25,
+    "revenue": 1884.8999999999996
+  },
+  {
+    "date": "2026-02-03",
+    "txn_count": 144,
+    "success_count": 130,
+    "gmv": 198659.65000000002,
+    "revenue": 1589.33
+  },
+  {
+    "date": "2026-02-04",
+    "txn_count": 153,
+    "success_count": 144,
+    "gmv": 207551.55,
+    "revenue": 1588.74
+  },
+  {
+    "date": "2026-02-05",
+    "txn_count": 196,
+    "success_count": 180,
+    "gmv": 301826.24,
+    "revenue": 2646.16
+  },
+  {
+    "date": "2026-02-06",
+    "txn_count": 149,
+    "success_count": 139,
+    "gmv": 227919.0,
+    "revenue": 1621.4899999999998
+  },
+  {
+    "date": "2026-02-07",
+    "txn_count": 115,
+    "success_count": 104,
+    "gmv": 133473.13,
+    "revenue": 775.45
+  },
+  {
+    "date": "2026-02-08",
+    "txn_count": 109,
+    "success_count": 98,
+    "gmv": 170323.6,
+    "revenue": 1182.06
+  },
+  {
+    "date": "2026-02-09",
+    "txn_count": 167,
+    "success_count": 153,
+    "gmv": 221704.88,
+    "revenue": 2549.52
+  },
+  {
+    "date": "2026-02-10",
+    "txn_count": 160,
+    "success_count": 147,
+    "gmv": 284293.12,
+    "revenue": 2512.73
+  },
+  {
+    "date": "2026-02-11",
+    "txn_count": 157,
+    "success_count": 144,
+    "gmv": 247835.64,
+    "revenue": 2560.77
+  },
+  {
+    "date": "2026-02-12",
+    "txn_count": 144,
+    "success_count": 130,
+    "gmv": 170345.69,
+    "revenue": 1806.29
+  },
+  {
+    "date": "2026-02-13",
+    "txn_count": 167,
+    "success_count": 152,
+    "gmv": 249190.99,
+    "revenue": 2152.4300000000003
+  },
+  {
+    "date": "2026-02-14",
+    "txn_count": 123,
+    "success_count": 110,
+    "gmv": 124252.95999999999,
+    "revenue": 1100.5300000000002
+  },
+  {
+    "date": "2026-02-15",
+    "txn_count": 115,
+    "success_count": 103,
+    "gmv": 223010.24000000008,
+    "revenue": 2595.72
+  },
+  {
+    "date": "2026-02-16",
+    "txn_count": 152,
+    "success_count": 137,
+    "gmv": 284609.70999999996,
+    "revenue": 2447.26
+  },
+  {
+    "date": "2026-02-17",
+    "txn_count": 178,
+    "success_count": 157,
+    "gmv": 219626.06,
+    "revenue": 2314.55
+  },
+  {
+    "date": "2026-02-18",
+    "txn_count": 150,
+    "success_count": 139,
+    "gmv": 207924.07,
+    "revenue": 1826.2600000000002
+  },
+  {
+    "date": "2026-02-19",
+    "txn_count": 139,
+    "success_count": 133,
+    "gmv": 154567.38999999996,
+    "revenue": 1293.69
+  },
+  {
+    "date": "2026-02-20",
+    "txn_count": 144,
+    "success_count": 132,
+    "gmv": 152895.92,
+    "revenue": 1485.7099999999998
+  },
+  {
+    "date": "2026-02-21",
+    "txn_count": 131,
+    "success_count": 125,
+    "gmv": 204496.77000000002,
+    "revenue": 2186.28
+  },
+  {
+    "date": "2026-02-22",
+    "txn_count": 122,
+    "success_count": 116,
+    "gmv": 233419.94000000003,
+    "revenue": 2635.8299999999995
+  },
+  {
+    "date": "2026-02-23",
+    "txn_count": 135,
+    "success_count": 126,
+    "gmv": 189969.11999999997,
+    "revenue": 1511.98
+  },
+  {
+    "date": "2026-02-24",
+    "txn_count": 174,
+    "success_count": 151,
+    "gmv": 221739.7,
+    "revenue": 2260.7400000000002
+  },
+  {
+    "date": "2026-02-25",
+    "txn_count": 161,
+    "success_count": 146,
+    "gmv": 186927.65,
+    "revenue": 1542.6
+  },
+  {
+    "date": "2026-02-26",
+    "txn_count": 169,
+    "success_count": 157,
+    "gmv": 274948.49,
+    "revenue": 2334.9299999999994
+  },
+  {
+    "date": "2026-02-27",
+    "txn_count": 159,
+    "success_count": 150,
+    "gmv": 244949.05,
+    "revenue": 2086.8599999999997
+  },
+  {
+    "date": "2026-02-28",
+    "txn_count": 119,
+    "success_count": 109,
+    "gmv": 153404.91999999998,
+    "revenue": 1128.66
+  },
+  {
+    "date": "2026-03-01",
+    "txn_count": 138,
+    "success_count": 127,
+    "gmv": 221801.87000000002,
+    "revenue": 1961.2199999999996
+  },
+  {
+    "date": "2026-03-02",
+    "txn_count": 154,
+    "success_count": 138,
+    "gmv": 188061.48,
+    "revenue": 2011.8500000000001
+  },
+  {
+    "date": "2026-03-03",
+    "txn_count": 144,
+    "success_count": 130,
+    "gmv": 221575.15999999997,
+    "revenue": 2116.0299999999997
+  },
+  {
+    "date": "2026-03-04",
+    "txn_count": 145,
+    "success_count": 129,
+    "gmv": 249231.99,
+    "revenue": 3126.5299999999997
+  },
+  {
+    "date": "2026-03-05",
+    "txn_count": 171,
+    "success_count": 160,
+    "gmv": 218463.69,
+    "revenue": 1947.3599999999997
+  },
+  {
+    "date": "2026-03-06",
+    "txn_count": 165,
+    "success_count": 152,
+    "gmv": 288401.53,
+    "revenue": 2379.7299999999996
+  },
+  {
+    "date": "2026-03-07",
+    "txn_count": 134,
+    "success_count": 127,
+    "gmv": 162445.83,
+    "revenue": 1425.9699999999998
+  },
+  {
+    "date": "2026-03-08",
+    "txn_count": 117,
+    "success_count": 104,
+    "gmv": 158792.40999999997,
+    "revenue": 1443.3899999999999
+  },
+  {
+    "date": "2026-03-09",
+    "txn_count": 148,
+    "success_count": 132,
+    "gmv": 312430.33,
+    "revenue": 3437.0299999999997
+  },
+  {
+    "date": "2026-03-10",
+    "txn_count": 146,
+    "success_count": 135,
+    "gmv": 224934.55000000005,
+    "revenue": 1626.73
+  },
+  {
+    "date": "2026-03-11",
+    "txn_count": 134,
+    "success_count": 126,
+    "gmv": 184616.94999999998,
+    "revenue": 1298.2299999999998
+  },
+  {
+    "date": "2026-03-12",
+    "txn_count": 200,
+    "success_count": 180,
+    "gmv": 256939.08000000002,
+    "revenue": 2360.6000000000004
+  },
+  {
+    "date": "2026-03-13",
+    "txn_count": 161,
+    "success_count": 151,
+    "gmv": 220523.13999999998,
+    "revenue": 2005.2700000000004
+  },
+  {
+    "date": "2026-03-14",
+    "txn_count": 139,
+    "success_count": 108,
+    "gmv": 133930.84,
+    "revenue": 1444.1599999999999
+  },
+  {
+    "date": "2026-03-15",
+    "txn_count": 131,
+    "success_count": 121,
+    "gmv": 155685.08,
+    "revenue": 1731.2999999999997
+  },
+  {
+    "date": "2026-03-16",
+    "txn_count": 173,
+    "success_count": 162,
+    "gmv": 317611.12,
+    "revenue": 3458.18
+  },
+  {
+    "date": "2026-03-17",
+    "txn_count": 176,
+    "success_count": 162,
+    "gmv": 195060.95,
+    "revenue": 1547.7700000000002
+  },
+  {
+    "date": "2026-03-18",
+    "txn_count": 186,
+    "success_count": 171,
+    "gmv": 264926.94999999995,
+    "revenue": 2241.46
+  },
+  {
+    "date": "2026-03-19",
+    "txn_count": 169,
+    "success_count": 154,
+    "gmv": 245208.85,
+    "revenue": 2201.12
+  },
+  {
+    "date": "2026-03-20",
+    "txn_count": 161,
+    "success_count": 148,
+    "gmv": 223345.07,
+    "revenue": 1913.59
+  },
+  {
+    "date": "2026-03-21",
+    "txn_count": 120,
+    "success_count": 106,
+    "gmv": 279928.66000000003,
+    "revenue": 3289.7199999999993
+  },
+  {
+    "date": "2026-03-22",
+    "txn_count": 135,
+    "success_count": 121,
+    "gmv": 124231.55,
+    "revenue": 1409.82
+  },
+  {
+    "date": "2026-03-23",
+    "txn_count": 169,
+    "success_count": 154,
+    "gmv": 239989.77000000002,
+    "revenue": 1957.9099999999999
+  },
+  {
+    "date": "2026-03-24",
+    "txn_count": 175,
+    "success_count": 163,
+    "gmv": 174929.88999999998,
+    "revenue": 1562.76
+  },
+  {
+    "date": "2026-03-25",
+    "txn_count": 181,
+    "success_count": 170,
+    "gmv": 244482.57,
+    "revenue": 1840.19
+  },
+  {
+    "date": "2026-03-26",
+    "txn_count": 181,
+    "success_count": 162,
+    "gmv": 185932.58000000002,
+    "revenue": 1634.98
+  },
+  {
+    "date": "2026-03-27",
+    "txn_count": 163,
+    "success_count": 152,
+    "gmv": 168918.82,
+    "revenue": 1846.5700000000002
+  },
+  {
+    "date": "2026-03-28",
+    "txn_count": 139,
+    "success_count": 125,
+    "gmv": 175822.66,
+    "revenue": 1822.5999999999997
+  },
+  {
+    "date": "2026-03-29",
+    "txn_count": 135,
+    "success_count": 125,
+    "gmv": 187188.63999999998,
+    "revenue": 2046.7699999999998
+  },
+  {
+    "date": "2026-03-30",
+    "txn_count": 157,
+    "success_count": 147,
+    "gmv": 239507.20999999996,
+    "revenue": 2441.38
+  },
+  {
+    "date": "2026-03-31",
+    "txn_count": 154,
+    "success_count": 140,
+    "gmv": 291386.99,
+    "revenue": 2410.58
+  },
+  {
+    "date": "2026-04-01",
+    "txn_count": 164,
+    "success_count": 149,
+    "gmv": 264185.45,
+    "revenue": 2044.5299999999997
+  },
+  {
+    "date": "2026-04-02",
+    "txn_count": 159,
+    "success_count": 142,
+    "gmv": 241696.49999999997,
+    "revenue": 2422.37
+  },
+  {
+    "date": "2026-04-03",
+    "txn_count": 162,
+    "success_count": 148,
+    "gmv": 226835.02000000002,
+    "revenue": 1981.8799999999999
+  },
+  {
+    "date": "2026-04-04",
+    "txn_count": 138,
+    "success_count": 124,
+    "gmv": 201089.59000000003,
+    "revenue": 1322.3600000000004
+  },
+  {
+    "date": "2026-04-05",
+    "txn_count": 161,
+    "success_count": 151,
+    "gmv": 205647.56,
+    "revenue": 1721.6
+  },
+  {
+    "date": "2026-04-06",
+    "txn_count": 158,
+    "success_count": 147,
+    "gmv": 187148.71,
+    "revenue": 1952.3000000000002
+  },
+  {
+    "date": "2026-04-07",
+    "txn_count": 163,
+    "success_count": 145,
+    "gmv": 227275.84,
+    "revenue": 2111.31
+  },
+  {
+    "date": "2026-04-08",
+    "txn_count": 174,
+    "success_count": 158,
+    "gmv": 223867.2,
+    "revenue": 2230.5
+  },
+  {
+    "date": "2026-04-09",
+    "txn_count": 177,
+    "success_count": 157,
+    "gmv": 252652.39,
+    "revenue": 2473.51
+  },
+  {
+    "date": "2026-04-10",
+    "txn_count": 185,
+    "success_count": 172,
+    "gmv": 204426.78,
+    "revenue": 1914.4399999999998
+  },
+  {
+    "date": "2026-04-11",
+    "txn_count": 135,
+    "success_count": 121,
+    "gmv": 118739.59,
+    "revenue": 1133.76
+  },
+  {
+    "date": "2026-04-12",
+    "txn_count": 134,
+    "success_count": 124,
+    "gmv": 236988.4,
+    "revenue": 2573.9500000000003
+  },
+  {
+    "date": "2026-04-13",
+    "txn_count": 180,
+    "success_count": 167,
+    "gmv": 226481.09999999998,
+    "revenue": 2155.8100000000004
+  },
+  {
+    "date": "2026-04-14",
+    "txn_count": 152,
+    "success_count": 143,
+    "gmv": 181971.18,
+    "revenue": 1152.2399999999998
+  },
+  {
+    "date": "2026-04-15",
+    "txn_count": 162,
+    "success_count": 153,
+    "gmv": 239759.44,
+    "revenue": 2379.96
+  },
+  {
+    "date": "2026-04-16",
+    "txn_count": 160,
+    "success_count": 144,
+    "gmv": 225386.38,
+    "revenue": 2367.62
+  },
+  {
+    "date": "2026-04-17",
+    "txn_count": 167,
+    "success_count": 146,
+    "gmv": 335692.34,
+    "revenue": 2994.8900000000003
+  },
+  {
+    "date": "2026-04-18",
+    "txn_count": 124,
+    "success_count": 111,
+    "gmv": 147770.44999999998,
+    "revenue": 1507.5400000000004
+  },
+  {
+    "date": "2026-04-19",
+    "txn_count": 137,
+    "success_count": 125,
+    "gmv": 198999.42,
+    "revenue": 1713.36
+  },
+  {
+    "date": "2026-04-20",
+    "txn_count": 174,
+    "success_count": 154,
+    "gmv": 197995.8,
+    "revenue": 1966.7
+  },
+  {
+    "date": "2026-04-21",
+    "txn_count": 172,
+    "success_count": 157,
+    "gmv": 266866.52,
+    "revenue": 1991.3900000000003
+  },
+  {
+    "date": "2026-04-22",
+    "txn_count": 176,
+    "success_count": 163,
+    "gmv": 228169.66000000003,
+    "revenue": 1863.9499999999998
+  },
+  {
+    "date": "2026-04-23",
+    "txn_count": 172,
+    "success_count": 151,
+    "gmv": 230365.43,
+    "revenue": 2751.71
+  },
+  {
+    "date": "2026-04-24",
+    "txn_count": 170,
+    "success_count": 154,
+    "gmv": 197835.94,
+    "revenue": 1403.71
+  },
+  {
+    "date": "2026-04-25",
+    "txn_count": 129,
+    "success_count": 122,
+    "gmv": 255539.5,
+    "revenue": 2114.7999999999997
+  },
+  {
+    "date": "2026-04-26",
+    "txn_count": 119,
+    "success_count": 106,
+    "gmv": 174870.63999999998,
+    "revenue": 2181.3700000000003
+  },
+  {
+    "date": "2026-04-27",
+    "txn_count": 160,
+    "success_count": 147,
+    "gmv": 282101.37,
+    "revenue": 2484.47
+  },
+  {
+    "date": "2026-04-28",
+    "txn_count": 160,
+    "success_count": 146,
+    "gmv": 289253.51,
+    "revenue": 2651.24
+  },
+  {
+    "date": "2026-04-29",
+    "txn_count": 165,
+    "success_count": 149,
+    "gmv": 240092.93999999994,
+    "revenue": 1810.57
+  },
+  {
+    "date": "2026-04-30",
+    "txn_count": 173,
+    "success_count": 160,
+    "gmv": 203158.83000000002,
+    "revenue": 2371.7799999999997
+  },
+  {
+    "date": "2026-05-01",
+    "txn_count": 158,
+    "success_count": 143,
+    "gmv": 209607.31,
+    "revenue": 1851.81
+  },
+  {
+    "date": "2026-05-02",
+    "txn_count": 139,
+    "success_count": 126,
+    "gmv": 227207.42,
+    "revenue": 2639.45
+  },
+  {
+    "date": "2026-05-03",
+    "txn_count": 151,
+    "success_count": 129,
+    "gmv": 293242.88,
+    "revenue": 3310.48
+  },
+  {
+    "date": "2026-05-04",
+    "txn_count": 162,
+    "success_count": 144,
+    "gmv": 208750.97999999998,
+    "revenue": 1981.83
+  },
+  {
+    "date": "2026-05-05",
+    "txn_count": 167,
+    "success_count": 151,
+    "gmv": 203535.58,
+    "revenue": 1985.71
+  },
+  {
+    "date": "2026-05-06",
+    "txn_count": 185,
+    "success_count": 170,
+    "gmv": 246390.83000000002,
+    "revenue": 2390.2799999999997
+  },
+  {
+    "date": "2026-05-07",
+    "txn_count": 167,
+    "success_count": 152,
+    "gmv": 250079.06,
+    "revenue": 1920.61
+  },
+  {
+    "date": "2026-05-08",
+    "txn_count": 175,
+    "success_count": 164,
+    "gmv": 229970.36000000002,
+    "revenue": 2515.3199999999997
+  },
+  {
+    "date": "2026-05-09",
+    "txn_count": 123,
+    "success_count": 109,
+    "gmv": 192729.66,
+    "revenue": 2169.1
+  },
+  {
+    "date": "2026-05-10",
+    "txn_count": 156,
+    "success_count": 150,
+    "gmv": 163178.91999999998,
+    "revenue": 1559.0500000000002
+  },
+  {
+    "date": "2026-05-11",
+    "txn_count": 181,
+    "success_count": 166,
+    "gmv": 245203.63,
+    "revenue": 2281.24
+  },
+  {
+    "date": "2026-05-12",
+    "txn_count": 165,
+    "success_count": 152,
+    "gmv": 306166.20999999996,
+    "revenue": 2226.19
+  },
+  {
+    "date": "2026-05-13",
+    "txn_count": 173,
+    "success_count": 161,
+    "gmv": 255896.28000000003,
+    "revenue": 2760.5
+  },
+  {
+    "date": "2026-05-14",
+    "txn_count": 161,
+    "success_count": 147,
+    "gmv": 274010.86,
+    "revenue": 1913.42
+  },
+  {
+    "date": "2026-05-15",
+    "txn_count": 157,
+    "success_count": 142,
+    "gmv": 194900.30000000002,
+    "revenue": 2174.3700000000003
+  },
+  {
+    "date": "2026-05-16",
+    "txn_count": 146,
+    "success_count": 125,
+    "gmv": 190216.68,
+    "revenue": 1953.8999999999999
+  },
+  {
+    "date": "2026-05-17",
+    "txn_count": 120,
+    "success_count": 109,
+    "gmv": 142516.45,
+    "revenue": 1539.73
+  },
+  {
+    "date": "2026-05-18",
+    "txn_count": 159,
+    "success_count": 150,
+    "gmv": 186892.16,
+    "revenue": 1685.02
+  },
+  {
+    "date": "2026-05-19",
+    "txn_count": 186,
+    "success_count": 176,
+    "gmv": 311568.14999999997,
+    "revenue": 2772.92
+  },
+  {
+    "date": "2026-05-20",
+    "txn_count": 178,
+    "success_count": 161,
+    "gmv": 184388.29,
+    "revenue": 1495.25
+  },
+  {
+    "date": "2026-05-21",
+    "txn_count": 158,
+    "success_count": 142,
+    "gmv": 166459.35000000003,
+    "revenue": 1708.0199999999998
+  },
+  {
+    "date": "2026-05-22",
+    "txn_count": 173,
+    "success_count": 161,
+    "gmv": 209384.44,
+    "revenue": 2450.1099999999997
+  },
+  {
+    "date": "2026-05-23",
+    "txn_count": 150,
+    "success_count": 137,
+    "gmv": 219820.77,
+    "revenue": 1867.38
+  },
+  {
+    "date": "2026-05-24",
+    "txn_count": 132,
+    "success_count": 114,
+    "gmv": 145208.65999999997,
+    "revenue": 1363.5700000000002
+  },
+  {
+    "date": "2026-05-25",
+    "txn_count": 154,
+    "success_count": 138,
+    "gmv": 170741.8,
+    "revenue": 1792.29
+  },
+  {
+    "date": "2026-05-26",
+    "txn_count": 179,
+    "success_count": 157,
+    "gmv": 252143.93000000002,
+    "revenue": 1894.8
+  },
+  {
+    "date": "2026-05-27",
+    "txn_count": 186,
+    "success_count": 167,
+    "gmv": 192641.91999999998,
+    "revenue": 1747.02
+  },
+  {
+    "date": "2026-05-28",
+    "txn_count": 151,
+    "success_count": 132,
+    "gmv": 179212.14,
+    "revenue": 1833.5
+  },
+  {
+    "date": "2026-05-29",
+    "txn_count": 164,
+    "success_count": 146,
+    "gmv": 161837.14,
+    "revenue": 1453.9299999999998
+  },
+  {
+    "date": "2026-05-30",
+    "txn_count": 127,
+    "success_count": 117,
+    "gmv": 162694.01,
+    "revenue": 1210.3
+  },
+  {
+    "date": "2026-05-31",
+    "txn_count": 139,
+    "success_count": 132,
+    "gmv": 190298.72999999998,
+    "revenue": 1843.7799999999997
+  },
+  {
+    "date": "2026-06-01",
+    "txn_count": 175,
+    "success_count": 161,
+    "gmv": 254858.66000000003,
+    "revenue": 3213.16
+  },
+  {
+    "date": "2026-06-02",
+    "txn_count": 169,
+    "success_count": 158,
+    "gmv": 320779.41,
+    "revenue": 2420.22
+  },
+  {
+    "date": "2026-06-03",
+    "txn_count": 179,
+    "success_count": 162,
+    "gmv": 293585.24,
+    "revenue": 3506.27
+  },
+  {
+    "date": "2026-06-04",
+    "txn_count": 172,
+    "success_count": 159,
+    "gmv": 192171.21,
+    "revenue": 1914.48
+  },
+  {
+    "date": "2026-06-05",
+    "txn_count": 188,
+    "success_count": 170,
+    "gmv": 317497.53,
+    "revenue": 2564.39
+  },
+  {
+    "date": "2026-06-06",
+    "txn_count": 149,
+    "success_count": 136,
+    "gmv": 209489.02,
+    "revenue": 2405.4700000000003
+  },
+  {
+    "date": "2026-06-07",
+    "txn_count": 126,
+    "success_count": 110,
+    "gmv": 233642.76999999996,
+    "revenue": 2506.0299999999997
+  },
+  {
+    "date": "2026-06-08",
+    "txn_count": 165,
+    "success_count": 149,
+    "gmv": 230683.63999999998,
+    "revenue": 2150.41
+  },
+  {
+    "date": "2026-06-09",
+    "txn_count": 147,
+    "success_count": 139,
+    "gmv": 250437.49,
+    "revenue": 2625.67
+  },
+  {
+    "date": "2026-06-10",
+    "txn_count": 166,
+    "success_count": 154,
+    "gmv": 249622.89999999997,
+    "revenue": 2436.45
+  },
+  {
+    "date": "2026-06-11",
+    "txn_count": 177,
+    "success_count": 163,
+    "gmv": 246336.09000000003,
+    "revenue": 2533.76
+  },
+  {
+    "date": "2026-06-12",
+    "txn_count": 154,
+    "success_count": 139,
+    "gmv": 179975.2,
+    "revenue": 1570.32
+  },
+  {
+    "date": "2026-06-13",
+    "txn_count": 149,
+    "success_count": 139,
+    "gmv": 262824.3,
+    "revenue": 2689.35
+  },
+  {
+    "date": "2026-06-14",
+    "txn_count": 143,
+    "success_count": 134,
+    "gmv": 190701.38999999998,
+    "revenue": 2252.3700000000003
+  },
+  {
+    "date": "2026-06-15",
+    "txn_count": 158,
+    "success_count": 146,
+    "gmv": 193496.24,
+    "revenue": 1961.9
+  },
+  {
+    "date": "2026-06-16",
+    "txn_count": 188,
+    "success_count": 177,
+    "gmv": 323805.72,
+    "revenue": 3374.5099999999998
+  },
+  {
+    "date": "2026-06-17",
+    "txn_count": 162,
+    "success_count": 153,
+    "gmv": 246284.34999999998,
+    "revenue": 1962.14
+  },
+  {
+    "date": "2026-06-18",
+    "txn_count": 170,
+    "success_count": 159,
+    "gmv": 311554.63,
+    "revenue": 2906.67
+  },
+  {
+    "date": "2026-06-19",
+    "txn_count": 195,
+    "success_count": 179,
+    "gmv": 344633.54000000004,
+    "revenue": 3925.6500000000005
+  },
+  {
+    "date": "2026-06-20",
+    "txn_count": 148,
+    "success_count": 135,
+    "gmv": 240663.27000000002,
+    "revenue": 2486.91
+  },
+  {
+    "date": "2026-06-21",
+    "txn_count": 155,
+    "success_count": 138,
+    "gmv": 181210.68,
+    "revenue": 2177.01
+  },
+  {
+    "date": "2026-06-22",
+    "txn_count": 169,
+    "success_count": 156,
+    "gmv": 257983.85,
+    "revenue": 2390.7
+  },
+  {
+    "date": "2026-06-23",
+    "txn_count": 177,
+    "success_count": 166,
+    "gmv": 284563.78,
+    "revenue": 3528.04
+  },
+  {
+    "date": "2026-06-24",
+    "txn_count": 190,
+    "success_count": 179,
+    "gmv": 307238.03,
+    "revenue": 3142.98
+  },
+  {
+    "date": "2026-06-25",
+    "txn_count": 191,
+    "success_count": 174,
+    "gmv": 215052.51,
+    "revenue": 1740.8500000000001
+  },
+  {
+    "date": "2026-06-26",
+    "txn_count": 175,
+    "success_count": 160,
+    "gmv": 193198.3,
+    "revenue": 1537.07
+  },
+  {
+    "date": "2026-06-27",
+    "txn_count": 132,
+    "success_count": 123,
+    "gmv": 206360.5,
+    "revenue": 2510.1500000000005
+  },
+  {
+    "date": "2026-06-28",
+    "txn_count": 158,
+    "success_count": 148,
+    "gmv": 222068.22000000003,
+    "revenue": 1982.91
+  },
+  {
+    "date": "2026-06-29",
+    "txn_count": 172,
+    "success_count": 157,
+    "gmv": 290533.01,
+    "revenue": 2521.36
+  },
+  {
+    "date": "2026-06-30",
+    "txn_count": 162,
+    "success_count": 152,
+    "gmv": 256456.33000000002,
+    "revenue": 2209.53
+  },
+  {
+    "date": "2026-07-01",
+    "txn_count": 188,
+    "success_count": 171,
+    "gmv": 237606.45999999996,
+    "revenue": 2105.7999999999997
+  },
+  {
+    "date": "2026-07-02",
+    "txn_count": 161,
+    "success_count": 149,
+    "gmv": 198534.28999999998,
+    "revenue": 2100.1800000000003
+  },
+  {
+    "date": "2026-07-03",
+    "txn_count": 205,
+    "success_count": 185,
+    "gmv": 208249.07,
+    "revenue": 1998.6600000000003
+  },
+  {
+    "date": "2026-07-04",
+    "txn_count": 137,
+    "success_count": 128,
+    "gmv": 210167.33000000002,
+    "revenue": 2053.65
+  },
+  {
+    "date": "2026-07-05",
+    "txn_count": 147,
+    "success_count": 138,
+    "gmv": 248137.85000000003,
+    "revenue": 2930.8199999999997
+  },
+  {
+    "date": "2026-07-06",
+    "txn_count": 185,
+    "success_count": 167,
+    "gmv": 263433.15,
+    "revenue": 2769.29
+  },
+  {
+    "date": "2026-07-07",
+    "txn_count": 199,
+    "success_count": 183,
+    "gmv": 342376.4,
+    "revenue": 3605.2
+  },
+  {
+    "date": "2026-07-08",
+    "txn_count": 168,
+    "success_count": 157,
+    "gmv": 226458.56,
+    "revenue": 2079.82
+  },
+  {
+    "date": "2026-07-09",
+    "txn_count": 169,
+    "success_count": 157,
+    "gmv": 284095.18,
+    "revenue": 2088.21
+  },
+  {
+    "date": "2026-07-10",
+    "txn_count": 195,
+    "success_count": 177,
+    "gmv": 267946.08999999997,
+    "revenue": 2555.7799999999997
+  },
+  {
+    "date": "2026-07-11",
+    "txn_count": 144,
+    "success_count": 126,
+    "gmv": 221365.44999999998,
+    "revenue": 2376.1899999999996
+  },
+  {
+    "date": "2026-07-12",
+    "txn_count": 140,
+    "success_count": 128,
+    "gmv": 202437.49,
+    "revenue": 1482.8000000000002
+  },
+  {
+    "date": "2026-07-13",
+    "txn_count": 194,
+    "success_count": 177,
+    "gmv": 226581.78999999998,
+    "revenue": 1657.03
+  },
+  {
+    "date": "2026-07-14",
+    "txn_count": 175,
+    "success_count": 164,
+    "gmv": 241185.64999999997,
+    "revenue": 2606.49
+  },
+  {
+    "date": "2026-07-15",
+    "txn_count": 202,
+    "success_count": 184,
+    "gmv": 268946.37,
+    "revenue": 3215.38
+  },
+  {
+    "date": "2026-07-16",
+    "txn_count": 175,
+    "success_count": 155,
+    "gmv": 275504.07,
+    "revenue": 3058.95
+  },
+  {
+    "date": "2026-07-17",
+    "txn_count": 187,
+    "success_count": 173,
+    "gmv": 259253.27000000002,
+    "revenue": 2315.16
+  },
+  {
+    "date": "2026-07-18",
+    "txn_count": 147,
+    "success_count": 136,
+    "gmv": 272008.16,
+    "revenue": 2127.49
+  },
+  {
+    "date": "2026-07-19",
+    "txn_count": 142,
+    "success_count": 130,
+    "gmv": 149982.16999999998,
+    "revenue": 1502.85
+  },
+  {
+    "date": "2026-07-20",
+    "txn_count": 163,
+    "success_count": 155,
+    "gmv": 267507.04,
+    "revenue": 2332.76
+  },
+  {
+    "date": "2026-07-21",
+    "txn_count": 192,
+    "success_count": 176,
+    "gmv": 263031.0,
+    "revenue": 1946.28
+  },
+  {
+    "date": "2026-07-22",
+    "txn_count": 214,
+    "success_count": 200,
+    "gmv": 318160.70999999996,
+    "revenue": 2690.62
+  },
+  {
+    "date": "2026-07-23",
+    "txn_count": 167,
+    "success_count": 154,
+    "gmv": 250435.38,
+    "revenue": 2124.65
+  },
+  {
+    "date": "2026-07-24",
+    "txn_count": 162,
+    "success_count": 148,
+    "gmv": 310702.0399999999,
+    "revenue": 2808.6099999999997
+  },
+  {
+    "date": "2026-07-25",
+    "txn_count": 161,
+    "success_count": 148,
+    "gmv": 197546.05,
+    "revenue": 2236.35
+  },
+  {
+    "date": "2026-07-26",
+    "txn_count": 143,
+    "success_count": 134,
+    "gmv": 167844.02000000002,
+    "revenue": 1559.3799999999999
+  },
+  {
+    "date": "2026-07-27",
+    "txn_count": 203,
+    "success_count": 186,
+    "gmv": 209577.2,
+    "revenue": 2007.9499999999998
+  },
+  {
+    "date": "2026-07-28",
+    "txn_count": 183,
+    "success_count": 170,
+    "gmv": 300353.3,
+    "revenue": 2681.24
+  },
+  {
+    "date": "2026-07-29",
+    "txn_count": 177,
+    "success_count": 162,
+    "gmv": 268215.21,
+    "revenue": 3033.46
+  },
+  {
+    "date": "2026-07-30",
+    "txn_count": 169,
+    "success_count": 149,
+    "gmv": 289208.29000000004,
+    "revenue": 2566.02
+  },
+  {
+    "date": "2026-07-31",
+    "txn_count": 203,
+    "success_count": 189,
+    "gmv": 284516.56999999995,
+    "revenue": 2973.33
+  },
+  {
+    "date": "2026-08-01",
+    "txn_count": 145,
+    "success_count": 132,
+    "gmv": 275459.70999999996,
+    "revenue": 2385.95
+  },
+  {
+    "date": "2026-08-02",
+    "txn_count": 120,
+    "success_count": 112,
+    "gmv": 143109.41999999998,
+    "revenue": 1096.78
+  },
+  {
+    "date": "2026-08-03",
+    "txn_count": 172,
+    "success_count": 154,
+    "gmv": 294606.21,
+    "revenue": 3217.26
+  },
+  {
+    "date": "2026-08-04",
+    "txn_count": 191,
+    "success_count": 176,
+    "gmv": 209629.49,
+    "revenue": 2129.41
+  },
+  {
+    "date": "2026-08-05",
+    "txn_count": 181,
+    "success_count": 172,
+    "gmv": 264288.13,
+    "revenue": 2422.0200000000004
+  },
+  {
+    "date": "2026-08-06",
+    "txn_count": 188,
+    "success_count": 173,
+    "gmv": 193006.57,
+    "revenue": 2328.5
+  },
+  {
+    "date": "2026-08-07",
+    "txn_count": 194,
+    "success_count": 181,
+    "gmv": 257020.64,
+    "revenue": 2843.87
+  },
+  {
+    "date": "2026-08-08",
+    "txn_count": 149,
+    "success_count": 132,
+    "gmv": 203399.86000000002,
+    "revenue": 1971.9099999999999
+  },
+  {
+    "date": "2026-08-09",
+    "txn_count": 161,
+    "success_count": 147,
+    "gmv": 278780.32,
+    "revenue": 2860.86
+  },
+  {
+    "date": "2026-08-10",
+    "txn_count": 201,
+    "success_count": 181,
+    "gmv": 245277.41,
+    "revenue": 2496.69
+  },
+  {
+    "date": "2026-08-11",
+    "txn_count": 181,
+    "success_count": 168,
+    "gmv": 251091.97999999998,
+    "revenue": 2523.81
+  },
+  {
+    "date": "2026-08-12",
+    "txn_count": 190,
+    "success_count": 171,
+    "gmv": 228402.77000000002,
+    "revenue": 2554.2599999999998
+  },
+  {
+    "date": "2026-08-13",
+    "txn_count": 173,
+    "success_count": 159,
+    "gmv": 212594.91999999998,
+    "revenue": 2138.52
+  },
+  {
+    "date": "2026-08-14",
+    "txn_count": 175,
+    "success_count": 163,
+    "gmv": 303141.78,
+    "revenue": 3628.6400000000003
+  },
+  {
+    "date": "2026-08-15",
+    "txn_count": 135,
+    "success_count": 124,
+    "gmv": 194785.21000000005,
+    "revenue": 1767.9399999999998
+  },
+  {
+    "date": "2026-08-16",
+    "txn_count": 148,
+    "success_count": 134,
+    "gmv": 178912.78000000003,
+    "revenue": 1590.5700000000002
+  },
+  {
+    "date": "2026-08-17",
+    "txn_count": 168,
+    "success_count": 156,
+    "gmv": 399337.91000000003,
+    "revenue": 3055.3500000000004
+  },
+  {
+    "date": "2026-08-18",
+    "txn_count": 177,
+    "success_count": 164,
+    "gmv": 214630.61000000004,
+    "revenue": 2230.06
+  },
+  {
+    "date": "2026-08-19",
+    "txn_count": 198,
+    "success_count": 183,
+    "gmv": 292620.22000000003,
+    "revenue": 2813.13
+  },
+  {
+    "date": "2026-08-20",
+    "txn_count": 183,
+    "success_count": 166,
+    "gmv": 313888.76999999996,
+    "revenue": 2842.16
+  },
+  {
+    "date": "2026-08-21",
+    "txn_count": 188,
+    "success_count": 171,
+    "gmv": 251854.78,
+    "revenue": 2503.56
+  },
+  {
+    "date": "2026-08-22",
+    "txn_count": 152,
+    "success_count": 139,
+    "gmv": 232708.57,
+    "revenue": 2311.3199999999997
+  },
+  {
+    "date": "2026-08-23",
+    "txn_count": 136,
+    "success_count": 126,
+    "gmv": 205970.83000000002,
+    "revenue": 1863.8600000000001
+  },
+  {
+    "date": "2026-08-24",
+    "txn_count": 170,
+    "success_count": 153,
+    "gmv": 247186.60000000003,
+    "revenue": 1823.7800000000002
+  },
+  {
+    "date": "2026-08-25",
+    "txn_count": 182,
+    "success_count": 158,
+    "gmv": 202011.85,
+    "revenue": 1799.7199999999998
+  },
+  {
+    "date": "2026-08-26",
+    "txn_count": 186,
+    "success_count": 169,
+    "gmv": 260116.71999999997,
+    "revenue": 2889.75
+  },
+  {
+    "date": "2026-08-27",
+    "txn_count": 207,
+    "success_count": 188,
+    "gmv": 244260.88999999996,
+    "revenue": 2076.95
+  },
+  {
+    "date": "2026-08-28",
+    "txn_count": 183,
+    "success_count": 169,
+    "gmv": 277584.89,
+    "revenue": 2696.6800000000003
+  },
+  {
+    "date": "2026-08-29",
+    "txn_count": 132,
+    "success_count": 120,
+    "gmv": 172877.02000000002,
+    "revenue": 1918.37
+  },
+  {
+    "date": "2026-08-30",
+    "txn_count": 160,
+    "success_count": 143,
+    "gmv": 362484.18999999994,
+    "revenue": 4166.09
+  },
+  {
+    "date": "2026-08-31",
+    "txn_count": 171,
+    "success_count": 162,
+    "gmv": 268832.98,
+    "revenue": 2168.92
+  },
+  {
+    "date": "2026-09-01",
+    "txn_count": 198,
+    "success_count": 186,
+    "gmv": 345530.86,
+    "revenue": 3189.23
+  },
+  {
+    "date": "2026-09-02",
+    "txn_count": 159,
+    "success_count": 149,
+    "gmv": 280981.61,
+    "revenue": 2047.79
+  },
+  {
+    "date": "2026-09-03",
+    "txn_count": 192,
+    "success_count": 179,
+    "gmv": 318280.8,
+    "revenue": 2762.27
+  },
+  {
+    "date": "2026-09-04",
+    "txn_count": 213,
+    "success_count": 194,
+    "gmv": 418949.49,
+    "revenue": 3134.0600000000004
+  },
+  {
+    "date": "2026-09-05",
+    "txn_count": 150,
+    "success_count": 137,
+    "gmv": 265668.8,
+    "revenue": 2603.0299999999997
+  },
+  {
+    "date": "2026-09-06",
+    "txn_count": 155,
+    "success_count": 141,
+    "gmv": 218854.37,
+    "revenue": 2332.3199999999997
+  },
+  {
+    "date": "2026-09-07",
+    "txn_count": 197,
+    "success_count": 184,
+    "gmv": 291486.42000000004,
+    "revenue": 2248.76
+  },
+  {
+    "date": "2026-09-08",
+    "txn_count": 192,
+    "success_count": 178,
+    "gmv": 231721.26,
+    "revenue": 2300.92
+  },
+  {
+    "date": "2026-09-09",
+    "txn_count": 169,
+    "success_count": 154,
+    "gmv": 249404.38999999998,
+    "revenue": 2780.0200000000004
+  },
+  {
+    "date": "2026-09-10",
+    "txn_count": 198,
+    "success_count": 176,
+    "gmv": 308909.64,
+    "revenue": 3742.75
+  },
+  {
+    "date": "2026-09-11",
+    "txn_count": 163,
+    "success_count": 143,
+    "gmv": 293021.25,
+    "revenue": 2962.4799999999996
+  },
+  {
+    "date": "2026-09-12",
+    "txn_count": 146,
+    "success_count": 135,
+    "gmv": 176719.38,
+    "revenue": 1669.7199999999998
+  },
+  {
+    "date": "2026-09-13",
+    "txn_count": 141,
+    "success_count": 126,
+    "gmv": 145774.87000000002,
+    "revenue": 1346.04
+  },
+  {
+    "date": "2026-09-14",
+    "txn_count": 187,
+    "success_count": 168,
+    "gmv": 223940.27000000002,
+    "revenue": 2232.94
+  },
+  {
+    "date": "2026-09-15",
+    "txn_count": 189,
+    "success_count": 176,
+    "gmv": 203473.32,
+    "revenue": 1832.88
+  },
+  {
+    "date": "2026-09-16",
+    "txn_count": 179,
+    "success_count": 165,
+    "gmv": 254564.61,
+    "revenue": 2825.37
+  },
+  {
+    "date": "2026-09-17",
+    "txn_count": 192,
+    "success_count": 164,
+    "gmv": 233510.07,
+    "revenue": 2366.1800000000003
+  },
+  {
+    "date": "2026-09-18",
+    "txn_count": 180,
+    "success_count": 169,
+    "gmv": 296557.35,
+    "revenue": 2820.6399999999994
+  },
+  {
+    "date": "2026-09-19",
+    "txn_count": 161,
+    "success_count": 145,
+    "gmv": 197874.31,
+    "revenue": 1851.4299999999998
+  },
+  {
+    "date": "2026-09-20",
+    "txn_count": 143,
+    "success_count": 131,
+    "gmv": 151262.6,
+    "revenue": 1177.43
+  },
+  {
+    "date": "2026-09-21",
+    "txn_count": 170,
+    "success_count": 154,
+    "gmv": 196721.3,
+    "revenue": 1965.46
+  },
+  {
+    "date": "2026-09-22",
+    "txn_count": 217,
+    "success_count": 198,
+    "gmv": 236343.66999999998,
+    "revenue": 2546.37
+  },
+  {
+    "date": "2026-09-23",
+    "txn_count": 182,
+    "success_count": 170,
+    "gmv": 249591.56999999998,
+    "revenue": 2795.24
+  },
+  {
+    "date": "2026-09-24",
+    "txn_count": 187,
+    "success_count": 171,
+    "gmv": 280170.12,
+    "revenue": 2626.8500000000004
+  },
+  {
+    "date": "2026-09-25",
+    "txn_count": 183,
+    "success_count": 172,
+    "gmv": 179392.12,
+    "revenue": 1501.8200000000002
+  },
+  {
+    "date": "2026-09-26",
+    "txn_count": 150,
+    "success_count": 142,
+    "gmv": 297329.35,
+    "revenue": 2947.6200000000003
+  },
+  {
+    "date": "2026-09-27",
+    "txn_count": 131,
+    "success_count": 116,
+    "gmv": 288442.39999999997,
+    "revenue": 4352.580000000001
+  },
+  {
+    "date": "2026-09-28",
+    "txn_count": 197,
+    "success_count": 177,
+    "gmv": 237326.82,
+    "revenue": 2451.76
+  },
+  {
+    "date": "2026-09-29",
+    "txn_count": 193,
+    "success_count": 178,
+    "gmv": 244344.41000000003,
+    "revenue": 2655.9400000000005
+  },
+  {
+    "date": "2026-09-30",
+    "txn_count": 212,
+    "success_count": 195,
+    "gmv": 282090.5399999999,
+    "revenue": 2322.54
+  },
+  {
+    "date": "2026-10-01",
+    "txn_count": 226,
+    "success_count": 205,
+    "gmv": 331972.51,
+    "revenue": 2789.32
+  },
+  {
+    "date": "2026-10-02",
+    "txn_count": 252,
+    "success_count": 234,
+    "gmv": 296763.89,
+    "revenue": 2766.62
+  },
+  {
+    "date": "2026-10-03",
+    "txn_count": 186,
+    "success_count": 175,
+    "gmv": 308432.17,
+    "revenue": 2725.8500000000004
+  },
+  {
+    "date": "2026-10-04",
+    "txn_count": 149,
+    "success_count": 137,
+    "gmv": 160880.32,
+    "revenue": 1338.58
+  },
+  {
+    "date": "2026-10-05",
+    "txn_count": 230,
+    "success_count": 210,
+    "gmv": 261121.93,
+    "revenue": 2762.61
+  },
+  {
+    "date": "2026-10-06",
+    "txn_count": 226,
+    "success_count": 209,
+    "gmv": 389964.05000000005,
+    "revenue": 3788.5899999999997
+  },
+  {
+    "date": "2026-10-07",
+    "txn_count": 234,
+    "success_count": 214,
+    "gmv": 434617.94,
+    "revenue": 4014.0799999999995
+  },
+  {
+    "date": "2026-10-08",
+    "txn_count": 249,
+    "success_count": 227,
+    "gmv": 292114.30000000005,
+    "revenue": 2630.5299999999997
+  },
+  {
+    "date": "2026-10-09",
+    "txn_count": 224,
+    "success_count": 205,
+    "gmv": 296164.63,
+    "revenue": 3217.9799999999996
+  },
+  {
+    "date": "2026-10-10",
+    "txn_count": 186,
+    "success_count": 166,
+    "gmv": 311241.30999999994,
+    "revenue": 2538.55
+  },
+  {
+    "date": "2026-10-11",
+    "txn_count": 166,
+    "success_count": 150,
+    "gmv": 175670.12,
+    "revenue": 1821.59
+  },
+  {
+    "date": "2026-10-12",
+    "txn_count": 231,
+    "success_count": 211,
+    "gmv": 237160.13999999996,
+    "revenue": 2554.29
+  },
+  {
+    "date": "2026-10-13",
+    "txn_count": 228,
+    "success_count": 202,
+    "gmv": 271047.87,
+    "revenue": 2836.1099999999997
+  },
+  {
+    "date": "2026-10-14",
+    "txn_count": 257,
+    "success_count": 230,
+    "gmv": 354193.13,
+    "revenue": 2826.8099999999995
+  },
+  {
+    "date": "2026-10-15",
+    "txn_count": 254,
+    "success_count": 229,
+    "gmv": 375124.20999999996,
+    "revenue": 3247.8199999999997
+  },
+  {
+    "date": "2026-10-16",
+    "txn_count": 246,
+    "success_count": 228,
+    "gmv": 332666.37,
+    "revenue": 3002.43
+  },
+  {
+    "date": "2026-10-17",
+    "txn_count": 187,
+    "success_count": 171,
+    "gmv": 248436.3,
+    "revenue": 2917.66
+  },
+  {
+    "date": "2026-10-18",
+    "txn_count": 174,
+    "success_count": 162,
+    "gmv": 236129.36,
+    "revenue": 1836.98
+  },
+  {
+    "date": "2026-10-19",
+    "txn_count": 247,
+    "success_count": 229,
+    "gmv": 255173.45,
+    "revenue": 2328.94
+  },
+  {
+    "date": "2026-10-20",
+    "txn_count": 241,
+    "success_count": 218,
+    "gmv": 457850.01,
+    "revenue": 4272.87
+  },
+  {
+    "date": "2026-10-21",
+    "txn_count": 265,
+    "success_count": 242,
+    "gmv": 396444.0,
+    "revenue": 4082.1099999999997
+  },
+  {
+    "date": "2026-10-22",
+    "txn_count": 239,
+    "success_count": 225,
+    "gmv": 311897.96,
+    "revenue": 2892.3199999999997
+  },
+  {
+    "date": "2026-10-23",
+    "txn_count": 254,
+    "success_count": 238,
+    "gmv": 333554.1,
+    "revenue": 2841.94
+  },
+  {
+    "date": "2026-10-24",
+    "txn_count": 182,
+    "success_count": 176,
+    "gmv": 330339.77,
+    "revenue": 3591.82
+  },
+  {
+    "date": "2026-10-25",
+    "txn_count": 174,
+    "success_count": 162,
+    "gmv": 221767.09000000003,
+    "revenue": 2303.5299999999997
+  },
+  {
+    "date": "2026-10-26",
+    "txn_count": 234,
+    "success_count": 216,
+    "gmv": 341318.41000000003,
+    "revenue": 2634.1800000000003
+  },
+  {
+    "date": "2026-10-27",
+    "txn_count": 239,
+    "success_count": 218,
+    "gmv": 328440.71,
+    "revenue": 2738.7699999999995
+  },
+  {
+    "date": "2026-10-28",
+    "txn_count": 261,
+    "success_count": 237,
+    "gmv": 353145.92000000004,
+    "revenue": 3662.99
+  },
+  {
+    "date": "2026-10-29",
+    "txn_count": 234,
+    "success_count": 211,
+    "gmv": 294689.04,
+    "revenue": 2310.01
+  },
+  {
+    "date": "2026-10-30",
+    "txn_count": 239,
+    "success_count": 223,
+    "gmv": 281794.02,
+    "revenue": 2704.4100000000003
+  },
+  {
+    "date": "2026-10-31",
+    "txn_count": 158,
+    "success_count": 140,
+    "gmv": 158453.84999999998,
+    "revenue": 1772.21
+  },
+  {
+    "date": "2026-11-01",
+    "txn_count": 3,
+    "success_count": 2,
+    "gmv": 2075.17,
+    "revenue": 13.989999999999998
+  },
+  {
+    "date": "2026-11-02",
+    "txn_count": 5,
+    "success_count": 4,
+    "gmv": 2554.42,
+    "revenue": 6.87
+  },
+  {
+    "date": "2026-11-03",
+    "txn_count": 3,
+    "success_count": 2,
+    "gmv": 987.4100000000001,
+    "revenue": 2.07
+  },
+  {
+    "date": "2026-11-04",
+    "txn_count": 3,
+    "success_count": 3,
+    "gmv": 1386.5700000000002,
+    "revenue": 22.389999999999997
+  },
+  {
+    "date": "2026-11-05",
+    "txn_count": 4,
+    "success_count": 4,
+    "gmv": 7883.49,
+    "revenue": 55.55
+  },
+  {
+    "date": "2026-11-06",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 134.6,
+    "revenue": 0.47
+  },
+  {
+    "date": "2026-11-07",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 191.31,
+    "revenue": 0.74
+  },
+  {
+    "date": "2026-11-08",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 546.64,
+    "revenue": 11.32
+  },
+  {
+    "date": "2026-11-09",
+    "txn_count": 6,
+    "success_count": 4,
+    "gmv": 4296.45,
+    "revenue": 42.37
+  },
+  {
+    "date": "2026-11-10",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 340.21,
+    "revenue": 1.23
+  },
+  {
+    "date": "2026-12-01",
+    "txn_count": 5,
+    "success_count": 4,
+    "gmv": 4461.84,
+    "revenue": 58.08
+  },
+  {
+    "date": "2026-12-02",
+    "txn_count": 3,
+    "success_count": 3,
+    "gmv": 1009.48,
+    "revenue": 5.18
+  },
+  {
+    "date": "2026-12-03",
+    "txn_count": 3,
+    "success_count": 3,
+    "gmv": 1892.1100000000001,
+    "revenue": 22.68
+  },
+  {
+    "date": "2026-12-04",
+    "txn_count": 4,
+    "success_count": 3,
+    "gmv": 1577.19,
+    "revenue": 31.22
+  },
+  {
+    "date": "2026-12-05",
+    "txn_count": 4,
+    "success_count": 4,
+    "gmv": 3553.3799999999997,
+    "revenue": 12.43
+  },
+  {
+    "date": "2026-12-06",
+    "txn_count": 5,
+    "success_count": 5,
+    "gmv": 1795.46,
+    "revenue": 20.430000000000003
+  },
+  {
+    "date": "2026-12-07",
+    "txn_count": 4,
+    "success_count": 4,
+    "gmv": 1247.98,
+    "revenue": 12.82
+  },
+  {
+    "date": "2026-12-08",
+    "txn_count": 1,
+    "success_count": 1,
+    "gmv": 571.94,
+    "revenue": 1.57
+  },
+  {
+    "date": "2026-12-09",
+    "txn_count": 3,
+    "success_count": 3,
+    "gmv": 995.8,
+    "revenue": 14.11
+  },
+  {
+    "date": "2026-12-10",
+    "txn_count": 7,
+    "success_count": 7,
+    "gmv": 15945.38,
+    "revenue": 136.33
+  }
+]

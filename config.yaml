@@ -1,0 +1,37 @@
+# config.yaml — Configuration for Razorpay Payments Analytics Pipeline
+data:
+  data_path: "data/synthetic"
+  merchants_filename: "merchants.csv"
+  transactions_filename: "transactions.csv"
+
+outputs:
+  dashboard_data_dir: "dashboard/data"
+  outputs_real_dir: "outputs_real"
+
+cleaning:
+  min_amount_inr: 1.0
+  max_amount_inr: 500000.0
+  min_latency_ms: 0.0
+  max_latency_ms: 60000.0
+
+analysis:
+  success_statuses: [captured, refunded, partially_refunded]
+  failed_status: failed
+  date_formats:
+    - "%Y-%m-%d %H:%M:%S"
+    - "%d-%m-%Y %H:%M:%S"
+    - "%d-%m-%Y %H:%M"
+    - "%Y-%m-%dT%H:%M:%S"
+    - "%d/%m/%Y %H:%M"
+  period_comparison_months: 6
+  incident_min_volume: 30
+  incident_zscore_threshold: 3.0
+  incident_rolling_window_days: 7
+  incident_rolling_window_hours: 24
+  incident_detection_level: "daily"
+  top_n_merchants: 10
+  min_group_size: 10
+
+dashboard:
+  title: "Razorpay Payments Analytics & Incident Monitor"
+  currency: "INR"

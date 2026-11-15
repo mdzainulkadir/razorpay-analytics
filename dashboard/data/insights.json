@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Payment Methods",
+    "text": "Bnpl leads with 2.0% share and 91.7% success rate."
+  },
+  {
+    "category": "Overall Performance",
+    "text": "Success rate is 91.74% (up 0.46% vs prior period)."
+  },
+  {
+    "category": "Incident Alert",
+    "text": "Largest incident: 2026-03-14 00:00:00 to 2026-03-15 00:00:00 — 22.3% peak failure rate across 139 txns (main cause: bank_server_down)."
+  },
+  {
+    "category": "API Performance",
+    "text": "Latest month latency percentiles — p50: 204.1ms, p90: 457.3ms, p99: 549.2ms."
+  }
+]
