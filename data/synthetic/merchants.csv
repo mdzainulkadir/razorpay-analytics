@@ -1,0 +1,401 @@
+merchant_id,business_name,category,city,state,tier,onboarding_date,kyc_status,risk_rating,is_international_enabled
+MID_00001,NovaHub 1,E-commerce,Chandigarh,Chandigarh,Starter,2023-10-31,Verified,High,False
+MID_00002,ZenMart 2,Gaming,Kochi,Kerala,Starter,2021-10-05,Pending,Low,False
+MID_00003,PixelOne 3,Fintech,Pune,Maharashtra,Starter,2019-10-26,Verified,Low,False
+MID_00004,FluxWorks 4,Gaming,Chennai,Tamil Nadu,Enterprise,2024-05-05,Verified,Low,True
+MID_00005,AuraGlobal 5,Healthcare,Bangalore,Karnataka,Growth,2025-07-16,Verified,Low,False
+MID_00006,  BoltPro 6 ,Utilities & Bills,Bangalore,Karnataka,Starter,2020-11-06,Verified,Low,False
+MID_00007,CrestDigital 7,Healthcare,Lucknow,Uttar Pradesh,Starter,2024-07-05,Verified,Low,False
+MID_00008,DuneIndia 8,Gaming,,,Starter,2024-05-25,Verified,Medium,False
+MID_00009,EchoGroup 9,Education,Mumbai,Maharashtra,Starter,2020-02-20,Verified,Low,False
+MID_00010,FernSolutions 10,Education,Ahmedabad,Gujarat,Growth,2022-12-15,Verified,Low,False
+MID_00011,GlowNet 11,Healthcare,Guwahati,Assam,Starter,2020-11-23,Verified,Low,False
+MID_00012,HiveTech 12,Nonprofit,Ahmedabad,Gujarat,Growth,2023-08-15,Verified,Medium,False
+MID_00013,IrisSystems 13,Utilities & Bills,Chandigarh,Chandigarh,Starter,2022-05-04,Verified,Low,False
+MID_00014,JadeCloud 14,Gaming,Bangalore,Karnataka,Growth,2021-04-28,Verified,Low,True
+MID_00015,KiteLabs 15,SaaS,Kolkata,West Bengal,Starter,2023-11-05,Verified,High,False
+MID_00016,LunaPay 16,Nonprofit,Chandigarh,Chandigarh,Growth,2020-01-09,Pending,Low,False
+MID_00017,  MintApp 17 ,Food & Delivery,Ahmedabad,Gujarat,Starter,2024-11-02,Verified,Medium,False
+MID_00018,NestCo 18,Education,Delhi,Delhi,Growth,2019-12-13,Verified,Low,False
+MID_00019,OpalStore 19,Gaming,Lucknow,Uttar Pradesh,Starter,2023-02-19,Verified,High,False
+MID_00020,PeakPlus 20,  Education  ,Chennai,Tamil Nadu,Starter,2025-06-26,Verified,Medium,False
+MID_00021,QuadHub 21,E-commerce,Pune,Maharashtra,Starter,2023-01-13,Verified,Low,False
+MID_00022,ReefMart 22,Retail & D2C,Hyderabad,Telangana,Starter,2024-08-24,Verified,Low,False
+MID_00023,SageOne 23,E-commerce,Delhi,Delhi,Starter,2023-08-04,Verified,Medium,False
+MID_00024,TideWorks 24,Travel,Hyderabad,Telangana,Growth,2022-12-05,Verified,Medium,False
+MID_00025,UrsaGlobal 25,E-commerce,Jaipur,Rajasthan,Starter,2022-09-04,Verified,High,False
+MID_00026,VibePro 26,Travel,Guwahati,Assam,Starter,2025-01-22,Verified,Medium,False
+MID_00027,WaveDigital 27,Retail & D2C,Mumbai,Maharashtra,Starter,2023-08-09,Verified,Low,False
+MID_00028,XenoIndia 28,Utilities & Bills,Guwahati,Assam,Starter,2020-03-10,Verified,Low,False
+MID_00029,YorkGroup 29,Food & Delivery,Mumbai,Maharashtra,Starter,2021-05-18,Verified,High,False
+MID_00030,ZaraSolutions 30,Food & Delivery,,,Starter,2020-11-13,Verified,Low,False
+MID_00031,ApexNet 31,Travel,Ahmedabad,Gujarat,Growth,2020-09-05,Verified,Medium,False
+MID_00032,BlissTech 32,Nonprofit,Delhi,Delhi,Starter,2021-12-06,Verified,Low,False
+MID_00033,CoreSystems 33,Travel,Guwahati,Assam,Starter,2019-07-28,Verified,Low,False
+MID_00034,DashCloud 34,Gaming,Delhi,Delhi,Starter,2023-03-10,Pending,Medium,False
+MID_00035,EdgeLabs 35,Healthcare,Chandigarh,Chandigarh,Starter,2024-08-31,Verified,Low,False
+MID_00036,FinnPay 36,Utilities & Bills,Jaipur,Rajasthan,Growth,2022-01-10,Verified,Low,False
+MID_00037,GridApp 37,Retail & D2C,Indore,Madhya Pradesh,Starter,2020-11-29,Verified,Medium,False
+MID_00038,HaloCo 38,Nonprofit,Mumbai,Maharashtra,Starter,2024-08-20,Verified,Low,False
+MID_00039,IconStore 39,Healthcare,Bangalore,Karnataka,Starter,2020-02-23,Verified,Low,False
+MID_00040,JazzPlus 40,Nonprofit,Mumbai,Maharashtra,Starter,2021-11-27,Verified,Low,False
+MID_00041,NovaHub 41,Utilities & Bills,Kochi,Kerala,Starter,2020-11-29,Verified,Low,False
+MID_00042,ZenMart 42,Travel,Mumbai,Maharashtra,Starter,2020-01-22,Verified,Low,False
+MID_00043,PixelOne 43,Gaming,Delhi,Delhi,Growth,2025-08-13,Verified,Medium,False
+MID_00044,FluxWorks 44,Healthcare,Chandigarh,Chandigarh,Starter,2022-09-02,Verified,Low,False
+MID_00045,AuraGlobal 45,Gaming,Jaipur,Rajasthan,Starter,2022-06-10,Verified,Low,False
+MID_00046,BoltPro 46,Fintech,Kolkata,West Bengal,Starter,2023-10-04,Verified,High,False
+MID_00047,CrestDigital 47,Nonprofit,Pune,Maharashtra,Starter,2024-10-14,Verified,Medium,False
+MID_00048,DuneIndia 48,Utilities & Bills,Jaipur,Rajasthan,Starter,2020-09-11,Verified,Medium,False
+MID_00049,EchoGroup 49,Retail & D2C,Jaipur,Rajasthan,Starter,2019-12-13,Pending,Low,False
+MID_00050,FernSolutions 50,Education,Kochi,Kerala,Starter,2024-06-13,Pending,Low,False
+MID_00051,GlowNet 51,E-commerce,Delhi,Delhi,Starter,2022-12-28,Verified,Low,False
+MID_00052,HiveTech 52,Utilities & Bills,Chandigarh,Chandigarh,Growth,2023-03-18,Pending,Low,True
+MID_00053,IrisSystems 53,Gaming,Delhi,Delhi,Growth,2024-04-26,Verified,Low,False
+MID_00054,JadeCloud 54,Utilities & Bills,Chandigarh,Chandigarh,Starter,2021-05-28,Verified,Low,False
+MID_00055,KiteLabs 55,Healthcare,Pune,Maharashtra,Starter,2022-12-01,Pending,Medium,False
+MID_00056,LunaPay 56,Education,Kolkata,West Bengal,Enterprise,2025-06-09,Verified,Medium,False
+MID_00057,MintApp 57,Education,Delhi,Delhi,Starter,2019-06-29,Verified,Medium,False
+MID_00058,NestCo 58,Retail & D2C,Pune,Maharashtra,Starter,2025-03-25,Verified,Low,False
+MID_00059,OpalStore 59,E-commerce,Indore,Madhya Pradesh,Starter,2020-02-02,Rejected,Low,False
+MID_00060,PeakPlus 60,Healthcare,,,Growth,2020-12-09,Verified,Medium,False
+MID_00061,QuadHub 61,E-commerce,Indore,Madhya Pradesh,Growth,2019-06-13,Verified,Low,False
+MID_00062,ReefMart 62,E-commerce,Hyderabad,Telangana,Starter,2024-06-26,Pending,Medium,False
+MID_00063,SageOne 63,E-commerce,Pune,Maharashtra,Growth,2020-03-15,Verified,Medium,False
+MID_00064,TideWorks 64,Food & Delivery,Kochi,Kerala,Growth,2020-08-20,Verified,Medium,False
+MID_00065,UrsaGlobal 65,Utilities & Bills,Mumbai,Maharashtra,Starter,2019-09-06,Verified,Medium,False
+MID_00066,VibePro 66,Healthcare,Kolkata,West Bengal,Starter,2022-04-26,Verified,Low,False
+MID_00067,WaveDigital 67,Retail & D2C,Ahmedabad,Gujarat,Starter,2023-01-27,Verified,Low,False
+MID_00068,XenoIndia 68,Travel,Lucknow,Uttar Pradesh,Starter,2022-06-01,Verified,Low,False
+MID_00069,YorkGroup 69,SaaS,Chandigarh,Chandigarh,Starter,2023-06-07,Verified,Low,False
+MID_00070,ZaraSolutions 70,Healthcare,Indore,Madhya Pradesh,Starter,2022-01-23,Verified,Low,False
+MID_00071,ApexNet 71,E-commerce,Ahmedabad,Gujarat,Starter,2023-07-19,Verified,Medium,False
+MID_00072,BlissTech 72,Gaming,Ahmedabad,Gujarat,Starter,2022-08-29,Verified,Medium,False
+MID_00073,CoreSystems 73,Travel,Hyderabad,Telangana,Starter,2021-05-28,Verified,Low,False
+MID_00074,DashCloud 74,Utilities & Bills,Kochi,Kerala,Starter,2021-03-11,Verified,Low,False
+MID_00075,EdgeLabs 75,E-commerce,,,Growth,2024-08-26,Verified,Low,False
+MID_00076,FinnPay 76,Food & Delivery,Jaipur,Rajasthan,Starter,2025-06-25,Rejected,Medium,False
+MID_00077,GridApp 77,Utilities & Bills,Lucknow,Uttar Pradesh,Growth,2023-06-22,Verified,Low,False
+MID_00078,HaloCo 78,  Fintech  ,Bangalore,Karnataka,Starter,2025-09-04,Verified,Medium,False
+MID_00079,IconStore 79,Gaming,Delhi,Delhi,Starter,2019-12-03,Verified,Low,False
+MID_00080,JazzPlus 80,Retail & D2C,Bangalore,Karnataka,Starter,2019-09-12,Verified,Low,False
+MID_00081,NovaHub 81,Retail & D2C,Jaipur,Rajasthan,Starter,2020-12-15,Verified,Low,False
+MID_00082,ZenMart 82,SaaS,Lucknow,Uttar Pradesh,Growth,2021-09-25,Verified,Low,False
+MID_00083,PixelOne 83,Travel,Pune,Maharashtra,Growth,2022-08-11,Pending,Low,False
+MID_00084,FluxWorks 84,SaaS,Chennai,Tamil Nadu,Starter,2020-01-29,Verified,Medium,False
+MID_00085,AuraGlobal 85,SAAS,Bangalore,Karnataka,Starter,2019-07-28,Pending,Low,False
+MID_00086,BoltPro 86,Education,Jaipur,Rajasthan,Starter,2023-11-13,Verified,High,False
+MID_00087,CrestDigital 87,Nonprofit,Pune,Maharashtra,Growth,2023-12-23,Pending,Medium,False
+MID_00088,DuneIndia 88,E-commerce,Delhi,Delhi,Growth,2022-12-01,Verified,High,False
+MID_00089,EchoGroup 89,Education,Chennai,Tamil Nadu,Growth,2021-08-10,Verified,Low,False
+MID_00090,FernSolutions 90,Retail & D2C,Pune,Maharashtra,Enterprise,2025-08-09,Verified,Medium,True
+MID_00091,GlowNet 91,Food & Delivery,Ahmedabad,Gujarat,Growth,2024-08-15,Verified,Low,True
+MID_00092,HiveTech 92,saas,Delhi,Delhi,Growth,2024-04-24,Verified,Medium,False
+MID_00093,IrisSystems 93,SaaS,Mumbai,Maharashtra,Starter,2024-11-05,Verified,Low,False
+MID_00094,JadeCloud 94,Fintech,Mumbai,Maharashtra,Starter,2023-09-01,Verified,Medium,False
+MID_00095,KiteLabs 95,Utilities & Bills,Kochi,Kerala,Starter,2021-12-05,Verified,Medium,False
+MID_00096,LunaPay 96,Gaming,Delhi,Delhi,Starter,2024-07-11,Rejected,Low,False
+MID_00097,MintApp 97,Fintech,Delhi,Delhi,Starter,2023-11-08,Verified,Low,False
+MID_00098,NestCo 98,Food & Delivery,Pune,Maharashtra,Starter,2019-11-03,Verified,Low,False
+MID_00099,OpalStore 99,Retail & D2C,Jaipur,Rajasthan,Starter,2025-06-27,Verified,Low,False
+MID_00100,PeakPlus 100,Travel,Indore,Madhya Pradesh,Starter,2025-03-03,Verified,Medium,False
+MID_00101,QuadHub 101,Healthcare,Lucknow,Uttar Pradesh,Starter,2021-06-15,Verified,Medium,False
+MID_00102,ReefMart 102,E-commerce,Ahmedabad,Gujarat,Growth,2022-03-10,Verified,High,False
+MID_00103,SageOne 103,Food & Delivery,Kochi,Kerala,Growth,2020-08-02,Verified,Low,False
+MID_00104,TideWorks 104,Travel,Guwahati,Assam,Starter,2019-08-22,Pending,Low,True
+MID_00105,UrsaGlobal 105,E-commerce,Hyderabad,Telangana,Starter,2022-09-06,Verified,Low,False
+MID_00106,VibePro 106,Healthcare,Kolkata,West Bengal,Starter,2020-09-21,Verified,Low,False
+MID_00107,WaveDigital 107,Education,Mumbai,Maharashtra,Starter,2019-06-03,Verified,Low,False
+MID_00108,XenoIndia 108,SaaS,Pune,Maharashtra,Growth,2021-01-23,Verified,Low,False
+MID_00109,YorkGroup 109,Nonprofit,Lucknow,Uttar Pradesh,Starter,2025-04-21,Verified,Low,False
+MID_00110,ZaraSolutions 110,Food & Delivery,Bangalore,Karnataka,Starter,2025-03-26,Verified,Low,True
+MID_00111,ApexNet 111,Education,Delhi,Delhi,Growth,2023-01-07,Verified,Medium,True
+MID_00112,BlissTech 112,Travel,Kochi,Kerala,Starter,2024-04-22,Verified,Low,False
+MID_00113,CoreSystems 113,Healthcare,Pune,Maharashtra,Starter,2021-09-14,Verified,Low,False
+MID_00114,DashCloud 114,Education,Jaipur,Rajasthan,Starter,2021-06-04,Verified,Low,False
+MID_00115,EdgeLabs 115,SaaS,Mumbai,Maharashtra,Starter,2023-11-24,Verified,Low,False
+MID_00116,FinnPay 116,Education,Jaipur,Rajasthan,Starter,2023-10-21,Verified,Low,False
+MID_00117,GridApp 117,Food & Delivery,Mumbai,Maharashtra,Starter,2023-02-12,Verified,Medium,False
+MID_00118,HaloCo 118,SaaS,Ahmedabad,Gujarat,Growth,2019-09-25,Verified,Low,False
+MID_00119,IconStore 119,Retail & D2C,Kochi,Kerala,Starter,2020-11-16,Verified,Low,False
+MID_00120,  JazzPlus 120 ,Food & Delivery,Ahmedabad,Gujarat,Starter,2024-01-04,Verified,Medium,False
+MID_00121,NovaHub 121,Education,,,Starter,2024-06-15,Verified,Low,False
+MID_00122,ZenMart 122,SaaS,Bangalore,Karnataka,Growth,2020-05-11,Pending,Low,False
+MID_00123,PixelOne 123,Gaming,Hyderabad,Telangana,Growth,2022-05-22,Verified,Medium,False
+MID_00124,FluxWorks 124,Food & Delivery,Lucknow,Uttar Pradesh,Starter,2024-05-15,Verified,Low,False
+MID_00125,AuraGlobal 125,Utilities & Bills,Ahmedabad,Gujarat,Growth,2020-09-15,Verified,Low,False
+MID_00126,BoltPro 126,Education,Guwahati,Assam,Starter,2021-11-29,Verified,Low,False
+MID_00127,CrestDigital 127,NONPROFIT,Jaipur,Rajasthan,Starter,2022-05-17,Verified,Low,False
+MID_00128,DuneIndia 128,Retail & D2C,Chennai,Tamil Nadu,Starter,2021-07-25,Pending,Low,False
+MID_00129,EchoGroup 129,Gaming,Chennai,Tamil Nadu,Growth,2020-09-10,Verified,Low,False
+MID_00130,FernSolutions 130,Travel,Mumbai,Maharashtra,Starter,2025-06-27,Verified,Low,False
+MID_00131,GlowNet 131,Fintech,Chennai,Tamil Nadu,Starter,2024-12-18,Pending,High,False
+MID_00132,HiveTech 132,Utilities & Bills,Kolkata,West Bengal,Enterprise,2021-05-05,Verified,Low,False
+MID_00133,IrisSystems 133,Education,Ahmedabad,Gujarat,Starter,2021-01-06,Verified,Medium,False
+MID_00134,JadeCloud 134,Education,Kochi,Kerala,Growth,2021-12-23,Verified,Medium,False
+MID_00135,KiteLabs 135,SaaS,Hyderabad,Telangana,Enterprise,2020-01-19,Verified,Medium,True
+MID_00136,LunaPay 136,Nonprofit,Bangalore,Karnataka,Starter,2023-11-29,Verified,Medium,False
+MID_00137,MintApp 137,Food & Delivery,Chennai,Tamil Nadu,Starter,2020-06-07,Pending,Medium,False
+MID_00138,NestCo 138,Food & Delivery,Pune,Maharashtra,Starter,2022-10-24,Verified,Low,False
+MID_00139,OpalStore 139,Fintech,Kochi,Kerala,Enterprise,2020-06-13,Verified,Low,True
+MID_00140,PeakPlus 140,Retail & D2C,Bangalore,Karnataka,Starter,2021-06-13,Verified,Low,False
+MID_00141,QuadHub 141,Retail & D2C,Kochi,Kerala,Starter,2024-08-05,Verified,Low,False
+MID_00142,ReefMart 142,Retail & D2C,Ahmedabad,Gujarat,Growth,2021-07-31,Verified,Low,False
+MID_00143,SageOne 143,E-commerce,Bangalore,Karnataka,Growth,2022-03-10,Verified,Low,False
+MID_00144,TideWorks 144,Retail & D2C,Kolkata,West Bengal,Starter,2020-03-25,Verified,Low,False
+MID_00145,UrsaGlobal 145,FINTECH,Kolkata,West Bengal,Growth,2022-05-02,Verified,Low,False
+MID_00146,VibePro 146,Gaming,Ahmedabad,Gujarat,Enterprise,2023-09-16,Verified,Low,False
+MID_00147,WaveDigital 147,Education,Hyderabad,Telangana,Growth,2022-10-12,Verified,Low,False
+MID_00148,XenoIndia 148,Retail & D2C,Kolkata,West Bengal,Starter,2022-12-21,Verified,Low,False
+MID_00149,YorkGroup 149,SaaS,Kolkata,West Bengal,Starter,2021-12-31,Verified,Low,False
+MID_00150,ZaraSolutions 150,Travel,Chandigarh,Chandigarh,Growth,2019-07-16,Verified,Low,False
+MID_00151,ApexNet 151,Gaming,Indore,Madhya Pradesh,Growth,2020-03-26,Verified,Low,False
+MID_00152,BlissTech 152,Gaming,Chandigarh,Chandigarh,Growth,2022-11-05,Verified,High,False
+MID_00153,CoreSystems 153,Food & Delivery,Mumbai,Maharashtra,Starter,2025-08-05,Verified,Low,True
+MID_00154,DashCloud 154,Travel,Guwahati,Assam,Starter,2022-03-23,Pending,Medium,False
+MID_00155,EdgeLabs 155,Healthcare,Pune,Maharashtra,Starter,2021-07-12,Verified,Medium,False
+MID_00156,FinnPay 156,Healthcare,Mumbai,Maharashtra,Growth,2024-04-03,Verified,Low,False
+MID_00157,GridApp 157,Utilities & Bills,Jaipur,Rajasthan,Starter,2021-01-17,Verified,Low,False
+MID_00158,HaloCo 158,Travel,Ahmedabad,Gujarat,Growth,2019-06-18,Verified,Medium,False
+MID_00159,IconStore 159,Education,Jaipur,Rajasthan,Starter,2021-11-19,Rejected,Low,False
+MID_00160,JazzPlus 160,Education,Indore,Madhya Pradesh,Starter,2025-08-16,Verified,Low,False
+MID_00161,NovaHub 161,Retail & D2C,Hyderabad,Telangana,Starter,2020-02-14,Verified,Low,False
+MID_00162,ZenMart 162,Gaming,Chennai,Tamil Nadu,Starter,2023-07-19,Rejected,High,False
+MID_00163,PixelOne 163,gaming,Delhi,Delhi,Starter,2021-06-06,Verified,Low,False
+MID_00164,FluxWorks 164,Retail & D2C,Chennai,Tamil Nadu,Growth,2024-09-06,Verified,Low,False
+MID_00165,AuraGlobal 165,Utilities & Bills,Bangalore,Karnataka,Growth,2025-01-25,Verified,Medium,True
+MID_00166,BoltPro 166,Fintech,Hyderabad,Telangana,Starter,2019-10-01,Verified,Low,False
+MID_00167,CrestDigital 167,E-commerce,Chandigarh,Chandigarh,Starter,2020-06-23,Verified,Medium,False
+MID_00168,DuneIndia 168,Nonprofit,Mumbai,Maharashtra,Starter,2021-11-29,Verified,Low,False
+MID_00169,EchoGroup 169,Education,Chandigarh,Chandigarh,Starter,2021-09-28,Verified,Low,False
+MID_00170,FernSolutions 170,Fintech,Chennai,Tamil Nadu,Starter,2020-07-10,Verified,Low,False
+MID_00171,GlowNet 171,Education,Bangalore,Karnataka,Starter,2021-11-25,Verified,High,False
+MID_00172,HiveTech 172,SaaS,Pune,Maharashtra,Starter,2021-03-30,Verified,Low,False
+MID_00173,IrisSystems 173,Gaming,Pune,Maharashtra,Growth,2019-09-23,Verified,Low,False
+MID_00174,JadeCloud 174,E-commerce,Delhi,Delhi,Starter,2022-12-20,Verified,Low,False
+MID_00175,KiteLabs 175,Nonprofit,Jaipur,Rajasthan,Starter,2019-10-31,Verified,Low,False
+MID_00176,  LunaPay 176 ,Gaming,Kochi,Kerala,Growth,2022-05-23,Verified,High,True
+MID_00177,MintApp 177,Nonprofit,Pune,Maharashtra,Starter,2023-09-19,Verified,Low,False
+MID_00178,NestCo 178,Food & Delivery,Delhi,Delhi,Starter,2024-11-10,Verified,Low,False
+MID_00179,OpalStore 179,Education,Guwahati,Assam,Starter,2020-09-18,Verified,High,False
+MID_00180,PeakPlus 180,Healthcare,Pune,Maharashtra,Starter,2020-03-09,Verified,Medium,False
+MID_00181,QuadHub 181,Healthcare,Pune,Maharashtra,Starter,2021-12-15,Verified,High,False
+MID_00182,ReefMart 182,E-commerce,Kochi,Kerala,Growth,2022-07-28,Verified,High,False
+MID_00183,SageOne 183,Retail & D2C,Pune,Maharashtra,Starter,2021-06-12,Verified,Low,False
+MID_00184,TideWorks 184,Education,Lucknow,Uttar Pradesh,Starter,2022-02-23,Verified,High,False
+MID_00185,UrsaGlobal 185,SaaS,Hyderabad,Telangana,Starter,2023-01-04,Verified,Low,False
+MID_00186,VibePro 186,SaaS,Mumbai,Maharashtra,Starter,2020-01-05,Verified,Medium,False
+MID_00187,WaveDigital 187,SaaS,Chandigarh,Chandigarh,Starter,2021-01-16,Verified,High,False
+MID_00188,XenoIndia 188,Utilities & Bills,Lucknow,Uttar Pradesh,Growth,2021-11-24,Pending,Low,True
+MID_00189,YorkGroup 189,Retail & D2C,Indore,Madhya Pradesh,Starter,2019-08-01,Verified,Medium,False
+MID_00190,ZaraSolutions 190,Healthcare,,,Starter,2024-05-24,Verified,Medium,False
+MID_00191,ApexNet 191,Nonprofit,Ahmedabad,Gujarat,Starter,2024-04-27,Verified,Low,False
+MID_00192,BlissTech 192,E-commerce,Guwahati,Assam,Growth,2023-03-06,Verified,Low,True
+MID_00193,CoreSystems 193,SaaS,Kochi,Kerala,Starter,2025-08-19,Verified,Low,False
+MID_00194,DashCloud 194,Education,Kolkata,West Bengal,Starter,2024-09-19,Verified,Low,False
+MID_00195,EdgeLabs 195,E-commerce,Mumbai,Maharashtra,Starter,2023-10-14,Verified,Low,False
+MID_00196,FinnPay 196,Utilities & Bills,Jaipur,Rajasthan,Starter,2022-09-20,Verified,Low,False
+MID_00197,GridApp 197,Fintech,Chennai,Tamil Nadu,Starter,2021-12-23,Verified,High,False
+MID_00198,HaloCo 198,Healthcare,Lucknow,Uttar Pradesh,Growth,2022-02-17,Verified,Low,False
+MID_00199,IconStore 199,SaaS,Guwahati,Assam,Enterprise,2023-11-19,Verified,Medium,True
+MID_00200,JazzPlus 200,Travel,Guwahati,Assam,Growth,2019-10-17,Verified,Low,False
+MID_00201,NovaHub 201,E-commerce,Indore,Madhya Pradesh,Starter,2022-03-26,Verified,High,False
+MID_00202,ZenMart 202,Utilities & Bills,Bangalore,Karnataka,Starter,2020-01-05,Verified,Medium,False
+MID_00203,PixelOne 203,Education,Guwahati,Assam,Growth,2020-03-20,Verified,Low,False
+MID_00204,FluxWorks 204,Retail & D2C,Indore,Madhya Pradesh,Enterprise,2022-06-22,Verified,Low,True
+MID_00205,AuraGlobal 205,Food & Delivery,Kolkata,West Bengal,Starter,2024-05-08,Verified,High,False
+MID_00206,BoltPro 206,E-commerce,Mumbai,Maharashtra,Starter,2025-08-04,Verified,Low,False
+MID_00207,CrestDigital 207,Nonprofit,Guwahati,Assam,Starter,2020-05-21,Verified,Low,False
+MID_00208,DuneIndia 208,SaaS,Indore,Madhya Pradesh,Starter,2020-09-09,Verified,Low,False
+MID_00209,EchoGroup 209,Healthcare,Guwahati,Assam,Starter,2020-11-04,Verified,High,False
+MID_00210,FernSolutions 210,Travel,Chandigarh,Chandigarh,Starter,2021-06-11,Verified,Low,False
+MID_00211,GlowNet 211,Utilities & Bills,Hyderabad,Telangana,Growth,2025-05-06,Verified,Low,False
+MID_00212,HiveTech 212,Fintech,Ahmedabad,Gujarat,Starter,2025-09-18,Verified,Low,False
+MID_00213,IrisSystems 213,Retail & D2C,Mumbai,Maharashtra,Starter,2023-06-14,Verified,High,False
+MID_00214,JadeCloud 214,Fintech,Indore,Madhya Pradesh,Starter,2024-08-14,Verified,Medium,False
+MID_00215,KiteLabs 215,Fintech,Jaipur,Rajasthan,Growth,2021-08-13,Verified,Low,False
+MID_00216,LunaPay 216,Gaming,Kolkata,West Bengal,Starter,2022-08-13,Verified,Low,False
+MID_00217,MintApp 217,Healthcare,Chandigarh,Chandigarh,Starter,2023-05-20,Verified,Medium,False
+MID_00218,NestCo 218,Healthcare,Delhi,Delhi,Enterprise,2020-08-31,Verified,Low,False
+MID_00219,OpalStore 219,Utilities & Bills,Chandigarh,Chandigarh,Growth,2021-09-05,Verified,Low,False
+MID_00220,PeakPlus 220,Food & Delivery,Chennai,Tamil Nadu,Starter,2023-11-17,Verified,Low,False
+MID_00221,QuadHub 221,Healthcare,Chandigarh,Chandigarh,Growth,2024-08-10,Verified,Low,False
+MID_00222,ReefMart 222,Food & Delivery,Pune,Maharashtra,Starter,2024-03-04,Verified,Low,False
+MID_00223,SageOne 223,E-commerce,Pune,Maharashtra,Starter,2020-11-27,Verified,High,False
+MID_00224,TideWorks 224,Healthcare,Lucknow,Uttar Pradesh,Growth,2023-04-20,Verified,Medium,False
+MID_00225,UrsaGlobal 225,Travel,,,Starter,2022-06-08,Verified,Low,False
+MID_00226,VibePro 226,Fintech,Guwahati,Assam,Starter,2020-11-02,Verified,Medium,False
+MID_00227,WaveDigital 227,Education,Bangalore,Karnataka,Growth,2021-12-16,Verified,Low,False
+MID_00228,XenoIndia 228,Travel,Jaipur,Rajasthan,Starter,2020-06-27,Verified,Low,False
+MID_00229,YorkGroup 229,Travel,Mumbai,Maharashtra,Starter,2020-08-17,Verified,Medium,False
+MID_00230,ZaraSolutions 230,Gaming,Chennai,Tamil Nadu,Growth,2024-07-27,Verified,Low,False
+MID_00231,ApexNet 231,Gaming,Guwahati,Assam,Starter,2021-01-06,Verified,Medium,False
+MID_00232,BlissTech 232,SaaS,Lucknow,Uttar Pradesh,Growth,2023-01-12,Rejected,Low,False
+MID_00233,CoreSystems 233,E-commerce,Chandigarh,Chandigarh,Starter,2021-12-01,Verified,Low,False
+MID_00234,DashCloud 234,E-commerce,Pune,Maharashtra,Starter,2024-11-14,Verified,Low,False
+MID_00235,EdgeLabs 235,Fintech,Hyderabad,Telangana,Starter,2020-12-20,Verified,Medium,False
+MID_00236,FinnPay 236,Retail & D2C,Bangalore,Karnataka,Starter,2022-05-08,Verified,Medium,False
+MID_00237,GridApp 237,Food & Delivery,Jaipur,Rajasthan,Growth,2021-01-10,Verified,High,False
+MID_00238,  HaloCo 238 ,Travel,Jaipur,Rajasthan,Starter,2019-08-21,Verified,Low,False
+MID_00239,IconStore 239,SaaS,Jaipur,Rajasthan,Starter,2024-10-14,Verified,Low,False
+MID_00240,JazzPlus 240,Nonprofit,Ahmedabad,Gujarat,Starter,2020-03-23,Verified,High,False
+MID_00241,NovaHub 241,Utilities & Bills,Bangalore,Karnataka,Starter,2024-02-17,Verified,Medium,False
+MID_00242,ZenMart 242,Fintech,Chennai,Tamil Nadu,Starter,2022-08-12,Verified,Low,False
+MID_00243,PixelOne 243,FINTECH,Chandigarh,Chandigarh,Growth,2023-09-16,Verified,Low,False
+MID_00244,FluxWorks 244,Utilities & Bills,Kochi,Kerala,Enterprise,2025-08-24,Verified,Low,False
+MID_00245,AuraGlobal 245,Retail & D2C,Jaipur,Rajasthan,Enterprise,2024-12-16,Verified,Medium,True
+MID_00246,BoltPro 246,SaaS,Chandigarh,Chandigarh,Enterprise,2024-04-16,Verified,Low,False
+MID_00247,CrestDigital 247,Travel,,,Growth,2020-10-22,Verified,Low,False
+MID_00248,DuneIndia 248,Fintech,Mumbai,Maharashtra,Starter,2019-08-11,Verified,High,False
+MID_00249,EchoGroup 249,Travel,Chandigarh,Chandigarh,Starter,2024-02-20,Verified,Low,False
+MID_00250,FernSolutions 250,SaaS,Chandigarh,Chandigarh,Starter,2019-08-02,Pending,Medium,False
+MID_00251,GlowNet 251,SaaS,Chandigarh,Chandigarh,Starter,2022-04-05,Verified,Low,False
+MID_00252,  HiveTech 252 ,Nonprofit,Kochi,Kerala,Starter,2020-04-22,Rejected,Medium,False
+MID_00253,IrisSystems 253,Nonprofit,Chennai,Tamil Nadu,Starter,2019-12-26,Verified,Low,False
+MID_00254,JadeCloud 254,E-commerce,Delhi,Delhi,Starter,2023-02-02,Verified,Low,False
+MID_00255,KiteLabs 255,Travel,Jaipur,Rajasthan,Starter,2022-03-31,Verified,Low,False
+MID_00256,LunaPay 256,SaaS,Kochi,Kerala,Starter,2020-12-21,Verified,Low,False
+MID_00257,MintApp 257,Gaming,Kochi,Kerala,Starter,2021-05-12,Verified,Low,False
+MID_00258,NestCo 258,Education,Chennai,Tamil Nadu,Starter,2022-12-04,Verified,Low,False
+MID_00259,OpalStore 259,Retail & D2C,Delhi,Delhi,Growth,2023-09-26,Verified,Low,False
+MID_00260,PeakPlus 260,SaaS,Delhi,Delhi,Starter,2024-02-13,Verified,Medium,False
+MID_00261,QuadHub 261,E-commerce,Chandigarh,Chandigarh,Starter,2023-05-04,Pending,Low,False
+MID_00262,  ReefMart 262 ,Gaming,Jaipur,Rajasthan,Growth,2022-09-05,Verified,High,False
+MID_00263,SageOne 263,Healthcare,Pune,Maharashtra,Enterprise,2020-07-23,Verified,Low,True
+MID_00264,TideWorks 264,Gaming,Pune,Maharashtra,Growth,2019-08-14,Verified,Low,False
+MID_00265,UrsaGlobal 265,Retail & D2C,Bangalore,Karnataka,Growth,2023-06-23,Verified,Medium,False
+MID_00266,VibePro 266,Food & Delivery,Indore,Madhya Pradesh,Starter,2024-10-17,Rejected,Low,False
+MID_00267,WaveDigital 267,Travel,Hyderabad,Telangana,Starter,2025-09-15,Rejected,Low,False
+MID_00268,XenoIndia 268,Gaming,Indore,Madhya Pradesh,Enterprise,2022-10-05,Verified,Low,False
+MID_00269,YorkGroup 269,Food & Delivery,Guwahati,Assam,Enterprise,2024-06-20,Verified,Low,False
+MID_00270,ZaraSolutions 270,E-commerce,Ahmedabad,Gujarat,Starter,2021-12-31,Verified,Low,False
+MID_00271,ApexNet 271,Fintech,Delhi,Delhi,Starter,2022-03-29,Verified,Medium,False
+MID_00272,BlissTech 272,Education,Mumbai,Maharashtra,Starter,2023-07-27,Verified,Low,False
+MID_00273,CoreSystems 273,Retail & D2C,Jaipur,Rajasthan,Starter,2020-05-25,Verified,Low,False
+MID_00274,DashCloud 274,SaaS,Delhi,Delhi,Growth,2019-06-26,Verified,Medium,False
+MID_00275,EdgeLabs 275,Gaming,Bangalore,Karnataka,Starter,2024-01-02,Verified,High,False
+MID_00276,FinnPay 276,healthcare,Chennai,Tamil Nadu,Starter,2020-11-01,Verified,Low,False
+MID_00277,GridApp 277,Travel,Mumbai,Maharashtra,Starter,2023-04-12,Verified,Medium,False
+MID_00278,HaloCo 278,E-commerce,Delhi,Delhi,Starter,2020-12-19,Verified,Low,False
+MID_00279,IconStore 279,Education,Kolkata,West Bengal,Starter,2025-04-11,Verified,High,True
+MID_00280,JazzPlus 280,Travel,,,Enterprise,2024-03-30,Rejected,Medium,False
+MID_00281,NovaHub 281,Retail & D2C,Mumbai,Maharashtra,Starter,2023-04-20,Verified,Low,False
+MID_00282,ZenMart 282,Nonprofit,Lucknow,Uttar Pradesh,Starter,2024-01-13,Verified,Low,False
+MID_00283,PixelOne 283,E-commerce,Delhi,Delhi,Starter,2021-10-01,Verified,Low,False
+MID_00284,FluxWorks 284,Utilities & Bills,Delhi,Delhi,Enterprise,2024-11-09,Verified,Medium,True
+MID_00285,AuraGlobal 285,Food & Delivery,Delhi,Delhi,Starter,2023-10-20,Rejected,Low,False
+MID_00286,BoltPro 286,Food & Delivery,Chennai,Tamil Nadu,Growth,2022-06-04,Verified,Low,False
+MID_00287,CrestDigital 287,E-commerce,Chennai,Tamil Nadu,Growth,2022-03-29,Pending,Low,True
+MID_00288,DuneIndia 288,Nonprofit,Hyderabad,Telangana,Growth,2020-05-19,Verified,Low,False
+MID_00289,EchoGroup 289,Education,Lucknow,Uttar Pradesh,Starter,2022-09-20,Verified,Low,False
+MID_00290,FernSolutions 290,SaaS,Chandigarh,Chandigarh,Starter,2019-07-02,Verified,Low,False
+MID_00291,  GlowNet 291 ,Education,Kochi,Kerala,Growth,2023-03-04,Verified,Low,False
+MID_00292,HiveTech 292,Fintech,Delhi,Delhi,Starter,2025-05-19,Verified,Low,False
+MID_00293,IrisSystems 293,Utilities & Bills,Ahmedabad,Gujarat,Starter,2025-04-19,Rejected,Low,False
+MID_00294,JadeCloud 294,Healthcare,Kochi,Kerala,Starter,2025-09-01,Verified,Low,False
+MID_00295,KiteLabs 295,Travel,Bangalore,Karnataka,Starter,2022-06-03,Verified,Low,False
+MID_00296,LunaPay 296,Retail & D2C,Mumbai,Maharashtra,Starter,2022-02-04,Pending,Low,False
+MID_00297,MintApp 297,E-commerce,Chandigarh,Chandigarh,Starter,2022-04-02,Verified,Medium,False
+MID_00298,NestCo 298,Nonprofit,Hyderabad,Telangana,Starter,2021-04-28,Verified,Low,False
+MID_00299,OpalStore 299,Food & Delivery,Ahmedabad,Gujarat,Growth,2021-01-30,Verified,Low,False
+MID_00300,PeakPlus 300,Gaming,Delhi,Delhi,Starter,2023-01-13,Verified,Medium,False
+MID_00301,QuadHub 301,Nonprofit,Ahmedabad,Gujarat,Starter,2020-12-03,Verified,Low,False
+MID_00302,  ReefMart 302 ,Education,Bangalore,Karnataka,Enterprise,2023-12-07,Rejected,Low,True
+MID_00303,SageOne 303,Gaming,Chandigarh,Chandigarh,Starter,2023-04-19,Verified,High,False
+MID_00304,TideWorks 304,Education,Chandigarh,Chandigarh,Starter,2021-02-23,Verified,Low,False
+MID_00305,UrsaGlobal 305,Food & Delivery,Guwahati,Assam,Starter,2021-06-28,Verified,Low,False
+MID_00306,VibePro 306,Travel,Chennai,Tamil Nadu,Growth,2022-08-10,Verified,Low,False
+MID_00307,WaveDigital 307,Retail & D2C,Pune,Maharashtra,Growth,2022-03-01,Verified,Medium,False
+MID_00308,XenoIndia 308,Nonprofit,Indore,Madhya Pradesh,Growth,2024-04-16,Verified,Low,True
+MID_00309,YorkGroup 309,Retail & D2C,Kochi,Kerala,Growth,2024-11-02,Verified,Low,False
+MID_00310,ZaraSolutions 310,Healthcare,Pune,Maharashtra,Starter,2021-11-25,Verified,Medium,False
+MID_00311,ApexNet 311,Food & Delivery,Chandigarh,Chandigarh,Growth,2022-08-06,Verified,Low,False
+MID_00312,BlissTech 312,Travel,Jaipur,Rajasthan,Starter,2022-01-12,Verified,Low,False
+MID_00313,CoreSystems 313,Healthcare,Jaipur,Rajasthan,Growth,2020-04-24,Verified,Low,False
+MID_00314,DashCloud 314,Nonprofit,Bangalore,Karnataka,Starter,2020-02-22,Verified,Medium,False
+MID_00315,EdgeLabs 315,Retail & D2C,Mumbai,Maharashtra,Starter,2022-08-28,Verified,Low,False
+MID_00316,FinnPay 316,E-commerce,Hyderabad,Telangana,Enterprise,2021-06-17,Verified,Medium,False
+MID_00317,GridApp 317,Food & Delivery,Chandigarh,Chandigarh,Starter,2022-04-19,Verified,Low,False
+MID_00318,HaloCo 318,Retail & D2C,Jaipur,Rajasthan,Starter,2025-05-31,Verified,Low,False
+MID_00319,IconStore 319,Retail & D2C,Ahmedabad,Gujarat,Starter,2021-01-06,Verified,Low,True
+MID_00320,JazzPlus 320,Nonprofit,Jaipur,Rajasthan,Growth,2020-01-04,Pending,Medium,False
+MID_00321,NovaHub 321,Gaming,Guwahati,Assam,Starter,2022-10-25,Verified,Low,False
+MID_00322,ZenMart 322,SaaS,Bangalore,Karnataka,Starter,2021-01-26,Verified,Low,False
+MID_00323,PixelOne 323,Food & Delivery,Mumbai,Maharashtra,Starter,2023-02-18,Pending,Low,False
+MID_00324,FluxWorks 324,SaaS,Lucknow,Uttar Pradesh,Growth,2023-11-02,Rejected,Low,True
+MID_00325,AuraGlobal 325,SaaS,Lucknow,Uttar Pradesh,Starter,2022-08-18,Verified,Medium,False
+MID_00326,BoltPro 326,Utilities & Bills,Jaipur,Rajasthan,Starter,2024-12-01,Verified,Low,False
+MID_00327,CrestDigital 327,Nonprofit,Pune,Maharashtra,Growth,2020-08-09,Verified,Medium,False
+MID_00328,DuneIndia 328,SaaS,Lucknow,Uttar Pradesh,Starter,2020-09-05,Verified,High,False
+MID_00329,EchoGroup 329,Utilities & Bills,Jaipur,Rajasthan,Starter,2019-08-31,Verified,Low,True
+MID_00330,FernSolutions 330,Travel,Chennai,Tamil Nadu,Growth,2022-05-26,Verified,Low,False
+MID_00331,  GlowNet 331 ,Utilities & Bills,Chennai,Tamil Nadu,Starter,2025-02-06,Rejected,Low,False
+MID_00332,HiveTech 332,Healthcare,Bangalore,Karnataka,Starter,2020-07-08,Verified,Low,False
+MID_00333,IrisSystems 333,Travel,Mumbai,Maharashtra,Starter,2019-12-03,Verified,High,False
+MID_00334,JadeCloud 334,SaaS,Kolkata,West Bengal,Starter,2023-02-02,Verified,Medium,False
+MID_00335,KiteLabs 335,Fintech,Bangalore,Karnataka,Starter,2021-10-02,Verified,Low,False
+MID_00336,LunaPay 336,Nonprofit,Guwahati,Assam,Starter,2023-12-31,Verified,Medium,False
+MID_00337,MintApp 337,Travel,,,Starter,2019-10-09,Verified,Low,False
+MID_00338,NestCo 338,Utilities & Bills,Kolkata,West Bengal,Growth,2022-08-02,Rejected,Low,False
+MID_00339,OpalStore 339,Retail & D2C,Mumbai,Maharashtra,Starter,2023-08-17,Verified,Low,False
+MID_00340,PeakPlus 340,E-commerce,Kolkata,West Bengal,Starter,2021-06-26,Verified,Low,False
+MID_00341,QuadHub 341,E-commerce,Bangalore,Karnataka,Growth,2020-04-05,Verified,Medium,False
+MID_00342,ReefMart 342,SaaS,Bangalore,Karnataka,Starter,2024-03-29,Rejected,Low,False
+MID_00343,SageOne 343,Education,Delhi,Delhi,Starter,2021-09-08,Verified,Low,False
+MID_00344,TideWorks 344,Retail & D2C,Hyderabad,Telangana,Starter,2022-12-06,Verified,Medium,False
+MID_00345,UrsaGlobal 345,Fintech,Indore,Madhya Pradesh,Growth,2022-12-07,Verified,Low,False
+MID_00346,VibePro 346,Fintech,Lucknow,Uttar Pradesh,Enterprise,2022-10-26,Verified,Low,True
+MID_00347,WaveDigital 347,Retail & D2C,Ahmedabad,Gujarat,Starter,2020-03-13,Verified,Medium,False
+MID_00348,XenoIndia 348,Education,Indore,Madhya Pradesh,Growth,2023-10-18,Verified,Medium,False
+MID_00349,YorkGroup 349,Nonprofit,Chandigarh,Chandigarh,Starter,2023-10-30,Pending,Low,False
+MID_00350,ZaraSolutions 350,SaaS,Pune,Maharashtra,Growth,2020-06-05,Verified,Low,False
+MID_00351,ApexNet 351,Nonprofit,Jaipur,Rajasthan,Starter,2023-02-08,Verified,Low,False
+MID_00352,BlissTech 352,Food & Delivery,Jaipur,Rajasthan,Growth,2022-10-26,Verified,Low,False
+MID_00353,CoreSystems 353,Nonprofit,Ahmedabad,Gujarat,Growth,2019-12-27,Verified,Low,False
+MID_00354,DashCloud 354,Nonprofit,Kochi,Kerala,Starter,2021-07-23,Verified,Medium,False
+MID_00355,EdgeLabs 355,SaaS,Ahmedabad,Gujarat,Starter,2020-04-26,Verified,Low,False
+MID_00356,FinnPay 356,SAAS,Ahmedabad,Gujarat,Starter,2021-07-22,Verified,Low,False
+MID_00357,GridApp 357,Utilities & Bills,Kochi,Kerala,Starter,2025-06-27,Verified,Low,False
+MID_00358,HaloCo 358,Retail & D2C,Indore,Madhya Pradesh,Starter,2020-10-02,Verified,Low,True
+MID_00359,IconStore 359,Healthcare,Lucknow,Uttar Pradesh,Enterprise,2021-03-03,Verified,High,False
+MID_00360,JazzPlus 360,E-commerce,Ahmedabad,Gujarat,Growth,2022-01-26,Verified,Low,False
+MID_00361,NovaHub 361,Travel,Kochi,Kerala,Starter,2022-11-20,Verified,Low,False
+MID_00362,ZenMart 362,Utilities & Bills,Kolkata,West Bengal,Growth,2020-05-15,Pending,Medium,False
+MID_00363,PixelOne 363,Food & Delivery,Jaipur,Rajasthan,Growth,2023-10-15,Verified,High,False
+MID_00364,FluxWorks 364,Education,,,Starter,2022-08-23,Verified,Low,False
+MID_00365,AuraGlobal 365,Utilities & Bills,Indore,Madhya Pradesh,Starter,2025-07-22,Verified,Low,False
+MID_00366,BoltPro 366,SaaS,Delhi,Delhi,Starter,2025-06-06,Verified,Low,True
+MID_00367,CrestDigital 367,Gaming,Indore,Madhya Pradesh,Starter,2023-04-29,Verified,Medium,False
+MID_00368,DuneIndia 368,E-commerce,Pune,Maharashtra,Starter,2020-01-18,Verified,High,True
+MID_00369,EchoGroup 369,E-commerce,Pune,Maharashtra,Starter,2022-11-13,Verified,Low,False
+MID_00370,FernSolutions 370,Nonprofit,Kolkata,West Bengal,Starter,2024-09-16,Verified,Low,True
+MID_00371,GlowNet 371,E-commerce,Bangalore,Karnataka,Starter,2022-04-09,Verified,Medium,False
+MID_00372,HiveTech 372,Education,Kochi,Kerala,Growth,2025-03-13,Verified,Low,False
+MID_00373,IrisSystems 373,Travel,Kochi,Kerala,Enterprise,2022-04-22,Verified,Low,True
+MID_00374,JadeCloud 374,Gaming,Kochi,Kerala,Starter,2021-08-21,Verified,Medium,False
+MID_00375,KiteLabs 375,Gaming,Delhi,Delhi,Growth,2020-08-30,Verified,Medium,False
+MID_00376,LunaPay 376,Fintech,Chennai,Tamil Nadu,Growth,2025-04-25,Verified,Low,False
+MID_00377,MintApp 377,Food & Delivery,Lucknow,Uttar Pradesh,Starter,2019-12-08,Verified,Medium,False
+MID_00378,NestCo 378,Food & Delivery,Hyderabad,Telangana,Starter,2020-09-27,Verified,Low,False
+MID_00379,OpalStore 379,Fintech,Chennai,Tamil Nadu,Growth,2021-04-04,Verified,Medium,False
+MID_00380,PeakPlus 380,Nonprofit,Mumbai,Maharashtra,Growth,2022-01-27,Verified,Medium,False
+MID_00381,QuadHub 381,Retail & D2C,Kolkata,West Bengal,Growth,2020-02-01,Verified,Medium,False
+MID_00382,ReefMart 382,Healthcare,Bangalore,Karnataka,Starter,2024-07-07,Verified,Low,False
+MID_00383,SageOne 383,Fintech,Ahmedabad,Gujarat,Starter,2021-12-09,Verified,Low,False
+MID_00384,TideWorks 384,  SaaS  ,Lucknow,Uttar Pradesh,Starter,2021-07-29,Verified,Medium,False
+MID_00385,UrsaGlobal 385,Utilities & Bills,Chandigarh,Chandigarh,Starter,2020-12-04,Verified,Low,False
+MID_00386,VibePro 386,Utilities & Bills,Mumbai,Maharashtra,Enterprise,2025-08-30,Verified,Low,False
+MID_00387,WaveDigital 387,Nonprofit,Guwahati,Assam,Starter,2023-10-11,Verified,Low,False
+MID_00388,XenoIndia 388,Nonprofit,Ahmedabad,Gujarat,Growth,2020-11-13,Verified,Low,False
+MID_00389,YorkGroup 389,Nonprofit,Kochi,Kerala,Starter,2024-11-11,Verified,Low,False
+MID_00390,ZaraSolutions 390,Education,Ahmedabad,Gujarat,Starter,2024-07-11,Verified,Low,False
+MID_00391,ApexNet 391,Fintech,Chennai,Tamil Nadu,Growth,2021-11-27,Verified,Low,False
+MID_00392,BlissTech 392,Education,Ahmedabad,Gujarat,Starter,2022-04-30,Verified,Low,False
+MID_00393,CoreSystems 393,Food & Delivery,Chennai,Tamil Nadu,Starter,2020-07-09,Verified,Low,False
+MID_00394,DashCloud 394,Nonprofit,Chandigarh,Chandigarh,Starter,2019-08-16,Verified,Medium,False
+MID_00395,EdgeLabs 395,Fintech,Kolkata,West Bengal,Starter,2024-12-02,Verified,Low,False
+MID_00396,FinnPay 396,Utilities & Bills,Jaipur,Rajasthan,Growth,2021-05-31,Verified,High,False
+MID_00397,GridApp 397,EDUCATION,Kochi,Kerala,Growth,2020-06-09,Verified,Medium,True
+MID_00398,HaloCo 398,Retail & D2C,Lucknow,Uttar Pradesh,Growth,2022-09-01,Verified,Low,True
+MID_00399,IconStore 399,Gaming,Hyderabad,Telangana,Starter,2020-10-14,Verified,Low,False
+MID_00400,JazzPlus 400,Travel,Ahmedabad,Gujarat,Enterprise,2019-11-21,Verified,High,False

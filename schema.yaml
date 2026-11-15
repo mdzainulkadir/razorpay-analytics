@@ -1,0 +1,253 @@
+# schema.yaml — Pandera schema contract for merchants + transactions
+# Source of truth: DATA_DICTIONARY.md
+# Enforced by src/validate.py before any processing begins.
+# Errors must contain ONLY metadata (column names, dtypes, counts), never data values.
+
+merchants:
+  description: "One row per merchant"
+  primary_key: merchant_id
+
+  columns:
+    merchant_id:
+      dtype: string
+      nullable: false
+      unique: true
+      pattern: "^MID_\\d{5}$"
+      description: "Primary key, format MID_XXXXX"
+
+    business_name:
+      dtype: string
+      nullable: false
+      unique: true
+      description: "Fictional merchant name"
+
+    category:
+      dtype: string
+      nullable: false
+      allowed_values:
+        - "E-commerce"
+        - "Education"
+        - "Food & Delivery"
+        - "Travel"
+        - "SaaS"
+        - "Fintech"
+        - "Healthcare"
+        - "Gaming"
+        - "Utilities & Bills"
+        - "Nonprofit"
+        - "Retail & D2C"
+      description: "Business category (11 known values; unseen values must be handled gracefully)"
+
+    city:
+      dtype: string
+      nullable: true
+      null_rate_approx: 0.03
+      description: "Indian city, ~3% null"
+
+    state:
+      dtype: string
+      nullable: true
+      description: "Derived from city; null when city is null"
+
+    tier:
+      dtype: string
+      nullable: false
+      allowed_values:
+        - "Starter"
+        - "Growth"
+        - "Enterprise"
+      description: "Merchant tier"
+
+    onboarding_date:
+      dtype: date
+      nullable: false
+      min: "2019-06-01"
+      max: "2025-09-30"
+      description: "Date merchant was onboarded"
+
+    kyc_status:
+      dtype: string
+      nullable: false
+      allowed_values:
+        - "Verified"
+        - "Pending"
+        - "Rejected"
+      description: "KYC verification status"
+
+    risk_rating:
+      dtype: string
+      nullable: false
+      allowed_values:
+        - "Low"
+        - "Medium"
+        - "High"
+      description: "Risk classification"
+
+    is_international_enabled:
+      dtype: boolean
+      nullable: false
+      description: "Whether international payments are enabled"
+
+
+transactions:
+  description: "One row per payment attempt (may contain duplicate txn_id from webhook retries)"
+  foreign_keys:
+    - column: merchant_id
+      references:
+        table: merchants
+        column: merchant_id
+
+  columns:
+    txn_id:
+      dtype: string
+      nullable: false
+      unique: false   # ~180 duplicate rows expected (webhook retries)
+      pattern: "^pay_[A-Za-z0-9]{8,}$"
+      description: "Transaction ID; NOT unique due to webhook retries"
+
+    merchant_id:
+      dtype: string
+      nullable: false
+      pattern: "^MID_\\d{5}$"
+      description: "FK -> merchants.merchant_id"
+
+    created_at:
+      dtype: datetime
+      nullable: false
+      min: "2025-11-01"
+      max: "2026-10-31"
+      description: "Payment attempt timestamp"
+
+    amount_inr:
+      dtype: float
+      nullable: false
+      min: 1.0
+      max: 500000.0
+      description: "Transaction amount in INR; lognormal, typically 10 to ~190,000"
+
+    payment_method:
+      dtype: string
+      nullable: false
+      allowed_values:
+        - "UPI"
+        - "Card"
+        - "Netbanking"
+        - "EMI"
+        - "Wallet"
+        - "BNPL"
+      description: "Payment method used"
+
+    card_network:
+      dtype: string
+      nullable: true
+      null_rate_approx: 0.72
+      allowed_values:
+        - "Visa"
+        - "Mastercard"
+        - "RuPay"
+        - "Amex"
+      description: "Card network; null for non-Card payments"
+
+    issuing_bank:
+      dtype: string
+      nullable: true
+      null_rate_approx: 0.05
+      description: "Issuing bank name; null for Wallet/BNPL and some others"
+
+    status:
+      dtype: string
+      nullable: false
+      allowed_values:
+        - "captured"
+        - "failed"
+        - "refunded"
+        - "partially_refunded"
+      description: "Transaction outcome"
+
+    failure_reason:
+      dtype: string
+      nullable: true
+      allowed_values:
+        - "insufficient_funds"
+        - "bank_server_down"
+        - "invalid_card"
+        - "expired_card"
+        - "authentication_failed"
+        - "risk_check_failed"
+        - "network_timeout"
+        - "limit_exceeded"
+      description: "Reason for failure; null unless status is failed"
+
+    refund_amount_inr:
+      dtype: float
+      nullable: false
+      min: 0.0
+      description: "Refund amount; 0 unless status is refunded/partially_refunded"
+
+    is_international:
+      dtype: boolean
+      nullable: false
+      description: "Whether this was an international transaction (Card only, enabled merchants)"
+
+    mdr_rate:
+      dtype: float
+      nullable: false
+      min: 0.0
+      max: 0.10
+      description: "Merchant discount rate (fee percentage)"
+
+    fee_inr:
+      dtype: float
+      nullable: false
+      min: 0.0
+      description: "Fee charged = amount * mdr_rate on success, else 0"
+
+    gst_on_fee_inr:
+      dtype: float
+      nullable: false
+      min: 0.0
+      description: "GST on fee = 18% of fee_inr"
+
+    device_type:
+      dtype: string
+      nullable: false
+      allowed_values:
+        - "Android"
+        - "iOS"
+        - "Desktop Web"
+        - "Mobile Web"
+      description: "Device used for the transaction"
+
+    customer_city:
+      dtype: string
+      nullable: true
+      null_rate_approx: 0.04
+      description: "Customer's city; ~4% null"
+
+    api_latency_ms:
+      dtype: float
+      nullable: false
+      min: 0.0
+      max: 60000.0
+      description: "API response latency in milliseconds; lognormal, 150 to 15,000 typical"
+
+    retry_count:
+      dtype: integer
+      nullable: false
+      min: 0
+      description: "Number of retries; >0 only for failed transactions"
+
+
+# --- Validation behaviour (consumed by src/validate.py) ---
+validation:
+  # If true, extra columns not listed above are silently ignored (not an error).
+  ignore_extra_columns: true
+  # If true, missing optional columns cause related charts to be skipped (not an error).
+  # Optional columns: card_network, issuing_bank, customer_city
+  optional_columns:
+    - card_network
+    - issuing_bank
+    - customer_city
+  # Metadata-only error messages: column name, expected dtype, actual dtype, row count.
+  # Never include data values.
+  error_verbosity: metadata_only
