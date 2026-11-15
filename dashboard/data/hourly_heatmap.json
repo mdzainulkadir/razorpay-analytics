@@ -58,9 +58,9 @@
   {
     "day_of_week": "Friday",
     "hour": 8,
-    "txn_count": 315,
+    "txn_count": 314,
     "fail_count": 28,
-    "failure_rate": 8.89
+    "failure_rate": 8.92
   },
   {
     "day_of_week": "Friday",
@@ -72,16 +72,16 @@
   {
     "day_of_week": "Friday",
     "hour": 10,
-    "txn_count": 430,
+    "txn_count": 429,
     "fail_count": 30,
-    "failure_rate": 6.98
+    "failure_rate": 6.99
   },
   {
     "day_of_week": "Friday",
     "hour": 11,
-    "txn_count": 488,
+    "txn_count": 487,
     "fail_count": 45,
-    "failure_rate": 9.22
+    "failure_rate": 9.24
   },
   {
     "day_of_week": "Friday",
@@ -100,9 +100,9 @@
   {
     "day_of_week": "Friday",
     "hour": 14,
-    "txn_count": 484,
+    "txn_count": 483,
     "fail_count": 35,
-    "failure_rate": 7.23
+    "failure_rate": 7.25
   },
   {
     "day_of_week": "Friday",
@@ -135,9 +135,9 @@
   {
     "day_of_week": "Friday",
     "hour": 19,
-    "txn_count": 693,
+    "txn_count": 692,
     "fail_count": 61,
-    "failure_rate": 8.8
+    "failure_rate": 8.82
   },
   {
     "day_of_week": "Friday",
@@ -149,23 +149,23 @@
   {
     "day_of_week": "Friday",
     "hour": 21,
-    "txn_count": 715,
+    "txn_count": 714,
     "fail_count": 61,
-    "failure_rate": 8.53
+    "failure_rate": 8.54
   },
   {
     "day_of_week": "Friday",
     "hour": 22,
-    "txn_count": 598,
-    "fail_count": 60,
-    "failure_rate": 10.03
+    "txn_count": 597,
+    "fail_count": 59,
+    "failure_rate": 9.88
   },
   {
     "day_of_week": "Friday",
     "hour": 23,
-    "txn_count": 398,
+    "txn_count": 397,
     "fail_count": 30,
-    "failure_rate": 7.54
+    "failure_rate": 7.56
   },
   {
     "day_of_week": "Monday",
@@ -233,16 +233,16 @@
   {
     "day_of_week": "Monday",
     "hour": 9,
-    "txn_count": 396,
+    "txn_count": 394,
     "fail_count": 36,
-    "failure_rate": 9.09
+    "failure_rate": 9.14
   },
   {
     "day_of_week": "Monday",
     "hour": 10,
-    "txn_count": 424,
+    "txn_count": 422,
     "fail_count": 35,
-    "failure_rate": 8.25
+    "failure_rate": 8.29
   },
   {
     "day_of_week": "Monday",
@@ -254,9 +254,9 @@
   {
     "day_of_week": "Monday",
     "hour": 12,
-    "txn_count": 482,
-    "fail_count": 34,
-    "failure_rate": 7.05
+    "txn_count": 480,
+    "fail_count": 32,
+    "failure_rate": 6.67
   },
   {
     "day_of_week": "Monday",
@@ -275,9 +275,9 @@
   {
     "day_of_week": "Monday",
     "hour": 15,
-    "txn_count": 388,
+    "txn_count": 387,
     "fail_count": 39,
-    "failure_rate": 10.05
+    "failure_rate": 10.08
   },
   {
     "day_of_week": "Monday",
@@ -289,30 +289,30 @@
   {
     "day_of_week": "Monday",
     "hour": 17,
-    "txn_count": 525,
-    "fail_count": 43,
-    "failure_rate": 8.19
+    "txn_count": 523,
+    "fail_count": 42,
+    "failure_rate": 8.03
   },
   {
     "day_of_week": "Monday",
     "hour": 18,
-    "txn_count": 599,
+    "txn_count": 597,
     "fail_count": 42,
-    "failure_rate": 7.01
+    "failure_rate": 7.04
   },
   {
     "day_of_week": "Monday",
     "hour": 19,
-    "txn_count": 681,
+    "txn_count": 679,
     "fail_count": 58,
-    "failure_rate": 8.52
+    "failure_rate": 8.54
   },
   {
     "day_of_week": "Monday",
     "hour": 20,
-    "txn_count": 753,
+    "txn_count": 752,
     "fail_count": 56,
-    "failure_rate": 7.44
+    "failure_rate": 7.45
   },
   {
     "day_of_week": "Monday",
@@ -324,16 +324,16 @@
   {
     "day_of_week": "Monday",
     "hour": 22,
-    "txn_count": 610,
+    "txn_count": 607,
     "fail_count": 58,
-    "failure_rate": 9.51
+    "failure_rate": 9.56
   },
   {
     "day_of_week": "Monday",
     "hour": 23,
-    "txn_count": 385,
+    "txn_count": 382,
     "fail_count": 37,
-    "failure_rate": 9.61
+    "failure_rate": 9.69
   },
   {
     "day_of_week": "Saturday",
@@ -345,9 +345,9 @@
   {
     "day_of_week": "Saturday",
     "hour": 1,
-    "txn_count": 48,
+    "txn_count": 47,
     "fail_count": 5,
-    "failure_rate": 10.42
+    "failure_rate": 10.64
   },
   {
     "day_of_week": "Saturday",
@@ -450,9 +450,9 @@
   {
     "day_of_week": "Saturday",
     "hour": 16,
-    "txn_count": 360,
+    "txn_count": 359,
     "fail_count": 35,
-    "failure_rate": 9.72
+    "failure_rate": 9.75
   },
   {
     "day_of_week": "Saturday",
@@ -471,9 +471,9 @@
   {
     "day_of_week": "Saturday",
     "hour": 19,
-    "txn_count": 564,
+    "txn_count": 563,
     "fail_count": 61,
-    "failure_rate": 10.82
+    "failure_rate": 10.83
   },
   {
     "day_of_week": "Saturday",
@@ -485,23 +485,23 @@
   {
     "day_of_week": "Saturday",
     "hour": 21,
-    "txn_count": 592,
+    "txn_count": 589,
     "fail_count": 44,
-    "failure_rate": 7.43
+    "failure_rate": 7.47
   },
   {
     "day_of_week": "Saturday",
     "hour": 22,
-    "txn_count": 487,
+    "txn_count": 486,
     "fail_count": 48,
-    "failure_rate": 9.86
+    "failure_rate": 9.88
   },
   {
     "day_of_week": "Saturday",
     "hour": 23,
-    "txn_count": 316,
+    "txn_count": 315,
     "fail_count": 33,
-    "failure_rate": 10.44
+    "failure_rate": 10.48
   },
   {
     "day_of_week": "Sunday",
@@ -562,9 +562,9 @@
   {
     "day_of_week": "Sunday",
     "hour": 8,
-    "txn_count": 235,
+    "txn_count": 234,
     "fail_count": 17,
-    "failure_rate": 7.23
+    "failure_rate": 7.26
   },
   {
     "day_of_week": "Sunday",
@@ -590,9 +590,9 @@
   {
     "day_of_week": "Sunday",
     "hour": 12,
-    "txn_count": 422,
-    "fail_count": 35,
-    "failure_rate": 8.29
+    "txn_count": 420,
+    "fail_count": 34,
+    "failure_rate": 8.1
   },
   {
     "day_of_week": "Sunday",
@@ -604,9 +604,9 @@
   {
     "day_of_week": "Sunday",
     "hour": 14,
-    "txn_count": 364,
-    "fail_count": 36,
-    "failure_rate": 9.89
+    "txn_count": 363,
+    "fail_count": 35,
+    "failure_rate": 9.64
   },
   {
     "day_of_week": "Sunday",
@@ -625,37 +625,37 @@
   {
     "day_of_week": "Sunday",
     "hour": 17,
-    "txn_count": 430,
+    "txn_count": 427,
     "fail_count": 33,
-    "failure_rate": 7.67
+    "failure_rate": 7.73
   },
   {
     "day_of_week": "Sunday",
     "hour": 18,
-    "txn_count": 536,
+    "txn_count": 535,
     "fail_count": 50,
-    "failure_rate": 9.33
+    "failure_rate": 9.35
   },
   {
     "day_of_week": "Sunday",
     "hour": 19,
-    "txn_count": 517,
+    "txn_count": 516,
     "fail_count": 39,
-    "failure_rate": 7.54
+    "failure_rate": 7.56
   },
   {
     "day_of_week": "Sunday",
     "hour": 20,
-    "txn_count": 688,
+    "txn_count": 685,
     "fail_count": 50,
-    "failure_rate": 7.27
+    "failure_rate": 7.3
   },
   {
     "day_of_week": "Sunday",
     "hour": 21,
-    "txn_count": 549,
+    "txn_count": 548,
     "fail_count": 54,
-    "failure_rate": 9.84
+    "failure_rate": 9.85
   },
   {
     "day_of_week": "Sunday",
@@ -667,9 +667,9 @@
   {
     "day_of_week": "Sunday",
     "hour": 23,
-    "txn_count": 323,
+    "txn_count": 322,
     "fail_count": 29,
-    "failure_rate": 8.98
+    "failure_rate": 9.01
   },
   {
     "day_of_week": "Thursday",
@@ -723,9 +723,9 @@
   {
     "day_of_week": "Thursday",
     "hour": 7,
-    "txn_count": 239,
+    "txn_count": 238,
     "fail_count": 17,
-    "failure_rate": 7.11
+    "failure_rate": 7.14
   },
   {
     "day_of_week": "Thursday",
@@ -751,9 +751,9 @@
   {
     "day_of_week": "Thursday",
     "hour": 11,
-    "txn_count": 470,
+    "txn_count": 469,
     "fail_count": 52,
-    "failure_rate": 11.06
+    "failure_rate": 11.09
   },
   {
     "day_of_week": "Thursday",
@@ -772,65 +772,65 @@
   {
     "day_of_week": "Thursday",
     "hour": 14,
-    "txn_count": 459,
+    "txn_count": 458,
     "fail_count": 33,
-    "failure_rate": 7.19
+    "failure_rate": 7.21
   },
   {
     "day_of_week": "Thursday",
     "hour": 15,
-    "txn_count": 427,
+    "txn_count": 426,
     "fail_count": 46,
-    "failure_rate": 10.77
+    "failure_rate": 10.8
   },
   {
     "day_of_week": "Thursday",
     "hour": 16,
-    "txn_count": 462,
+    "txn_count": 461,
     "fail_count": 39,
-    "failure_rate": 8.44
+    "failure_rate": 8.46
   },
   {
     "day_of_week": "Thursday",
     "hour": 17,
-    "txn_count": 546,
+    "txn_count": 545,
     "fail_count": 40,
-    "failure_rate": 7.33
+    "failure_rate": 7.34
   },
   {
     "day_of_week": "Thursday",
     "hour": 18,
-    "txn_count": 663,
+    "txn_count": 658,
     "fail_count": 60,
-    "failure_rate": 9.05
+    "failure_rate": 9.12
   },
   {
     "day_of_week": "Thursday",
     "hour": 19,
-    "txn_count": 733,
+    "txn_count": 732,
     "fail_count": 61,
-    "failure_rate": 8.32
+    "failure_rate": 8.33
   },
   {
     "day_of_week": "Thursday",
     "hour": 20,
-    "txn_count": 766,
+    "txn_count": 763,
     "fail_count": 68,
-    "failure_rate": 8.88
+    "failure_rate": 8.91
   },
   {
     "day_of_week": "Thursday",
     "hour": 21,
-    "txn_count": 711,
+    "txn_count": 710,
     "fail_count": 60,
-    "failure_rate": 8.44
+    "failure_rate": 8.45
   },
   {
     "day_of_week": "Thursday",
     "hour": 22,
-    "txn_count": 602,
+    "txn_count": 600,
     "fail_count": 54,
-    "failure_rate": 8.97
+    "failure_rate": 9.0
   },
   {
     "day_of_week": "Thursday",
@@ -870,9 +870,9 @@
   {
     "day_of_week": "Tuesday",
     "hour": 4,
-    "txn_count": 41,
+    "txn_count": 40,
     "fail_count": 5,
-    "failure_rate": 12.2
+    "failure_rate": 12.5
   },
   {
     "day_of_week": "Tuesday",
@@ -884,9 +884,9 @@
   {
     "day_of_week": "Tuesday",
     "hour": 6,
-    "txn_count": 170,
+    "txn_count": 168,
     "fail_count": 12,
-    "failure_rate": 7.06
+    "failure_rate": 7.14
   },
   {
     "day_of_week": "Tuesday",
@@ -912,37 +912,37 @@
   {
     "day_of_week": "Tuesday",
     "hour": 10,
-    "txn_count": 414,
+    "txn_count": 413,
     "fail_count": 41,
-    "failure_rate": 9.9
+    "failure_rate": 9.93
   },
   {
     "day_of_week": "Tuesday",
     "hour": 11,
-    "txn_count": 484,
+    "txn_count": 483,
     "fail_count": 41,
-    "failure_rate": 8.47
+    "failure_rate": 8.49
   },
   {
     "day_of_week": "Tuesday",
     "hour": 12,
-    "txn_count": 526,
-    "fail_count": 37,
-    "failure_rate": 7.03
+    "txn_count": 523,
+    "fail_count": 36,
+    "failure_rate": 6.88
   },
   {
     "day_of_week": "Tuesday",
     "hour": 13,
-    "txn_count": 500,
+    "txn_count": 497,
     "fail_count": 47,
-    "failure_rate": 9.4
+    "failure_rate": 9.46
   },
   {
     "day_of_week": "Tuesday",
     "hour": 14,
-    "txn_count": 437,
+    "txn_count": 436,
     "fail_count": 30,
-    "failure_rate": 6.86
+    "failure_rate": 6.88
   },
   {
     "day_of_week": "Tuesday",
@@ -968,37 +968,37 @@
   {
     "day_of_week": "Tuesday",
     "hour": 18,
-    "txn_count": 651,
+    "txn_count": 650,
     "fail_count": 55,
-    "failure_rate": 8.45
+    "failure_rate": 8.46
   },
   {
     "day_of_week": "Tuesday",
     "hour": 19,
-    "txn_count": 712,
+    "txn_count": 711,
     "fail_count": 54,
-    "failure_rate": 7.58
+    "failure_rate": 7.59
   },
   {
     "day_of_week": "Tuesday",
     "hour": 20,
-    "txn_count": 812,
+    "txn_count": 809,
     "fail_count": 56,
-    "failure_rate": 6.9
+    "failure_rate": 6.92
   },
   {
     "day_of_week": "Tuesday",
     "hour": 21,
-    "txn_count": 714,
-    "fail_count": 67,
-    "failure_rate": 9.38
+    "txn_count": 713,
+    "fail_count": 66,
+    "failure_rate": 9.26
   },
   {
     "day_of_week": "Tuesday",
     "hour": 22,
-    "txn_count": 645,
+    "txn_count": 643,
     "fail_count": 49,
-    "failure_rate": 7.6
+    "failure_rate": 7.62
   },
   {
     "day_of_week": "Tuesday",
@@ -1059,16 +1059,16 @@
   {
     "day_of_week": "Wednesday",
     "hour": 7,
-    "txn_count": 236,
+    "txn_count": 235,
     "fail_count": 17,
-    "failure_rate": 7.2
+    "failure_rate": 7.23
   },
   {
     "day_of_week": "Wednesday",
     "hour": 8,
-    "txn_count": 290,
+    "txn_count": 288,
     "fail_count": 24,
-    "failure_rate": 8.28
+    "failure_rate": 8.33
   },
   {
     "day_of_week": "Wednesday",
@@ -1087,16 +1087,16 @@
   {
     "day_of_week": "Wednesday",
     "hour": 11,
-    "txn_count": 513,
+    "txn_count": 512,
     "fail_count": 38,
-    "failure_rate": 7.41
+    "failure_rate": 7.42
   },
   {
     "day_of_week": "Wednesday",
     "hour": 12,
-    "txn_count": 505,
+    "txn_count": 504,
     "fail_count": 47,
-    "failure_rate": 9.31
+    "failure_rate": 9.33
   },
   {
     "day_of_week": "Wednesday",
@@ -1115,37 +1115,37 @@
   {
     "day_of_week": "Wednesday",
     "hour": 15,
-    "txn_count": 381,
+    "txn_count": 380,
     "fail_count": 29,
-    "failure_rate": 7.61
+    "failure_rate": 7.63
   },
   {
     "day_of_week": "Wednesday",
     "hour": 16,
-    "txn_count": 460,
+    "txn_count": 459,
     "fail_count": 49,
-    "failure_rate": 10.65
+    "failure_rate": 10.68
   },
   {
     "day_of_week": "Wednesday",
     "hour": 17,
-    "txn_count": 509,
+    "txn_count": 507,
     "fail_count": 47,
-    "failure_rate": 9.23
+    "failure_rate": 9.27
   },
   {
     "day_of_week": "Wednesday",
     "hour": 18,
-    "txn_count": 642,
+    "txn_count": 640,
     "fail_count": 47,
-    "failure_rate": 7.32
+    "failure_rate": 7.34
   },
   {
     "day_of_week": "Wednesday",
     "hour": 19,
-    "txn_count": 690,
+    "txn_count": 687,
     "fail_count": 42,
-    "failure_rate": 6.09
+    "failure_rate": 6.11
   },
   {
     "day_of_week": "Wednesday",
@@ -1157,22 +1157,22 @@
   {
     "day_of_week": "Wednesday",
     "hour": 21,
-    "txn_count": 769,
+    "txn_count": 765,
     "fail_count": 56,
-    "failure_rate": 7.28
+    "failure_rate": 7.32
   },
   {
     "day_of_week": "Wednesday",
     "hour": 22,
-    "txn_count": 601,
+    "txn_count": 600,
     "fail_count": 49,
-    "failure_rate": 8.15
+    "failure_rate": 8.17
   },
   {
     "day_of_week": "Wednesday",
     "hour": 23,
-    "txn_count": 391,
+    "txn_count": 390,
     "fail_count": 30,
-    "failure_rate": 7.67
+    "failure_rate": 7.69
   }
 ]

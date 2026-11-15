@@ -1,7 +1,7 @@
 [
   {
-    "start_time": "2026-03-14 00:00:00",
-    "end_time": "2026-03-15 00:00:00",
+    "start_time": "2026-03-14",
+    "end_time": "2026-03-15",
     "peak_hour": "2026-03-14 17:00:00",
     "peak_failure_rate_pct": 22.3,
     "affected_txns": 139,

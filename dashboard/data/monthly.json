@@ -1,95 +1,5 @@
 [
   {
-    "month": "2025-01",
-    "txn_count": 2,
-    "success_count": 2,
-    "gmv": 410.72,
-    "revenue": 1.3900000000000001,
-    "refund_amount": 0.0,
-    "success_rate": 100.0
-  },
-  {
-    "month": "2025-02",
-    "txn_count": 11,
-    "success_count": 11,
-    "gmv": 13397.640000000003,
-    "revenue": 48.45,
-    "refund_amount": 0.0,
-    "success_rate": 100.0
-  },
-  {
-    "month": "2025-03",
-    "txn_count": 3,
-    "success_count": 3,
-    "gmv": 6674.780000000001,
-    "revenue": 80.52,
-    "refund_amount": 0.0,
-    "success_rate": 100.0
-  },
-  {
-    "month": "2025-04",
-    "txn_count": 1,
-    "success_count": 1,
-    "gmv": 495.13,
-    "revenue": 1.15,
-    "refund_amount": 0.0,
-    "success_rate": 100.0
-  },
-  {
-    "month": "2025-05",
-    "txn_count": 2,
-    "success_count": 2,
-    "gmv": 591.27,
-    "revenue": 3.19,
-    "refund_amount": 0.0,
-    "success_rate": 100.0
-  },
-  {
-    "month": "2025-06",
-    "txn_count": 9,
-    "success_count": 9,
-    "gmv": 22845.739999999998,
-    "revenue": 133.04,
-    "refund_amount": 0.0,
-    "success_rate": 100.0
-  },
-  {
-    "month": "2025-07",
-    "txn_count": 2,
-    "success_count": 2,
-    "gmv": 919.51,
-    "revenue": 4.38,
-    "refund_amount": 0.0,
-    "success_rate": 100.0
-  },
-  {
-    "month": "2025-08",
-    "txn_count": 5,
-    "success_count": 5,
-    "gmv": 6363.53,
-    "revenue": 100.53000000000002,
-    "refund_amount": 0.0,
-    "success_rate": 100.0
-  },
-  {
-    "month": "2025-09",
-    "txn_count": 2,
-    "success_count": 2,
-    "gmv": 2350.6400000000003,
-    "revenue": 15.459999999999999,
-    "refund_amount": 0.0,
-    "success_rate": 100.0
-  },
-  {
-    "month": "2025-10",
-    "txn_count": 4,
-    "success_count": 3,
-    "gmv": 1771.0900000000001,
-    "revenue": 9.45,
-    "refund_amount": 0.0,
-    "success_rate": 75.0
-  },
-  {
     "month": "2025-11",
     "txn_count": 4441,
     "success_count": 4053,
@@ -196,23 +106,5 @@
     "revenue": 87752.5,
     "refund_amount": 440020.03,
     "success_rate": 91.68
-  },
-  {
-    "month": "2026-11",
-    "txn_count": 28,
-    "success_count": 23,
-    "gmv": 20396.269999999997,
-    "revenue": 156.99999999999997,
-    "refund_amount": 548.19,
-    "success_rate": 82.14
-  },
-  {
-    "month": "2026-12",
-    "txn_count": 39,
-    "success_count": 37,
-    "gmv": 33050.56,
-    "revenue": 314.84999999999997,
-    "refund_amount": 571.94,
-    "success_rate": 94.87
   }
 ]

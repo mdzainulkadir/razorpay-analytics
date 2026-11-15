@@ -3,11 +3,11 @@
     "gmv": 3769564.52,
     "category": "Travel",
     "tier": "Enterprise",
-    "gmv_share_pct": 4.42,
+    "gmv_share_pct": 4.43,
     "merchant_rank": "Merchant #1"
   },
   {
-    "gmv": 3489432.44,
+    "gmv": 3479817.94,
     "category": "Travel",
     "tier": "Enterprise",
     "gmv_share_pct": 4.09,
@@ -21,7 +21,7 @@
     "merchant_rank": "Merchant #3"
   },
   {
-    "gmv": 2236000.95,
+    "gmv": 2229239.85,
     "category": "Saas",
     "tier": "Enterprise",
     "gmv_share_pct": 2.62,
@@ -35,7 +35,7 @@
     "merchant_rank": "Merchant #5"
   },
   {
-    "gmv": 2192017.56,
+    "gmv": 2191530.08,
     "category": "Travel",
     "tier": "Growth",
     "gmv_share_pct": 2.57,
@@ -45,18 +45,18 @@
     "gmv": 2073203.13,
     "category": "Saas",
     "tier": "Enterprise",
-    "gmv_share_pct": 2.43,
+    "gmv_share_pct": 2.44,
     "merchant_rank": "Merchant #7"
   },
   {
-    "gmv": 1882752.15,
+    "gmv": 1879881.33,
     "category": "Fintech",
     "tier": "Enterprise",
     "gmv_share_pct": 2.21,
     "merchant_rank": "Merchant #8"
   },
   {
-    "gmv": 1815039.07,
+    "gmv": 1814490.58,
     "category": "Education",
     "tier": "Enterprise",
     "gmv_share_pct": 2.13,

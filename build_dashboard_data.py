@@ -46,8 +46,8 @@ def main():
         # 2. Validate
         validate_schemas(merchants_df, txn_df)
 
-        # 3. Clean
-        merchants_clean, txn_clean = clean_data(merchants_df, txn_df, config)
+        # 3. Clean & Edge Period Detection
+        merchants_clean, txn_clean, edge_stats = clean_data(merchants_df, txn_df, config)
 
         if args.dry_run:
             log.info("Dry-run mode enabled. Validation & cleaning passed successfully. Exiting without export.")
@@ -56,15 +56,24 @@ def main():
         # 4. Analyze
         analysis_results = compute_all_analyses(merchants_clean, txn_clean, config)
 
-        # 5. Build meta info (detect synthetic vs real based on path name)
+        # 5. Build meta info
         data_path = str(config["data"]["data_path"])
         is_synthetic = "synthetic" in data_path.lower()
+
+        # Date range bounds from cleaned transactions
+        min_date = str(txn_clean["created_at"].min().date()) if len(txn_clean) > 0 else ""
+        max_date = str(txn_clean["created_at"].max().date()) if len(txn_clean) > 0 else ""
 
         meta_info = {
             "data_type": "synthetic" if is_synthetic else "real",
             "generated_at": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S"),
             "merchants_count": len(merchants_clean),
             "transactions_count": len(txn_clean),
+            "excluded_edge_rows": edge_stats.get("excluded_edge_rows", 0),
+            "detected_window_start": edge_stats.get("detected_window_start", min_date),
+            "detected_window_end": edge_stats.get("detected_window_end", max_date),
+            "min_date": min_date,
+            "max_date": max_date,
             "currency": config.get("dashboard", {}).get("currency", "INR"),
             "symbol": config.get("dashboard", {}).get("symbol", "₹"),
         }
@@ -84,6 +93,16 @@ def main():
     except Exception as e:
         log.error("Pipeline FAILED: %s", str(e), exc_info=True)
         sys.exit(1)
+
+
+def run_pipeline(config_path="config.yaml"):
+    """Helper for running pipeline programmatically in tests."""
+    config = load_config(config_path)
+    merchants_df, txn_df = load_datasets(config)
+    validate_schemas(merchants_df, txn_df)
+    m_clean, t_clean, edge_stats = clean_data(merchants_df, txn_df, config)
+    analysis_results = compute_all_analyses(m_clean, t_clean, config)
+    return t_clean, analysis_results, edge_stats
 
 
 if __name__ == "__main__":

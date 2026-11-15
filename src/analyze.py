@@ -1,6 +1,5 @@
 """
-src/analyze.py — Analysis module for payments analytics and incident detection.
-Strictly adheres to algorithms specified in prompt.
+src/analyze.py — Complete analytics module producing legacy aggregates for app.js and columnar cubes.
 """
 
 import logging
@@ -11,7 +10,7 @@ log = logging.getLogger("pipeline.analyze")
 
 
 def compute_all_analyses(merchants_df: pd.DataFrame, txn_df: pd.DataFrame, config: dict) -> dict:
-    """Run all analytical computations and return a dictionary of results."""
+    """Run all analytical computations and return dictionary of results for dashboard."""
     log.info("Starting analytics computations...")
     analysis_cfg = config.get("analysis", {})
     min_group_size = analysis_cfg.get("min_group_size", 10)
@@ -30,7 +29,7 @@ def compute_all_analyses(merchants_df: pd.DataFrame, txn_df: pd.DataFrame, confi
         "failure_reasons": compute_failure_reasons(txn_df, config, min_group_size),
         "hourly_heatmap": compute_hourly_heatmap(txn_df, config, min_group_size),
         "category_perf": compute_category_perf(txn_df, merchants_df, config, min_group_size),
-        "top_merchants": compute_top_merchants(txn_df, merchants_df, config, min_group_size),
+        "top_merchants": compute_top_merchants(txn_df, merchants_df, config),
         "latency": latency,
         "incidents": incidents,
         "insights": generate_insights(kpis, payment_mix, incidents, latency),
@@ -49,9 +48,6 @@ def compute_kpis(txn: pd.DataFrame, config: dict) -> dict:
     success_statuses = cfg.get("success_statuses", ["captured", "refunded", "partially_refunded"])
     months_window = cfg.get("period_comparison_months", 6)
 
-    _is_success = txn["status"].isin(success_statuses)
-
-    # Split data into current and previous windows by months
     max_date = txn["created_at"].max()
     split_date = max_date - pd.DateOffset(months=months_window)
     prev_split_date = split_date - pd.DateOffset(months=months_window)
@@ -268,7 +264,7 @@ def compute_category_perf(txn: pd.DataFrame, merchants: pd.DataFrame, config: di
     return grouped.to_dict(orient="records")
 
 
-def compute_top_merchants(txn: pd.DataFrame, merchants: pd.DataFrame, config: dict, min_group_size: int) -> list[dict]:
+def compute_top_merchants(txn: pd.DataFrame, merchants: pd.DataFrame, config: dict) -> list[dict]:
     """Compute top N merchants by GMV and their cumulative share (anonymized for privacy)."""
     if len(txn) == 0 or len(merchants) == 0:
         return []
@@ -316,9 +312,7 @@ def compute_latency(txn: pd.DataFrame) -> list[dict]:
 
 
 def detect_incidents(txn: pd.DataFrame, config: dict) -> list[dict]:
-    """
-    Detect incidents using daily failure-rate z-scores with relative lift check.
-    """
+    """Detect incidents using daily failure-rate z-scores with relative lift check."""
     if len(txn) == 0:
         return []
 
@@ -333,19 +327,16 @@ def detect_incidents(txn: pd.DataFrame, config: dict) -> list[dict]:
     df["_hour"] = df["created_at"].dt.floor("h")
     df["_is_fail"] = df["status"] == failed_status
 
-    # Daily aggregation
     daily = df.groupby("_day").agg(
         txn_count=("txn_id", "count"),
         fail_count=("_is_fail", "sum"),
     ).reset_index()
     daily["failure_rate"] = daily["fail_count"] / daily["txn_count"].replace(0, 1) * 100
 
-    # Fill missing days
     full_days = pd.date_range(daily["_day"].min(), daily["_day"].max(), freq="D")
     daily = daily.set_index("_day").reindex(full_days, fill_value=0).reset_index()
     daily = daily.rename(columns={"index": "_day"})
 
-    # Rolling baseline
     daily["roll_mean"] = daily["failure_rate"].rolling(window_days, min_periods=3).mean().shift(1)
     daily["roll_std"] = daily["failure_rate"].rolling(window_days, min_periods=3).std().shift(1)
     daily["roll_std"] = daily["roll_std"].fillna(daily["failure_rate"].std() or 1.0)
@@ -356,7 +347,6 @@ def detect_incidents(txn: pd.DataFrame, config: dict) -> list[dict]:
         0.0,
     )
 
-    # Flag with z-score AND relative lift (2x baseline)
     daily["relative_lift"] = daily["failure_rate"] / daily["roll_mean"].replace(0, np.nan)
     flagged = daily[
         (daily["z_score"] > z_thresh)
@@ -368,7 +358,6 @@ def detect_incidents(txn: pd.DataFrame, config: dict) -> list[dict]:
         log.info("Incident detection: 0 incidents found")
         return []
 
-    # Merge adjacent days
     flagged = flagged.sort_values("_day").reset_index(drop=True)
     flagged["_gap_days"] = flagged["_day"].diff().dt.days.fillna(999)
     flagged["_incident_group"] = (flagged["_gap_days"] > 1).cumsum()
@@ -378,7 +367,6 @@ def detect_incidents(txn: pd.DataFrame, config: dict) -> list[dict]:
         start_day = grp["_day"].min()
         end_day = grp["_day"].max()
 
-        # Peak hour for context
         day_mask = (df["_day"] >= start_day) & (df["_day"] <= end_day)
         inc_txns = df[day_mask]
 
@@ -394,7 +382,6 @@ def detect_incidents(txn: pd.DataFrame, config: dict) -> list[dict]:
         hourly["severity"] = hourly["failure_rate"] * hourly["fail_count"]
         peak = hourly.loc[hourly["severity"].idxmax()]
 
-        # Daily rate for the incident (not peak-hour rate)
         daily_rate = float(grp["failure_rate"].max())
         affected = int(grp["txn_count"].sum())
 
@@ -402,15 +389,14 @@ def detect_incidents(txn: pd.DataFrame, config: dict) -> list[dict]:
         top_reason = str(reasons.mode()[0]) if len(reasons) else "unknown"
 
         incidents.append({
-            "start_time": str(start_day),
-            "end_time": str(end_day + pd.Timedelta(days=1)),
+            "start_time": str(start_day.date()),
+            "end_time": str((end_day + pd.Timedelta(days=1)).date()),
             "peak_hour": str(peak["_hour"]),
             "peak_failure_rate_pct": round(daily_rate, 1),
             "affected_txns": affected,
             "top_failure_reason": top_reason,
         })
 
-    # Sort by severity (daily_rate * affected) descending
     incidents.sort(
         key=lambda x: x["peak_failure_rate_pct"] * x["affected_txns"],
         reverse=True,
@@ -419,11 +405,11 @@ def detect_incidents(txn: pd.DataFrame, config: dict) -> list[dict]:
     log.info("Incident detection: %d incidents found", len(incidents))
     return incidents
 
+
 def generate_insights(kpis: dict, payment_mix: list[dict], incidents: list[dict], latency: list[dict]) -> list[dict]:
     """Generate template-based analytical insights."""
     insights = []
 
-    # 1. Top payment method
     if payment_mix:
         top_pm = payment_mix[0]
         insights.append({
@@ -431,7 +417,6 @@ def generate_insights(kpis: dict, payment_mix: list[dict], incidents: list[dict]
             "text": f"{top_pm['payment_method']} leads with {top_pm['share_pct']:.1f}% share and {top_pm['success_rate']:.1f}% success rate."
         })
 
-    # 2. Success rate KPI insight
     sr = kpis.get("success_rate", {})
     if sr:
         cur = sr.get("current", 0)
@@ -442,7 +427,6 @@ def generate_insights(kpis: dict, payment_mix: list[dict], incidents: list[dict]
             "text": f"Success rate is {cur:.2f}% ({direction} {abs(chg):.2f}% vs prior period)."
         })
 
-    # 3. Largest incident insight
     if incidents:
         inc = incidents[0]
         insights.append({
@@ -450,7 +434,6 @@ def generate_insights(kpis: dict, payment_mix: list[dict], incidents: list[dict]
             "text": f"Largest incident: {inc['start_time']} to {inc['end_time']} — {inc['peak_failure_rate_pct']}% peak failure rate across {inc['affected_txns']} txns (main cause: {inc['top_failure_reason']})."
         })
 
-    # 4. Latency insight
     if latency:
         latest = latency[-1]
         insights.append({

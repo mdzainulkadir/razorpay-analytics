@@ -1,92 +1,92 @@
 [
   {
     "issuing_bank": "Bank of Baroda",
-    "txn_count": 3780,
-    "success_count": 3489,
-    "success_rate": 92.3
+    "txn_count": 3774,
+    "success_count": 3484,
+    "success_rate": 92.32
   },
   {
     "issuing_bank": "IndusInd Bank",
-    "txn_count": 3742,
-    "success_count": 3463,
+    "txn_count": 3741,
+    "success_count": 3462,
     "success_rate": 92.54
   },
   {
     "issuing_bank": "Yes Bank",
-    "txn_count": 3694,
-    "success_count": 3206,
-    "success_rate": 86.79
+    "txn_count": 3687,
+    "success_count": 3199,
+    "success_rate": 86.76
   },
   {
     "issuing_bank": "BOI",
-    "txn_count": 3687,
-    "success_count": 3383,
-    "success_rate": 91.75
+    "txn_count": 3681,
+    "success_count": 3377,
+    "success_rate": 91.74
   },
   {
     "issuing_bank": "Union Bank",
-    "txn_count": 3684,
-    "success_count": 3386,
-    "success_rate": 91.91
+    "txn_count": 3677,
+    "success_count": 3379,
+    "success_rate": 91.9
   },
   {
     "issuing_bank": "IDFC First",
-    "txn_count": 3675,
-    "success_count": 3363,
-    "success_rate": 91.51
-  },
-  {
-    "issuing_bank": "ICICI Bank",
-    "txn_count": 3669,
-    "success_count": 3411,
-    "success_rate": 92.97
+    "txn_count": 3671,
+    "success_count": 3360,
+    "success_rate": 91.53
   },
   {
     "issuing_bank": "RBL Bank",
-    "txn_count": 3663,
-    "success_count": 3389,
-    "success_rate": 92.52
+    "txn_count": 3659,
+    "success_count": 3385,
+    "success_rate": 92.51
+  },
+  {
+    "issuing_bank": "ICICI Bank",
+    "txn_count": 3658,
+    "success_count": 3403,
+    "success_rate": 93.03
   },
   {
     "issuing_bank": "PNB",
-    "txn_count": 3657,
-    "success_count": 3173,
-    "success_rate": 86.77
+    "txn_count": 3647,
+    "success_count": 3163,
+    "success_rate": 86.73
   },
   {
     "issuing_bank": "Canara Bank",
-    "txn_count": 3631,
-    "success_count": 3339,
-    "success_rate": 91.96
+    "txn_count": 3621,
+    "success_count": 3329,
+    "success_rate": 91.94
   },
   {
     "issuing_bank": "HDFC Bank",
-    "txn_count": 3611,
-    "success_count": 3316,
-    "success_rate": 91.83
+    "txn_count": 3607,
+    "success_count": 3313,
+    "success_rate": 91.85
   },
   {
     "issuing_bank": "Kotak Mahindra",
-    "txn_count": 3594,
-    "success_count": 3330,
-    "success_rate": 92.65
+    "txn_count": 3587,
+    "success_count": 3323,
+    "success_rate": 92.64
   },
   {
     "issuing_bank": "SBI",
-    "txn_count": 3573,
-    "success_count": 3302,
-    "success_rate": 92.42
+    "txn_count": 3568,
+    "success_count": 3297,
+    "success_rate": 92.4
   },
   {
     "issuing_bank": "Axis Bank",
-    "txn_count": 3534,
-    "success_count": 3251,
-    "success_rate": 91.99
+    "txn_count": 3524,
+    "success_count": 3242,
+    "success_rate": 92.0
   },
   {
     "issuing_bank": "Federal Bank",
-    "txn_count": 3503,
-    "success_count": 3235,
-    "success_rate": 92.35
+    "txn_count": 3496,
+    "success_count": 3228,
+    "success_rate": 92.33
   }
 ]

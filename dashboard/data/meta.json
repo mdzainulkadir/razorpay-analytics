@@ -1,8 +1,13 @@
 {
   "data_type": "synthetic",
-  "generated_at": "2026-11-16 02:45:09",
+  "generated_at": "2026-11-16 04:59:48",
   "merchants_count": 400,
-  "transactions_count": 59985,
+  "transactions_count": 59877,
+  "excluded_edge_rows": 108,
+  "detected_window_start": "2025-11-01",
+  "detected_window_end": "2026-10-31",
+  "min_date": "2025-11-01",
+  "max_date": "2026-10-31",
   "currency": "INR",
   "symbol": "₹"
 }

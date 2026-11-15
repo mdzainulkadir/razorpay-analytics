@@ -1,19 +1,17 @@
 """
-src/export.py — Export analysis aggregates to JSON files with privacy checks.
-Enforces privacy: no row-level data, IDs, names, or small groups (< min_group_size).
+src/export.py — Export legacy analysis aggregates to JSON files with privacy checks.
 """
 
 import json
 import logging
 from pathlib import Path
-import pandas as pd
 
 log = logging.getLogger("pipeline.export")
 
 
 def export_dashboard_data(analysis_results: dict, meta_info: dict, config: dict) -> None:
     """
-    Export all analysis results to dashboard/data/*.json with strict privacy checks.
+    Export all legacy analysis results to dashboard/data/*.json with strict privacy checks.
     """
     output_dir = Path(config["outputs"]["dashboard_data_dir"])
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -21,7 +19,6 @@ def export_dashboard_data(analysis_results: dict, meta_info: dict, config: dict)
 
     log.info("Exporting dashboard data to %s (min_group_size=%d)...", output_dir.resolve(), min_group_size)
 
-    # Export individual JSON files
     _write_json(output_dir / "kpis.json", analysis_results.get("kpis", {}))
     _write_json(output_dir / "daily_trend.json", analysis_results.get("daily_trend", []))
     _write_json(output_dir / "monthly.json", analysis_results.get("monthly", []))
@@ -48,10 +45,7 @@ def _write_json(filepath: Path, data: any) -> None:
 
 def verify_privacy_compliance(output_dir: Path, min_group_size: int) -> bool:
     """
-    Verify privacy compliance across all exported JSON files:
-    - No ID-like fields (merchant_id, txn_id) present in aggregates.
-    - No group counts below min_group_size in aggregated breakdown tables (excluding time-series).
-    Raises ValueError if any privacy violation is detected.
+    Verify privacy compliance across all exported JSON files.
     """
     log.info("Running privacy compliance audit on exported JSON files...")
     json_files = list(output_dir.glob("*.json"))
@@ -68,19 +62,17 @@ def verify_privacy_compliance(output_dir: Path, min_group_size: int) -> bool:
         if isinstance(content, list):
             for item in content:
                 if isinstance(item, dict):
-                    # Check for forbidden fields
                     for field in forbidden_fields:
                         if field in item:
                             raise ValueError(f"PRIVACY VIOLATION: Forbidden field '{field}' found in {file.name}")
-                    # Check for small group counts (skip time-series files)
                     if file.name not in time_series_files:
                         if "txn_count" in item and item["txn_count"] < min_group_size:
                             log.warning("Group in %s has txn_count=%d (< min_group_size=%d)", file.name, item["txn_count"], min_group_size)
 
         elif isinstance(content, dict):
-            for k, v in content.items():
+            for k in content.keys():
                 if k in forbidden_fields:
-                    raise ValueError(f"PRIVACY VIOLATION: Forbidden field '{k}' found in {file.name}")
+                    raise ValueError(f"PRIVATE VIOLATION: Forbidden field '{k}' found in {file.name}")
 
     log.info("Privacy audit PASSED: No row-level data or unauthorized IDs found in aggregates.")
     return True

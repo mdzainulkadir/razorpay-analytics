@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Razorpay Analytics Dashboard — Application Logic (app.js)
-   Fetches aggregates from dashboard/data/*.json and renders Plotly charts.
+   Razorpay Analytics Dashboard — Application Logic & Dynamic Filtering (app.js)
+   Fetches aggregates from dashboard/data/*.json and renders interactive Plotly charts.
    ========================================================================== */
 
 let rawData = {};
@@ -27,7 +27,7 @@ function formatINR(val) {
     } else if (Math.abs(val) >= 100000) {
         return `₹${(val / 100000).toFixed(2)} Lakh`;
     }
-    return new Intl.Numberen ? new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(val) : `₹${val.toLocaleString('en-IN')}`;
+    return new Intl.NumberFormat ? new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(val) : `₹${val.toLocaleString('en-IN')}`;
 }
 
 function formatNumber(val) {
@@ -59,7 +59,8 @@ async function loadDashboardData() {
         initDashboard();
     } catch (err) {
         console.error("Error loading dashboard data:", err);
-        document.getElementById("dataSourceMeta.textContent").textContent = "Error loading dashboard data. Run python main.py first.";
+        const metaEl = document.getElementById("dataSourceMeta");
+        if (metaEl) metaEl.textContent = "Error loading dashboard data. Run python main.py first.";
     }
 }
 
@@ -67,11 +68,16 @@ async function loadDashboardData() {
 function initDashboard() {
     const meta = rawData.meta || {};
     const dataTypeText = meta.data_type === "synthetic" ? "Demo built on synthetic data" : "Live production data";
-    document.getElementById("dataSourceMeta").textContent = `${dataTypeText} • ${formatNumber(meta.merchants_count)} merchants • ${formatNumber(meta.transactions_count)} transactions`;
+    const metaEl = document.getElementById("dataSourceMeta");
+    if (metaEl) {
+        metaEl.textContent = `${dataTypeText} • ${formatNumber(meta.merchants_count)} merchants • ${formatNumber(meta.transactions_count)} transactions`;
+    }
 
     if (meta.data_type === "synthetic") {
         const footer = document.getElementById("footerMeta");
-        footer.innerHTML = `Demo built on synthetic data • Generated at ${meta.generated_at} • Razorpay Analytics`;
+        if (footer) {
+            footer.innerHTML = `Demo built on synthetic data • Generated at ${meta.generated_at} • Razorpay Analytics`;
+        }
     }
 
     populateFilters();
@@ -82,21 +88,25 @@ function initDashboard() {
 function populateFilters() {
     const paymentMix = rawData.payment_mix || [];
     const pmSelect = document.getElementById("paymentMethodFilter");
-    paymentMix.forEach(item => {
-        const opt = document.createElement("option");
-        opt.value = item.payment_method;
-        opt.textContent = item.payment_method;
-        pmSelect.appendChild(opt);
-    });
+    if (pmSelect) {
+        paymentMix.forEach(item => {
+            const opt = document.createElement("option");
+            opt.value = item.payment_method;
+            opt.textContent = item.payment_method;
+            pmSelect.appendChild(opt);
+        });
+    }
 
     const catPerf = rawData.category_perf || [];
     const catSelect = document.getElementById("categoryFilter");
-    catPerf.forEach(item => {
-        const opt = document.createElement("option");
-        opt.value = item.category;
-        opt.textContent = item.category;
-        catSelect.appendChild(opt);
-    });
+    if (catSelect) {
+        catPerf.forEach(item => {
+            const opt = document.createElement("option");
+            opt.value = item.category;
+            opt.textContent = item.category;
+            catSelect.appendChild(opt);
+        });
+    }
 
     // Add filter change event listeners
     document.getElementById("dateFilter").addEventListener("change", renderAllCharts);
@@ -104,21 +114,81 @@ function populateFilters() {
     document.getElementById("paymentMethodFilter").addEventListener("change", renderAllCharts);
 }
 
+// Get filtered data subsets based on user selection
+function getFilteredData() {
+    const period = document.getElementById("dateFilter")?.value || "all";
+    const category = document.getElementById("categoryFilter")?.value || "all";
+    const method = document.getElementById("paymentMethodFilter")?.value || "all";
+
+    // Copy daily trend
+    let daily = [...(rawData.daily_trend || [])];
+    if (period !== "all") {
+        // Filter daily trend by quarter / period if dates match YYYY-MM-DD
+        daily = daily.filter(d => {
+            const month = parseInt(d.date.substring(5, 7), 10);
+            if (period === "q1") return [11, 12, 1].includes(month);
+            if (period === "q2") return [2, 3, 4].includes(month);
+            if (period === "q3") return [5, 6, 7].includes(month);
+            if (period === "q4") return [8, 9, 10].includes(month);
+            return true;
+        });
+    }
+
+    let monthly = [...(rawData.monthly || [])];
+    if (period !== "all") {
+        monthly = monthly.filter(m => {
+            const monthNum = parseInt(m.month.substring(5, 7), 10);
+            if (period === "q1") return [11, 12, 1].includes(monthNum);
+            if (period === "q2") return [2, 3, 4].includes(monthNum);
+            if (period === "q3") return [5, 6, 7].includes(monthNum);
+            if (period === "q4") return [8, 9, 10].includes(monthNum);
+            return true;
+        });
+    }
+
+    let paymentMix = [...(rawData.payment_mix || [])];
+    if (method !== "all") {
+        paymentMix = paymentMix.filter(p => p.payment_method === method);
+    }
+
+    let categoryPerf = [...(rawData.category_perf || [])];
+    if (category !== "all") {
+        categoryPerf = categoryPerf.filter(c => c.category === category);
+    }
+
+    return {
+        daily,
+        monthly,
+        paymentMix,
+        categoryPerf,
+        bankSuccess: rawData.bank_success || [],
+        failureReasons: rawData.failure_reasons || [],
+        hourlyHeatmap: rawData.hourly_heatmap || [],
+        topMerchants: rawData.top_merchants || [],
+        latency: rawData.latency || [],
+        incidents: rawData.incidents || [],
+        insights: rawData.insights || [],
+        kpis: rawData.kpis || {}
+    };
+}
+
 // Master render function
 function renderAllCharts() {
-    renderKPIs();
-    renderInsights();
-    renderDailyTrend();
-    renderMonthlyTrend();
-    renderPaymentMix();
-    renderMethodSuccess();
-    renderFailureReasons();
-    renderBankSuccess();
-    renderHourlyHeatmap();
-    renderCategoryPerf();
-    renderTopMerchants();
-    renderLatencyChart();
-    renderIncidents();
+    const filtered = getFilteredData();
+
+    renderKPIs(filtered);
+    renderInsights(filtered);
+    renderDailyTrend(filtered);
+    renderMonthlyTrend(filtered);
+    renderPaymentMix(filtered);
+    renderMethodSuccess(filtered);
+    renderFailureReasons(filtered);
+    renderBankSuccess(filtered);
+    renderHourlyHeatmap(filtered);
+    renderCategoryPerf(filtered);
+    renderTopMerchants(filtered);
+    renderLatencyChart(filtered);
+    renderIncidents(filtered);
 }
 
 // Plotly layout configuration helper based on theme
@@ -134,20 +204,21 @@ function getPlotlyConfig() {
         },
         margin: { t: 30, r: 20, b: 40, l: 50 },
         xaxis: {
-            gridcolor: isDark ? "#334155" : "#e2e8f0",
-            zerolinecolor: isDark ? "#334155" : "#e2e8f0"
+            gridcolor: isDark ? "#263147" : "#e2e8f0",
+            zerolinecolor: isDark ? "#263147" : "#e2e8f0"
         },
         yaxis: {
-            gridcolor: isDark ? "#334155" : "#e2e8f0",
-            zerolinecolor: isDark ? "#334155" : "#e2e8f0"
+            gridcolor: isDark ? "#263147" : "#e2e8f0",
+            zerolinecolor: isDark ? "#263147" : "#e2e8f0"
         }
     };
 }
 
 // 1. Render KPI Cards
-function renderKPIs() {
-    const kpis = rawData.kpis || {};
+function renderKPIs(filtered) {
+    const kpis = filtered.kpis || {};
     const grid = document.getElementById("kpiGrid");
+    if (!grid) return;
     grid.innerHTML = "";
 
     const definitions = [
@@ -178,16 +249,17 @@ function renderKPIs() {
 }
 
 // 2. Render Insights Strip
-function renderInsights() {
-    const insights = rawData.insights || [];
-    if (insights.length === 0) return;
+function renderInsights(filtered) {
+    const insights = filtered.insights || [];
+    const insightTextEl = document.getElementById("insightText");
+    if (insights.length === 0 || !insightTextEl) return;
     const randomInsight = insights[Math.floor(Math.random() * insights.length)];
-    document.getElementById("insightText.textContent") || (document.getElementById("insightText").textContent = randomInsight.text);
+    insightTextEl.textContent = randomInsight.text;
 }
 
 // 3. Daily Trend Chart
-function renderDailyTrend() {
-    const data = rawData.daily_trend || [];
+function renderDailyTrend(filtered) {
+    const data = filtered.daily || [];
     const x = data.map(d => d.date);
     const y1 = data.map(d => d.txn_count);
     const y2 = data.map(d => d.gmv);
@@ -198,7 +270,7 @@ function renderDailyTrend() {
         type: "scatter",
         mode: "lines",
         name: "Transactions",
-        line: { color: "#2563eb", width: 2 }
+        line: { color: "#3395FF", width: 2 }
     };
 
     const trace2 = {
@@ -222,8 +294,8 @@ function renderDailyTrend() {
 }
 
 // 4. Monthly Trend Chart
-function renderMonthlyTrend() {
-    const data = rawData.monthly || [];
+function renderMonthlyTrend(filtered) {
+    const data = filtered.monthly || [];
     const x = data.map(d => d.month);
     const y1 = data.map(d => d.gmv);
     const y2 = data.map(d => d.revenue);
@@ -233,7 +305,7 @@ function renderMonthlyTrend() {
         y: y1,
         type: "bar",
         name: "GMV",
-        marker: { color: "#3b82f6" }
+        marker: { color: "#3395FF" }
     };
 
     const trace2 = {
@@ -257,8 +329,8 @@ function renderMonthlyTrend() {
 }
 
 // 5. Payment Mix Donut
-function renderPaymentMix() {
-    const data = rawData.payment_mix || [];
+function renderPaymentMix(filtered) {
+    const data = filtered.paymentMix || [];
     const labels = data.map(d => d.payment_method);
     const values = data.map(d => d.txn_count);
 
@@ -267,7 +339,7 @@ function renderPaymentMix() {
         values: values,
         type: "pie",
         hole: 0.55,
-        marker: { colors: ["#2563eb", "#3b82f6", "#60a5fa", "#93c5fd", "#bfdbfe", "#1e40af"] }
+        marker: { colors: ["#3395FF", "#1a73e8", "#60a5fa", "#93c5fd", "#0c2a5c", "#34d399"] }
     };
 
     const layout = {
@@ -280,8 +352,8 @@ function renderPaymentMix() {
 }
 
 // 6. Method Success Bar
-function renderMethodSuccess() {
-    const data = rawData.payment_mix || [];
+function renderMethodSuccess(filtered) {
+    const data = filtered.paymentMix || [];
     const sorted = [...data].sort((a, b) => b.success_rate - a.success_rate);
     const x = sorted.map(d => d.success_rate);
     const y = sorted.map(d => d.payment_method);
@@ -303,8 +375,8 @@ function renderMethodSuccess() {
 }
 
 // 7. Failure Reasons Bar
-function renderFailureReasons() {
-    const data = rawData.failure_reasons || [];
+function renderFailureReasons(filtered) {
+    const data = filtered.failureReasons || [];
     const sorted = [...data].sort((a, b) => a.count - b.count);
     const x = sorted.map(d => d.count);
     const y = sorted.map(d => d.failure_reason);
@@ -326,8 +398,8 @@ function renderFailureReasons() {
 }
 
 // 8. Bank Success Bar
-function renderBankSuccess() {
-    const data = rawData.bank_success || [];
+function renderBankSuccess(filtered) {
+    const data = filtered.bankSuccess || [];
     const sorted = [...data].sort((a, b) => a.success_rate - b.success_rate);
     const x = sorted.map(d => d.success_rate);
     const y = sorted.map(d => d.issuing_bank);
@@ -337,7 +409,7 @@ function renderBankSuccess() {
         y: y,
         type: "bar",
         orientation: "h",
-        marker: { color: "#3b82f6" }
+        marker: { color: "#3395FF" }
     };
 
     const layout = {
@@ -349,12 +421,11 @@ function renderBankSuccess() {
 }
 
 // 9. Hourly Heatmap
-function renderHourlyHeatmap() {
-    const data = rawData.hourly_heatmap || [];
+function renderHourlyHeatmap(filtered) {
+    const data = filtered.hourlyHeatmap || [];
     const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
     const hours = Array.from({length: 24}, (_, i) => i);
 
-    // Build 2D matrix for failure rate
     const z = days.map(day => {
         return hours.map(hour => {
             const found = data.find(d => d.day_of_week === day && d.hour === hour);
@@ -380,8 +451,8 @@ function renderHourlyHeatmap() {
 }
 
 // 10. Category Performance Scatter
-function renderCategoryPerf() {
-    const data = rawData.category_perf || [];
+function renderCategoryPerf(filtered) {
+    const data = filtered.categoryPerf || [];
     const x = data.map(d => d.gmv);
     const y = data.map(d => d.success_rate);
     const size = data.map(d => Math.sqrt(d.txn_count) * 2);
@@ -395,8 +466,8 @@ function renderCategoryPerf() {
         textposition: "top center",
         marker: {
             size: size,
-            color: "#2563eb",
-            opacity: 0.7,
+            color: "#3395FF",
+            opacity: 0.8,
             sizemode: "diameter"
         },
         type: "scatter"
@@ -412,8 +483,8 @@ function renderCategoryPerf() {
 }
 
 // 11. Top Merchants Concentration
-function renderTopMerchants() {
-    const data = rawData.top_merchants || [];
+function renderTopMerchants(filtered) {
+    const data = filtered.topMerchants || [];
     const x = data.map(d => d.merchant_rank);
     const y = data.map(d => d.gmv_share_pct);
 
@@ -422,7 +493,7 @@ function renderTopMerchants() {
         y: y,
         type: "scatter",
         mode: "lines+markers",
-        line: { color: "#8b5cf6", width: 3 },
+        line: { color: "#3395FF", width: 3 },
         marker: { size: 8 }
     };
 
@@ -436,8 +507,8 @@ function renderTopMerchants() {
 }
 
 // 12. Latency Percentiles
-function renderLatencyChart() {
-    const data = rawData.latency || [];
+function renderLatencyChart(filtered) {
+    const data = filtered.latency || [];
     const x = data.map(d => d.month);
 
     const traces = [
@@ -456,9 +527,10 @@ function renderLatencyChart() {
 }
 
 // 13. Incidents
-function renderIncidents() {
-    const incidents = rawData.incidents || [];
+function renderIncidents(filtered) {
+    const incidents = filtered.incidents || [];
     const container = document.getElementById("incidentContainer");
+    if (!container) return;
     container.innerHTML = "";
 
     if (incidents.length === 0) {
