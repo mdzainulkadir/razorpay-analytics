@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+data/real/
+outputs_real/
+.env
+razorpay_private_data/

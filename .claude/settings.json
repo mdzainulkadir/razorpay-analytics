@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(D:\\razorpay_private_data\\**)",
+      "Read(//D/razorpay_private_data/**)"
+    ]
+  }
+}
