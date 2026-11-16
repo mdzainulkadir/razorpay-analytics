@@ -1,72 +1,52 @@
 [
   {
+    "merchant_rank": 1,
     "gmv": 3769564.52,
-    "category": "Travel",
-    "tier": "Enterprise",
-    "gmv_share_pct": 4.43,
-    "merchant_rank": "Merchant #1"
+    "gmv_share_pct": 4.43
   },
   {
+    "merchant_rank": 2,
     "gmv": 3479817.94,
-    "category": "Travel",
-    "tier": "Enterprise",
-    "gmv_share_pct": 4.09,
-    "merchant_rank": "Merchant #2"
+    "gmv_share_pct": 4.09
   },
   {
+    "merchant_rank": 3,
     "gmv": 2325745.4,
-    "category": "Travel",
-    "tier": "Enterprise",
-    "gmv_share_pct": 2.73,
-    "merchant_rank": "Merchant #3"
+    "gmv_share_pct": 2.73
   },
   {
+    "merchant_rank": 4,
     "gmv": 2229239.85,
-    "category": "Saas",
-    "tier": "Enterprise",
-    "gmv_share_pct": 2.62,
-    "merchant_rank": "Merchant #4"
+    "gmv_share_pct": 2.62
   },
   {
+    "merchant_rank": 5,
     "gmv": 2224187.46,
-    "category": "Travel",
-    "tier": "Starter",
-    "gmv_share_pct": 2.61,
-    "merchant_rank": "Merchant #5"
+    "gmv_share_pct": 2.61
   },
   {
+    "merchant_rank": 6,
     "gmv": 2191530.08,
-    "category": "Travel",
-    "tier": "Growth",
-    "gmv_share_pct": 2.57,
-    "merchant_rank": "Merchant #6"
+    "gmv_share_pct": 2.57
   },
   {
+    "merchant_rank": 7,
     "gmv": 2073203.13,
-    "category": "Saas",
-    "tier": "Enterprise",
-    "gmv_share_pct": 2.44,
-    "merchant_rank": "Merchant #7"
+    "gmv_share_pct": 2.44
   },
   {
+    "merchant_rank": 8,
     "gmv": 1879881.33,
-    "category": "Fintech",
-    "tier": "Enterprise",
-    "gmv_share_pct": 2.21,
-    "merchant_rank": "Merchant #8"
+    "gmv_share_pct": 2.21
   },
   {
+    "merchant_rank": 9,
     "gmv": 1814490.58,
-    "category": "Education",
-    "tier": "Enterprise",
-    "gmv_share_pct": 2.13,
-    "merchant_rank": "Merchant #9"
+    "gmv_share_pct": 2.13
   },
   {
+    "merchant_rank": 10,
     "gmv": 1558105.56,
-    "category": "Travel",
-    "tier": "Growth",
-    "gmv_share_pct": 1.83,
-    "merchant_rank": "Merchant #10"
+    "gmv_share_pct": 1.83
   }
 ]

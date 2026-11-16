@@ -5,3 +5,10 @@ data/real/
 outputs_real/
 .env
 razorpay_private_data/
+.claude/ZEN11.json
+
+__pycache__/
+
+.pytest_cache/
+
+screenshots/

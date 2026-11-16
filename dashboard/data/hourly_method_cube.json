@@ -1,1850 +1,5874 @@
 [
   {
     "day_of_week": "Friday",
-    "hour_block": 0,
+    "hour": 0,
     "payment_method": "Card",
-    "attempts": 75,
-    "successes": 73,
-    "failures": 2,
-    "gmv": 89124.22000000002,
-    "refund_amount": 4229.860000000001,
-    "fee_revenue": 1673.4900000000002
+    "attempts": 41,
+    "successes": 41,
+    "failures": 0
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 0,
+    "hour": 0,
     "payment_method": "Netbanking",
-    "attempts": 30,
-    "successes": 27,
-    "failures": 3,
-    "gmv": 60590.86000000001,
-    "refund_amount": 0.0,
-    "fee_revenue": 843.45
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 0,
-    "payment_method": "Other",
-    "attempts": 27,
-    "successes": 26,
-    "failures": 1,
-    "gmv": 32868.8,
-    "refund_amount": 0.0,
-    "fee_revenue": 582.03
-  },
-  {
-    "day_of_week": "Friday",
-    "hour_block": 0,
+    "hour": 0,
     "payment_method": "Upi",
-    "attempts": 151,
-    "successes": 140,
-    "failures": 11,
-    "gmv": 214116.7,
-    "refund_amount": 18233.76,
-    "fee_revenue": 650.22
+    "attempts": 57,
+    "successes": 52,
+    "failures": 5
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 4,
+    "hour": 1,
+    "payment_method": "Card",
+    "attempts": 18,
+    "successes": 18,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 1,
+    "payment_method": "Upi",
+    "attempts": 43,
+    "successes": 40,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 2,
+    "payment_method": "Card",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 2,
+    "payment_method": "Upi",
+    "attempts": 22,
+    "successes": 21,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 3,
+    "payment_method": "Upi",
+    "attempts": 29,
+    "successes": 27,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 4,
+    "payment_method": "Card",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 4,
+    "payment_method": "Upi",
+    "attempts": 25,
+    "successes": 25,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 5,
+    "payment_method": "Card",
+    "attempts": 23,
+    "successes": 21,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 5,
+    "payment_method": "Upi",
+    "attempts": 37,
+    "successes": 34,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 6,
+    "payment_method": "Card",
+    "attempts": 44,
+    "successes": 39,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 6,
+    "payment_method": "Upi",
+    "attempts": 99,
+    "successes": 90,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 6,
+    "payment_method": "Wallet",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 7,
+    "payment_method": "Card",
+    "attempts": 58,
+    "successes": 52,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 7,
+    "payment_method": "Emi",
+    "attempts": 11,
+    "successes": 8,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 7,
+    "payment_method": "Netbanking",
+    "attempts": 22,
+    "successes": 18,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 7,
+    "payment_method": "Upi",
+    "attempts": 130,
+    "successes": 121,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 7,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 12,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 8,
+    "payment_method": "Card",
+    "attempts": 74,
+    "successes": 68,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 8,
+    "payment_method": "Emi",
+    "attempts": 11,
+    "successes": 11,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 8,
+    "payment_method": "Netbanking",
+    "attempts": 23,
+    "successes": 21,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 8,
+    "payment_method": "Upi",
+    "attempts": 187,
+    "successes": 168,
+    "failures": 19
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 8,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 13,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 9,
+    "payment_method": "Card",
+    "attempts": 97,
+    "successes": 91,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 9,
+    "payment_method": "Emi",
+    "attempts": 32,
+    "successes": 29,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 9,
+    "payment_method": "Netbanking",
+    "attempts": 32,
+    "successes": 27,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 9,
+    "payment_method": "Upi",
+    "attempts": 213,
+    "successes": 189,
+    "failures": 24
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 9,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 13,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 10,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 10,
+    "payment_method": "Card",
+    "attempts": 119,
+    "successes": 115,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 10,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 10,
+    "payment_method": "Netbanking",
+    "attempts": 31,
+    "successes": 27,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 10,
+    "payment_method": "Upi",
+    "attempts": 238,
+    "successes": 217,
+    "failures": 21
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 10,
+    "payment_method": "Wallet",
+    "attempts": 13,
+    "successes": 13,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 11,
+    "payment_method": "Card",
+    "attempts": 154,
+    "successes": 143,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 11,
+    "payment_method": "Emi",
+    "attempts": 20,
+    "successes": 20,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 11,
+    "payment_method": "Netbanking",
+    "attempts": 42,
+    "successes": 37,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 11,
+    "payment_method": "Upi",
+    "attempts": 242,
+    "successes": 219,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 11,
+    "payment_method": "Wallet",
+    "attempts": 20,
+    "successes": 15,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 12,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 11,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 12,
+    "payment_method": "Card",
+    "attempts": 162,
+    "successes": 147,
+    "failures": 15
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 12,
+    "payment_method": "Emi",
+    "attempts": 24,
+    "successes": 22,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 12,
+    "payment_method": "Netbanking",
+    "attempts": 37,
+    "successes": 29,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 12,
+    "payment_method": "Upi",
+    "attempts": 277,
+    "successes": 253,
+    "failures": 24
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 12,
+    "payment_method": "Wallet",
+    "attempts": 22,
+    "successes": 20,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 13,
+    "payment_method": "Bnpl",
+    "attempts": 17,
+    "successes": 17,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 13,
     "payment_method": "Card",
     "attempts": 137,
-    "successes": 124,
-    "failures": 13,
-    "gmv": 154856.02000000005,
-    "refund_amount": 8530.25,
-    "fee_revenue": 2748.3700000000003
+    "successes": 123,
+    "failures": 14
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 4,
+    "hour": 13,
+    "payment_method": "Emi",
+    "attempts": 19,
+    "successes": 18,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 13,
     "payment_method": "Netbanking",
-    "attempts": 38,
-    "successes": 32,
-    "failures": 6,
-    "gmv": 24470.71,
-    "refund_amount": 3637.87,
-    "fee_revenue": 355.6
+    "attempts": 29,
+    "successes": 25,
+    "failures": 4
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 4,
-    "payment_method": "Other",
-    "attempts": 58,
-    "successes": 49,
-    "failures": 9,
-    "gmv": 94690.48999999999,
-    "refund_amount": 2994.57,
-    "fee_revenue": 1531.1
-  },
-  {
-    "day_of_week": "Friday",
-    "hour_block": 4,
+    "hour": 13,
     "payment_method": "Upi",
-    "attempts": 291,
-    "successes": 270,
-    "failures": 21,
-    "gmv": 418710.02999999997,
-    "refund_amount": 35090.98,
-    "fee_revenue": 1246.3000000000002
+    "attempts": 261,
+    "successes": 245,
+    "failures": 16
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 8,
+    "hour": 13,
+    "payment_method": "Wallet",
+    "attempts": 23,
+    "successes": 22,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 14,
+    "payment_method": "Bnpl",
+    "attempts": 19,
+    "successes": 19,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 14,
     "payment_method": "Card",
-    "attempts": 444,
-    "successes": 417,
-    "failures": 27,
-    "gmv": 544720.02,
-    "refund_amount": 16502.49,
-    "fee_revenue": 9616.589999999998
+    "attempts": 119,
+    "successes": 106,
+    "failures": 13
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 8,
+    "hour": 14,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 11,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 14,
     "payment_method": "Netbanking",
-    "attempts": 128,
-    "successes": 112,
-    "failures": 16,
-    "gmv": 182340.84000000003,
-    "refund_amount": 17281.36,
-    "fee_revenue": 2754.3199999999997
+    "attempts": 32,
+    "successes": 30,
+    "failures": 2
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 8,
-    "payment_method": "Other",
-    "attempts": 173,
+    "hour": 14,
+    "payment_method": "Upi",
+    "attempts": 279,
+    "successes": 263,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 14,
+    "payment_method": "Wallet",
+    "attempts": 21,
+    "successes": 19,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 15,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 15,
+    "payment_method": "Card",
+    "attempts": 110,
+    "successes": 107,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 15,
+    "payment_method": "Emi",
+    "attempts": 14,
+    "successes": 11,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 15,
+    "payment_method": "Netbanking",
+    "attempts": 26,
+    "successes": 24,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 15,
+    "payment_method": "Upi",
+    "attempts": 197,
+    "successes": 186,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 15,
+    "payment_method": "Wallet",
+    "attempts": 20,
+    "successes": 18,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 16,
+    "payment_method": "Card",
+    "attempts": 109,
+    "successes": 97,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 16,
+    "payment_method": "Emi",
+    "attempts": 18,
+    "successes": 18,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 16,
+    "payment_method": "Netbanking",
+    "attempts": 41,
+    "successes": 37,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 16,
+    "payment_method": "Upi",
+    "attempts": 224,
+    "successes": 214,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 16,
+    "payment_method": "Wallet",
+    "attempts": 22,
+    "successes": 21,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 17,
+    "payment_method": "Card",
+    "attempts": 140,
+    "successes": 133,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 17,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 14,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 17,
+    "payment_method": "Netbanking",
+    "attempts": 41,
+    "successes": 34,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 17,
+    "payment_method": "Upi",
+    "attempts": 322,
+    "successes": 292,
+    "failures": 30
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 17,
+    "payment_method": "Wallet",
+    "attempts": 18,
+    "successes": 18,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 18,
+    "payment_method": "Bnpl",
+    "attempts": 19,
+    "successes": 15,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 18,
+    "payment_method": "Card",
+    "attempts": 171,
     "successes": 159,
-    "failures": 14,
-    "gmv": 308820.79,
-    "refund_amount": 84847.8,
-    "fee_revenue": 6764.32
+    "failures": 12
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 8,
-    "payment_method": "Upi",
-    "attempts": 880,
-    "successes": 793,
-    "failures": 87,
-    "gmv": 1171264.29,
-    "refund_amount": 51642.94,
-    "fee_revenue": 3510.8999999999996
+    "hour": 18,
+    "payment_method": "Emi",
+    "attempts": 20,
+    "successes": 20,
+    "failures": 0
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 12,
-    "payment_method": "Card",
-    "attempts": 528,
-    "successes": 483,
-    "failures": 45,
-    "gmv": 809776.08,
-    "refund_amount": 99239.53,
-    "fee_revenue": 14454.16
-  },
-  {
-    "day_of_week": "Friday",
-    "hour_block": 12,
+    "hour": 18,
     "payment_method": "Netbanking",
-    "attempts": 124,
-    "successes": 108,
-    "failures": 16,
-    "gmv": 201945.33000000002,
-    "refund_amount": 2824.67,
-    "fee_revenue": 2951.0
+    "attempts": 48,
+    "successes": 39,
+    "failures": 9
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 12,
-    "payment_method": "Other",
-    "attempts": 214,
-    "successes": 197,
-    "failures": 17,
-    "gmv": 311923.69000000006,
-    "refund_amount": 11682.74,
-    "fee_revenue": 5746.42
-  },
-  {
-    "day_of_week": "Friday",
-    "hour_block": 12,
+    "hour": 18,
     "payment_method": "Upi",
-    "attempts": 1014,
-    "successes": 947,
-    "failures": 67,
-    "gmv": 1626490.67,
-    "refund_amount": 109411.33,
-    "fee_revenue": 4816.8
+    "attempts": 360,
+    "successes": 325,
+    "failures": 35
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 16,
+    "hour": 18,
+    "payment_method": "Wallet",
+    "attempts": 24,
+    "successes": 23,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 19,
+    "payment_method": "Bnpl",
+    "attempts": 14,
+    "successes": 13,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 19,
     "payment_method": "Card",
-    "attempts": 630,
-    "successes": 582,
-    "failures": 48,
-    "gmv": 875370.5599999999,
-    "refund_amount": 37016.08,
-    "fee_revenue": 16084.259999999998
+    "attempts": 210,
+    "successes": 193,
+    "failures": 17
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 16,
+    "hour": 19,
+    "payment_method": "Emi",
+    "attempts": 27,
+    "successes": 21,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 19,
     "payment_method": "Netbanking",
-    "attempts": 180,
-    "successes": 151,
-    "failures": 29,
-    "gmv": 346249.45000000007,
-    "refund_amount": 29260.81,
-    "fee_revenue": 5003.65
+    "attempts": 50,
+    "successes": 41,
+    "failures": 9
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 16,
-    "payment_method": "Other",
-    "attempts": 215,
-    "successes": 194,
-    "failures": 21,
-    "gmv": 266279.08,
-    "refund_amount": 10445.34,
-    "fee_revenue": 4601.21
-  },
-  {
-    "day_of_week": "Friday",
-    "hour_block": 16,
+    "hour": 19,
     "payment_method": "Upi",
-    "attempts": 1274,
-    "successes": 1174,
-    "failures": 100,
-    "gmv": 1473248.11,
-    "refund_amount": 75176.28,
-    "fee_revenue": 4396.87
+    "attempts": 368,
+    "successes": 343,
+    "failures": 25
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 20,
+    "hour": 19,
+    "payment_method": "Wallet",
+    "attempts": 23,
+    "successes": 20,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 20,
+    "payment_method": "Bnpl",
+    "attempts": 19,
+    "successes": 19,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 20,
     "payment_method": "Card",
-    "attempts": 698,
-    "successes": 648,
-    "failures": 50,
-    "gmv": 860346.8400000001,
-    "refund_amount": 61986.93,
-    "fee_revenue": 14979.919999999998
+    "attempts": 224,
+    "successes": 208,
+    "failures": 16
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 20,
+    "hour": 20,
+    "payment_method": "Emi",
+    "attempts": 41,
+    "successes": 40,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 20,
     "payment_method": "Netbanking",
+    "attempts": 67,
+    "successes": 61,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 20,
+    "payment_method": "Upi",
+    "attempts": 441,
+    "successes": 390,
+    "failures": 51
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 20,
+    "payment_method": "Wallet",
+    "attempts": 33,
+    "successes": 32,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 21,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 21,
+    "payment_method": "Card",
     "attempts": 195,
-    "successes": 172,
-    "failures": 23,
-    "gmv": 294044.37,
-    "refund_amount": 12734.62,
-    "fee_revenue": 4482.39
+    "successes": 179,
+    "failures": 16
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 20,
-    "payment_method": "Other",
-    "attempts": 268,
-    "successes": 256,
-    "failures": 12,
-    "gmv": 355109.0,
-    "refund_amount": 39180.18,
-    "fee_revenue": 6168.65
+    "hour": 21,
+    "payment_method": "Emi",
+    "attempts": 33,
+    "successes": 32,
+    "failures": 1
   },
   {
     "day_of_week": "Friday",
-    "hour_block": 20,
+    "hour": 21,
+    "payment_method": "Netbanking",
+    "attempts": 54,
+    "successes": 45,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 21,
     "payment_method": "Upi",
-    "attempts": 1372,
-    "successes": 1232,
-    "failures": 140,
-    "gmv": 1991669.5899999999,
-    "refund_amount": 85233.82,
-    "fee_revenue": 5897.45
+    "attempts": 391,
+    "successes": 359,
+    "failures": 32
   },
   {
-    "day_of_week": "Monday",
-    "hour_block": 0,
+    "day_of_week": "Friday",
+    "hour": 21,
+    "payment_method": "Wallet",
+    "attempts": 29,
+    "successes": 26,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 22,
     "payment_method": "Card",
-    "attempts": 84,
-    "successes": 78,
-    "failures": 6,
-    "gmv": 126051.13000000003,
-    "refund_amount": 907.65,
-    "fee_revenue": 2128.6999999999994
+    "attempts": 176,
+    "successes": 165,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 22,
+    "payment_method": "Emi",
+    "attempts": 23,
+    "successes": 20,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 22,
+    "payment_method": "Netbanking",
+    "attempts": 47,
+    "successes": 41,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 22,
+    "payment_method": "Upi",
+    "attempts": 312,
+    "successes": 273,
+    "failures": 39
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 22,
+    "payment_method": "Wallet",
+    "attempts": 30,
+    "successes": 30,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 23,
+    "payment_method": "Card",
+    "attempts": 103,
+    "successes": 96,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 23,
+    "payment_method": "Emi",
+    "attempts": 20,
+    "successes": 18,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 23,
+    "payment_method": "Netbanking",
+    "attempts": 27,
+    "successes": 25,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 23,
+    "payment_method": "Upi",
+    "attempts": 228,
+    "successes": 210,
+    "failures": 18
+  },
+  {
+    "day_of_week": "Friday",
+    "hour": 23,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 13,
+    "failures": 1
   },
   {
     "day_of_week": "Monday",
-    "hour_block": 0,
+    "hour": 0,
+    "payment_method": "Card",
+    "attempts": 43,
+    "successes": 42,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 0,
+    "payment_method": "Upi",
+    "attempts": 48,
+    "successes": 39,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 1,
+    "payment_method": "Card",
+    "attempts": 19,
+    "successes": 15,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 1,
+    "payment_method": "Upi",
+    "attempts": 41,
+    "successes": 39,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 2,
+    "payment_method": "Upi",
+    "attempts": 19,
+    "successes": 17,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 3,
+    "payment_method": "Card",
+    "attempts": 13,
+    "successes": 12,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 3,
+    "payment_method": "Upi",
+    "attempts": 19,
+    "successes": 19,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 4,
+    "payment_method": "Card",
+    "attempts": 11,
+    "successes": 10,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 4,
+    "payment_method": "Upi",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 5,
+    "payment_method": "Card",
+    "attempts": 28,
+    "successes": 25,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 5,
+    "payment_method": "Upi",
+    "attempts": 33,
+    "successes": 29,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 6,
+    "payment_method": "Card",
+    "attempts": 37,
+    "successes": 35,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 6,
+    "payment_method": "Netbanking",
+    "attempts": 14,
+    "successes": 13,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 6,
+    "payment_method": "Upi",
+    "attempts": 72,
+    "successes": 66,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 7,
+    "payment_method": "Card",
+    "attempts": 64,
+    "successes": 57,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 7,
     "payment_method": "Netbanking",
     "attempts": 19,
     "successes": 19,
-    "failures": 0,
-    "gmv": 48133.729999999996,
-    "refund_amount": 40.72,
-    "fee_revenue": 716.87
+    "failures": 0
   },
   {
     "day_of_week": "Monday",
-    "hour_block": 0,
-    "payment_method": "Other",
-    "attempts": 32,
-    "successes": 28,
-    "failures": 4,
-    "gmv": 25724.239999999998,
-    "refund_amount": 2208.56,
-    "fee_revenue": 436.46
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 0,
+    "hour": 7,
     "payment_method": "Upi",
-    "attempts": 127,
-    "successes": 114,
-    "failures": 13,
-    "gmv": 146269.08999999997,
-    "refund_amount": 4544.389999999999,
-    "fee_revenue": 445.94999999999993
+    "attempts": 134,
+    "successes": 122,
+    "failures": 12
   },
   {
     "day_of_week": "Monday",
-    "hour_block": 4,
-    "payment_method": "Card",
-    "attempts": 140,
-    "successes": 127,
-    "failures": 13,
-    "gmv": 283341.12,
-    "refund_amount": 22307.43,
-    "fee_revenue": 5128.03
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 4,
-    "payment_method": "Netbanking",
-    "attempts": 41,
-    "successes": 39,
-    "failures": 2,
-    "gmv": 67768.71,
-    "refund_amount": 0.0,
-    "fee_revenue": 1003.41
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 4,
-    "payment_method": "Other",
-    "attempts": 52,
-    "successes": 48,
-    "failures": 4,
-    "gmv": 66066.04000000001,
-    "refund_amount": 89.92,
-    "fee_revenue": 1239.56
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 4,
-    "payment_method": "Upi",
-    "attempts": 255,
-    "successes": 232,
-    "failures": 23,
-    "gmv": 453432.0800000001,
-    "refund_amount": 11594.83,
-    "fee_revenue": 1203.61
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 8,
-    "payment_method": "Card",
-    "attempts": 446,
-    "successes": 414,
-    "failures": 32,
-    "gmv": 678164.25,
-    "refund_amount": 34608.86,
-    "fee_revenue": 12330.810000000001
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 8,
-    "payment_method": "Netbanking",
-    "attempts": 136,
-    "successes": 114,
-    "failures": 22,
-    "gmv": 171742.81,
-    "refund_amount": 15692.48,
-    "fee_revenue": 2649.6399999999994
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 8,
-    "payment_method": "Other",
-    "attempts": 176,
-    "successes": 162,
-    "failures": 14,
-    "gmv": 195669.40000000002,
-    "refund_amount": 8475.04,
-    "fee_revenue": 3337.2599999999998
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 8,
-    "payment_method": "Upi",
-    "attempts": 843,
-    "successes": 774,
-    "failures": 69,
-    "gmv": 1336963.06,
-    "refund_amount": 60486.41,
-    "fee_revenue": 3956.4300000000003
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 12,
-    "payment_method": "Card",
-    "attempts": 480,
-    "successes": 447,
-    "failures": 33,
-    "gmv": 765771.0599999999,
-    "refund_amount": 21076.45,
-    "fee_revenue": 13715.110000000002
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 12,
-    "payment_method": "Netbanking",
-    "attempts": 158,
-    "successes": 140,
-    "failures": 18,
-    "gmv": 208477.32,
-    "refund_amount": 10206.14,
-    "fee_revenue": 3093.3399999999997
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 12,
-    "payment_method": "Other",
-    "attempts": 185,
-    "successes": 170,
-    "failures": 15,
-    "gmv": 240625.35,
-    "refund_amount": 16559.33,
-    "fee_revenue": 4400.7
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 12,
-    "payment_method": "Upi",
-    "attempts": 1037,
-    "successes": 949,
-    "failures": 88,
-    "gmv": 1388297.48,
-    "refund_amount": 169713.63,
-    "fee_revenue": 4071.2
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 16,
-    "payment_method": "Card",
-    "attempts": 586,
-    "successes": 540,
-    "failures": 46,
-    "gmv": 709142.5800000001,
-    "refund_amount": 19847.6,
-    "fee_revenue": 12885.36
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 16,
-    "payment_method": "Netbanking",
-    "attempts": 197,
-    "successes": 173,
-    "failures": 24,
-    "gmv": 258195.31999999998,
-    "refund_amount": 6081.5599999999995,
-    "fee_revenue": 3820.91
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 16,
-    "payment_method": "Other",
-    "attempts": 218,
-    "successes": 207,
-    "failures": 11,
-    "gmv": 302295.32000000007,
-    "refund_amount": 28483.37,
-    "fee_revenue": 5637.360000000001
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 16,
-    "payment_method": "Upi",
-    "attempts": 1219,
-    "successes": 1130,
-    "failures": 89,
-    "gmv": 1677965.23,
-    "refund_amount": 109037.17,
-    "fee_revenue": 5000.719999999999
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 20,
-    "payment_method": "Card",
-    "attempts": 681,
-    "successes": 627,
-    "failures": 54,
-    "gmv": 978883.02,
-    "refund_amount": 26519.2,
-    "fee_revenue": 17579.760000000002
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 20,
-    "payment_method": "Netbanking",
-    "attempts": 186,
-    "successes": 165,
-    "failures": 21,
-    "gmv": 201520.56,
-    "refund_amount": 8468.18,
-    "fee_revenue": 3135.63
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 20,
-    "payment_method": "Other",
-    "attempts": 225,
-    "successes": 202,
-    "failures": 23,
-    "gmv": 405622.75,
-    "refund_amount": 17037.51,
-    "fee_revenue": 7392.570000000001
-  },
-  {
-    "day_of_week": "Monday",
-    "hour_block": 20,
-    "payment_method": "Upi",
-    "attempts": 1377,
-    "successes": 1254,
-    "failures": 123,
-    "gmv": 1899558.6,
-    "refund_amount": 113699.44,
-    "fee_revenue": 5715.490000000001
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 0,
-    "payment_method": "Card",
-    "attempts": 77,
-    "successes": 72,
-    "failures": 5,
-    "gmv": 239971.3,
-    "refund_amount": 7166.079999999999,
-    "fee_revenue": 4251.45
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 0,
-    "payment_method": "Netbanking",
+    "hour": 7,
+    "payment_method": "Wallet",
     "attempts": 15,
-    "successes": 14,
-    "failures": 1,
-    "gmv": 26323.190000000002,
-    "refund_amount": 849.31,
-    "fee_revenue": 336.55
+    "successes": 12,
+    "failures": 3
   },
   {
-    "day_of_week": "Saturday",
-    "hour_block": 0,
-    "payment_method": "Other",
+    "day_of_week": "Monday",
+    "hour": 8,
+    "payment_method": "Card",
+    "attempts": 96,
+    "successes": 90,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 8,
+    "payment_method": "Emi",
+    "attempts": 19,
+    "successes": 19,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 8,
+    "payment_method": "Netbanking",
+    "attempts": 27,
+    "successes": 23,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 8,
+    "payment_method": "Upi",
+    "attempts": 153,
+    "successes": 143,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 8,
+    "payment_method": "Wallet",
+    "attempts": 18,
+    "successes": 18,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 9,
+    "payment_method": "Bnpl",
+    "attempts": 11,
+    "successes": 9,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 9,
+    "payment_method": "Card",
+    "attempts": 105,
+    "successes": 99,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 9,
+    "payment_method": "Emi",
+    "attempts": 18,
+    "successes": 16,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 9,
+    "payment_method": "Netbanking",
+    "attempts": 33,
+    "successes": 27,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 9,
+    "payment_method": "Upi",
+    "attempts": 206,
+    "successes": 187,
+    "failures": 19
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 9,
+    "payment_method": "Wallet",
+    "attempts": 21,
+    "successes": 20,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 10,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 10,
+    "payment_method": "Card",
+    "attempts": 116,
+    "successes": 104,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 10,
+    "payment_method": "Emi",
+    "attempts": 12,
+    "successes": 10,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 10,
+    "payment_method": "Netbanking",
+    "attempts": 34,
+    "successes": 30,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 10,
+    "payment_method": "Upi",
+    "attempts": 231,
+    "successes": 215,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 10,
+    "payment_method": "Wallet",
     "attempts": 19,
     "successes": 18,
-    "failures": 1,
-    "gmv": 19105.22,
-    "refund_amount": 582.03,
-    "fee_revenue": 348.43
+    "failures": 1
   },
   {
-    "day_of_week": "Saturday",
-    "hour_block": 0,
-    "payment_method": "Upi",
-    "attempts": 114,
-    "successes": 104,
-    "failures": 10,
-    "gmv": 194985.87,
-    "refund_amount": 4208.81,
-    "fee_revenue": 643.6600000000001
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 4,
+    "day_of_week": "Monday",
+    "hour": 11,
     "payment_method": "Card",
-    "attempts": 122,
-    "successes": 114,
-    "failures": 8,
-    "gmv": 196573.11000000002,
-    "refund_amount": 6633.5199999999995,
-    "fee_revenue": 3510.11
+    "attempts": 129,
+    "successes": 121,
+    "failures": 8
   },
   {
-    "day_of_week": "Saturday",
-    "hour_block": 4,
+    "day_of_week": "Monday",
+    "hour": 11,
+    "payment_method": "Emi",
+    "attempts": 21,
+    "successes": 20,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 11,
+    "payment_method": "Netbanking",
+    "attempts": 42,
+    "successes": 34,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 11,
+    "payment_method": "Upi",
+    "attempts": 253,
+    "successes": 229,
+    "failures": 24
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 11,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 11,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 12,
+    "payment_method": "Card",
+    "attempts": 120,
+    "successes": 113,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 12,
+    "payment_method": "Emi",
+    "attempts": 19,
+    "successes": 17,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 12,
+    "payment_method": "Netbanking",
+    "attempts": 41,
+    "successes": 36,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 12,
+    "payment_method": "Upi",
+    "attempts": 279,
+    "successes": 265,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 12,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 11,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 13,
+    "payment_method": "Card",
+    "attempts": 142,
+    "successes": 131,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 13,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 16,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 13,
+    "payment_method": "Netbanking",
+    "attempts": 45,
+    "successes": 41,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 13,
+    "payment_method": "Upi",
+    "attempts": 267,
+    "successes": 240,
+    "failures": 27
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 13,
+    "payment_method": "Wallet",
+    "attempts": 16,
+    "successes": 16,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 14,
+    "payment_method": "Card",
+    "attempts": 119,
+    "successes": 112,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 14,
+    "payment_method": "Emi",
+    "attempts": 32,
+    "successes": 29,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 14,
+    "payment_method": "Netbanking",
+    "attempts": 45,
+    "successes": 40,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 14,
+    "payment_method": "Upi",
+    "attempts": 267,
+    "successes": 243,
+    "failures": 24
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 14,
+    "payment_method": "Wallet",
+    "attempts": 27,
+    "successes": 25,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 15,
+    "payment_method": "Card",
+    "attempts": 99,
+    "successes": 91,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 15,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 12,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 15,
+    "payment_method": "Netbanking",
+    "attempts": 27,
+    "successes": 23,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 15,
+    "payment_method": "Upi",
+    "attempts": 224,
+    "successes": 201,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 15,
+    "payment_method": "Wallet",
+    "attempts": 18,
+    "successes": 16,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 16,
+    "payment_method": "Card",
+    "attempts": 110,
+    "successes": 107,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 16,
+    "payment_method": "Emi",
+    "attempts": 21,
+    "successes": 20,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 16,
+    "payment_method": "Netbanking",
+    "attempts": 40,
+    "successes": 36,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 16,
+    "payment_method": "Upi",
+    "attempts": 229,
+    "successes": 209,
+    "failures": 20
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 16,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 14,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 17,
+    "payment_method": "Bnpl",
+    "attempts": 11,
+    "successes": 10,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 17,
+    "payment_method": "Card",
+    "attempts": 135,
+    "successes": 127,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 17,
+    "payment_method": "Emi",
+    "attempts": 20,
+    "successes": 19,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 17,
+    "payment_method": "Netbanking",
+    "attempts": 51,
+    "successes": 45,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 17,
+    "payment_method": "Upi",
+    "attempts": 293,
+    "successes": 267,
+    "failures": 26
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 17,
+    "payment_method": "Wallet",
+    "attempts": 13,
+    "successes": 13,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 18,
+    "payment_method": "Bnpl",
+    "attempts": 18,
+    "successes": 15,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 18,
+    "payment_method": "Card",
+    "attempts": 147,
+    "successes": 132,
+    "failures": 15
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 18,
+    "payment_method": "Emi",
+    "attempts": 23,
+    "successes": 23,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 18,
+    "payment_method": "Netbanking",
+    "attempts": 50,
+    "successes": 45,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 18,
+    "payment_method": "Upi",
+    "attempts": 337,
+    "successes": 318,
+    "failures": 19
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 18,
+    "payment_method": "Wallet",
+    "attempts": 22,
+    "successes": 22,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 19,
+    "payment_method": "Bnpl",
+    "attempts": 18,
+    "successes": 17,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 19,
+    "payment_method": "Card",
+    "attempts": 194,
+    "successes": 174,
+    "failures": 20
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 19,
+    "payment_method": "Emi",
+    "attempts": 21,
+    "successes": 21,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 19,
+    "payment_method": "Netbanking",
+    "attempts": 56,
+    "successes": 47,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 19,
+    "payment_method": "Upi",
+    "attempts": 360,
+    "successes": 336,
+    "failures": 24
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 19,
+    "payment_method": "Wallet",
+    "attempts": 30,
+    "successes": 26,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 20,
+    "payment_method": "Bnpl",
+    "attempts": 14,
+    "successes": 12,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 20,
+    "payment_method": "Card",
+    "attempts": 197,
+    "successes": 184,
+    "failures": 13
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 20,
+    "payment_method": "Emi",
+    "attempts": 24,
+    "successes": 23,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 20,
+    "payment_method": "Netbanking",
+    "attempts": 56,
+    "successes": 51,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 20,
+    "payment_method": "Upi",
+    "attempts": 429,
+    "successes": 397,
+    "failures": 32
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 20,
+    "payment_method": "Wallet",
+    "attempts": 32,
+    "successes": 29,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 21,
+    "payment_method": "Bnpl",
+    "attempts": 19,
+    "successes": 17,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 21,
+    "payment_method": "Card",
+    "attempts": 197,
+    "successes": 180,
+    "failures": 17
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 21,
+    "payment_method": "Emi",
+    "attempts": 29,
+    "successes": 25,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 21,
+    "payment_method": "Netbanking",
+    "attempts": 63,
+    "successes": 55,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 21,
+    "payment_method": "Upi",
+    "attempts": 398,
+    "successes": 361,
+    "failures": 37
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 21,
+    "payment_method": "Wallet",
+    "attempts": 22,
+    "successes": 20,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 22,
+    "payment_method": "Bnpl",
+    "attempts": 16,
+    "successes": 13,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 22,
+    "payment_method": "Card",
+    "attempts": 183,
+    "successes": 167,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 22,
+    "payment_method": "Emi",
+    "attempts": 22,
+    "successes": 20,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 22,
     "payment_method": "Netbanking",
     "attempts": 39,
-    "successes": 35,
-    "failures": 4,
-    "gmv": 26120.769999999997,
-    "refund_amount": 418.84999999999997,
-    "fee_revenue": 399.96999999999997
+    "successes": 33,
+    "failures": 6
   },
   {
-    "day_of_week": "Saturday",
-    "hour_block": 4,
-    "payment_method": "Other",
-    "attempts": 59,
-    "successes": 56,
-    "failures": 3,
-    "gmv": 71540.07,
-    "refund_amount": 15507.42,
-    "fee_revenue": 1161.9699999999998
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 4,
+    "day_of_week": "Monday",
+    "hour": 22,
     "payment_method": "Upi",
-    "attempts": 212,
-    "successes": 196,
-    "failures": 16,
-    "gmv": 286674.07,
-    "refund_amount": 5422.1900000000005,
-    "fee_revenue": 844.4700000000001
+    "attempts": 332,
+    "successes": 301,
+    "failures": 31
   },
   {
-    "day_of_week": "Saturday",
-    "hour_block": 8,
+    "day_of_week": "Monday",
+    "hour": 22,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 15,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 23,
     "payment_method": "Card",
-    "attempts": 371,
-    "successes": 344,
-    "failures": 27,
-    "gmv": 421912.19,
-    "refund_amount": 25332.969999999998,
-    "fee_revenue": 7581.199999999999
+    "attempts": 104,
+    "successes": 96,
+    "failures": 8
   },
   {
-    "day_of_week": "Saturday",
-    "hour_block": 8,
+    "day_of_week": "Monday",
+    "hour": 23,
+    "payment_method": "Emi",
+    "attempts": 14,
+    "successes": 10,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 23,
     "payment_method": "Netbanking",
-    "attempts": 103,
-    "successes": 89,
-    "failures": 14,
-    "gmv": 108810.62999999999,
-    "refund_amount": 12806.92,
-    "fee_revenue": 1598.56
+    "attempts": 28,
+    "successes": 26,
+    "failures": 2
   },
   {
-    "day_of_week": "Saturday",
-    "hour_block": 8,
-    "payment_method": "Other",
-    "attempts": 138,
-    "successes": 125,
-    "failures": 13,
-    "gmv": 152929.47,
-    "refund_amount": 11839.07,
-    "fee_revenue": 2766.68
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 8,
+    "day_of_week": "Monday",
+    "hour": 23,
     "payment_method": "Upi",
-    "attempts": 741,
-    "successes": 689,
-    "failures": 52,
-    "gmv": 1018446.77,
-    "refund_amount": 57084.88,
-    "fee_revenue": 2992.74
+    "attempts": 218,
+    "successes": 195,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Monday",
+    "hour": 23,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 15,
+    "failures": 0
   },
   {
     "day_of_week": "Saturday",
-    "hour_block": 12,
+    "hour": 0,
     "payment_method": "Card",
-    "attempts": 451,
-    "successes": 417,
-    "failures": 34,
-    "gmv": 696391.69,
-    "refund_amount": 30274.58,
-    "fee_revenue": 12480.65
+    "attempts": 41,
+    "successes": 39,
+    "failures": 2
   },
   {
     "day_of_week": "Saturday",
-    "hour_block": 12,
-    "payment_method": "Netbanking",
-    "attempts": 110,
-    "successes": 98,
-    "failures": 12,
-    "gmv": 122229.62000000001,
-    "refund_amount": 7117.81,
-    "fee_revenue": 1776.35
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 12,
-    "payment_method": "Other",
-    "attempts": 141,
-    "successes": 125,
-    "failures": 16,
-    "gmv": 221803.89999999997,
-    "refund_amount": 11168.65,
-    "fee_revenue": 3730.32
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 12,
+    "hour": 0,
     "payment_method": "Upi",
-    "attempts": 782,
-    "successes": 707,
-    "failures": 75,
-    "gmv": 1181950.9700000002,
-    "refund_amount": 67126.94,
-    "fee_revenue": 3428.4300000000003
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 16,
-    "payment_method": "Card",
-    "attempts": 503,
-    "successes": 462,
-    "failures": 41,
-    "gmv": 775755.8300000001,
-    "refund_amount": 21466.59,
-    "fee_revenue": 14090.990000000002
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 16,
-    "payment_method": "Netbanking",
-    "attempts": 147,
-    "successes": 123,
-    "failures": 24,
-    "gmv": 316870.83,
-    "refund_amount": 11797.85,
-    "fee_revenue": 4381.849999999999
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 16,
-    "payment_method": "Other",
-    "attempts": 202,
-    "successes": 172,
-    "failures": 30,
-    "gmv": 409018.57999999996,
-    "refund_amount": 4124.78,
-    "fee_revenue": 7111.56
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 16,
-    "payment_method": "Upi",
-    "attempts": 979,
-    "successes": 887,
-    "failures": 92,
-    "gmv": 1556614.1800000002,
-    "refund_amount": 96450.13,
-    "fee_revenue": 4603.68
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 20,
-    "payment_method": "Card",
-    "attempts": 565,
-    "successes": 521,
-    "failures": 44,
-    "gmv": 725730.85,
-    "refund_amount": 20764.18,
-    "fee_revenue": 12867.89
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 20,
-    "payment_method": "Netbanking",
-    "attempts": 180,
-    "successes": 153,
-    "failures": 27,
-    "gmv": 273287.94,
-    "refund_amount": 18663.41,
-    "fee_revenue": 4155.82
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 20,
-    "payment_method": "Other",
-    "attempts": 191,
-    "successes": 179,
-    "failures": 12,
-    "gmv": 297363.21,
-    "refund_amount": 24782.66,
-    "fee_revenue": 5329.4
-  },
-  {
-    "day_of_week": "Saturday",
-    "hour_block": 20,
-    "payment_method": "Upi",
-    "attempts": 1092,
-    "successes": 995,
-    "failures": 97,
-    "gmv": 1497742.02,
-    "refund_amount": 96892.12000000001,
-    "fee_revenue": 4451.4
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 0,
-    "payment_method": "Card",
     "attempts": 56,
-    "successes": 52,
-    "failures": 4,
-    "gmv": 62785.62,
-    "refund_amount": 1243.53,
-    "fee_revenue": 1042.92
+    "successes": 53,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 1,
+    "payment_method": "Card",
+    "attempts": 17,
+    "successes": 15,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 1,
+    "payment_method": "Upi",
+    "attempts": 24,
+    "successes": 21,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 2,
+    "payment_method": "Card",
+    "attempts": 11,
+    "successes": 11,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 2,
+    "payment_method": "Upi",
+    "attempts": 12,
+    "successes": 10,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 3,
+    "payment_method": "Upi",
+    "attempts": 22,
+    "successes": 20,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 4,
+    "payment_method": "Card",
+    "attempts": 11,
+    "successes": 9,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 4,
+    "payment_method": "Upi",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 5,
+    "payment_method": "Card",
+    "attempts": 15,
+    "successes": 15,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 5,
+    "payment_method": "Upi",
+    "attempts": 39,
+    "successes": 37,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 6,
+    "payment_method": "Card",
+    "attempts": 44,
+    "successes": 40,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 6,
+    "payment_method": "Netbanking",
+    "attempts": 13,
+    "successes": 10,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 6,
+    "payment_method": "Upi",
+    "attempts": 60,
+    "successes": 55,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 7,
+    "payment_method": "Card",
+    "attempts": 52,
+    "successes": 50,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 7,
+    "payment_method": "Emi",
+    "attempts": 17,
+    "successes": 15,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 7,
+    "payment_method": "Netbanking",
+    "attempts": 19,
+    "successes": 18,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 7,
+    "payment_method": "Upi",
+    "attempts": 97,
+    "successes": 89,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 7,
+    "payment_method": "Wallet",
+    "attempts": 12,
+    "successes": 11,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 8,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 8,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 8,
+    "payment_method": "Card",
+    "attempts": 79,
+    "successes": 72,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 8,
+    "payment_method": "Emi",
+    "attempts": 12,
+    "successes": 10,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 8,
+    "payment_method": "Netbanking",
+    "attempts": 19,
+    "successes": 13,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 8,
+    "payment_method": "Upi",
+    "attempts": 149,
+    "successes": 141,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 8,
+    "payment_method": "Wallet",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 9,
+    "payment_method": "Card",
+    "attempts": 81,
+    "successes": 74,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 9,
+    "payment_method": "Emi",
+    "attempts": 19,
+    "successes": 17,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 9,
+    "payment_method": "Netbanking",
+    "attempts": 26,
+    "successes": 22,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 9,
+    "payment_method": "Upi",
+    "attempts": 176,
+    "successes": 160,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 10,
+    "payment_method": "Card",
+    "attempts": 94,
+    "successes": 87,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 10,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 11,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 10,
+    "payment_method": "Netbanking",
+    "attempts": 31,
+    "successes": 27,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 10,
+    "payment_method": "Upi",
+    "attempts": 209,
+    "successes": 197,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 10,
+    "payment_method": "Wallet",
+    "attempts": 12,
+    "successes": 11,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 11,
+    "payment_method": "Card",
+    "attempts": 117,
+    "successes": 111,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 11,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 16,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 11,
+    "payment_method": "Netbanking",
+    "attempts": 27,
+    "successes": 27,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 11,
+    "payment_method": "Upi",
+    "attempts": 207,
+    "successes": 191,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 11,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 12,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 12,
+    "payment_method": "Card",
+    "attempts": 118,
+    "successes": 109,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 12,
+    "payment_method": "Emi",
+    "attempts": 22,
+    "successes": 18,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 12,
+    "payment_method": "Netbanking",
+    "attempts": 33,
+    "successes": 31,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 12,
+    "payment_method": "Upi",
+    "attempts": 220,
+    "successes": 197,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 12,
+    "payment_method": "Wallet",
+    "attempts": 21,
+    "successes": 18,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 13,
+    "payment_method": "Card",
+    "attempts": 111,
+    "successes": 107,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 13,
+    "payment_method": "Emi",
+    "attempts": 12,
+    "successes": 11,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 13,
+    "payment_method": "Netbanking",
+    "attempts": 33,
+    "successes": 28,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 13,
+    "payment_method": "Upi",
+    "attempts": 203,
+    "successes": 189,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 13,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 14,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 14,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 14,
+    "payment_method": "Card",
+    "attempts": 119,
+    "successes": 110,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 14,
+    "payment_method": "Emi",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 14,
+    "payment_method": "Netbanking",
+    "attempts": 17,
+    "successes": 15,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 14,
+    "payment_method": "Upi",
+    "attempts": 182,
+    "successes": 160,
+    "failures": 22
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 14,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 12,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 15,
+    "payment_method": "Card",
+    "attempts": 103,
+    "successes": 91,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 15,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 10,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 15,
+    "payment_method": "Netbanking",
+    "attempts": 27,
+    "successes": 24,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 15,
+    "payment_method": "Upi",
+    "attempts": 177,
+    "successes": 161,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 16,
+    "payment_method": "Bnpl",
+    "attempts": 11,
+    "successes": 8,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 16,
+    "payment_method": "Card",
+    "attempts": 89,
+    "successes": 83,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 16,
+    "payment_method": "Emi",
+    "attempts": 14,
+    "successes": 13,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 16,
+    "payment_method": "Netbanking",
+    "attempts": 23,
+    "successes": 20,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 16,
+    "payment_method": "Upi",
+    "attempts": 206,
+    "successes": 186,
+    "failures": 20
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 16,
+    "payment_method": "Wallet",
+    "attempts": 16,
+    "successes": 14,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 17,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 10,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 17,
+    "payment_method": "Card",
+    "attempts": 99,
+    "successes": 93,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 17,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 17,
+    "payment_method": "Netbanking",
+    "attempts": 41,
+    "successes": 35,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 17,
+    "payment_method": "Upi",
+    "attempts": 205,
+    "successes": 187,
+    "failures": 18
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 17,
+    "payment_method": "Wallet",
+    "attempts": 16,
+    "successes": 14,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 18,
+    "payment_method": "Card",
+    "attempts": 151,
+    "successes": 138,
+    "failures": 13
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 18,
+    "payment_method": "Emi",
+    "attempts": 18,
+    "successes": 15,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 18,
+    "payment_method": "Netbanking",
+    "attempts": 46,
+    "successes": 37,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 18,
+    "payment_method": "Upi",
+    "attempts": 268,
+    "successes": 245,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 18,
+    "payment_method": "Wallet",
+    "attempts": 28,
+    "successes": 21,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 19,
+    "payment_method": "Bnpl",
+    "attempts": 11,
+    "successes": 9,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 19,
+    "payment_method": "Card",
+    "attempts": 164,
+    "successes": 148,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 19,
+    "payment_method": "Emi",
+    "attempts": 29,
+    "successes": 26,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 19,
+    "payment_method": "Netbanking",
+    "attempts": 37,
+    "successes": 31,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 19,
+    "payment_method": "Upi",
+    "attempts": 300,
+    "successes": 269,
+    "failures": 31
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 19,
+    "payment_method": "Wallet",
+    "attempts": 22,
+    "successes": 19,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 20,
+    "payment_method": "Bnpl",
+    "attempts": 11,
+    "successes": 10,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 20,
+    "payment_method": "Card",
+    "attempts": 191,
+    "successes": 176,
+    "failures": 15
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 20,
+    "payment_method": "Emi",
+    "attempts": 32,
+    "successes": 30,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 20,
+    "payment_method": "Netbanking",
+    "attempts": 57,
+    "successes": 47,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 20,
+    "payment_method": "Upi",
+    "attempts": 322,
+    "successes": 296,
+    "failures": 26
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 20,
+    "payment_method": "Wallet",
+    "attempts": 25,
+    "successes": 24,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 21,
+    "payment_method": "Card",
+    "attempts": 150,
+    "successes": 144,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 21,
+    "payment_method": "Emi",
+    "attempts": 21,
+    "successes": 19,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 21,
+    "payment_method": "Netbanking",
+    "attempts": 62,
+    "successes": 54,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 21,
+    "payment_method": "Upi",
+    "attempts": 327,
+    "successes": 301,
+    "failures": 26
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 21,
+    "payment_method": "Wallet",
+    "attempts": 23,
+    "successes": 21,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 22,
+    "payment_method": "Card",
+    "attempts": 145,
+    "successes": 129,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 22,
+    "payment_method": "Emi",
+    "attempts": 15,
+    "successes": 13,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 22,
+    "payment_method": "Netbanking",
+    "attempts": 37,
+    "successes": 33,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 22,
+    "payment_method": "Upi",
+    "attempts": 264,
+    "successes": 239,
+    "failures": 25
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 22,
+    "payment_method": "Wallet",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 23,
+    "payment_method": "Card",
+    "attempts": 79,
+    "successes": 72,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 23,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 16,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 23,
+    "payment_method": "Netbanking",
+    "attempts": 24,
+    "successes": 19,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 23,
+    "payment_method": "Upi",
+    "attempts": 179,
+    "successes": 159,
+    "failures": 20
+  },
+  {
+    "day_of_week": "Saturday",
+    "hour": 23,
+    "payment_method": "Wallet",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
   },
   {
     "day_of_week": "Sunday",
-    "hour_block": 0,
+    "hour": 0,
+    "payment_method": "Card",
+    "attempts": 27,
+    "successes": 23,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 0,
+    "payment_method": "Netbanking",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 0,
+    "payment_method": "Upi",
+    "attempts": 52,
+    "successes": 50,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 1,
+    "payment_method": "Card",
+    "attempts": 19,
+    "successes": 19,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 1,
+    "payment_method": "Upi",
+    "attempts": 23,
+    "successes": 21,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 2,
+    "payment_method": "Upi",
+    "attempts": 19,
+    "successes": 17,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 3,
+    "payment_method": "Upi",
+    "attempts": 11,
+    "successes": 9,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 4,
+    "payment_method": "Upi",
+    "attempts": 15,
+    "successes": 15,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 5,
+    "payment_method": "Card",
+    "attempts": 11,
+    "successes": 11,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 5,
+    "payment_method": "Upi",
+    "attempts": 33,
+    "successes": 32,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 6,
+    "payment_method": "Card",
+    "attempts": 34,
+    "successes": 31,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 6,
+    "payment_method": "Netbanking",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 6,
+    "payment_method": "Upi",
+    "attempts": 55,
+    "successes": 54,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 7,
+    "payment_method": "Card",
+    "attempts": 51,
+    "successes": 46,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 7,
+    "payment_method": "Emi",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 7,
+    "payment_method": "Netbanking",
+    "attempts": 16,
+    "successes": 12,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 7,
+    "payment_method": "Upi",
+    "attempts": 99,
+    "successes": 94,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 7,
+    "payment_method": "Wallet",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 8,
+    "payment_method": "Card",
+    "attempts": 61,
+    "successes": 57,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 8,
+    "payment_method": "Emi",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 8,
+    "payment_method": "Netbanking",
+    "attempts": 21,
+    "successes": 19,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 8,
+    "payment_method": "Upi",
+    "attempts": 125,
+    "successes": 114,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 8,
+    "payment_method": "Wallet",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 9,
+    "payment_method": "Card",
+    "attempts": 93,
+    "successes": 85,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 9,
+    "payment_method": "Netbanking",
+    "attempts": 26,
+    "successes": 21,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 9,
+    "payment_method": "Upi",
+    "attempts": 203,
+    "successes": 180,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 9,
+    "payment_method": "Wallet",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 10,
+    "payment_method": "Card",
+    "attempts": 92,
+    "successes": 82,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 10,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 13,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 10,
+    "payment_method": "Netbanking",
+    "attempts": 27,
+    "successes": 23,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 10,
+    "payment_method": "Upi",
+    "attempts": 186,
+    "successes": 175,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 10,
+    "payment_method": "Wallet",
+    "attempts": 18,
+    "successes": 17,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 11,
+    "payment_method": "Card",
+    "attempts": 104,
+    "successes": 96,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 11,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 14,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 11,
     "payment_method": "Netbanking",
     "attempts": 24,
     "successes": 23,
-    "failures": 1,
-    "gmv": 69224.26999999999,
-    "refund_amount": 5220.1,
-    "fee_revenue": 952.1700000000002
+    "failures": 1
   },
   {
     "day_of_week": "Sunday",
-    "hour_block": 0,
-    "payment_method": "Other",
-    "attempts": 21,
-    "successes": 19,
-    "failures": 2,
-    "gmv": 60969.700000000004,
-    "refund_amount": 34420.479999999996,
-    "fee_revenue": 1296.63
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 0,
+    "hour": 11,
     "payment_method": "Upi",
-    "attempts": 105,
-    "successes": 97,
-    "failures": 8,
-    "gmv": 158124.46,
-    "refund_amount": 5171.37,
-    "fee_revenue": 466.24
+    "attempts": 202,
+    "successes": 178,
+    "failures": 24
   },
   {
     "day_of_week": "Sunday",
-    "hour_block": 4,
+    "hour": 11,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 15,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 12,
     "payment_method": "Card",
-    "attempts": 98,
-    "successes": 90,
-    "failures": 8,
-    "gmv": 87896.51,
-    "refund_amount": 2492.1800000000003,
-    "fee_revenue": 1521.91
+    "attempts": 126,
+    "successes": 118,
+    "failures": 8
   },
   {
     "day_of_week": "Sunday",
-    "hour_block": 4,
+    "hour": 12,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 12,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 12,
     "payment_method": "Netbanking",
     "attempts": 35,
-    "successes": 29,
-    "failures": 6,
-    "gmv": 102618.46999999999,
-    "refund_amount": 73234.01000000001,
-    "fee_revenue": 1601.7
+    "successes": 31,
+    "failures": 4
   },
   {
     "day_of_week": "Sunday",
-    "hour_block": 4,
-    "payment_method": "Other",
-    "attempts": 36,
-    "successes": 32,
-    "failures": 4,
-    "gmv": 47908.009999999995,
-    "refund_amount": 11830.59,
-    "fee_revenue": 851.0699999999999
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 4,
+    "hour": 12,
     "payment_method": "Upi",
-    "attempts": 202,
-    "successes": 195,
-    "failures": 7,
-    "gmv": 294811.45,
-    "refund_amount": 57965.880000000005,
-    "fee_revenue": 911.1600000000001
+    "attempts": 221,
+    "successes": 201,
+    "failures": 20
   },
   {
     "day_of_week": "Sunday",
-    "hour_block": 8,
-    "payment_method": "Card",
-    "attempts": 350,
-    "successes": 320,
-    "failures": 30,
-    "gmv": 755210.1699999999,
-    "refund_amount": 7919.6900000000005,
-    "fee_revenue": 13201.52
+    "hour": 12,
+    "payment_method": "Wallet",
+    "attempts": 20,
+    "successes": 20,
+    "failures": 0
   },
   {
     "day_of_week": "Sunday",
-    "hour_block": 8,
-    "payment_method": "Netbanking",
-    "attempts": 98,
-    "successes": 86,
-    "failures": 12,
-    "gmv": 118743.51000000001,
-    "refund_amount": 3274.9700000000003,
-    "fee_revenue": 1800.3099999999997
+    "hour": 13,
+    "payment_method": "Card",
+    "attempts": 108,
+    "successes": 99,
+    "failures": 9
   },
   {
     "day_of_week": "Sunday",
-    "hour_block": 8,
-    "payment_method": "Other",
-    "attempts": 128,
-    "successes": 125,
-    "failures": 3,
-    "gmv": 226247.30999999994,
-    "refund_amount": 6200.589999999999,
-    "fee_revenue": 3889.9099999999994
+    "hour": 13,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 11,
+    "failures": 2
   },
   {
     "day_of_week": "Sunday",
-    "hour_block": 8,
-    "payment_method": "Upi",
-    "attempts": 716,
-    "successes": 647,
-    "failures": 69,
-    "gmv": 941847.27,
-    "refund_amount": 60419.25,
-    "fee_revenue": 2779.38
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 12,
-    "payment_method": "Card",
-    "attempts": 429,
-    "successes": 394,
-    "failures": 35,
-    "gmv": 598257.7,
-    "refund_amount": 24552.45,
-    "fee_revenue": 10854.419999999998
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 12,
+    "hour": 13,
     "payment_method": "Netbanking",
-    "attempts": 121,
-    "successes": 98,
-    "failures": 23,
-    "gmv": 199555.33,
-    "refund_amount": 9284.01,
-    "fee_revenue": 3026.8199999999997
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 12,
-    "payment_method": "Other",
-    "attempts": 131,
-    "successes": 121,
-    "failures": 10,
-    "gmv": 150234.20999999996,
-    "refund_amount": 2023.25,
-    "fee_revenue": 2562.05
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 12,
-    "payment_method": "Upi",
-    "attempts": 795,
-    "successes": 732,
-    "failures": 63,
-    "gmv": 1058268.53,
-    "refund_amount": 45290.78,
-    "fee_revenue": 3107.4700000000003
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 16,
-    "payment_method": "Card",
-    "attempts": 498,
-    "successes": 464,
-    "failures": 34,
-    "gmv": 758317.99,
-    "refund_amount": 32248.69,
-    "fee_revenue": 14030.619999999999
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 16,
-    "payment_method": "Netbanking",
-    "attempts": 144,
-    "successes": 114,
-    "failures": 30,
-    "gmv": 176568.42,
-    "refund_amount": 22966.72,
-    "fee_revenue": 2659.37
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 16,
-    "payment_method": "Other",
-    "attempts": 184,
-    "successes": 173,
-    "failures": 11,
-    "gmv": 471658.9199999999,
-    "refund_amount": 19838.93,
-    "fee_revenue": 7642.280000000001
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 16,
-    "payment_method": "Upi",
-    "attempts": 972,
-    "successes": 890,
-    "failures": 82,
-    "gmv": 1185060.5899999999,
-    "refund_amount": 122664.35,
-    "fee_revenue": 3512.44
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 20,
-    "payment_method": "Card",
-    "attempts": 541,
-    "successes": 503,
-    "failures": 38,
-    "gmv": 748001.98,
-    "refund_amount": 82015.04999999999,
-    "fee_revenue": 13130.73
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 20,
-    "payment_method": "Netbanking",
-    "attempts": 158,
-    "successes": 132,
-    "failures": 26,
-    "gmv": 171146.91000000003,
-    "refund_amount": 39616.33,
-    "fee_revenue": 2557.66
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 20,
-    "payment_method": "Other",
-    "attempts": 202,
-    "successes": 187,
-    "failures": 15,
-    "gmv": 282500.28,
-    "refund_amount": 42538.01,
-    "fee_revenue": 4956.72
-  },
-  {
-    "day_of_week": "Sunday",
-    "hour_block": 20,
-    "payment_method": "Upi",
-    "attempts": 1084,
-    "successes": 1000,
-    "failures": 84,
-    "gmv": 1332870.74,
-    "refund_amount": 51721.07,
-    "fee_revenue": 3968.78
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 0,
-    "payment_method": "Card",
-    "attempts": 62,
-    "successes": 55,
-    "failures": 7,
-    "gmv": 71930.99999999999,
-    "refund_amount": 1954.6499999999999,
-    "fee_revenue": 1373.38
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 0,
-    "payment_method": "Netbanking",
-    "attempts": 15,
-    "successes": 12,
-    "failures": 3,
-    "gmv": 64200.58999999999,
-    "refund_amount": 49952.99,
-    "fee_revenue": 901.5699999999999
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 0,
-    "payment_method": "Other",
-    "attempts": 30,
-    "successes": 27,
-    "failures": 3,
-    "gmv": 38405.439999999995,
-    "refund_amount": 1015.28,
-    "fee_revenue": 647.87
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 0,
-    "payment_method": "Upi",
-    "attempts": 150,
-    "successes": 138,
-    "failures": 12,
-    "gmv": 243523.05000000002,
-    "refund_amount": 14988.14,
-    "fee_revenue": 723.69
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 4,
-    "payment_method": "Card",
-    "attempts": 138,
-    "successes": 126,
-    "failures": 12,
-    "gmv": 188529.11,
-    "refund_amount": 2404.46,
-    "fee_revenue": 3380.09
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 4,
-    "payment_method": "Netbanking",
-    "attempts": 51,
-    "successes": 47,
-    "failures": 4,
-    "gmv": 95539.15000000001,
-    "refund_amount": 983.02,
-    "fee_revenue": 1466.35
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 4,
-    "payment_method": "Other",
-    "attempts": 45,
-    "successes": 43,
-    "failures": 2,
-    "gmv": 47749.09,
-    "refund_amount": 3255.31,
-    "fee_revenue": 775.2199999999999
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 4,
-    "payment_method": "Upi",
-    "attempts": 292,
-    "successes": 271,
-    "failures": 21,
-    "gmv": 433555.82,
-    "refund_amount": 20057.59,
-    "fee_revenue": 1227.8399999999997
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 8,
-    "payment_method": "Card",
-    "attempts": 454,
-    "successes": 407,
-    "failures": 47,
-    "gmv": 624867.6699999999,
-    "refund_amount": 38801.63,
-    "fee_revenue": 10902.869999999999
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 8,
-    "payment_method": "Netbanking",
-    "attempts": 120,
-    "successes": 112,
-    "failures": 8,
-    "gmv": 192009.0,
-    "refund_amount": 11788.76,
-    "fee_revenue": 2873.15
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 8,
-    "payment_method": "Other",
-    "attempts": 175,
-    "successes": 158,
-    "failures": 17,
-    "gmv": 182509.24,
-    "refund_amount": 1658.43,
-    "fee_revenue": 3248.79
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 8,
-    "payment_method": "Upi",
-    "attempts": 927,
-    "successes": 847,
-    "failures": 80,
-    "gmv": 1273568.11,
-    "refund_amount": 49354.56,
-    "fee_revenue": 3755.47
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 12,
-    "payment_method": "Card",
-    "attempts": 542,
-    "successes": 492,
-    "failures": 50,
-    "gmv": 717570.3699999999,
-    "refund_amount": 18851.42,
-    "fee_revenue": 13489.939999999999
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 12,
-    "payment_method": "Netbanking",
-    "attempts": 154,
-    "successes": 138,
-    "failures": 16,
-    "gmv": 229356.81,
-    "refund_amount": 21476.63,
-    "fee_revenue": 3430.55
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 12,
-    "payment_method": "Other",
-    "attempts": 173,
-    "successes": 159,
-    "failures": 14,
-    "gmv": 232616.90000000002,
-    "refund_amount": 31142.16,
-    "fee_revenue": 4188.170000000001
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 12,
-    "payment_method": "Upi",
-    "attempts": 965,
-    "successes": 886,
-    "failures": 79,
-    "gmv": 1307869.82,
-    "refund_amount": 61178.22,
-    "fee_revenue": 3904.75
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 16,
-    "payment_method": "Card",
-    "attempts": 701,
-    "successes": 648,
-    "failures": 53,
-    "gmv": 973628.05,
-    "refund_amount": 33680.979999999996,
-    "fee_revenue": 16943.73
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 16,
-    "payment_method": "Netbanking",
-    "attempts": 184,
-    "successes": 162,
-    "failures": 22,
-    "gmv": 222872.78000000003,
-    "refund_amount": 9456.73,
-    "fee_revenue": 3359.0600000000004
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 16,
-    "payment_method": "Other",
-    "attempts": 236,
-    "successes": 220,
-    "failures": 16,
-    "gmv": 308927.18999999994,
-    "refund_amount": 21861.72,
-    "fee_revenue": 5759.4299999999985
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 16,
-    "payment_method": "Upi",
-    "attempts": 1275,
-    "successes": 1166,
-    "failures": 109,
-    "gmv": 1770769.79,
-    "refund_amount": 73539.22,
-    "fee_revenue": 5205.78
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 20,
-    "payment_method": "Card",
-    "attempts": 707,
-    "successes": 639,
-    "failures": 68,
-    "gmv": 892618.81,
-    "refund_amount": 69220.99,
-    "fee_revenue": 16369.960000000001
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 20,
-    "payment_method": "Netbanking",
-    "attempts": 197,
-    "successes": 170,
-    "failures": 27,
-    "gmv": 228765.38,
-    "refund_amount": 13074.88,
-    "fee_revenue": 3264.96
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 20,
-    "payment_method": "Other",
-    "attempts": 245,
-    "successes": 226,
-    "failures": 19,
-    "gmv": 406205.1,
-    "refund_amount": 35891.35,
-    "fee_revenue": 7365.99
-  },
-  {
-    "day_of_week": "Thursday",
-    "hour_block": 20,
-    "payment_method": "Upi",
-    "attempts": 1338,
-    "successes": 1224,
-    "failures": 114,
-    "gmv": 2097798.09,
-    "refund_amount": 109648.28,
-    "fee_revenue": 6179.450000000001
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 0,
-    "payment_method": "Card",
-    "attempts": 70,
-    "successes": 61,
-    "failures": 9,
-    "gmv": 102171.84,
-    "refund_amount": 2701.7899999999995,
-    "fee_revenue": 1849.3700000000001
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 0,
-    "payment_method": "Netbanking",
-    "attempts": 16,
-    "successes": 14,
-    "failures": 2,
-    "gmv": 20820.66,
-    "refund_amount": 3962.0999999999995,
-    "fee_revenue": 313.84000000000003
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 0,
-    "payment_method": "Other",
-    "attempts": 32,
-    "successes": 29,
-    "failures": 3,
-    "gmv": 34667.549999999996,
-    "refund_amount": 6000.87,
-    "fee_revenue": 634.73
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 0,
-    "payment_method": "Upi",
-    "attempts": 133,
-    "successes": 123,
-    "failures": 10,
-    "gmv": 244542.94999999998,
-    "refund_amount": 17040.02,
-    "fee_revenue": 754.1
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 4,
-    "payment_method": "Card",
-    "attempts": 138,
-    "successes": 122,
-    "failures": 16,
-    "gmv": 184125.34999999998,
-    "refund_amount": 9212.04,
-    "fee_revenue": 3301.6500000000005
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 4,
-    "payment_method": "Netbanking",
-    "attempts": 40,
-    "successes": 34,
-    "failures": 6,
-    "gmv": 78849.56,
-    "refund_amount": 2194.31,
-    "fee_revenue": 1196.46
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 4,
-    "payment_method": "Other",
-    "attempts": 45,
-    "successes": 42,
-    "failures": 3,
-    "gmv": 146995.16,
-    "refund_amount": 84155.78,
-    "fee_revenue": 2824.7899999999995
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 4,
-    "payment_method": "Upi",
-    "attempts": 265,
-    "successes": 249,
-    "failures": 16,
-    "gmv": 422077.17000000004,
-    "refund_amount": 31229.79,
-    "fee_revenue": 1247.44
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 8,
-    "payment_method": "Card",
-    "attempts": 439,
-    "successes": 398,
-    "failures": 41,
-    "gmv": 613570.3799999999,
-    "refund_amount": 76129.71,
-    "fee_revenue": 10998.92
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 8,
-    "payment_method": "Netbanking",
-    "attempts": 128,
-    "successes": 111,
-    "failures": 17,
-    "gmv": 195280.96,
-    "refund_amount": 46500.24,
-    "fee_revenue": 3008.33
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 8,
-    "payment_method": "Other",
-    "attempts": 157,
-    "successes": 147,
-    "failures": 10,
-    "gmv": 344335.01999999996,
-    "refund_amount": 4064.92,
-    "fee_revenue": 6076.0
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 8,
-    "payment_method": "Upi",
-    "attempts": 851,
-    "successes": 775,
-    "failures": 76,
-    "gmv": 1243691.99,
-    "refund_amount": 29574.22,
-    "fee_revenue": 3678.67
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 12,
-    "payment_method": "Card",
-    "attempts": 556,
-    "successes": 514,
-    "failures": 42,
-    "gmv": 735122.76,
-    "refund_amount": 43425.82,
-    "fee_revenue": 13308.75
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 12,
-    "payment_method": "Netbanking",
-    "attempts": 143,
-    "successes": 128,
-    "failures": 15,
-    "gmv": 162682.83,
-    "refund_amount": 13720.22,
-    "fee_revenue": 2349.12
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 12,
-    "payment_method": "Other",
-    "attempts": 165,
-    "successes": 145,
-    "failures": 20,
-    "gmv": 154335.24000000002,
-    "refund_amount": 16104.24,
-    "fee_revenue": 2489.04
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 12,
-    "payment_method": "Upi",
-    "attempts": 974,
-    "successes": 903,
-    "failures": 71,
-    "gmv": 1434139.29,
-    "refund_amount": 98543.07,
-    "fee_revenue": 4268.860000000001
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 16,
-    "payment_method": "Card",
-    "attempts": 632,
-    "successes": 568,
-    "failures": 64,
-    "gmv": 895720.29,
-    "refund_amount": 46362.23,
-    "fee_revenue": 16240.849999999999
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 16,
-    "payment_method": "Netbanking",
-    "attempts": 183,
-    "successes": 162,
-    "failures": 21,
-    "gmv": 258412.27000000002,
-    "refund_amount": 15723.289999999999,
-    "fee_revenue": 3837.15
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 16,
-    "payment_method": "Other",
-    "attempts": 207,
-    "successes": 191,
-    "failures": 16,
-    "gmv": 244044.36,
-    "refund_amount": 18533.23,
-    "fee_revenue": 4127.0599999999995
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 16,
-    "payment_method": "Upi",
-    "attempts": 1320,
-    "successes": 1237,
-    "failures": 83,
-    "gmv": 1915896.73,
-    "refund_amount": 184498.55,
-    "fee_revenue": 5634.070000000001
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 20,
-    "payment_method": "Card",
-    "attempts": 733,
-    "successes": 674,
-    "failures": 59,
-    "gmv": 1163665.84,
-    "refund_amount": 31316.66,
-    "fee_revenue": 20314.72
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 20,
-    "payment_method": "Netbanking",
-    "attempts": 200,
-    "successes": 179,
-    "failures": 21,
-    "gmv": 296545.92000000004,
-    "refund_amount": 29859.120000000003,
-    "fee_revenue": 4461.74
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 20,
-    "payment_method": "Other",
-    "attempts": 257,
-    "successes": 239,
-    "failures": 18,
-    "gmv": 310062.61,
-    "refund_amount": 18739.73,
-    "fee_revenue": 5086.330000000001
-  },
-  {
-    "day_of_week": "Tuesday",
-    "hour_block": 20,
-    "payment_method": "Upi",
-    "attempts": 1365,
-    "successes": 1260,
-    "failures": 105,
-    "gmv": 1837460.29,
-    "refund_amount": 121321.48999999999,
-    "fee_revenue": 5457.82
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 0,
-    "payment_method": "Card",
-    "attempts": 76,
-    "successes": 72,
-    "failures": 4,
-    "gmv": 132138.19,
-    "refund_amount": 11958.050000000001,
-    "fee_revenue": 2240.71
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 0,
-    "payment_method": "Netbanking",
-    "attempts": 28,
+    "attempts": 29,
     "successes": 22,
-    "failures": 6,
-    "gmv": 35862.34,
-    "refund_amount": 1222.55,
-    "fee_revenue": 629.59
+    "failures": 7
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 0,
-    "payment_method": "Other",
-    "attempts": 28,
-    "successes": 26,
-    "failures": 2,
-    "gmv": 44394.71000000001,
-    "refund_amount": 14524.92,
-    "fee_revenue": 899.3200000000002
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 0,
+    "day_of_week": "Sunday",
+    "hour": 13,
     "payment_method": "Upi",
-    "attempts": 154,
-    "successes": 141,
-    "failures": 13,
-    "gmv": 162269.49,
-    "refund_amount": 6098.45,
-    "fee_revenue": 453.5
+    "attempts": 224,
+    "successes": 208,
+    "failures": 16
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 4,
+    "day_of_week": "Sunday",
+    "hour": 13,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 14,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 14,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 14,
+    "payment_method": "Card",
+    "attempts": 112,
+    "successes": 98,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 14,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 11,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 14,
+    "payment_method": "Netbanking",
+    "attempts": 29,
+    "successes": 25,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 14,
+    "payment_method": "Upi",
+    "attempts": 184,
+    "successes": 172,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 14,
+    "payment_method": "Wallet",
+    "attempts": 13,
+    "successes": 10,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 15,
+    "payment_method": "Card",
+    "attempts": 83,
+    "successes": 79,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 15,
+    "payment_method": "Netbanking",
+    "attempts": 28,
+    "successes": 20,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 15,
+    "payment_method": "Upi",
+    "attempts": 166,
+    "successes": 151,
+    "failures": 15
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 15,
+    "payment_method": "Wallet",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 16,
+    "payment_method": "Card",
+    "attempts": 100,
+    "successes": 89,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 16,
+    "payment_method": "Netbanking",
+    "attempts": 25,
+    "successes": 18,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 16,
+    "payment_method": "Upi",
+    "attempts": 175,
+    "successes": 159,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 17,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 17,
+    "payment_method": "Card",
+    "attempts": 112,
+    "successes": 104,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 17,
+    "payment_method": "Emi",
+    "attempts": 14,
+    "successes": 13,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 17,
+    "payment_method": "Netbanking",
+    "attempts": 25,
+    "successes": 21,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 17,
+    "payment_method": "Upi",
+    "attempts": 241,
+    "successes": 222,
+    "failures": 19
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 17,
+    "payment_method": "Wallet",
+    "attempts": 25,
+    "successes": 24,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 18,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 18,
     "payment_method": "Card",
     "attempts": 144,
     "successes": 136,
-    "failures": 8,
-    "gmv": 251125.9,
-    "refund_amount": 12042.570000000002,
-    "fee_revenue": 4340.3099999999995
+    "failures": 8
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 4,
+    "day_of_week": "Sunday",
+    "hour": 18,
+    "payment_method": "Emi",
+    "attempts": 17,
+    "successes": 15,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 18,
     "payment_method": "Netbanking",
-    "attempts": 40,
+    "attempts": 44,
+    "successes": 32,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 18,
+    "payment_method": "Upi",
+    "attempts": 298,
+    "successes": 272,
+    "failures": 26
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 18,
+    "payment_method": "Wallet",
+    "attempts": 22,
+    "successes": 20,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 19,
+    "payment_method": "Card",
+    "attempts": 142,
+    "successes": 135,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 19,
+    "payment_method": "Emi",
+    "attempts": 20,
+    "successes": 19,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 19,
+    "payment_method": "Netbanking",
+    "attempts": 50,
+    "successes": 43,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 19,
+    "payment_method": "Upi",
+    "attempts": 258,
+    "successes": 237,
+    "failures": 21
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 19,
+    "payment_method": "Wallet",
+    "attempts": 37,
     "successes": 35,
-    "failures": 5,
-    "gmv": 67767.89,
-    "refund_amount": 72.51,
-    "fee_revenue": 955.78
+    "failures": 2
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 4,
-    "payment_method": "Other",
-    "attempts": 52,
-    "successes": 50,
-    "failures": 2,
-    "gmv": 69686.61999999998,
-    "refund_amount": 3936.71,
-    "fee_revenue": 1119.11
+    "day_of_week": "Sunday",
+    "hour": 20,
+    "payment_method": "Bnpl",
+    "attempts": 19,
+    "successes": 16,
+    "failures": 3
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 4,
-    "payment_method": "Upi",
-    "attempts": 313,
-    "successes": 286,
-    "failures": 27,
-    "gmv": 475921.28,
-    "refund_amount": 90108.49999999999,
-    "fee_revenue": 1428.5100000000002
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 8,
+    "day_of_week": "Sunday",
+    "hour": 20,
     "payment_method": "Card",
-    "attempts": 494,
-    "successes": 454,
-    "failures": 40,
-    "gmv": 667654.3500000001,
-    "refund_amount": 34737.33,
-    "fee_revenue": 12067.21
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 8,
-    "payment_method": "Netbanking",
-    "attempts": 121,
-    "successes": 104,
-    "failures": 17,
-    "gmv": 161436.75,
-    "refund_amount": 26473.94,
-    "fee_revenue": 2443.7
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 8,
-    "payment_method": "Other",
-    "attempts": 161,
-    "successes": 147,
-    "failures": 14,
-    "gmv": 237055.47999999995,
-    "refund_amount": 8398.52,
-    "fee_revenue": 3886.3100000000004
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 8,
-    "payment_method": "Upi",
-    "attempts": 880,
-    "successes": 824,
-    "failures": 56,
-    "gmv": 1396173.55,
-    "refund_amount": 149550.85,
-    "fee_revenue": 4151.59
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 12,
-    "payment_method": "Card",
-    "attempts": 502,
-    "successes": 463,
-    "failures": 39,
-    "gmv": 777646.21,
-    "refund_amount": 39614.9,
-    "fee_revenue": 13777.6
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 12,
-    "payment_method": "Netbanking",
-    "attempts": 128,
-    "successes": 106,
-    "failures": 22,
-    "gmv": 176627.55000000005,
-    "refund_amount": 5988.12,
-    "fee_revenue": 2757.5299999999997
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 12,
-    "payment_method": "Other",
     "attempts": 177,
-    "successes": 162,
-    "failures": 15,
-    "gmv": 277845.8,
-    "refund_amount": 3411.67,
-    "fee_revenue": 5310.049999999999
+    "successes": 167,
+    "failures": 10
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 12,
-    "payment_method": "Upi",
-    "attempts": 959,
-    "successes": 871,
-    "failures": 88,
-    "gmv": 1347483.9,
-    "refund_amount": 80675.36,
-    "fee_revenue": 4116.55
+    "day_of_week": "Sunday",
+    "hour": 20,
+    "payment_method": "Emi",
+    "attempts": 27,
+    "successes": 24,
+    "failures": 3
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 16,
-    "payment_method": "Card",
-    "attempts": 638,
-    "successes": 581,
-    "failures": 57,
-    "gmv": 830027.77,
-    "refund_amount": 45356.44,
-    "fee_revenue": 14654.53
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 16,
+    "day_of_week": "Sunday",
+    "hour": 20,
     "payment_method": "Netbanking",
-    "attempts": 180,
-    "successes": 156,
-    "failures": 24,
-    "gmv": 196088.05000000002,
-    "refund_amount": 9199.5,
-    "fee_revenue": 3084.83
+    "attempts": 65,
+    "successes": 54,
+    "failures": 11
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 16,
-    "payment_method": "Other",
-    "attempts": 229,
-    "successes": 214,
-    "failures": 15,
-    "gmv": 335846.87000000005,
-    "refund_amount": 10913.69,
-    "fee_revenue": 6291.9800000000005
-  },
-  {
-    "day_of_week": "Wednesday",
-    "hour_block": 16,
+    "day_of_week": "Sunday",
+    "hour": 20,
     "payment_method": "Upi",
-    "attempts": 1246,
-    "successes": 1157,
-    "failures": 89,
-    "gmv": 1684729.3599999999,
-    "refund_amount": 94260.5,
-    "fee_revenue": 4979.8
+    "attempts": 369,
+    "successes": 346,
+    "failures": 23
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 20,
+    "day_of_week": "Sunday",
+    "hour": 20,
+    "payment_method": "Wallet",
+    "attempts": 28,
+    "successes": 28,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 21,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 7,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 21,
     "payment_method": "Card",
-    "attempts": 722,
-    "successes": 675,
-    "failures": 47,
-    "gmv": 1175082.4300000002,
-    "refund_amount": 69650.81,
-    "fee_revenue": 20367.269999999997
+    "attempts": 147,
+    "successes": 138,
+    "failures": 9
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 20,
+    "day_of_week": "Sunday",
+    "hour": 21,
+    "payment_method": "Emi",
+    "attempts": 25,
+    "successes": 25,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 21,
     "payment_method": "Netbanking",
-    "attempts": 193,
-    "successes": 169,
-    "failures": 24,
-    "gmv": 172350.27000000002,
-    "refund_amount": 5435.9,
-    "fee_revenue": 2537.96
+    "attempts": 48,
+    "successes": 39,
+    "failures": 9
   },
   {
-    "day_of_week": "Wednesday",
-    "hour_block": 20,
-    "payment_method": "Other",
+    "day_of_week": "Sunday",
+    "hour": 21,
+    "payment_method": "Upi",
+    "attempts": 296,
+    "successes": 264,
+    "failures": 32
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 21,
+    "payment_method": "Wallet",
+    "attempts": 22,
+    "successes": 21,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 22,
+    "payment_method": "Card",
+    "attempts": 117,
+    "successes": 107,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 22,
+    "payment_method": "Emi",
+    "attempts": 21,
+    "successes": 21,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 22,
+    "payment_method": "Netbanking",
+    "attempts": 31,
+    "successes": 28,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 22,
+    "payment_method": "Upi",
+    "attempts": 236,
+    "successes": 220,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 22,
+    "payment_method": "Wallet",
+    "attempts": 21,
+    "successes": 21,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 23,
+    "payment_method": "Card",
+    "attempts": 100,
+    "successes": 91,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 23,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 11,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 23,
+    "payment_method": "Netbanking",
+    "attempts": 14,
+    "successes": 11,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Sunday",
+    "hour": 23,
+    "payment_method": "Upi",
+    "attempts": 183,
+    "successes": 170,
+    "failures": 13
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 0,
+    "payment_method": "Card",
+    "attempts": 30,
+    "successes": 25,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 0,
+    "payment_method": "Upi",
+    "attempts": 71,
+    "successes": 66,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 0,
+    "payment_method": "Wallet",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 1,
+    "payment_method": "Card",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 1,
+    "payment_method": "Upi",
+    "attempts": 44,
+    "successes": 42,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 2,
+    "payment_method": "Upi",
+    "attempts": 17,
+    "successes": 14,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 3,
+    "payment_method": "Card",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 3,
+    "payment_method": "Upi",
+    "attempts": 18,
+    "successes": 16,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 4,
+    "payment_method": "Card",
+    "attempts": 14,
+    "successes": 12,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 4,
+    "payment_method": "Upi",
+    "attempts": 23,
+    "successes": 22,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 5,
+    "payment_method": "Card",
+    "attempts": 15,
+    "successes": 13,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 5,
+    "payment_method": "Netbanking",
+    "attempts": 13,
+    "successes": 13,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 5,
+    "payment_method": "Upi",
+    "attempts": 49,
+    "successes": 44,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 6,
+    "payment_method": "Card",
+    "attempts": 40,
+    "successes": 36,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 6,
+    "payment_method": "Netbanking",
+    "attempts": 13,
+    "successes": 11,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 6,
+    "payment_method": "Upi",
+    "attempts": 94,
+    "successes": 89,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 7,
+    "payment_method": "Card",
+    "attempts": 69,
+    "successes": 65,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 7,
+    "payment_method": "Netbanking",
+    "attempts": 23,
+    "successes": 21,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 7,
+    "payment_method": "Upi",
+    "attempts": 126,
+    "successes": 116,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 7,
+    "payment_method": "Wallet",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 8,
+    "payment_method": "Card",
+    "attempts": 104,
+    "successes": 99,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 8,
+    "payment_method": "Emi",
+    "attempts": 17,
+    "successes": 15,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 8,
+    "payment_method": "Netbanking",
+    "attempts": 24,
+    "successes": 19,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 8,
+    "payment_method": "Upi",
+    "attempts": 188,
+    "successes": 174,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 9,
+    "payment_method": "Card",
+    "attempts": 115,
+    "successes": 103,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 9,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 10,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 9,
+    "payment_method": "Netbanking",
+    "attempts": 25,
+    "successes": 25,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 9,
+    "payment_method": "Upi",
+    "attempts": 228,
+    "successes": 209,
+    "failures": 19
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 9,
+    "payment_method": "Wallet",
+    "attempts": 19,
+    "successes": 14,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 10,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 8,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 10,
+    "payment_method": "Card",
+    "attempts": 111,
+    "successes": 98,
+    "failures": 13
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 10,
+    "payment_method": "Emi",
+    "attempts": 15,
+    "successes": 14,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 10,
+    "payment_method": "Netbanking",
+    "attempts": 46,
+    "successes": 45,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 10,
+    "payment_method": "Upi",
+    "attempts": 246,
+    "successes": 229,
+    "failures": 17
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 10,
+    "payment_method": "Wallet",
+    "attempts": 21,
+    "successes": 21,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 11,
+    "payment_method": "Bnpl",
+    "attempts": 17,
+    "successes": 16,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 11,
+    "payment_method": "Card",
+    "attempts": 124,
+    "successes": 107,
+    "failures": 17
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 11,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 14,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 11,
+    "payment_method": "Netbanking",
+    "attempts": 25,
+    "successes": 23,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 11,
+    "payment_method": "Upi",
+    "attempts": 265,
+    "successes": 235,
+    "failures": 30
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 11,
+    "payment_method": "Wallet",
+    "attempts": 22,
+    "successes": 22,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 12,
+    "payment_method": "Card",
+    "attempts": 142,
+    "successes": 125,
+    "failures": 17
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 12,
+    "payment_method": "Emi",
+    "attempts": 15,
+    "successes": 14,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 12,
+    "payment_method": "Netbanking",
+    "attempts": 50,
+    "successes": 47,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 12,
+    "payment_method": "Upi",
     "attempts": 244,
     "successes": 226,
-    "failures": 18,
-    "gmv": 315904.20000000007,
-    "refund_amount": 8166.67,
-    "fee_revenue": 5648.610000000001
+    "failures": 18
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 12,
+    "payment_method": "Wallet",
+    "attempts": 18,
+    "successes": 17,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 13,
+    "payment_method": "Card",
+    "attempts": 143,
+    "successes": 128,
+    "failures": 15
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 13,
+    "payment_method": "Emi",
+    "attempts": 17,
+    "successes": 16,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 13,
+    "payment_method": "Netbanking",
+    "attempts": 41,
+    "successes": 35,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 13,
+    "payment_method": "Upi",
+    "attempts": 248,
+    "successes": 235,
+    "failures": 13
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 13,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 12,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 14,
+    "payment_method": "Card",
+    "attempts": 128,
+    "successes": 120,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 14,
+    "payment_method": "Emi",
+    "attempts": 24,
+    "successes": 22,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 14,
+    "payment_method": "Netbanking",
+    "attempts": 37,
+    "successes": 32,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 14,
+    "payment_method": "Upi",
+    "attempts": 248,
+    "successes": 230,
+    "failures": 18
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 14,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 14,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 15,
+    "payment_method": "Card",
+    "attempts": 129,
+    "successes": 119,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 15,
+    "payment_method": "Emi",
+    "attempts": 20,
+    "successes": 18,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 15,
+    "payment_method": "Netbanking",
+    "attempts": 26,
+    "successes": 24,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 15,
+    "payment_method": "Upi",
+    "attempts": 225,
+    "successes": 195,
+    "failures": 30
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 15,
+    "payment_method": "Wallet",
+    "attempts": 22,
+    "successes": 20,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 16,
+    "payment_method": "Card",
+    "attempts": 126,
+    "successes": 120,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 16,
+    "payment_method": "Emi",
+    "attempts": 20,
+    "successes": 18,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 16,
+    "payment_method": "Netbanking",
+    "attempts": 24,
+    "successes": 22,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 16,
+    "payment_method": "Upi",
+    "attempts": 262,
+    "successes": 234,
+    "failures": 28
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 16,
+    "payment_method": "Wallet",
+    "attempts": 20,
+    "successes": 20,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 17,
+    "payment_method": "Bnpl",
+    "attempts": 20,
+    "successes": 18,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 17,
+    "payment_method": "Card",
+    "attempts": 167,
+    "successes": 154,
+    "failures": 13
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 17,
+    "payment_method": "Emi",
+    "attempts": 18,
+    "successes": 18,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 17,
+    "payment_method": "Netbanking",
+    "attempts": 52,
+    "successes": 45,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 17,
+    "payment_method": "Upi",
+    "attempts": 276,
+    "successes": 260,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 17,
+    "payment_method": "Wallet",
+    "attempts": 12,
+    "successes": 10,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 18,
+    "payment_method": "Bnpl",
+    "attempts": 11,
+    "successes": 10,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 18,
+    "payment_method": "Card",
+    "attempts": 200,
+    "successes": 187,
+    "failures": 13
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 18,
+    "payment_method": "Emi",
+    "attempts": 26,
+    "successes": 22,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 18,
+    "payment_method": "Netbanking",
+    "attempts": 49,
+    "successes": 43,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 18,
+    "payment_method": "Upi",
+    "attempts": 340,
+    "successes": 305,
+    "failures": 35
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 18,
+    "payment_method": "Wallet",
+    "attempts": 32,
+    "successes": 31,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 19,
+    "payment_method": "Bnpl",
+    "attempts": 13,
+    "successes": 12,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 19,
+    "payment_method": "Card",
+    "attempts": 208,
+    "successes": 187,
+    "failures": 21
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 19,
+    "payment_method": "Emi",
+    "attempts": 24,
+    "successes": 24,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 19,
+    "payment_method": "Netbanking",
+    "attempts": 59,
+    "successes": 52,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 19,
+    "payment_method": "Upi",
+    "attempts": 397,
+    "successes": 367,
+    "failures": 30
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 19,
+    "payment_method": "Wallet",
+    "attempts": 31,
+    "successes": 29,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 20,
+    "payment_method": "Card",
+    "attempts": 217,
+    "successes": 201,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 20,
+    "payment_method": "Emi",
+    "attempts": 42,
+    "successes": 37,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 20,
+    "payment_method": "Netbanking",
+    "attempts": 55,
+    "successes": 48,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 20,
+    "payment_method": "Upi",
+    "attempts": 411,
+    "successes": 374,
+    "failures": 37
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 20,
+    "payment_method": "Wallet",
+    "attempts": 29,
+    "successes": 27,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 21,
+    "payment_method": "Bnpl",
+    "attempts": 17,
+    "successes": 16,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 21,
+    "payment_method": "Card",
+    "attempts": 209,
+    "successes": 190,
+    "failures": 19
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 21,
+    "payment_method": "Emi",
+    "attempts": 33,
+    "successes": 32,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 21,
+    "payment_method": "Netbanking",
+    "attempts": 62,
+    "successes": 52,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 21,
+    "payment_method": "Upi",
+    "attempts": 361,
+    "successes": 334,
+    "failures": 27
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 21,
+    "payment_method": "Wallet",
+    "attempts": 28,
+    "successes": 26,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 22,
+    "payment_method": "Bnpl",
+    "attempts": 14,
+    "successes": 14,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 22,
+    "payment_method": "Card",
+    "attempts": 162,
+    "successes": 141,
+    "failures": 21
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 22,
+    "payment_method": "Emi",
+    "attempts": 22,
+    "successes": 21,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 22,
+    "payment_method": "Netbanking",
+    "attempts": 55,
+    "successes": 49,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 22,
+    "payment_method": "Upi",
+    "attempts": 331,
+    "successes": 306,
+    "failures": 25
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 22,
+    "payment_method": "Wallet",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 23,
+    "payment_method": "Bnpl",
+    "attempts": 11,
+    "successes": 10,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 23,
+    "payment_method": "Card",
+    "attempts": 119,
+    "successes": 107,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 23,
+    "payment_method": "Netbanking",
+    "attempts": 25,
+    "successes": 21,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 23,
+    "payment_method": "Upi",
+    "attempts": 235,
+    "successes": 210,
+    "failures": 25
+  },
+  {
+    "day_of_week": "Thursday",
+    "hour": 23,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 13,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 0,
+    "payment_method": "Card",
+    "attempts": 30,
+    "successes": 26,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 0,
+    "payment_method": "Upi",
+    "attempts": 52,
+    "successes": 51,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 1,
+    "payment_method": "Card",
+    "attempts": 19,
+    "successes": 16,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 1,
+    "payment_method": "Upi",
+    "attempts": 35,
+    "successes": 31,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 2,
+    "payment_method": "Upi",
+    "attempts": 19,
+    "successes": 18,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 3,
+    "payment_method": "Card",
+    "attempts": 15,
+    "successes": 13,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 3,
+    "payment_method": "Upi",
+    "attempts": 27,
+    "successes": 23,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 4,
+    "payment_method": "Card",
+    "attempts": 15,
+    "successes": 12,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 4,
+    "payment_method": "Upi",
+    "attempts": 20,
+    "successes": 19,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 5,
+    "payment_method": "Card",
+    "attempts": 18,
+    "successes": 14,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 5,
+    "payment_method": "Netbanking",
+    "attempts": 11,
+    "successes": 10,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 5,
+    "payment_method": "Upi",
+    "attempts": 46,
+    "successes": 42,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 6,
+    "payment_method": "Card",
+    "attempts": 48,
+    "successes": 45,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 6,
+    "payment_method": "Netbanking",
+    "attempts": 10,
+    "successes": 8,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 6,
+    "payment_method": "Upi",
+    "attempts": 92,
+    "successes": 86,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 7,
+    "payment_method": "Card",
+    "attempts": 57,
+    "successes": 51,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 7,
+    "payment_method": "Netbanking",
+    "attempts": 18,
+    "successes": 15,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 7,
+    "payment_method": "Upi",
+    "attempts": 107,
+    "successes": 102,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 8,
+    "payment_method": "Card",
+    "attempts": 91,
+    "successes": 80,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 8,
+    "payment_method": "Netbanking",
+    "attempts": 17,
+    "successes": 13,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 8,
+    "payment_method": "Upi",
+    "attempts": 172,
+    "successes": 159,
+    "failures": 13
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 8,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 12,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 9,
+    "payment_method": "Card",
+    "attempts": 110,
+    "successes": 102,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 9,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 13,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 9,
+    "payment_method": "Netbanking",
+    "attempts": 34,
+    "successes": 30,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 9,
+    "payment_method": "Upi",
+    "attempts": 192,
+    "successes": 175,
+    "failures": 17
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 9,
+    "payment_method": "Wallet",
+    "attempts": 13,
+    "successes": 11,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 10,
+    "payment_method": "Bnpl",
+    "attempts": 15,
+    "successes": 14,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 10,
+    "payment_method": "Card",
+    "attempts": 110,
+    "successes": 101,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 10,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 10,
+    "payment_method": "Netbanking",
+    "attempts": 32,
+    "successes": 30,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 10,
+    "payment_method": "Upi",
+    "attempts": 221,
+    "successes": 193,
+    "failures": 28
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 10,
+    "payment_method": "Wallet",
+    "attempts": 19,
+    "successes": 19,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 11,
+    "payment_method": "Card",
+    "attempts": 128,
+    "successes": 115,
+    "failures": 13
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 11,
+    "payment_method": "Emi",
+    "attempts": 21,
+    "successes": 19,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 11,
+    "payment_method": "Netbanking",
+    "attempts": 45,
+    "successes": 38,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 11,
+    "payment_method": "Upi",
+    "attempts": 266,
+    "successes": 248,
+    "failures": 18
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 11,
+    "payment_method": "Wallet",
+    "attempts": 17,
+    "successes": 16,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 12,
+    "payment_method": "Card",
+    "attempts": 148,
+    "successes": 138,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 12,
+    "payment_method": "Emi",
+    "attempts": 22,
+    "successes": 21,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 12,
+    "payment_method": "Netbanking",
+    "attempts": 54,
+    "successes": 47,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 12,
+    "payment_method": "Upi",
+    "attempts": 276,
+    "successes": 259,
+    "failures": 17
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 12,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 14,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 13,
+    "payment_method": "Card",
+    "attempts": 151,
+    "successes": 140,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 13,
+    "payment_method": "Emi",
+    "attempts": 15,
+    "successes": 12,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 13,
+    "payment_method": "Netbanking",
+    "attempts": 33,
+    "successes": 27,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 13,
+    "payment_method": "Upi",
+    "attempts": 271,
+    "successes": 249,
+    "failures": 22
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 13,
+    "payment_method": "Wallet",
+    "attempts": 23,
+    "successes": 18,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 14,
+    "payment_method": "Card",
+    "attempts": 134,
+    "successes": 125,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 14,
+    "payment_method": "Emi",
+    "attempts": 22,
+    "successes": 19,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 14,
+    "payment_method": "Netbanking",
+    "attempts": 28,
+    "successes": 26,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 14,
+    "payment_method": "Upi",
+    "attempts": 225,
+    "successes": 211,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 14,
+    "payment_method": "Wallet",
+    "attempts": 18,
+    "successes": 16,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 15,
+    "payment_method": "Card",
+    "attempts": 123,
+    "successes": 111,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 15,
+    "payment_method": "Netbanking",
+    "attempts": 28,
+    "successes": 28,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 15,
+    "payment_method": "Upi",
+    "attempts": 202,
+    "successes": 184,
+    "failures": 18
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 15,
+    "payment_method": "Wallet",
+    "attempts": 16,
+    "successes": 12,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 16,
+    "payment_method": "Bnpl",
+    "attempts": 13,
+    "successes": 13,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 16,
+    "payment_method": "Card",
+    "attempts": 128,
+    "successes": 114,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 16,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 16,
+    "payment_method": "Netbanking",
+    "attempts": 28,
+    "successes": 25,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 16,
+    "payment_method": "Upi",
+    "attempts": 258,
+    "successes": 241,
+    "failures": 17
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 16,
+    "payment_method": "Wallet",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 17,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 17,
+    "payment_method": "Card",
+    "attempts": 145,
+    "successes": 131,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 17,
+    "payment_method": "Emi",
+    "attempts": 20,
+    "successes": 18,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 17,
+    "payment_method": "Netbanking",
+    "attempts": 35,
+    "successes": 27,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 17,
+    "payment_method": "Upi",
+    "attempts": 303,
+    "successes": 288,
+    "failures": 15
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 17,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 15,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 18,
+    "payment_method": "Card",
+    "attempts": 165,
+    "successes": 151,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 18,
+    "payment_method": "Emi",
+    "attempts": 26,
+    "successes": 21,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 18,
+    "payment_method": "Netbanking",
+    "attempts": 56,
+    "successes": 51,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 18,
+    "payment_method": "Upi",
+    "attempts": 369,
+    "successes": 341,
+    "failures": 28
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 18,
+    "payment_method": "Wallet",
+    "attempts": 27,
+    "successes": 24,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 19,
+    "payment_method": "Card",
+    "attempts": 194,
+    "successes": 172,
+    "failures": 22
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 19,
+    "payment_method": "Emi",
+    "attempts": 29,
+    "successes": 28,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 19,
+    "payment_method": "Netbanking",
+    "attempts": 64,
+    "successes": 59,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 19,
+    "payment_method": "Upi",
+    "attempts": 390,
+    "successes": 367,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 19,
+    "payment_method": "Wallet",
+    "attempts": 25,
+    "successes": 22,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 20,
+    "payment_method": "Bnpl",
+    "attempts": 17,
+    "successes": 15,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 20,
+    "payment_method": "Card",
+    "attempts": 224,
+    "successes": 209,
+    "failures": 15
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 20,
+    "payment_method": "Emi",
+    "attempts": 32,
+    "successes": 28,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 20,
+    "payment_method": "Netbanking",
+    "attempts": 68,
+    "successes": 62,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 20,
+    "payment_method": "Upi",
+    "attempts": 426,
+    "successes": 400,
+    "failures": 26
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 20,
+    "payment_method": "Wallet",
+    "attempts": 42,
+    "successes": 39,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 21,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 11,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 21,
+    "payment_method": "Card",
+    "attempts": 216,
+    "successes": 192,
+    "failures": 24
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 21,
+    "payment_method": "Emi",
+    "attempts": 25,
+    "successes": 25,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 21,
+    "payment_method": "Netbanking",
+    "attempts": 50,
+    "successes": 45,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 21,
+    "payment_method": "Upi",
+    "attempts": 375,
+    "successes": 341,
+    "failures": 34
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 21,
+    "payment_method": "Wallet",
+    "attempts": 35,
+    "successes": 33,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 22,
+    "payment_method": "Bnpl",
+    "attempts": 17,
+    "successes": 16,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 22,
+    "payment_method": "Card",
+    "attempts": 193,
+    "successes": 179,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 22,
+    "payment_method": "Emi",
+    "attempts": 23,
+    "successes": 22,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 22,
+    "payment_method": "Netbanking",
+    "attempts": 54,
+    "successes": 46,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 22,
+    "payment_method": "Upi",
+    "attempts": 331,
+    "successes": 309,
+    "failures": 22
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 22,
+    "payment_method": "Wallet",
+    "attempts": 25,
+    "successes": 22,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 23,
+    "payment_method": "Card",
+    "attempts": 100,
+    "successes": 94,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 23,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 13,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 23,
+    "payment_method": "Netbanking",
+    "attempts": 28,
+    "successes": 26,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 23,
+    "payment_method": "Upi",
+    "attempts": 233,
+    "successes": 210,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Tuesday",
+    "hour": 23,
+    "payment_method": "Wallet",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
   },
   {
     "day_of_week": "Wednesday",
-    "hour_block": 20,
+    "hour": 0,
+    "payment_method": "Card",
+    "attempts": 38,
+    "successes": 36,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 0,
+    "payment_method": "Netbanking",
+    "attempts": 11,
+    "successes": 8,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 0,
     "payment_method": "Upi",
-    "attempts": 1418,
-    "successes": 1317,
-    "failures": 101,
-    "gmv": 1992498.2000000002,
-    "refund_amount": 75898.45,
-    "fee_revenue": 5890.83
+    "attempts": 65,
+    "successes": 57,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 1,
+    "payment_method": "Card",
+    "attempts": 21,
+    "successes": 20,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 1,
+    "payment_method": "Upi",
+    "attempts": 48,
+    "successes": 43,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 2,
+    "payment_method": "Upi",
+    "attempts": 22,
+    "successes": 22,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 3,
+    "payment_method": "Upi",
+    "attempts": 19,
+    "successes": 19,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 4,
+    "payment_method": "Card",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 4,
+    "payment_method": "Upi",
+    "attempts": 32,
+    "successes": 27,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 5,
+    "payment_method": "Card",
+    "attempts": 22,
+    "successes": 21,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 5,
+    "payment_method": "Netbanking",
+    "attempts": 10,
+    "successes": 9,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 5,
+    "payment_method": "Upi",
+    "attempts": 48,
+    "successes": 44,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 6,
+    "payment_method": "Card",
+    "attempts": 54,
+    "successes": 50,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 6,
+    "payment_method": "Emi",
+    "attempts": 11,
+    "successes": 11,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 6,
+    "payment_method": "Netbanking",
+    "attempts": 11,
+    "successes": 10,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 6,
+    "payment_method": "Upi",
+    "attempts": 93,
+    "successes": 86,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 7,
+    "payment_method": "Card",
+    "attempts": 58,
+    "successes": 56,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 7,
+    "payment_method": "Emi",
+    "attempts": 14,
+    "successes": 13,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 7,
+    "payment_method": "Netbanking",
+    "attempts": 12,
+    "successes": 10,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 7,
+    "payment_method": "Upi",
+    "attempts": 140,
+    "successes": 129,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 8,
+    "payment_method": "Card",
+    "attempts": 93,
+    "successes": 87,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 8,
+    "payment_method": "Emi",
+    "attempts": 13,
+    "successes": 12,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 8,
+    "payment_method": "Netbanking",
+    "attempts": 14,
+    "successes": 13,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 8,
+    "payment_method": "Upi",
+    "attempts": 157,
+    "successes": 141,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 8,
+    "payment_method": "Wallet",
+    "attempts": 11,
+    "successes": 11,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 9,
+    "payment_method": "Card",
+    "attempts": 113,
+    "successes": 106,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 9,
+    "payment_method": "Emi",
+    "attempts": 15,
+    "successes": 14,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 9,
+    "payment_method": "Netbanking",
+    "attempts": 30,
+    "successes": 26,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 9,
+    "payment_method": "Upi",
+    "attempts": 198,
+    "successes": 187,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 10,
+    "payment_method": "Bnpl",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 10,
+    "payment_method": "Card",
+    "attempts": 142,
+    "successes": 127,
+    "failures": 15
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 10,
+    "payment_method": "Emi",
+    "attempts": 16,
+    "successes": 14,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 10,
+    "payment_method": "Netbanking",
+    "attempts": 34,
+    "successes": 29,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 10,
+    "payment_method": "Upi",
+    "attempts": 260,
+    "successes": 245,
+    "failures": 15
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 10,
+    "payment_method": "Wallet",
+    "attempts": 19,
+    "successes": 17,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 11,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 11,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 11,
+    "payment_method": "Card",
+    "attempts": 146,
+    "successes": 134,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 11,
+    "payment_method": "Emi",
+    "attempts": 27,
+    "successes": 25,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 11,
+    "payment_method": "Netbanking",
+    "attempts": 43,
+    "successes": 36,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 11,
+    "payment_method": "Upi",
+    "attempts": 265,
+    "successes": 251,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 11,
+    "payment_method": "Wallet",
+    "attempts": 19,
+    "successes": 17,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 12,
+    "payment_method": "Bnpl",
+    "attempts": 11,
+    "successes": 11,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 12,
+    "payment_method": "Card",
+    "attempts": 147,
+    "successes": 136,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 12,
+    "payment_method": "Emi",
+    "attempts": 23,
+    "successes": 18,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 12,
+    "payment_method": "Netbanking",
+    "attempts": 35,
+    "successes": 33,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 12,
+    "payment_method": "Upi",
+    "attempts": 273,
+    "successes": 245,
+    "failures": 28
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 12,
+    "payment_method": "Wallet",
+    "attempts": 15,
+    "successes": 14,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 13,
+    "payment_method": "Card",
+    "attempts": 127,
+    "successes": 116,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 13,
+    "payment_method": "Emi",
+    "attempts": 20,
+    "successes": 20,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 13,
+    "payment_method": "Netbanking",
+    "attempts": 31,
+    "successes": 21,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 13,
+    "payment_method": "Upi",
+    "attempts": 265,
+    "successes": 242,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 13,
+    "payment_method": "Wallet",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 14,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 14,
+    "payment_method": "Card",
+    "attempts": 120,
+    "successes": 110,
+    "failures": 10
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 14,
+    "payment_method": "Emi",
+    "attempts": 15,
+    "successes": 14,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 14,
+    "payment_method": "Netbanking",
+    "attempts": 29,
+    "successes": 21,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 14,
+    "payment_method": "Upi",
+    "attempts": 224,
+    "successes": 201,
+    "failures": 23
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 14,
+    "payment_method": "Wallet",
+    "attempts": 14,
+    "successes": 13,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 15,
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 15,
+    "payment_method": "Card",
+    "attempts": 108,
+    "successes": 101,
+    "failures": 7
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 15,
+    "payment_method": "Emi",
+    "attempts": 19,
+    "successes": 15,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 15,
+    "payment_method": "Netbanking",
+    "attempts": 33,
+    "successes": 31,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 15,
+    "payment_method": "Upi",
+    "attempts": 197,
+    "successes": 183,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 15,
+    "payment_method": "Wallet",
+    "attempts": 13,
+    "successes": 11,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 16,
+    "payment_method": "Card",
+    "attempts": 131,
+    "successes": 114,
+    "failures": 17
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 16,
+    "payment_method": "Emi",
+    "attempts": 23,
+    "successes": 21,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 16,
+    "payment_method": "Netbanking",
+    "attempts": 34,
+    "successes": 29,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 16,
+    "payment_method": "Upi",
+    "attempts": 246,
+    "successes": 224,
+    "failures": 22
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 16,
+    "payment_method": "Wallet",
+    "attempts": 20,
+    "successes": 17,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 17,
+    "payment_method": "Bnpl",
+    "attempts": 13,
+    "successes": 11,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 17,
+    "payment_method": "Card",
+    "attempts": 134,
+    "successes": 122,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 17,
+    "payment_method": "Emi",
+    "attempts": 19,
+    "successes": 19,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 17,
+    "payment_method": "Netbanking",
+    "attempts": 34,
+    "successes": 29,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 17,
+    "payment_method": "Upi",
+    "attempts": 284,
+    "successes": 257,
+    "failures": 27
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 17,
+    "payment_method": "Wallet",
+    "attempts": 23,
+    "successes": 22,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 18,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 10,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 18,
+    "payment_method": "Card",
+    "attempts": 182,
+    "successes": 166,
+    "failures": 16
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 18,
+    "payment_method": "Emi",
+    "attempts": 29,
+    "successes": 29,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 18,
+    "payment_method": "Netbanking",
+    "attempts": 52,
+    "successes": 47,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 18,
+    "payment_method": "Upi",
+    "attempts": 338,
+    "successes": 316,
+    "failures": 22
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 18,
+    "payment_method": "Wallet",
+    "attempts": 27,
+    "successes": 25,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 19,
+    "payment_method": "Card",
+    "attempts": 191,
+    "successes": 179,
+    "failures": 12
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 19,
+    "payment_method": "Emi",
+    "attempts": 26,
+    "successes": 23,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 19,
+    "payment_method": "Netbanking",
+    "attempts": 60,
+    "successes": 51,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 19,
+    "payment_method": "Upi",
+    "attempts": 378,
+    "successes": 360,
+    "failures": 18
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 19,
+    "payment_method": "Wallet",
+    "attempts": 23,
+    "successes": 23,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 20,
+    "payment_method": "Bnpl",
+    "attempts": 16,
+    "successes": 15,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 20,
+    "payment_method": "Card",
+    "attempts": 250,
+    "successes": 242,
+    "failures": 8
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 20,
+    "payment_method": "Emi",
+    "attempts": 29,
+    "successes": 26,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 20,
+    "payment_method": "Netbanking",
+    "attempts": 57,
+    "successes": 48,
+    "failures": 9
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 20,
+    "payment_method": "Upi",
+    "attempts": 443,
+    "successes": 413,
+    "failures": 30
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 20,
+    "payment_method": "Wallet",
+    "attempts": 27,
+    "successes": 23,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 21,
+    "payment_method": "Bnpl",
+    "attempts": 16,
+    "successes": 14,
+    "failures": 2
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 21,
+    "payment_method": "Card",
+    "attempts": 204,
+    "successes": 190,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 21,
+    "payment_method": "Emi",
+    "attempts": 33,
+    "successes": 32,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 21,
+    "payment_method": "Netbanking",
+    "attempts": 52,
+    "successes": 46,
+    "failures": 6
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 21,
+    "payment_method": "Upi",
+    "attempts": 435,
+    "successes": 402,
+    "failures": 33
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 21,
+    "payment_method": "Wallet",
+    "attempts": 25,
+    "successes": 25,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 22,
+    "payment_method": "Bnpl",
+    "attempts": 11,
+    "successes": 10,
+    "failures": 1
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 22,
+    "payment_method": "Card",
+    "attempts": 173,
+    "successes": 159,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 22,
+    "payment_method": "Emi",
+    "attempts": 26,
+    "successes": 23,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 22,
+    "payment_method": "Netbanking",
+    "attempts": 50,
+    "successes": 46,
+    "failures": 4
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 22,
+    "payment_method": "Upi",
+    "attempts": 314,
+    "successes": 290,
+    "failures": 24
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 22,
+    "payment_method": "Wallet",
+    "attempts": 26,
+    "successes": 23,
+    "failures": 3
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 23,
+    "payment_method": "Bnpl",
+    "attempts": 12,
+    "successes": 12,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 23,
+    "payment_method": "Card",
+    "attempts": 95,
+    "successes": 84,
+    "failures": 11
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 23,
+    "payment_method": "Emi",
+    "attempts": 10,
+    "successes": 10,
+    "failures": 0
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 23,
+    "payment_method": "Netbanking",
+    "attempts": 34,
+    "successes": 29,
+    "failures": 5
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 23,
+    "payment_method": "Upi",
+    "attempts": 226,
+    "successes": 212,
+    "failures": 14
+  },
+  {
+    "day_of_week": "Wednesday",
+    "hour": 23,
+    "payment_method": "Wallet",
+    "attempts": 13,
+    "successes": 13,
+    "failures": 0
   }
 ]

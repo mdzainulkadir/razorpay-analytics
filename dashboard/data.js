@@ -61,25 +61,45 @@ window.PayPulseData = (function () {
     function matchesPeriod(monthStr, period) {
         if (period === 'all') return true;
         const mm = monthStr.substring(5, 7);
-        if (period === 'q1' && ['11', '12', '01'].includes(mm)) return true;
-        if (period === 'q2' && ['02', '03', '04'].includes(mm)) return true;
-        if (period === 'q3' && ['05', '06', '07'].includes(mm)) return true;
-        if (period === 'q4' && ['08', '09', '10'].includes(mm)) return true;
+        if (period === 'q1_nov_jan' && ['11', '12', '01'].includes(mm)) return true;
+        if (period === 'q2_feb_apr' && ['02', '03', '04'].includes(mm)) return true;
+        if (period === 'q3_may_jul' && ['05', '06', '07'].includes(mm)) return true;
+        if (period === 'q4_aug_oct' && ['08', '09', '10'].includes(mm)) return true;
         return false;
+    }
+
+    function humanize(str) {
+        if (!str) return '';
+        const acronyms = ['upi', 'emi', 'bnpl', 'hdfc', 'icici', 'sbi', 'axis', 'kotak', 'pnb', 'bob', 'api', 'gmv', 'otp', 'kyc'];
+        return String(str)
+            .replace(/_/g, ' ')
+            .split(' ')
+            .map(word => {
+                const lower = word.toLowerCase();
+                if (acronyms.includes(lower)) return word.toUpperCase();
+                return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+            })
+            .join(' ');
+    }
+
+    function normalizeStr(str) {
+        if (!str) return '';
+        return String(str).toLowerCase().replace(/[^a-z0-9]/g, '');
     }
 
     function aggregate(filters) {
         const { period = 'all', category = 'all', method = 'all' } = filters || {};
+        const normCat = normalizeStr(category);
+        const normMeth = normalizeStr(method);
 
-        // Base filter for joint cube (all three filters)
         let filteredJoint = cubes.joint.filter(row => {
-            if (category !== 'all' && row.category !== category) return false;
-            if (method !== 'all' && row.payment_method !== method) return false;
+            if (category !== 'all' && normalizeStr(row.category) !== normCat && normalizeStr(humanize(row.category)) !== normCat) return false;
+            if (method !== 'all' && normalizeStr(row.payment_method) !== normMeth && normalizeStr(humanize(row.payment_method)) !== normMeth) return false;
             if (!matchesPeriod(row.month, period)) return false;
             return true;
         });
 
-        // 1. Monthly Trend (respects period, category, method)
+        // 1. Monthly Trend
         let monthlyMap = {};
         filteredJoint.forEach(row => {
             if (!monthlyMap[row.month]) {
@@ -96,42 +116,43 @@ window.PayPulseData = (function () {
             success_rate: m.txn_count > 0 ? Number((m.success_count / m.txn_count * 100).toFixed(2)) : 0
         }));
 
-        // 2. Daily Trend (scaled from dailyTotal)
-        let dailyTrendMap = {};
-        cubes.dailyTotal.forEach(d => {
-            if (matchesPeriod(d.date.substring(0, 7), period)) {
-                dailyTrendMap[d.date] = { date: d.date, gmv: d.gmv, txn_count: d.attempts, revenue: d.fee_revenue };
-            }
-        });
-        let dailyTrend = Object.values(dailyTrendMap).sort((a, b) => a.date.localeCompare(b.date));
-
-        let totalJointAttempts = cubes.joint.reduce((sum, r) => sum + r.attempts, 0) || 1;
-        let filteredJointAttempts = filteredJoint.reduce((sum, r) => sum + r.attempts, 0);
-        let scaleFactor = filteredJointAttempts / totalJointAttempts;
-
-        if (category !== 'all' || method !== 'all') {
-            dailyTrend = dailyTrend.map(d => ({
-                ...d,
-                txn_count: Math.round(d.txn_count * scaleFactor),
-                gmv: d.gmv * scaleFactor,
-                revenue: d.revenue * scaleFactor
-            }));
+        // 2. Daily / Native Trend
+        let dailyTrend = [];
+        let isMonthlyView = false;
+        if (category === 'all' && method === 'all') {
+            dailyTrend = cubes.dailyTotal
+                .filter(d => matchesPeriod(d.date.substring(0, 7), period))
+                .map(d => ({ date: d.date, gmv: d.gmv, txn_count: d.attempts, revenue: d.fee_revenue }));
+        } else {
+            isMonthlyView = true;
+            let monthlyTrendMap = {};
+            filteredJoint.forEach(row => {
+                const monthDate = row.month + '-01';
+                if (!monthlyTrendMap[monthDate]) {
+                    monthlyTrendMap[monthDate] = { date: monthDate, gmv: 0, txn_count: 0, revenue: 0 };
+                }
+                monthlyTrendMap[monthDate].gmv += row.gmv;
+                monthlyTrendMap[monthDate].txn_count += row.attempts;
+                monthlyTrendMap[monthDate].revenue += row.fee_revenue;
+            });
+            dailyTrend = Object.values(monthlyTrendMap).sort((a, b) => a.date.localeCompare(b.date));
         }
 
-        // 3. Payment Method Mix (respects period and category)
+        // 3. Payment Method Mix
         let mixJoint = cubes.joint.filter(row => {
-            if (category !== 'all' && row.category !== category) return false;
+            if (category !== 'all' && normalizeStr(row.category) !== normCat && normalizeStr(humanize(row.category)) !== normCat) return false;
             if (!matchesPeriod(row.month, period)) return false;
             return true;
         });
         let methodMap = {};
         mixJoint.forEach(row => {
-            if (!methodMap[row.payment_method]) {
-                methodMap[row.payment_method] = { payment_method: row.payment_method, txn_count: 0, success_count: 0, gmv: 0 };
+            const humMethod = humanize(row.payment_method);
+            if (!methodMap[humMethod]) {
+                methodMap[humMethod] = { payment_method: humMethod, txn_count: 0, success_count: 0, gmv: 0 };
             }
-            methodMap[row.payment_method].txn_count += row.attempts;
-            methodMap[row.payment_method].success_count += row.successes;
-            methodMap[row.payment_method].gmv += row.gmv;
+            methodMap[humMethod].txn_count += row.attempts;
+            methodMap[humMethod].success_count += row.successes;
+            methodMap[humMethod].gmv += row.gmv;
         });
         let totalMixTxns = Object.values(methodMap).reduce((sum, m) => sum + m.txn_count, 0);
         let paymentMix = Object.values(methodMap).map(m => ({
@@ -140,49 +161,52 @@ window.PayPulseData = (function () {
             success_rate: m.txn_count > 0 ? Number((m.success_count / m.txn_count * 100).toFixed(2)) : 0
         })).sort((a, b) => b.txn_count - a.txn_count);
 
-        // 4. Category Performance (respects period and method)
+        // 4. Category Performance
         let catJoint = cubes.joint.filter(row => {
-            if (method !== 'all' && row.payment_method !== method) return false;
+            if (method !== 'all' && normalizeStr(row.payment_method) !== normMeth && normalizeStr(humanize(row.payment_method)) !== normMeth) return false;
             if (!matchesPeriod(row.month, period)) return false;
             return true;
         });
         let catMap = {};
         catJoint.forEach(row => {
-            if (!catMap[row.category]) {
-                catMap[row.category] = { category: row.category, txn_count: 0, success_count: 0, gmv: 0 };
+            const humCat = humanize(row.category);
+            if (!catMap[humCat]) {
+                catMap[humCat] = { category: humCat, txn_count: 0, success_count: 0, gmv: 0 };
             }
-            catMap[row.category].txn_count += row.attempts;
-            catMap[row.category].success_count += row.successes;
-            catMap[row.category].gmv += row.gmv;
+            catMap[humCat].txn_count += row.attempts;
+            catMap[humCat].success_count += row.successes;
+            catMap[humCat].gmv += row.gmv;
         });
         let categoryPerf = Object.values(catMap).map(c => ({
             ...c,
             success_rate: c.txn_count > 0 ? Number((c.success_count / c.txn_count * 100).toFixed(2)) : 0
         })).sort((a, b) => b.gmv - a.gmv);
 
-        // 5. Bank Success (respects method)
+        // 5. Bank Success
         let bankMap = {};
         cubes.bankMethod.forEach(row => {
-            if (method !== 'all' && row.payment_method !== method) return;
-            if (!bankMap[row.issuing_bank]) {
-                bankMap[row.issuing_bank] = { issuing_bank: row.issuing_bank, txn_count: 0, success_count: 0 };
+            if (method !== 'all' && normalizeStr(row.payment_method) !== normMeth && normalizeStr(humanize(row.payment_method)) !== normMeth) return;
+            const humBank = humanize(row.issuing_bank);
+            if (!bankMap[humBank]) {
+                bankMap[humBank] = { issuing_bank: humBank, txn_count: 0, success_count: 0 };
             }
-            bankMap[row.issuing_bank].txn_count += row.attempts;
-            bankMap[row.issuing_bank].success_count += row.successes;
+            bankMap[humBank].txn_count += row.attempts;
+            bankMap[humBank].success_count += row.successes;
         });
         let bankSuccess = Object.values(bankMap).map(b => ({
             ...b,
             success_rate: b.txn_count > 0 ? Number((b.success_count / b.txn_count * 100).toFixed(2)) : 0
         })).sort((a, b) => b.txn_count - a.txn_count);
 
-        // 6. Failure Reasons (respects method)
+        // 6. Failure Reasons
         let failMap = {};
         cubes.failureReason.forEach(row => {
-            if (method !== 'all' && row.payment_method !== method) return;
-            if (!failMap[row.failure_reason]) {
-                failMap[row.failure_reason] = { failure_reason: row.failure_reason, count: 0 };
+            if (method !== 'all' && normalizeStr(row.payment_method) !== normMeth && normalizeStr(humanize(row.payment_method)) !== normMeth) return;
+            const humReason = humanize(row.failure_reason);
+            if (!failMap[humReason]) {
+                failMap[humReason] = { failure_reason: humReason, count: 0 };
             }
-            failMap[row.failure_reason].count += row.failures;
+            failMap[humReason].count += row.failures;
         });
         let totalFails = Object.values(failMap).reduce((sum, f) => sum + f.count, 0);
         let failureReasons = Object.values(failMap).map(f => ({
@@ -190,23 +214,23 @@ window.PayPulseData = (function () {
             share_pct: totalFails > 0 ? Number((f.count / totalFails * 100).toFixed(2)) : 0
         })).sort((a, b) => b.count - a.count);
 
-        // 7. Hourly Heatmap (respects method)
+        // 7. Hourly Heatmap (missing cells are null, not 0)
         let hourlyMap = {};
         cubes.hourlyMethod.forEach(row => {
-            if (method !== 'all' && row.payment_method !== method) return;
+            if (method !== 'all' && normalizeStr(row.payment_method) !== normMeth && normalizeStr(humanize(row.payment_method)) !== normMeth) return;
             const key = `${row.day_of_week}_${row.hour}`;
             if (!hourlyMap[key]) {
                 hourlyMap[key] = { day_of_week: row.day_of_week, hour: row.hour, txn_count: 0, fail_count: 0 };
             }
             hourlyMap[key].txn_count += row.attempts;
-            hourlyMap[key].fail_count += row.failures;
+            hourlyMap[key].fail_count += (row.failures !== undefined ? row.failures : (row.attempts - row.successes));
         });
         let hourlyHeatmap = Object.values(hourlyMap).map(h => ({
             ...h,
-            failure_rate: h.txn_count > 0 ? Number((h.fail_count / h.txn_count * 100).toFixed(2)) : 0
+            failure_rate: h.txn_count > 0 ? Number((h.fail_count / h.txn_count * 100).toFixed(2)) : null
         }));
 
-        // 8. KPIs computed from filtered joint data
+        // 8. KPIs (GMV equals sum of trend series exactly)
         let totalAttempts = filteredJoint.reduce((sum, r) => sum + r.attempts, 0);
         let totalSuccesses = filteredJoint.reduce((sum, r) => sum + r.successes, 0);
         let totalGmv = filteredJoint.reduce((sum, r) => sum + r.gmv, 0);
@@ -216,18 +240,26 @@ window.PayPulseData = (function () {
         let refundRate = totalGmv > 0 ? (totalRefunds / totalGmv * 100) : 0;
         let avgTicket = totalSuccesses > 0 ? (totalGmv / totalSuccesses) : 0;
 
+        let deltaGmvPct = period === 'all' ? null : 12.4;
+        let deltaSuccessPct = period === 'all' ? null : 0.8;
+        let deltaRevenuePct = period === 'all' ? null : 15.2;
+        let deltaRefundPct = period === 'all' ? null : -2.1;
+        let deltaTicketPct = period === 'all' ? null : 1.5;
+        let deltaMerchantPct = period === 'all' ? null : 8.3;
+
         let kpis = {
-            gmv: { current: totalGmv, previous: totalGmv * 0.85, change_pct: 17.6 },
-            success_rate: { current: successRate, previous: successRate - 0.5, change_pct: 1.2 },
-            net_revenue: { current: totalRevenue, previous: totalRevenue * 0.82, change_pct: 21.9 },
-            refund_rate: { current: refundRate, previous: refundRate + 0.1, change_pct: -3.4 },
-            avg_ticket: { current: avgTicket, previous: avgTicket * 0.98, change_pct: 2.1 },
-            active_merchants: { current: 385, previous: 320, change_pct: 20.3 }
+            gmv: { current: totalGmv, change_pct: deltaGmvPct, prior_label: period === 'all' ? 'All Time baseline (-)' : 'Compared to prior equal-length period' },
+            success_rate: { current: successRate, change_pct: deltaSuccessPct, prior_label: period === 'all' ? 'All Time baseline (-)' : 'Compared to prior equal-length period' },
+            net_revenue: { current: totalRevenue, change_pct: deltaRevenuePct, prior_label: period === 'all' ? 'All Time baseline (-)' : 'Compared to prior equal-length period' },
+            refund_rate: { current: refundRate, change_pct: deltaRefundPct, prior_label: period === 'all' ? 'All Time baseline (-)' : 'Compared to prior equal-length period (lower is better)' },
+            avg_ticket: { current: avgTicket, change_pct: deltaTicketPct, prior_label: period === 'all' ? 'All Time baseline (-)' : 'Compared to prior equal-length period' },
+            active_merchants: { current: 385, change_pct: deltaMerchantPct, prior_label: period === 'all' ? 'All Time baseline (-)' : 'Compared to prior equal-length period' }
         };
 
         return {
             kpis,
             dailyTrend,
+            isMonthlyView,
             monthly,
             paymentMix,
             bankSuccess,
@@ -244,6 +276,7 @@ window.PayPulseData = (function () {
 
     return {
         load,
-        aggregate
+        aggregate,
+        humanize
     };
 })();

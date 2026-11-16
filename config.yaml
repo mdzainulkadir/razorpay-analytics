@@ -24,8 +24,8 @@ analysis:
     - "%Y-%m-%dT%H:%M:%S"
     - "%d/%m/%Y %H:%M"
   period_comparison_months: 6
-  incident_min_volume: 30
-  incident_zscore_threshold: 3.0
+  incident_min_volume: 5
+  incident_zscore_threshold: 2.0
   incident_rolling_window_days: 7
   incident_rolling_window_hours: 24
   incident_detection_level: "daily"
