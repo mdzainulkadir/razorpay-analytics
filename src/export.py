@@ -1,5 +1,5 @@
 """
-src/export.py — Export legacy analysis aggregates to JSON files with privacy checks.
+src/export.py — Export columnar cubes and legacy analysis aggregates to JSON files with strict privacy checks.
 """
 
 import json
@@ -11,14 +11,23 @@ log = logging.getLogger("pipeline.export")
 
 def export_dashboard_data(analysis_results: dict, meta_info: dict, config: dict) -> None:
     """
-    Export all legacy analysis results to dashboard/data/*.json with strict privacy checks.
+    Export all columnar cubes and legacy analysis results to dashboard/data/*.json with strict privacy checks.
     """
     output_dir = Path(config["outputs"]["dashboard_data_dir"])
     output_dir.mkdir(parents=True, exist_ok=True)
     min_group_size = config.get("analysis", {}).get("min_group_size", 10)
 
-    log.info("Exporting dashboard data to %s (min_group_size=%d)...", output_dir.resolve(), min_group_size)
+    log.info("Exporting dashboard cubes and data to %s (min_group_size=%d)...", output_dir.resolve(), min_group_size)
 
+    # Cubes
+    _write_json(output_dir / "joint_cube.json", analysis_results.get("joint_cube", []))
+    _write_json(output_dir / "daily_total_cube.json", analysis_results.get("daily_total_cube", []))
+    _write_json(output_dir / "bank_method_cube.json", analysis_results.get("bank_method_cube", []))
+    _write_json(output_dir / "failure_reason_cube.json", analysis_results.get("failure_reason_cube", []))
+    _write_json(output_dir / "hourly_method_cube.json", analysis_results.get("hourly_method_cube", []))
+    _write_json(output_dir / "monthly_cube.json", analysis_results.get("monthly_cube", []))
+
+    # Legacy aggregates for fallback / support
     _write_json(output_dir / "kpis.json", analysis_results.get("kpis", {}))
     _write_json(output_dir / "daily_trend.json", analysis_results.get("daily_trend", []))
     _write_json(output_dir / "monthly.json", analysis_results.get("monthly", []))
@@ -33,7 +42,7 @@ def export_dashboard_data(analysis_results: dict, meta_info: dict, config: dict)
     _write_json(output_dir / "insights.json", analysis_results.get("insights", []))
     _write_json(output_dir / "meta.json", meta_info)
 
-    log.info("Dashboard data export completed successfully.")
+    log.info("Dashboard cubes export completed successfully.")
 
 
 def _write_json(filepath: Path, data: any) -> None:
@@ -45,17 +54,17 @@ def _write_json(filepath: Path, data: any) -> None:
 
 def verify_privacy_compliance(output_dir: Path, min_group_size: int) -> bool:
     """
-    Verify privacy compliance across all exported JSON files.
+    Verify privacy compliance across all exported JSON files and cubes.
+    FAILS the build if any dimensional cell has attempts/txn_count below min_group_size.
     """
-    log.info("Running privacy compliance audit on exported JSON files...")
+    log.info("Running strict privacy compliance audit on exported JSON files and cubes...")
     json_files = list(output_dir.glob("*.json"))
 
     forbidden_fields = {"merchant_id", "txn_id", "business_name", "email", "customer_city"}
-    time_series_files = {"daily_trend.json", "monthly.json", "latency.json", "hourly_heatmap.json"}
+    exempt_files = {"meta.json", "insights.json", "incidents.json", "latency.json", "kpis.json", "top_merchants.json", "daily_trend.json", "daily_total_cube.json"}
+    cube_files = {"joint_cube.json", "bank_method_cube.json", "failure_reason_cube.json", "hourly_method_cube.json", "monthly_cube.json", "payment_mix.json", "bank_success.json", "failure_reasons.json", "hourly_heatmap.json", "category_perf.json"}
 
     for file in json_files:
-        if file.name == "meta.json":
-            continue
         with open(file, "r", encoding="utf-8") as f:
             content = json.load(f)
 
@@ -65,14 +74,17 @@ def verify_privacy_compliance(output_dir: Path, min_group_size: int) -> bool:
                     for field in forbidden_fields:
                         if field in item:
                             raise ValueError(f"PRIVACY VIOLATION: Forbidden field '{field}' found in {file.name}")
-                    if file.name not in time_series_files:
-                        if "txn_count" in item and item["txn_count"] < min_group_size:
-                            log.warning("Group in %s has txn_count=%d (< min_group_size=%d)", file.name, item["txn_count"], min_group_size)
+
+                    # Check cell size enforcement for cubes / aggregate groups
+                    if file.name in cube_files:
+                        count_key = "attempts" if "attempts" in item else ("txn_count" if "txn_count" in item else ("count" if "count" in item else None))
+                        if count_key and item[count_key] < min_group_size:
+                            raise ValueError(f"PRIVACY VIOLATION: Cell in {file.name} has {count_key}={item[count_key]} (< min_group_size={min_group_size})")
 
         elif isinstance(content, dict):
             for k in content.keys():
                 if k in forbidden_fields:
-                    raise ValueError(f"PRIVATE VIOLATION: Forbidden field '{k}' found in {file.name}")
+                    raise ValueError(f"PRIVACY VIOLATION: Forbidden field '{k}' found in {file.name}")
 
-    log.info("Privacy audit PASSED: No row-level data or unauthorized IDs found in aggregates.")
+    log.info("Privacy audit PASSED: All cubes and aggregates adhere strictly to privacy and min_group_size rules.")
     return True

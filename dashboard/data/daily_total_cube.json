@@ -1,0 +1,3287 @@
+[
+  {
+    "date": "2025-11-01",
+    "attempts": 123,
+    "successes": 106,
+    "failures": 17,
+    "gmv": 167601.83,
+    "refund_amount": 6487.72,
+    "fee_revenue": 1376.31
+  },
+  {
+    "date": "2025-11-02",
+    "attempts": 142,
+    "successes": 129,
+    "failures": 13,
+    "gmv": 205251.87,
+    "refund_amount": 8092.67,
+    "fee_revenue": 2481.06
+  },
+  {
+    "date": "2025-11-03",
+    "attempts": 167,
+    "successes": 153,
+    "failures": 14,
+    "gmv": 240776.53000000003,
+    "refund_amount": 32412.920000000002,
+    "fee_revenue": 2126.08
+  },
+  {
+    "date": "2025-11-04",
+    "attempts": 142,
+    "successes": 131,
+    "failures": 11,
+    "gmv": 290984.64,
+    "refund_amount": 90402.08,
+    "fee_revenue": 3919.39
+  },
+  {
+    "date": "2025-11-05",
+    "attempts": 167,
+    "successes": 156,
+    "failures": 11,
+    "gmv": 293002.12,
+    "refund_amount": 5820.9400000000005,
+    "fee_revenue": 3356.7400000000002
+  },
+  {
+    "date": "2025-11-06",
+    "attempts": 173,
+    "successes": 156,
+    "failures": 17,
+    "gmv": 290767.39,
+    "refund_amount": 26196.23,
+    "fee_revenue": 2922.1000000000004
+  },
+  {
+    "date": "2025-11-07",
+    "attempts": 171,
+    "successes": 153,
+    "failures": 18,
+    "gmv": 209621.21000000002,
+    "refund_amount": 19729.710000000003,
+    "fee_revenue": 2290.25
+  },
+  {
+    "date": "2025-11-08",
+    "attempts": 133,
+    "successes": 123,
+    "failures": 10,
+    "gmv": 286634.38,
+    "refund_amount": 23208.829999999998,
+    "fee_revenue": 3234.19
+  },
+  {
+    "date": "2025-11-09",
+    "attempts": 119,
+    "successes": 112,
+    "failures": 7,
+    "gmv": 152404.33,
+    "refund_amount": 936.25,
+    "fee_revenue": 1489.4399999999998
+  },
+  {
+    "date": "2025-11-10",
+    "attempts": 156,
+    "successes": 139,
+    "failures": 17,
+    "gmv": 263109.36,
+    "refund_amount": 5748.679999999999,
+    "fee_revenue": 1935.6100000000001
+  },
+  {
+    "date": "2025-11-11",
+    "attempts": 163,
+    "successes": 149,
+    "failures": 14,
+    "gmv": 195797.41,
+    "refund_amount": 7765.7,
+    "fee_revenue": 1821.9699999999998
+  },
+  {
+    "date": "2025-11-12",
+    "attempts": 165,
+    "successes": 152,
+    "failures": 13,
+    "gmv": 242068.46999999997,
+    "refund_amount": 14038.23,
+    "fee_revenue": 2282.37
+  },
+  {
+    "date": "2025-11-13",
+    "attempts": 179,
+    "successes": 161,
+    "failures": 18,
+    "gmv": 253734.95,
+    "refund_amount": 15801.03,
+    "fee_revenue": 3037.2299999999996
+  },
+  {
+    "date": "2025-11-14",
+    "attempts": 162,
+    "successes": 149,
+    "failures": 13,
+    "gmv": 207810.07,
+    "refund_amount": 12467.02,
+    "fee_revenue": 1985.75
+  },
+  {
+    "date": "2025-11-15",
+    "attempts": 138,
+    "successes": 128,
+    "failures": 10,
+    "gmv": 200669.86000000002,
+    "refund_amount": 14825.289999999999,
+    "fee_revenue": 1526.39
+  },
+  {
+    "date": "2025-11-16",
+    "attempts": 116,
+    "successes": 106,
+    "failures": 10,
+    "gmv": 285170.80000000005,
+    "refund_amount": 3861.13,
+    "fee_revenue": 3480.02
+  },
+  {
+    "date": "2025-11-17",
+    "attempts": 139,
+    "successes": 128,
+    "failures": 11,
+    "gmv": 274598.04,
+    "refund_amount": 8621.539999999999,
+    "fee_revenue": 2955.9
+  },
+  {
+    "date": "2025-11-18",
+    "attempts": 158,
+    "successes": 148,
+    "failures": 10,
+    "gmv": 176321.44,
+    "refund_amount": 22317.42,
+    "fee_revenue": 1524.8799999999999
+  },
+  {
+    "date": "2025-11-19",
+    "attempts": 135,
+    "successes": 127,
+    "failures": 8,
+    "gmv": 184839.30000000002,
+    "refund_amount": 10705.82,
+    "fee_revenue": 2041.7700000000002
+  },
+  {
+    "date": "2025-11-20",
+    "attempts": 163,
+    "successes": 152,
+    "failures": 11,
+    "gmv": 292272.13,
+    "refund_amount": 40267.57,
+    "fee_revenue": 3448.16
+  },
+  {
+    "date": "2025-11-21",
+    "attempts": 150,
+    "successes": 130,
+    "failures": 20,
+    "gmv": 320144.41,
+    "refund_amount": 85104.83,
+    "fee_revenue": 4811.33
+  },
+  {
+    "date": "2025-11-22",
+    "attempts": 116,
+    "successes": 108,
+    "failures": 8,
+    "gmv": 159986.41000000003,
+    "refund_amount": 10910.3,
+    "fee_revenue": 1605.1899999999998
+  },
+  {
+    "date": "2025-11-23",
+    "attempts": 132,
+    "successes": 119,
+    "failures": 13,
+    "gmv": 111355.56,
+    "refund_amount": 6750.34,
+    "fee_revenue": 922.58
+  },
+  {
+    "date": "2025-11-24",
+    "attempts": 164,
+    "successes": 148,
+    "failures": 16,
+    "gmv": 272192.12,
+    "refund_amount": 23939.81,
+    "fee_revenue": 2842.83
+  },
+  {
+    "date": "2025-11-25",
+    "attempts": 172,
+    "successes": 161,
+    "failures": 11,
+    "gmv": 231897.16,
+    "refund_amount": 3074.8599999999997,
+    "fee_revenue": 2134.06
+  },
+  {
+    "date": "2025-11-26",
+    "attempts": 177,
+    "successes": 159,
+    "failures": 18,
+    "gmv": 242197.72000000003,
+    "refund_amount": 9775.05,
+    "fee_revenue": 2536.8999999999996
+  },
+  {
+    "date": "2025-11-27",
+    "attempts": 143,
+    "successes": 131,
+    "failures": 12,
+    "gmv": 198013.87,
+    "refund_amount": 4166.42,
+    "fee_revenue": 1752.65
+  },
+  {
+    "date": "2025-11-28",
+    "attempts": 159,
+    "successes": 140,
+    "failures": 19,
+    "gmv": 240164.06,
+    "refund_amount": 4581.51,
+    "fee_revenue": 2205.96
+  },
+  {
+    "date": "2025-11-29",
+    "attempts": 105,
+    "successes": 93,
+    "failures": 12,
+    "gmv": 126657.62999999999,
+    "refund_amount": 2794.83,
+    "fee_revenue": 750.4499999999999
+  },
+  {
+    "date": "2025-11-30",
+    "attempts": 112,
+    "successes": 106,
+    "failures": 6,
+    "gmv": 148244.06999999998,
+    "refund_amount": 26398.23,
+    "fee_revenue": 1365.11
+  },
+  {
+    "date": "2025-12-01",
+    "attempts": 140,
+    "successes": 131,
+    "failures": 9,
+    "gmv": 176232.98,
+    "refund_amount": 5719.28,
+    "fee_revenue": 1824.9
+  },
+  {
+    "date": "2025-12-02",
+    "attempts": 150,
+    "successes": 140,
+    "failures": 10,
+    "gmv": 271049.76,
+    "refund_amount": 8670.130000000001,
+    "fee_revenue": 3076.2000000000003
+  },
+  {
+    "date": "2025-12-03",
+    "attempts": 145,
+    "successes": 135,
+    "failures": 10,
+    "gmv": 173512.27999999997,
+    "refund_amount": 5108.610000000001,
+    "fee_revenue": 1751.8499999999995
+  },
+  {
+    "date": "2025-12-04",
+    "attempts": 127,
+    "successes": 121,
+    "failures": 6,
+    "gmv": 246906.04000000004,
+    "refund_amount": 3604.45,
+    "fee_revenue": 2557.0400000000004
+  },
+  {
+    "date": "2025-12-05",
+    "attempts": 128,
+    "successes": 119,
+    "failures": 9,
+    "gmv": 220171.06999999998,
+    "refund_amount": 34022.369999999995,
+    "fee_revenue": 1865.9900000000002
+  },
+  {
+    "date": "2025-12-06",
+    "attempts": 109,
+    "successes": 101,
+    "failures": 8,
+    "gmv": 136321.44,
+    "refund_amount": 1459.73,
+    "fee_revenue": 1050.3799999999999
+  },
+  {
+    "date": "2025-12-07",
+    "attempts": 143,
+    "successes": 128,
+    "failures": 15,
+    "gmv": 141199.63,
+    "refund_amount": 3700.8999999999996,
+    "fee_revenue": 1280.14
+  },
+  {
+    "date": "2025-12-08",
+    "attempts": 153,
+    "successes": 140,
+    "failures": 13,
+    "gmv": 219166.71999999997,
+    "refund_amount": 6728.06,
+    "fee_revenue": 2098.2200000000003
+  },
+  {
+    "date": "2025-12-09",
+    "attempts": 146,
+    "successes": 137,
+    "failures": 9,
+    "gmv": 199695.75,
+    "refund_amount": 11467.09,
+    "fee_revenue": 2009.6
+  },
+  {
+    "date": "2025-12-10",
+    "attempts": 134,
+    "successes": 123,
+    "failures": 11,
+    "gmv": 206360.22999999998,
+    "refund_amount": 9042.8,
+    "fee_revenue": 1393.3900000000003
+  },
+  {
+    "date": "2025-12-11",
+    "attempts": 152,
+    "successes": 138,
+    "failures": 14,
+    "gmv": 236423.39000000004,
+    "refund_amount": 3012.59,
+    "fee_revenue": 2032.88
+  },
+  {
+    "date": "2025-12-12",
+    "attempts": 156,
+    "successes": 143,
+    "failures": 13,
+    "gmv": 177348.2,
+    "refund_amount": 8655.56,
+    "fee_revenue": 1777.9999999999998
+  },
+  {
+    "date": "2025-12-13",
+    "attempts": 149,
+    "successes": 132,
+    "failures": 17,
+    "gmv": 201062.55,
+    "refund_amount": 2270.38,
+    "fee_revenue": 1814.9499999999998
+  },
+  {
+    "date": "2025-12-14",
+    "attempts": 130,
+    "successes": 116,
+    "failures": 14,
+    "gmv": 141894.64999999997,
+    "refund_amount": 4640.34,
+    "fee_revenue": 1235.89
+  },
+  {
+    "date": "2025-12-15",
+    "attempts": 146,
+    "successes": 133,
+    "failures": 13,
+    "gmv": 192630.79,
+    "refund_amount": 38678.59,
+    "fee_revenue": 1890.3899999999999
+  },
+  {
+    "date": "2025-12-16",
+    "attempts": 140,
+    "successes": 127,
+    "failures": 13,
+    "gmv": 155066.62,
+    "refund_amount": 8098.280000000001,
+    "fee_revenue": 1271.84
+  },
+  {
+    "date": "2025-12-17",
+    "attempts": 156,
+    "successes": 147,
+    "failures": 9,
+    "gmv": 208369.99,
+    "refund_amount": 47169.69,
+    "fee_revenue": 1545.32
+  },
+  {
+    "date": "2025-12-18",
+    "attempts": 167,
+    "successes": 159,
+    "failures": 8,
+    "gmv": 332003.08999999997,
+    "refund_amount": 26823.68,
+    "fee_revenue": 3066.12
+  },
+  {
+    "date": "2025-12-19",
+    "attempts": 132,
+    "successes": 117,
+    "failures": 15,
+    "gmv": 117589.98999999998,
+    "refund_amount": 6860.98,
+    "fee_revenue": 1093.33
+  },
+  {
+    "date": "2025-12-20",
+    "attempts": 127,
+    "successes": 118,
+    "failures": 9,
+    "gmv": 190148.60000000003,
+    "refund_amount": 4235.76,
+    "fee_revenue": 1542.07
+  },
+  {
+    "date": "2025-12-21",
+    "attempts": 107,
+    "successes": 102,
+    "failures": 5,
+    "gmv": 226061.79,
+    "refund_amount": 35275.41,
+    "fee_revenue": 2558.0800000000004
+  },
+  {
+    "date": "2025-12-22",
+    "attempts": 141,
+    "successes": 132,
+    "failures": 9,
+    "gmv": 169206.56,
+    "refund_amount": 8790.91,
+    "fee_revenue": 1896.7000000000003
+  },
+  {
+    "date": "2025-12-23",
+    "attempts": 152,
+    "successes": 133,
+    "failures": 19,
+    "gmv": 167592.21999999997,
+    "refund_amount": 3657.6,
+    "fee_revenue": 1792.33
+  },
+  {
+    "date": "2025-12-24",
+    "attempts": 159,
+    "successes": 146,
+    "failures": 13,
+    "gmv": 168723.55,
+    "refund_amount": 4432.82,
+    "fee_revenue": 1276.68
+  },
+  {
+    "date": "2025-12-25",
+    "attempts": 147,
+    "successes": 131,
+    "failures": 16,
+    "gmv": 192987.48,
+    "refund_amount": 11538.15,
+    "fee_revenue": 1269.5700000000002
+  },
+  {
+    "date": "2025-12-26",
+    "attempts": 167,
+    "successes": 153,
+    "failures": 14,
+    "gmv": 178466.11,
+    "refund_amount": 4654.7,
+    "fee_revenue": 1954.4199999999998
+  },
+  {
+    "date": "2025-12-27",
+    "attempts": 121,
+    "successes": 111,
+    "failures": 10,
+    "gmv": 128145.23000000003,
+    "refund_amount": 5858.58,
+    "fee_revenue": 1452.4399999999998
+  },
+  {
+    "date": "2025-12-28",
+    "attempts": 130,
+    "successes": 115,
+    "failures": 15,
+    "gmv": 169740.05000000002,
+    "refund_amount": 15185.43,
+    "fee_revenue": 1415.04
+  },
+  {
+    "date": "2025-12-29",
+    "attempts": 158,
+    "successes": 152,
+    "failures": 6,
+    "gmv": 314887.64,
+    "refund_amount": 83121.9,
+    "fee_revenue": 2133.92
+  },
+  {
+    "date": "2025-12-30",
+    "attempts": 150,
+    "successes": 138,
+    "failures": 12,
+    "gmv": 211941.65,
+    "refund_amount": 4070.7900000000004,
+    "fee_revenue": 1987.26
+  },
+  {
+    "date": "2025-12-31",
+    "attempts": 145,
+    "successes": 132,
+    "failures": 13,
+    "gmv": 272497.86000000004,
+    "refund_amount": 13246.01,
+    "fee_revenue": 3106.06
+  },
+  {
+    "date": "2026-01-01",
+    "attempts": 170,
+    "successes": 160,
+    "failures": 10,
+    "gmv": 203405.09000000003,
+    "refund_amount": 5485.049999999999,
+    "fee_revenue": 1708.2399999999998
+  },
+  {
+    "date": "2026-01-02",
+    "attempts": 148,
+    "successes": 136,
+    "failures": 12,
+    "gmv": 180696.21000000002,
+    "refund_amount": 10863.14,
+    "fee_revenue": 1805.05
+  },
+  {
+    "date": "2026-01-03",
+    "attempts": 108,
+    "successes": 95,
+    "failures": 13,
+    "gmv": 155718.68,
+    "refund_amount": 7635.410000000001,
+    "fee_revenue": 1691.4200000000003
+  },
+  {
+    "date": "2026-01-04",
+    "attempts": 125,
+    "successes": 117,
+    "failures": 8,
+    "gmv": 226916.13,
+    "refund_amount": 9743.710000000001,
+    "fee_revenue": 2483.11
+  },
+  {
+    "date": "2026-01-05",
+    "attempts": 160,
+    "successes": 144,
+    "failures": 16,
+    "gmv": 237785.06,
+    "refund_amount": 45772.63,
+    "fee_revenue": 2109.58
+  },
+  {
+    "date": "2026-01-06",
+    "attempts": 152,
+    "successes": 137,
+    "failures": 15,
+    "gmv": 191161.12,
+    "refund_amount": 7393.51,
+    "fee_revenue": 1478.42
+  },
+  {
+    "date": "2026-01-07",
+    "attempts": 155,
+    "successes": 147,
+    "failures": 8,
+    "gmv": 160719.44,
+    "refund_amount": 8204.619999999999,
+    "fee_revenue": 1496.4199999999998
+  },
+  {
+    "date": "2026-01-08",
+    "attempts": 161,
+    "successes": 143,
+    "failures": 18,
+    "gmv": 157209.22999999998,
+    "refund_amount": 4946.03,
+    "fee_revenue": 1295.1
+  },
+  {
+    "date": "2026-01-09",
+    "attempts": 163,
+    "successes": 146,
+    "failures": 17,
+    "gmv": 276745.36,
+    "refund_amount": 8999.56,
+    "fee_revenue": 2810.0
+  },
+  {
+    "date": "2026-01-10",
+    "attempts": 115,
+    "successes": 109,
+    "failures": 6,
+    "gmv": 149656.01,
+    "refund_amount": 7990.39,
+    "fee_revenue": 1286.2699999999998
+  },
+  {
+    "date": "2026-01-11",
+    "attempts": 132,
+    "successes": 123,
+    "failures": 9,
+    "gmv": 197745.66000000003,
+    "refund_amount": 25584.15,
+    "fee_revenue": 1639.4099999999999
+  },
+  {
+    "date": "2026-01-12",
+    "attempts": 138,
+    "successes": 129,
+    "failures": 9,
+    "gmv": 267440.87,
+    "refund_amount": 2556.29,
+    "fee_revenue": 4102.9400000000005
+  },
+  {
+    "date": "2026-01-13",
+    "attempts": 179,
+    "successes": 165,
+    "failures": 14,
+    "gmv": 248470.22000000003,
+    "refund_amount": 12259.77,
+    "fee_revenue": 2745.9000000000005
+  },
+  {
+    "date": "2026-01-14",
+    "attempts": 148,
+    "successes": 132,
+    "failures": 16,
+    "gmv": 182334.09,
+    "refund_amount": 4341.34,
+    "fee_revenue": 1881.2
+  },
+  {
+    "date": "2026-01-15",
+    "attempts": 176,
+    "successes": 165,
+    "failures": 11,
+    "gmv": 241310.3,
+    "refund_amount": 12656.93,
+    "fee_revenue": 1874.11
+  },
+  {
+    "date": "2026-01-16",
+    "attempts": 155,
+    "successes": 139,
+    "failures": 16,
+    "gmv": 235213.96000000002,
+    "refund_amount": 4326.74,
+    "fee_revenue": 2538.04
+  },
+  {
+    "date": "2026-01-17",
+    "attempts": 146,
+    "successes": 131,
+    "failures": 15,
+    "gmv": 201993.61,
+    "refund_amount": 12731.91,
+    "fee_revenue": 1647.27
+  },
+  {
+    "date": "2026-01-18",
+    "attempts": 110,
+    "successes": 105,
+    "failures": 5,
+    "gmv": 132970.65000000002,
+    "refund_amount": 13578.02,
+    "fee_revenue": 1693.3199999999997
+  },
+  {
+    "date": "2026-01-19",
+    "attempts": 167,
+    "successes": 158,
+    "failures": 9,
+    "gmv": 218644.16999999998,
+    "refund_amount": 13208.87,
+    "fee_revenue": 2160.55
+  },
+  {
+    "date": "2026-01-20",
+    "attempts": 146,
+    "successes": 132,
+    "failures": 14,
+    "gmv": 233909.91000000006,
+    "refund_amount": 5623.5599999999995,
+    "fee_revenue": 2678.7200000000003
+  },
+  {
+    "date": "2026-01-21",
+    "attempts": 157,
+    "successes": 142,
+    "failures": 15,
+    "gmv": 275704.53,
+    "refund_amount": 27344.850000000002,
+    "fee_revenue": 2585.81
+  },
+  {
+    "date": "2026-01-22",
+    "attempts": 147,
+    "successes": 134,
+    "failures": 13,
+    "gmv": 160681.4,
+    "refund_amount": 4849.67,
+    "fee_revenue": 1542.0299999999997
+  },
+  {
+    "date": "2026-01-23",
+    "attempts": 147,
+    "successes": 127,
+    "failures": 20,
+    "gmv": 231531.11999999997,
+    "refund_amount": 18772.660000000003,
+    "fee_revenue": 2325.95
+  },
+  {
+    "date": "2026-01-24",
+    "attempts": 108,
+    "successes": 101,
+    "failures": 7,
+    "gmv": 206045.60000000003,
+    "refund_amount": 1166.26,
+    "fee_revenue": 1620.8700000000001
+  },
+  {
+    "date": "2026-01-25",
+    "attempts": 129,
+    "successes": 114,
+    "failures": 15,
+    "gmv": 173374.66999999998,
+    "refund_amount": 13952.07,
+    "fee_revenue": 1663.39
+  },
+  {
+    "date": "2026-01-26",
+    "attempts": 169,
+    "successes": 150,
+    "failures": 19,
+    "gmv": 193516.56,
+    "refund_amount": 23469.82,
+    "fee_revenue": 2002.09
+  },
+  {
+    "date": "2026-01-27",
+    "attempts": 158,
+    "successes": 151,
+    "failures": 7,
+    "gmv": 225272.96,
+    "refund_amount": 23080.239999999998,
+    "fee_revenue": 2450.3599999999997
+  },
+  {
+    "date": "2026-01-28",
+    "attempts": 135,
+    "successes": 123,
+    "failures": 12,
+    "gmv": 187818.82,
+    "refund_amount": 1229.81,
+    "fee_revenue": 1822.3
+  },
+  {
+    "date": "2026-01-29",
+    "attempts": 151,
+    "successes": 147,
+    "failures": 4,
+    "gmv": 235107.6,
+    "refund_amount": 40283.13,
+    "fee_revenue": 2457.21
+  },
+  {
+    "date": "2026-01-30",
+    "attempts": 168,
+    "successes": 152,
+    "failures": 16,
+    "gmv": 182454.7,
+    "refund_amount": 5268.84,
+    "fee_revenue": 1289.19
+  },
+  {
+    "date": "2026-01-31",
+    "attempts": 138,
+    "successes": 128,
+    "failures": 10,
+    "gmv": 249797.32,
+    "refund_amount": 4455.26,
+    "fee_revenue": 3295.03
+  },
+  {
+    "date": "2026-02-01",
+    "attempts": 138,
+    "successes": 129,
+    "failures": 9,
+    "gmv": 157030.24,
+    "refund_amount": 2249.27,
+    "fee_revenue": 1323.3100000000002
+  },
+  {
+    "date": "2026-02-02",
+    "attempts": 160,
+    "successes": 145,
+    "failures": 15,
+    "gmv": 202149.25,
+    "refund_amount": 6149.5,
+    "fee_revenue": 1884.8999999999996
+  },
+  {
+    "date": "2026-02-03",
+    "attempts": 144,
+    "successes": 130,
+    "failures": 14,
+    "gmv": 198659.65000000002,
+    "refund_amount": 9910.61,
+    "fee_revenue": 1589.33
+  },
+  {
+    "date": "2026-02-04",
+    "attempts": 153,
+    "successes": 144,
+    "failures": 9,
+    "gmv": 207551.55,
+    "refund_amount": 18622.079999999998,
+    "fee_revenue": 1588.74
+  },
+  {
+    "date": "2026-02-05",
+    "attempts": 196,
+    "successes": 180,
+    "failures": 16,
+    "gmv": 301826.24,
+    "refund_amount": 14432.85,
+    "fee_revenue": 2646.16
+  },
+  {
+    "date": "2026-02-06",
+    "attempts": 149,
+    "successes": 139,
+    "failures": 10,
+    "gmv": 227919.0,
+    "refund_amount": 5604.42,
+    "fee_revenue": 1621.4899999999998
+  },
+  {
+    "date": "2026-02-07",
+    "attempts": 115,
+    "successes": 104,
+    "failures": 11,
+    "gmv": 133473.13,
+    "refund_amount": 16556.75,
+    "fee_revenue": 775.45
+  },
+  {
+    "date": "2026-02-08",
+    "attempts": 109,
+    "successes": 98,
+    "failures": 11,
+    "gmv": 170323.6,
+    "refund_amount": 1100.03,
+    "fee_revenue": 1182.06
+  },
+  {
+    "date": "2026-02-09",
+    "attempts": 167,
+    "successes": 153,
+    "failures": 14,
+    "gmv": 221704.88,
+    "refund_amount": 12195.23,
+    "fee_revenue": 2549.52
+  },
+  {
+    "date": "2026-02-10",
+    "attempts": 160,
+    "successes": 147,
+    "failures": 13,
+    "gmv": 284293.12,
+    "refund_amount": 4981.6900000000005,
+    "fee_revenue": 2512.73
+  },
+  {
+    "date": "2026-02-11",
+    "attempts": 157,
+    "successes": 144,
+    "failures": 13,
+    "gmv": 247835.64,
+    "refund_amount": 9837.460000000001,
+    "fee_revenue": 2560.77
+  },
+  {
+    "date": "2026-02-12",
+    "attempts": 144,
+    "successes": 130,
+    "failures": 14,
+    "gmv": 170345.69,
+    "refund_amount": 3288.33,
+    "fee_revenue": 1806.29
+  },
+  {
+    "date": "2026-02-13",
+    "attempts": 167,
+    "successes": 152,
+    "failures": 15,
+    "gmv": 249190.99,
+    "refund_amount": 19827.78,
+    "fee_revenue": 2152.4300000000003
+  },
+  {
+    "date": "2026-02-14",
+    "attempts": 123,
+    "successes": 110,
+    "failures": 13,
+    "gmv": 124252.95999999999,
+    "refund_amount": 1655.86,
+    "fee_revenue": 1100.5300000000002
+  },
+  {
+    "date": "2026-02-15",
+    "attempts": 115,
+    "successes": 103,
+    "failures": 12,
+    "gmv": 223010.24000000008,
+    "refund_amount": 628.64,
+    "fee_revenue": 2595.72
+  },
+  {
+    "date": "2026-02-16",
+    "attempts": 152,
+    "successes": 137,
+    "failures": 15,
+    "gmv": 284609.70999999996,
+    "refund_amount": 12887.93,
+    "fee_revenue": 2447.26
+  },
+  {
+    "date": "2026-02-17",
+    "attempts": 178,
+    "successes": 157,
+    "failures": 21,
+    "gmv": 219626.06,
+    "refund_amount": 6829.0599999999995,
+    "fee_revenue": 2314.55
+  },
+  {
+    "date": "2026-02-18",
+    "attempts": 150,
+    "successes": 139,
+    "failures": 11,
+    "gmv": 207924.07,
+    "refund_amount": 11924.61,
+    "fee_revenue": 1826.2600000000002
+  },
+  {
+    "date": "2026-02-19",
+    "attempts": 139,
+    "successes": 133,
+    "failures": 6,
+    "gmv": 154567.38999999996,
+    "refund_amount": 6903.59,
+    "fee_revenue": 1293.69
+  },
+  {
+    "date": "2026-02-20",
+    "attempts": 144,
+    "successes": 132,
+    "failures": 12,
+    "gmv": 152895.92,
+    "refund_amount": 7146.700000000001,
+    "fee_revenue": 1485.7099999999998
+  },
+  {
+    "date": "2026-02-21",
+    "attempts": 131,
+    "successes": 125,
+    "failures": 6,
+    "gmv": 204496.77000000002,
+    "refund_amount": 11945.19,
+    "fee_revenue": 2186.28
+  },
+  {
+    "date": "2026-02-22",
+    "attempts": 122,
+    "successes": 116,
+    "failures": 6,
+    "gmv": 233419.94000000003,
+    "refund_amount": 5147.969999999999,
+    "fee_revenue": 2635.8299999999995
+  },
+  {
+    "date": "2026-02-23",
+    "attempts": 135,
+    "successes": 126,
+    "failures": 9,
+    "gmv": 189969.11999999997,
+    "refund_amount": 6364.82,
+    "fee_revenue": 1511.98
+  },
+  {
+    "date": "2026-02-24",
+    "attempts": 174,
+    "successes": 151,
+    "failures": 23,
+    "gmv": 221739.7,
+    "refund_amount": 5113.86,
+    "fee_revenue": 2260.7400000000002
+  },
+  {
+    "date": "2026-02-25",
+    "attempts": 161,
+    "successes": 146,
+    "failures": 15,
+    "gmv": 186927.65,
+    "refund_amount": 6404.34,
+    "fee_revenue": 1542.6
+  },
+  {
+    "date": "2026-02-26",
+    "attempts": 169,
+    "successes": 157,
+    "failures": 12,
+    "gmv": 274948.49,
+    "refund_amount": 20434.45,
+    "fee_revenue": 2334.9299999999994
+  },
+  {
+    "date": "2026-02-27",
+    "attempts": 159,
+    "successes": 150,
+    "failures": 9,
+    "gmv": 244949.05,
+    "refund_amount": 18272.02,
+    "fee_revenue": 2086.8599999999997
+  },
+  {
+    "date": "2026-02-28",
+    "attempts": 119,
+    "successes": 109,
+    "failures": 10,
+    "gmv": 153404.91999999998,
+    "refund_amount": 8598.59,
+    "fee_revenue": 1128.66
+  },
+  {
+    "date": "2026-03-01",
+    "attempts": 138,
+    "successes": 127,
+    "failures": 11,
+    "gmv": 221801.87000000002,
+    "refund_amount": 5008.22,
+    "fee_revenue": 1961.2199999999996
+  },
+  {
+    "date": "2026-03-02",
+    "attempts": 154,
+    "successes": 138,
+    "failures": 16,
+    "gmv": 188061.48,
+    "refund_amount": 6360.31,
+    "fee_revenue": 2011.8500000000001
+  },
+  {
+    "date": "2026-03-03",
+    "attempts": 144,
+    "successes": 130,
+    "failures": 14,
+    "gmv": 221575.15999999997,
+    "refund_amount": 36641.880000000005,
+    "fee_revenue": 2116.0299999999997
+  },
+  {
+    "date": "2026-03-04",
+    "attempts": 145,
+    "successes": 129,
+    "failures": 16,
+    "gmv": 249231.99,
+    "refund_amount": 12762.96,
+    "fee_revenue": 3126.5299999999997
+  },
+  {
+    "date": "2026-03-05",
+    "attempts": 171,
+    "successes": 160,
+    "failures": 11,
+    "gmv": 218463.69,
+    "refund_amount": 3987.73,
+    "fee_revenue": 1947.3599999999997
+  },
+  {
+    "date": "2026-03-06",
+    "attempts": 165,
+    "successes": 152,
+    "failures": 13,
+    "gmv": 288401.53,
+    "refund_amount": 7673.4,
+    "fee_revenue": 2379.7299999999996
+  },
+  {
+    "date": "2026-03-07",
+    "attempts": 134,
+    "successes": 127,
+    "failures": 7,
+    "gmv": 162445.83,
+    "refund_amount": 5058.59,
+    "fee_revenue": 1425.9699999999998
+  },
+  {
+    "date": "2026-03-08",
+    "attempts": 117,
+    "successes": 104,
+    "failures": 13,
+    "gmv": 158792.40999999997,
+    "refund_amount": 9259.81,
+    "fee_revenue": 1443.3899999999999
+  },
+  {
+    "date": "2026-03-09",
+    "attempts": 148,
+    "successes": 132,
+    "failures": 16,
+    "gmv": 312430.33,
+    "refund_amount": 3318.9,
+    "fee_revenue": 3437.0299999999997
+  },
+  {
+    "date": "2026-03-10",
+    "attempts": 146,
+    "successes": 135,
+    "failures": 11,
+    "gmv": 224934.55000000005,
+    "refund_amount": 16110.489999999998,
+    "fee_revenue": 1626.73
+  },
+  {
+    "date": "2026-03-11",
+    "attempts": 134,
+    "successes": 126,
+    "failures": 8,
+    "gmv": 184616.94999999998,
+    "refund_amount": 4634.89,
+    "fee_revenue": 1298.2299999999998
+  },
+  {
+    "date": "2026-03-12",
+    "attempts": 200,
+    "successes": 180,
+    "failures": 20,
+    "gmv": 256939.08000000002,
+    "refund_amount": 29996.53,
+    "fee_revenue": 2360.6000000000004
+  },
+  {
+    "date": "2026-03-13",
+    "attempts": 161,
+    "successes": 151,
+    "failures": 10,
+    "gmv": 220523.13999999998,
+    "refund_amount": 9081.119999999999,
+    "fee_revenue": 2005.2700000000004
+  },
+  {
+    "date": "2026-03-14",
+    "attempts": 139,
+    "successes": 108,
+    "failures": 31,
+    "gmv": 133930.84,
+    "refund_amount": 35276.92,
+    "fee_revenue": 1444.1599999999999
+  },
+  {
+    "date": "2026-03-15",
+    "attempts": 131,
+    "successes": 121,
+    "failures": 10,
+    "gmv": 155685.08,
+    "refund_amount": 909.8199999999999,
+    "fee_revenue": 1731.2999999999997
+  },
+  {
+    "date": "2026-03-16",
+    "attempts": 173,
+    "successes": 162,
+    "failures": 11,
+    "gmv": 317611.12,
+    "refund_amount": 24711.64,
+    "fee_revenue": 3458.18
+  },
+  {
+    "date": "2026-03-17",
+    "attempts": 176,
+    "successes": 162,
+    "failures": 14,
+    "gmv": 195060.95,
+    "refund_amount": 13101.349999999999,
+    "fee_revenue": 1547.7700000000002
+  },
+  {
+    "date": "2026-03-18",
+    "attempts": 186,
+    "successes": 171,
+    "failures": 15,
+    "gmv": 264926.94999999995,
+    "refund_amount": 28051.300000000003,
+    "fee_revenue": 2241.46
+  },
+  {
+    "date": "2026-03-19",
+    "attempts": 169,
+    "successes": 154,
+    "failures": 15,
+    "gmv": 245208.85,
+    "refund_amount": 16250.960000000001,
+    "fee_revenue": 2201.12
+  },
+  {
+    "date": "2026-03-20",
+    "attempts": 161,
+    "successes": 148,
+    "failures": 13,
+    "gmv": 223345.07,
+    "refund_amount": 11164.85,
+    "fee_revenue": 1913.59
+  },
+  {
+    "date": "2026-03-21",
+    "attempts": 120,
+    "successes": 106,
+    "failures": 14,
+    "gmv": 279928.66000000003,
+    "refund_amount": 8993.13,
+    "fee_revenue": 3289.7199999999993
+  },
+  {
+    "date": "2026-03-22",
+    "attempts": 135,
+    "successes": 121,
+    "failures": 14,
+    "gmv": 124231.55,
+    "refund_amount": 13813.94,
+    "fee_revenue": 1409.82
+  },
+  {
+    "date": "2026-03-23",
+    "attempts": 169,
+    "successes": 154,
+    "failures": 15,
+    "gmv": 239989.77000000002,
+    "refund_amount": 15327.279999999999,
+    "fee_revenue": 1957.9099999999999
+  },
+  {
+    "date": "2026-03-24",
+    "attempts": 175,
+    "successes": 163,
+    "failures": 12,
+    "gmv": 174929.88999999998,
+    "refund_amount": 6495.82,
+    "fee_revenue": 1562.76
+  },
+  {
+    "date": "2026-03-25",
+    "attempts": 181,
+    "successes": 170,
+    "failures": 11,
+    "gmv": 244482.57,
+    "refund_amount": 9042.24,
+    "fee_revenue": 1840.19
+  },
+  {
+    "date": "2026-03-26",
+    "attempts": 181,
+    "successes": 162,
+    "failures": 19,
+    "gmv": 185932.58000000002,
+    "refund_amount": 3292.3100000000004,
+    "fee_revenue": 1634.98
+  },
+  {
+    "date": "2026-03-27",
+    "attempts": 163,
+    "successes": 152,
+    "failures": 11,
+    "gmv": 168918.82,
+    "refund_amount": 25715.99,
+    "fee_revenue": 1846.5700000000002
+  },
+  {
+    "date": "2026-03-28",
+    "attempts": 139,
+    "successes": 125,
+    "failures": 14,
+    "gmv": 175822.66,
+    "refund_amount": 3703.63,
+    "fee_revenue": 1822.5999999999997
+  },
+  {
+    "date": "2026-03-29",
+    "attempts": 135,
+    "successes": 125,
+    "failures": 10,
+    "gmv": 187188.63999999998,
+    "refund_amount": 26258.38,
+    "fee_revenue": 2046.7699999999998
+  },
+  {
+    "date": "2026-03-30",
+    "attempts": 157,
+    "successes": 147,
+    "failures": 10,
+    "gmv": 239507.20999999996,
+    "refund_amount": 20678.17,
+    "fee_revenue": 2441.38
+  },
+  {
+    "date": "2026-03-31",
+    "attempts": 154,
+    "successes": 140,
+    "failures": 14,
+    "gmv": 291386.99,
+    "refund_amount": 45721.130000000005,
+    "fee_revenue": 2410.58
+  },
+  {
+    "date": "2026-04-01",
+    "attempts": 164,
+    "successes": 149,
+    "failures": 15,
+    "gmv": 264185.45,
+    "refund_amount": 77059.56999999999,
+    "fee_revenue": 2044.5299999999997
+  },
+  {
+    "date": "2026-04-02",
+    "attempts": 159,
+    "successes": 142,
+    "failures": 17,
+    "gmv": 241696.49999999997,
+    "refund_amount": 11053.07,
+    "fee_revenue": 2422.37
+  },
+  {
+    "date": "2026-04-03",
+    "attempts": 162,
+    "successes": 148,
+    "failures": 14,
+    "gmv": 226835.02000000002,
+    "refund_amount": 13550.640000000001,
+    "fee_revenue": 1981.8799999999999
+  },
+  {
+    "date": "2026-04-04",
+    "attempts": 138,
+    "successes": 124,
+    "failures": 14,
+    "gmv": 201089.59000000003,
+    "refund_amount": 2472.85,
+    "fee_revenue": 1322.3600000000004
+  },
+  {
+    "date": "2026-04-05",
+    "attempts": 161,
+    "successes": 151,
+    "failures": 10,
+    "gmv": 205647.56,
+    "refund_amount": 37733.02,
+    "fee_revenue": 1721.6
+  },
+  {
+    "date": "2026-04-06",
+    "attempts": 158,
+    "successes": 147,
+    "failures": 11,
+    "gmv": 187148.71,
+    "refund_amount": 14471.88,
+    "fee_revenue": 1952.3000000000002
+  },
+  {
+    "date": "2026-04-07",
+    "attempts": 163,
+    "successes": 145,
+    "failures": 18,
+    "gmv": 227275.84,
+    "refund_amount": 13970.169999999998,
+    "fee_revenue": 2111.31
+  },
+  {
+    "date": "2026-04-08",
+    "attempts": 174,
+    "successes": 158,
+    "failures": 16,
+    "gmv": 223867.2,
+    "refund_amount": 13196.77,
+    "fee_revenue": 2230.5
+  },
+  {
+    "date": "2026-04-09",
+    "attempts": 177,
+    "successes": 157,
+    "failures": 20,
+    "gmv": 252652.39,
+    "refund_amount": 3834.48,
+    "fee_revenue": 2473.51
+  },
+  {
+    "date": "2026-04-10",
+    "attempts": 185,
+    "successes": 172,
+    "failures": 13,
+    "gmv": 204426.78,
+    "refund_amount": 19109.37,
+    "fee_revenue": 1914.4399999999998
+  },
+  {
+    "date": "2026-04-11",
+    "attempts": 135,
+    "successes": 121,
+    "failures": 14,
+    "gmv": 118739.59,
+    "refund_amount": 22076.88,
+    "fee_revenue": 1133.76
+  },
+  {
+    "date": "2026-04-12",
+    "attempts": 134,
+    "successes": 124,
+    "failures": 10,
+    "gmv": 236988.4,
+    "refund_amount": 8429.83,
+    "fee_revenue": 2573.9500000000003
+  },
+  {
+    "date": "2026-04-13",
+    "attempts": 180,
+    "successes": 167,
+    "failures": 13,
+    "gmv": 226481.09999999998,
+    "refund_amount": 3431.12,
+    "fee_revenue": 2155.8100000000004
+  },
+  {
+    "date": "2026-04-14",
+    "attempts": 152,
+    "successes": 143,
+    "failures": 9,
+    "gmv": 181971.18,
+    "refund_amount": 3882.31,
+    "fee_revenue": 1152.2399999999998
+  },
+  {
+    "date": "2026-04-15",
+    "attempts": 162,
+    "successes": 153,
+    "failures": 9,
+    "gmv": 239759.44,
+    "refund_amount": 11614.64,
+    "fee_revenue": 2379.96
+  },
+  {
+    "date": "2026-04-16",
+    "attempts": 160,
+    "successes": 144,
+    "failures": 16,
+    "gmv": 225386.38,
+    "refund_amount": 10695.28,
+    "fee_revenue": 2367.62
+  },
+  {
+    "date": "2026-04-17",
+    "attempts": 167,
+    "successes": 146,
+    "failures": 21,
+    "gmv": 335692.34,
+    "refund_amount": 12836.699999999999,
+    "fee_revenue": 2994.8900000000003
+  },
+  {
+    "date": "2026-04-18",
+    "attempts": 124,
+    "successes": 111,
+    "failures": 13,
+    "gmv": 147770.44999999998,
+    "refund_amount": 3691.42,
+    "fee_revenue": 1507.5400000000004
+  },
+  {
+    "date": "2026-04-19",
+    "attempts": 137,
+    "successes": 125,
+    "failures": 12,
+    "gmv": 198999.42,
+    "refund_amount": 840.13,
+    "fee_revenue": 1713.36
+  },
+  {
+    "date": "2026-04-20",
+    "attempts": 174,
+    "successes": 154,
+    "failures": 20,
+    "gmv": 197995.8,
+    "refund_amount": 4734.46,
+    "fee_revenue": 1966.7
+  },
+  {
+    "date": "2026-04-21",
+    "attempts": 172,
+    "successes": 157,
+    "failures": 15,
+    "gmv": 266866.52,
+    "refund_amount": 2808.4,
+    "fee_revenue": 1991.3900000000003
+  },
+  {
+    "date": "2026-04-22",
+    "attempts": 176,
+    "successes": 163,
+    "failures": 13,
+    "gmv": 228169.66000000003,
+    "refund_amount": 30240.07,
+    "fee_revenue": 1863.9499999999998
+  },
+  {
+    "date": "2026-04-23",
+    "attempts": 172,
+    "successes": 151,
+    "failures": 21,
+    "gmv": 230365.43,
+    "refund_amount": 9522.5,
+    "fee_revenue": 2751.71
+  },
+  {
+    "date": "2026-04-24",
+    "attempts": 170,
+    "successes": 154,
+    "failures": 16,
+    "gmv": 197835.94,
+    "refund_amount": 4710.52,
+    "fee_revenue": 1403.71
+  },
+  {
+    "date": "2026-04-25",
+    "attempts": 129,
+    "successes": 122,
+    "failures": 7,
+    "gmv": 255539.5,
+    "refund_amount": 13390.100000000002,
+    "fee_revenue": 2114.7999999999997
+  },
+  {
+    "date": "2026-04-26",
+    "attempts": 119,
+    "successes": 106,
+    "failures": 13,
+    "gmv": 174870.63999999998,
+    "refund_amount": 13430.619999999999,
+    "fee_revenue": 2181.3700000000003
+  },
+  {
+    "date": "2026-04-27",
+    "attempts": 160,
+    "successes": 147,
+    "failures": 13,
+    "gmv": 282101.37,
+    "refund_amount": 26220.97,
+    "fee_revenue": 2484.47
+  },
+  {
+    "date": "2026-04-28",
+    "attempts": 160,
+    "successes": 146,
+    "failures": 14,
+    "gmv": 289253.51,
+    "refund_amount": 54776.86,
+    "fee_revenue": 2651.24
+  },
+  {
+    "date": "2026-04-29",
+    "attempts": 165,
+    "successes": 149,
+    "failures": 16,
+    "gmv": 240092.93999999994,
+    "refund_amount": 2664.45,
+    "fee_revenue": 1810.57
+  },
+  {
+    "date": "2026-04-30",
+    "attempts": 173,
+    "successes": 160,
+    "failures": 13,
+    "gmv": 203158.83000000002,
+    "refund_amount": 10287.85,
+    "fee_revenue": 2371.7799999999997
+  },
+  {
+    "date": "2026-05-01",
+    "attempts": 158,
+    "successes": 143,
+    "failures": 15,
+    "gmv": 209607.31,
+    "refund_amount": 3525.2,
+    "fee_revenue": 1851.81
+  },
+  {
+    "date": "2026-05-02",
+    "attempts": 139,
+    "successes": 126,
+    "failures": 13,
+    "gmv": 227207.42,
+    "refund_amount": 14161.43,
+    "fee_revenue": 2639.45
+  },
+  {
+    "date": "2026-05-03",
+    "attempts": 151,
+    "successes": 129,
+    "failures": 22,
+    "gmv": 293242.88,
+    "refund_amount": 90054.31,
+    "fee_revenue": 3310.48
+  },
+  {
+    "date": "2026-05-04",
+    "attempts": 162,
+    "successes": 144,
+    "failures": 18,
+    "gmv": 208750.97999999998,
+    "refund_amount": 3711.52,
+    "fee_revenue": 1981.83
+  },
+  {
+    "date": "2026-05-05",
+    "attempts": 167,
+    "successes": 151,
+    "failures": 16,
+    "gmv": 203535.58,
+    "refund_amount": 7090.3,
+    "fee_revenue": 1985.71
+  },
+  {
+    "date": "2026-05-06",
+    "attempts": 185,
+    "successes": 170,
+    "failures": 15,
+    "gmv": 246390.83000000002,
+    "refund_amount": 33961.53,
+    "fee_revenue": 2390.2799999999997
+  },
+  {
+    "date": "2026-05-07",
+    "attempts": 167,
+    "successes": 152,
+    "failures": 15,
+    "gmv": 250079.06,
+    "refund_amount": 13115.93,
+    "fee_revenue": 1920.61
+  },
+  {
+    "date": "2026-05-08",
+    "attempts": 175,
+    "successes": 164,
+    "failures": 11,
+    "gmv": 229970.36000000002,
+    "refund_amount": 18228.190000000002,
+    "fee_revenue": 2515.3199999999997
+  },
+  {
+    "date": "2026-05-09",
+    "attempts": 123,
+    "successes": 109,
+    "failures": 14,
+    "gmv": 192729.66,
+    "refund_amount": 5263.12,
+    "fee_revenue": 2169.1
+  },
+  {
+    "date": "2026-05-10",
+    "attempts": 156,
+    "successes": 150,
+    "failures": 6,
+    "gmv": 163178.91999999998,
+    "refund_amount": 7925.320000000001,
+    "fee_revenue": 1559.0500000000002
+  },
+  {
+    "date": "2026-05-11",
+    "attempts": 181,
+    "successes": 166,
+    "failures": 15,
+    "gmv": 245203.63,
+    "refund_amount": 13334.86,
+    "fee_revenue": 2281.24
+  },
+  {
+    "date": "2026-05-12",
+    "attempts": 165,
+    "successes": 152,
+    "failures": 13,
+    "gmv": 306166.20999999996,
+    "refund_amount": 25993.179999999997,
+    "fee_revenue": 2226.19
+  },
+  {
+    "date": "2026-05-13",
+    "attempts": 173,
+    "successes": 161,
+    "failures": 12,
+    "gmv": 255896.28000000003,
+    "refund_amount": 4924.92,
+    "fee_revenue": 2760.5
+  },
+  {
+    "date": "2026-05-14",
+    "attempts": 161,
+    "successes": 147,
+    "failures": 14,
+    "gmv": 274010.86,
+    "refund_amount": 8355.359999999999,
+    "fee_revenue": 1913.42
+  },
+  {
+    "date": "2026-05-15",
+    "attempts": 157,
+    "successes": 142,
+    "failures": 15,
+    "gmv": 194900.30000000002,
+    "refund_amount": 19515.35,
+    "fee_revenue": 2174.3700000000003
+  },
+  {
+    "date": "2026-05-16",
+    "attempts": 146,
+    "successes": 125,
+    "failures": 21,
+    "gmv": 190216.68,
+    "refund_amount": 11471.51,
+    "fee_revenue": 1953.8999999999999
+  },
+  {
+    "date": "2026-05-17",
+    "attempts": 120,
+    "successes": 109,
+    "failures": 11,
+    "gmv": 142516.45,
+    "refund_amount": 3491.28,
+    "fee_revenue": 1539.73
+  },
+  {
+    "date": "2026-05-18",
+    "attempts": 159,
+    "successes": 150,
+    "failures": 9,
+    "gmv": 186892.16,
+    "refund_amount": 3768.8999999999996,
+    "fee_revenue": 1685.02
+  },
+  {
+    "date": "2026-05-19",
+    "attempts": 186,
+    "successes": 176,
+    "failures": 10,
+    "gmv": 311568.14999999997,
+    "refund_amount": 20492.54,
+    "fee_revenue": 2772.92
+  },
+  {
+    "date": "2026-05-20",
+    "attempts": 178,
+    "successes": 161,
+    "failures": 17,
+    "gmv": 184388.29,
+    "refund_amount": 12744.830000000002,
+    "fee_revenue": 1495.25
+  },
+  {
+    "date": "2026-05-21",
+    "attempts": 158,
+    "successes": 142,
+    "failures": 16,
+    "gmv": 166459.35000000003,
+    "refund_amount": 25846.519999999997,
+    "fee_revenue": 1708.0199999999998
+  },
+  {
+    "date": "2026-05-22",
+    "attempts": 173,
+    "successes": 161,
+    "failures": 12,
+    "gmv": 209384.44,
+    "refund_amount": 22134.76,
+    "fee_revenue": 2450.1099999999997
+  },
+  {
+    "date": "2026-05-23",
+    "attempts": 150,
+    "successes": 137,
+    "failures": 13,
+    "gmv": 219820.77,
+    "refund_amount": 6294.9800000000005,
+    "fee_revenue": 1867.38
+  },
+  {
+    "date": "2026-05-24",
+    "attempts": 132,
+    "successes": 114,
+    "failures": 18,
+    "gmv": 145208.65999999997,
+    "refund_amount": 6627.56,
+    "fee_revenue": 1363.5700000000002
+  },
+  {
+    "date": "2026-05-25",
+    "attempts": 154,
+    "successes": 138,
+    "failures": 16,
+    "gmv": 170741.8,
+    "refund_amount": 6329.75,
+    "fee_revenue": 1792.29
+  },
+  {
+    "date": "2026-05-26",
+    "attempts": 179,
+    "successes": 157,
+    "failures": 22,
+    "gmv": 252143.93000000002,
+    "refund_amount": 5612.13,
+    "fee_revenue": 1894.8
+  },
+  {
+    "date": "2026-05-27",
+    "attempts": 186,
+    "successes": 167,
+    "failures": 19,
+    "gmv": 192641.91999999998,
+    "refund_amount": 10242.04,
+    "fee_revenue": 1747.02
+  },
+  {
+    "date": "2026-05-28",
+    "attempts": 151,
+    "successes": 132,
+    "failures": 19,
+    "gmv": 179212.14,
+    "refund_amount": 11748.3,
+    "fee_revenue": 1833.5
+  },
+  {
+    "date": "2026-05-29",
+    "attempts": 164,
+    "successes": 146,
+    "failures": 18,
+    "gmv": 161837.14,
+    "refund_amount": 5152.15,
+    "fee_revenue": 1453.9299999999998
+  },
+  {
+    "date": "2026-05-30",
+    "attempts": 127,
+    "successes": 117,
+    "failures": 10,
+    "gmv": 162694.01,
+    "refund_amount": 5079.12,
+    "fee_revenue": 1210.3
+  },
+  {
+    "date": "2026-05-31",
+    "attempts": 139,
+    "successes": 132,
+    "failures": 7,
+    "gmv": 190298.72999999998,
+    "refund_amount": 6821.02,
+    "fee_revenue": 1843.7799999999997
+  },
+  {
+    "date": "2026-06-01",
+    "attempts": 175,
+    "successes": 161,
+    "failures": 14,
+    "gmv": 254858.66000000003,
+    "refund_amount": 8021.36,
+    "fee_revenue": 3213.16
+  },
+  {
+    "date": "2026-06-02",
+    "attempts": 169,
+    "successes": 158,
+    "failures": 11,
+    "gmv": 320779.41,
+    "refund_amount": 26033.59,
+    "fee_revenue": 2420.22
+  },
+  {
+    "date": "2026-06-03",
+    "attempts": 179,
+    "successes": 162,
+    "failures": 17,
+    "gmv": 293585.24,
+    "refund_amount": 28593.3,
+    "fee_revenue": 3506.27
+  },
+  {
+    "date": "2026-06-04",
+    "attempts": 172,
+    "successes": 159,
+    "failures": 13,
+    "gmv": 192171.21,
+    "refund_amount": 5102.22,
+    "fee_revenue": 1914.48
+  },
+  {
+    "date": "2026-06-05",
+    "attempts": 188,
+    "successes": 170,
+    "failures": 18,
+    "gmv": 317497.53,
+    "refund_amount": 55100.270000000004,
+    "fee_revenue": 2564.39
+  },
+  {
+    "date": "2026-06-06",
+    "attempts": 149,
+    "successes": 136,
+    "failures": 13,
+    "gmv": 209489.02,
+    "refund_amount": 10633.96,
+    "fee_revenue": 2405.4700000000003
+  },
+  {
+    "date": "2026-06-07",
+    "attempts": 126,
+    "successes": 110,
+    "failures": 16,
+    "gmv": 233642.76999999996,
+    "refund_amount": 83507.56,
+    "fee_revenue": 2506.0299999999997
+  },
+  {
+    "date": "2026-06-08",
+    "attempts": 165,
+    "successes": 149,
+    "failures": 16,
+    "gmv": 230683.63999999998,
+    "refund_amount": 20457.75,
+    "fee_revenue": 2150.41
+  },
+  {
+    "date": "2026-06-09",
+    "attempts": 147,
+    "successes": 139,
+    "failures": 8,
+    "gmv": 250437.49,
+    "refund_amount": 47709.41,
+    "fee_revenue": 2625.67
+  },
+  {
+    "date": "2026-06-10",
+    "attempts": 166,
+    "successes": 154,
+    "failures": 12,
+    "gmv": 249622.89999999997,
+    "refund_amount": 10959.220000000001,
+    "fee_revenue": 2436.45
+  },
+  {
+    "date": "2026-06-11",
+    "attempts": 177,
+    "successes": 163,
+    "failures": 14,
+    "gmv": 246336.09000000003,
+    "refund_amount": 65263.31,
+    "fee_revenue": 2533.76
+  },
+  {
+    "date": "2026-06-12",
+    "attempts": 154,
+    "successes": 139,
+    "failures": 15,
+    "gmv": 179975.2,
+    "refund_amount": 5820.7300000000005,
+    "fee_revenue": 1570.32
+  },
+  {
+    "date": "2026-06-13",
+    "attempts": 149,
+    "successes": 139,
+    "failures": 10,
+    "gmv": 262824.3,
+    "refund_amount": 8337.79,
+    "fee_revenue": 2689.35
+  },
+  {
+    "date": "2026-06-14",
+    "attempts": 143,
+    "successes": 134,
+    "failures": 9,
+    "gmv": 190701.38999999998,
+    "refund_amount": 21637.39,
+    "fee_revenue": 2252.3700000000003
+  },
+  {
+    "date": "2026-06-15",
+    "attempts": 158,
+    "successes": 146,
+    "failures": 12,
+    "gmv": 193496.24,
+    "refund_amount": 4851.42,
+    "fee_revenue": 1961.9
+  },
+  {
+    "date": "2026-06-16",
+    "attempts": 188,
+    "successes": 177,
+    "failures": 11,
+    "gmv": 323805.72,
+    "refund_amount": 35471.31,
+    "fee_revenue": 3374.5099999999998
+  },
+  {
+    "date": "2026-06-17",
+    "attempts": 162,
+    "successes": 153,
+    "failures": 9,
+    "gmv": 246284.34999999998,
+    "refund_amount": 36647.48,
+    "fee_revenue": 1962.14
+  },
+  {
+    "date": "2026-06-18",
+    "attempts": 170,
+    "successes": 159,
+    "failures": 11,
+    "gmv": 311554.63,
+    "refund_amount": 4313.070000000001,
+    "fee_revenue": 2906.67
+  },
+  {
+    "date": "2026-06-19",
+    "attempts": 195,
+    "successes": 179,
+    "failures": 16,
+    "gmv": 344633.54000000004,
+    "refund_amount": 28103.73,
+    "fee_revenue": 3925.6500000000005
+  },
+  {
+    "date": "2026-06-20",
+    "attempts": 148,
+    "successes": 135,
+    "failures": 13,
+    "gmv": 240663.27000000002,
+    "refund_amount": 12000.24,
+    "fee_revenue": 2486.91
+  },
+  {
+    "date": "2026-06-21",
+    "attempts": 155,
+    "successes": 138,
+    "failures": 17,
+    "gmv": 181210.68,
+    "refund_amount": 10051.0,
+    "fee_revenue": 2177.01
+  },
+  {
+    "date": "2026-06-22",
+    "attempts": 169,
+    "successes": 156,
+    "failures": 13,
+    "gmv": 257983.85,
+    "refund_amount": 4087.84,
+    "fee_revenue": 2390.7
+  },
+  {
+    "date": "2026-06-23",
+    "attempts": 177,
+    "successes": 166,
+    "failures": 11,
+    "gmv": 284563.78,
+    "refund_amount": 9704.32,
+    "fee_revenue": 3528.04
+  },
+  {
+    "date": "2026-06-24",
+    "attempts": 190,
+    "successes": 179,
+    "failures": 11,
+    "gmv": 307238.03,
+    "refund_amount": 11357.07,
+    "fee_revenue": 3142.98
+  },
+  {
+    "date": "2026-06-25",
+    "attempts": 191,
+    "successes": 174,
+    "failures": 17,
+    "gmv": 215052.51,
+    "refund_amount": 38552.840000000004,
+    "fee_revenue": 1740.8500000000001
+  },
+  {
+    "date": "2026-06-26",
+    "attempts": 175,
+    "successes": 160,
+    "failures": 15,
+    "gmv": 193198.3,
+    "refund_amount": 11331.12,
+    "fee_revenue": 1537.07
+  },
+  {
+    "date": "2026-06-27",
+    "attempts": 132,
+    "successes": 123,
+    "failures": 9,
+    "gmv": 206360.5,
+    "refund_amount": 10652.88,
+    "fee_revenue": 2510.1500000000005
+  },
+  {
+    "date": "2026-06-28",
+    "attempts": 158,
+    "successes": 148,
+    "failures": 10,
+    "gmv": 222068.22000000003,
+    "refund_amount": 21171.67,
+    "fee_revenue": 1982.91
+  },
+  {
+    "date": "2026-06-29",
+    "attempts": 172,
+    "successes": 157,
+    "failures": 15,
+    "gmv": 290533.01,
+    "refund_amount": 13415.949999999999,
+    "fee_revenue": 2521.36
+  },
+  {
+    "date": "2026-06-30",
+    "attempts": 162,
+    "successes": 152,
+    "failures": 10,
+    "gmv": 256456.33000000002,
+    "refund_amount": 4310.7300000000005,
+    "fee_revenue": 2209.53
+  },
+  {
+    "date": "2026-07-01",
+    "attempts": 188,
+    "successes": 171,
+    "failures": 17,
+    "gmv": 237606.45999999996,
+    "refund_amount": 5321.43,
+    "fee_revenue": 2105.7999999999997
+  },
+  {
+    "date": "2026-07-02",
+    "attempts": 161,
+    "successes": 149,
+    "failures": 12,
+    "gmv": 198534.28999999998,
+    "refund_amount": 14663.61,
+    "fee_revenue": 2100.1800000000003
+  },
+  {
+    "date": "2026-07-03",
+    "attempts": 205,
+    "successes": 185,
+    "failures": 20,
+    "gmv": 208249.07,
+    "refund_amount": 7547.92,
+    "fee_revenue": 1998.6600000000003
+  },
+  {
+    "date": "2026-07-04",
+    "attempts": 137,
+    "successes": 128,
+    "failures": 9,
+    "gmv": 210167.33000000002,
+    "refund_amount": 6999.74,
+    "fee_revenue": 2053.65
+  },
+  {
+    "date": "2026-07-05",
+    "attempts": 147,
+    "successes": 138,
+    "failures": 9,
+    "gmv": 248137.85000000003,
+    "refund_amount": 14983.93,
+    "fee_revenue": 2930.8199999999997
+  },
+  {
+    "date": "2026-07-06",
+    "attempts": 185,
+    "successes": 167,
+    "failures": 18,
+    "gmv": 263433.15,
+    "refund_amount": 1704.76,
+    "fee_revenue": 2769.29
+  },
+  {
+    "date": "2026-07-07",
+    "attempts": 199,
+    "successes": 183,
+    "failures": 16,
+    "gmv": 342376.4,
+    "refund_amount": 48068.100000000006,
+    "fee_revenue": 3605.2
+  },
+  {
+    "date": "2026-07-08",
+    "attempts": 168,
+    "successes": 157,
+    "failures": 11,
+    "gmv": 226458.56,
+    "refund_amount": 26300.33,
+    "fee_revenue": 2079.82
+  },
+  {
+    "date": "2026-07-09",
+    "attempts": 169,
+    "successes": 157,
+    "failures": 12,
+    "gmv": 284095.18,
+    "refund_amount": 9438.64,
+    "fee_revenue": 2088.21
+  },
+  {
+    "date": "2026-07-10",
+    "attempts": 195,
+    "successes": 177,
+    "failures": 18,
+    "gmv": 267946.08999999997,
+    "refund_amount": 7956.2300000000005,
+    "fee_revenue": 2555.7799999999997
+  },
+  {
+    "date": "2026-07-11",
+    "attempts": 144,
+    "successes": 126,
+    "failures": 18,
+    "gmv": 221365.44999999998,
+    "refund_amount": 3863.4100000000003,
+    "fee_revenue": 2376.1899999999996
+  },
+  {
+    "date": "2026-07-12",
+    "attempts": 140,
+    "successes": 128,
+    "failures": 12,
+    "gmv": 202437.49,
+    "refund_amount": 20979.52,
+    "fee_revenue": 1482.8000000000002
+  },
+  {
+    "date": "2026-07-13",
+    "attempts": 194,
+    "successes": 177,
+    "failures": 17,
+    "gmv": 226581.78999999998,
+    "refund_amount": 12867.17,
+    "fee_revenue": 1657.03
+  },
+  {
+    "date": "2026-07-14",
+    "attempts": 175,
+    "successes": 164,
+    "failures": 11,
+    "gmv": 241185.64999999997,
+    "refund_amount": 14449.48,
+    "fee_revenue": 2606.49
+  },
+  {
+    "date": "2026-07-15",
+    "attempts": 202,
+    "successes": 184,
+    "failures": 18,
+    "gmv": 268946.37,
+    "refund_amount": 4665.63,
+    "fee_revenue": 3215.38
+  },
+  {
+    "date": "2026-07-16",
+    "attempts": 175,
+    "successes": 155,
+    "failures": 20,
+    "gmv": 275504.07,
+    "refund_amount": 5670.46,
+    "fee_revenue": 3058.95
+  },
+  {
+    "date": "2026-07-17",
+    "attempts": 187,
+    "successes": 173,
+    "failures": 14,
+    "gmv": 259253.27000000002,
+    "refund_amount": 12155.8,
+    "fee_revenue": 2315.16
+  },
+  {
+    "date": "2026-07-18",
+    "attempts": 147,
+    "successes": 136,
+    "failures": 11,
+    "gmv": 272008.16,
+    "refund_amount": 9793.970000000001,
+    "fee_revenue": 2127.49
+  },
+  {
+    "date": "2026-07-19",
+    "attempts": 142,
+    "successes": 130,
+    "failures": 12,
+    "gmv": 149982.16999999998,
+    "refund_amount": 17859.25,
+    "fee_revenue": 1502.85
+  },
+  {
+    "date": "2026-07-20",
+    "attempts": 163,
+    "successes": 155,
+    "failures": 8,
+    "gmv": 267507.04,
+    "refund_amount": 6240.3099999999995,
+    "fee_revenue": 2332.76
+  },
+  {
+    "date": "2026-07-21",
+    "attempts": 192,
+    "successes": 176,
+    "failures": 16,
+    "gmv": 263031.0,
+    "refund_amount": 49100.17,
+    "fee_revenue": 1946.28
+  },
+  {
+    "date": "2026-07-22",
+    "attempts": 214,
+    "successes": 200,
+    "failures": 14,
+    "gmv": 318160.70999999996,
+    "refund_amount": 21268.6,
+    "fee_revenue": 2690.62
+  },
+  {
+    "date": "2026-07-23",
+    "attempts": 167,
+    "successes": 154,
+    "failures": 13,
+    "gmv": 250435.38,
+    "refund_amount": 3641.84,
+    "fee_revenue": 2124.65
+  },
+  {
+    "date": "2026-07-24",
+    "attempts": 162,
+    "successes": 148,
+    "failures": 14,
+    "gmv": 310702.0399999999,
+    "refund_amount": 8901.220000000001,
+    "fee_revenue": 2808.6099999999997
+  },
+  {
+    "date": "2026-07-25",
+    "attempts": 161,
+    "successes": 148,
+    "failures": 13,
+    "gmv": 197546.05,
+    "refund_amount": 8492.369999999999,
+    "fee_revenue": 2236.35
+  },
+  {
+    "date": "2026-07-26",
+    "attempts": 143,
+    "successes": 134,
+    "failures": 9,
+    "gmv": 167844.02000000002,
+    "refund_amount": 8856.77,
+    "fee_revenue": 1559.3799999999999
+  },
+  {
+    "date": "2026-07-27",
+    "attempts": 203,
+    "successes": 186,
+    "failures": 17,
+    "gmv": 209577.2,
+    "refund_amount": 4320.45,
+    "fee_revenue": 2007.9499999999998
+  },
+  {
+    "date": "2026-07-28",
+    "attempts": 183,
+    "successes": 170,
+    "failures": 13,
+    "gmv": 300353.3,
+    "refund_amount": 7814.99,
+    "fee_revenue": 2681.24
+  },
+  {
+    "date": "2026-07-29",
+    "attempts": 177,
+    "successes": 162,
+    "failures": 15,
+    "gmv": 268215.21,
+    "refund_amount": 9197.45,
+    "fee_revenue": 3033.46
+  },
+  {
+    "date": "2026-07-30",
+    "attempts": 169,
+    "successes": 149,
+    "failures": 20,
+    "gmv": 289208.29000000004,
+    "refund_amount": 6123.030000000001,
+    "fee_revenue": 2566.02
+  },
+  {
+    "date": "2026-07-31",
+    "attempts": 203,
+    "successes": 189,
+    "failures": 14,
+    "gmv": 284516.56999999995,
+    "refund_amount": 13933.35,
+    "fee_revenue": 2973.33
+  },
+  {
+    "date": "2026-08-01",
+    "attempts": 145,
+    "successes": 132,
+    "failures": 13,
+    "gmv": 275459.70999999996,
+    "refund_amount": 21178.62,
+    "fee_revenue": 2385.95
+  },
+  {
+    "date": "2026-08-02",
+    "attempts": 120,
+    "successes": 112,
+    "failures": 8,
+    "gmv": 143109.41999999998,
+    "refund_amount": 25693.21,
+    "fee_revenue": 1096.78
+  },
+  {
+    "date": "2026-08-03",
+    "attempts": 172,
+    "successes": 154,
+    "failures": 18,
+    "gmv": 294606.21,
+    "refund_amount": 8113.44,
+    "fee_revenue": 3217.26
+  },
+  {
+    "date": "2026-08-04",
+    "attempts": 191,
+    "successes": 176,
+    "failures": 15,
+    "gmv": 209629.49,
+    "refund_amount": 10523.05,
+    "fee_revenue": 2129.41
+  },
+  {
+    "date": "2026-08-05",
+    "attempts": 181,
+    "successes": 172,
+    "failures": 9,
+    "gmv": 264288.13,
+    "refund_amount": 8795.5,
+    "fee_revenue": 2422.0200000000004
+  },
+  {
+    "date": "2026-08-06",
+    "attempts": 188,
+    "successes": 173,
+    "failures": 15,
+    "gmv": 193006.57,
+    "refund_amount": 4493.6,
+    "fee_revenue": 2328.5
+  },
+  {
+    "date": "2026-08-07",
+    "attempts": 194,
+    "successes": 181,
+    "failures": 13,
+    "gmv": 257020.64,
+    "refund_amount": 19323.51,
+    "fee_revenue": 2843.87
+  },
+  {
+    "date": "2026-08-08",
+    "attempts": 149,
+    "successes": 132,
+    "failures": 17,
+    "gmv": 203399.86000000002,
+    "refund_amount": 17694.18,
+    "fee_revenue": 1971.9099999999999
+  },
+  {
+    "date": "2026-08-09",
+    "attempts": 161,
+    "successes": 147,
+    "failures": 14,
+    "gmv": 278780.32,
+    "refund_amount": 38292.33,
+    "fee_revenue": 2860.86
+  },
+  {
+    "date": "2026-08-10",
+    "attempts": 201,
+    "successes": 181,
+    "failures": 20,
+    "gmv": 245277.41,
+    "refund_amount": 4056.71,
+    "fee_revenue": 2496.69
+  },
+  {
+    "date": "2026-08-11",
+    "attempts": 181,
+    "successes": 168,
+    "failures": 13,
+    "gmv": 251091.97999999998,
+    "refund_amount": 5907.01,
+    "fee_revenue": 2523.81
+  },
+  {
+    "date": "2026-08-12",
+    "attempts": 190,
+    "successes": 171,
+    "failures": 19,
+    "gmv": 228402.77000000002,
+    "refund_amount": 1820.46,
+    "fee_revenue": 2554.2599999999998
+  },
+  {
+    "date": "2026-08-13",
+    "attempts": 173,
+    "successes": 159,
+    "failures": 14,
+    "gmv": 212594.91999999998,
+    "refund_amount": 3741.61,
+    "fee_revenue": 2138.52
+  },
+  {
+    "date": "2026-08-14",
+    "attempts": 175,
+    "successes": 163,
+    "failures": 12,
+    "gmv": 303141.78,
+    "refund_amount": 15480.89,
+    "fee_revenue": 3628.6400000000003
+  },
+  {
+    "date": "2026-08-15",
+    "attempts": 135,
+    "successes": 124,
+    "failures": 11,
+    "gmv": 194785.21000000005,
+    "refund_amount": 6169.32,
+    "fee_revenue": 1767.9399999999998
+  },
+  {
+    "date": "2026-08-16",
+    "attempts": 148,
+    "successes": 134,
+    "failures": 14,
+    "gmv": 178912.78000000003,
+    "refund_amount": 4234.95,
+    "fee_revenue": 1590.5700000000002
+  },
+  {
+    "date": "2026-08-17",
+    "attempts": 168,
+    "successes": 156,
+    "failures": 12,
+    "gmv": 399337.91000000003,
+    "refund_amount": 13009.62,
+    "fee_revenue": 3055.3500000000004
+  },
+  {
+    "date": "2026-08-18",
+    "attempts": 177,
+    "successes": 164,
+    "failures": 13,
+    "gmv": 214630.61000000004,
+    "refund_amount": 13087.35,
+    "fee_revenue": 2230.06
+  },
+  {
+    "date": "2026-08-19",
+    "attempts": 198,
+    "successes": 183,
+    "failures": 15,
+    "gmv": 292620.22000000003,
+    "refund_amount": 7880.58,
+    "fee_revenue": 2813.13
+  },
+  {
+    "date": "2026-08-20",
+    "attempts": 183,
+    "successes": 166,
+    "failures": 17,
+    "gmv": 313888.76999999996,
+    "refund_amount": 8386.01,
+    "fee_revenue": 2842.16
+  },
+  {
+    "date": "2026-08-21",
+    "attempts": 188,
+    "successes": 171,
+    "failures": 17,
+    "gmv": 251854.78,
+    "refund_amount": 11472.529999999999,
+    "fee_revenue": 2503.56
+  },
+  {
+    "date": "2026-08-22",
+    "attempts": 152,
+    "successes": 139,
+    "failures": 13,
+    "gmv": 232708.57,
+    "refund_amount": 9537.68,
+    "fee_revenue": 2311.3199999999997
+  },
+  {
+    "date": "2026-08-23",
+    "attempts": 136,
+    "successes": 126,
+    "failures": 10,
+    "gmv": 205970.83000000002,
+    "refund_amount": 5946.8099999999995,
+    "fee_revenue": 1863.8600000000001
+  },
+  {
+    "date": "2026-08-24",
+    "attempts": 170,
+    "successes": 153,
+    "failures": 17,
+    "gmv": 247186.60000000003,
+    "refund_amount": 11769.0,
+    "fee_revenue": 1823.7800000000002
+  },
+  {
+    "date": "2026-08-25",
+    "attempts": 182,
+    "successes": 158,
+    "failures": 24,
+    "gmv": 202011.85,
+    "refund_amount": 6805.929999999999,
+    "fee_revenue": 1799.7199999999998
+  },
+  {
+    "date": "2026-08-26",
+    "attempts": 186,
+    "successes": 169,
+    "failures": 17,
+    "gmv": 260116.71999999997,
+    "refund_amount": 6405.74,
+    "fee_revenue": 2889.75
+  },
+  {
+    "date": "2026-08-27",
+    "attempts": 207,
+    "successes": 188,
+    "failures": 19,
+    "gmv": 244260.88999999996,
+    "refund_amount": 10861.89,
+    "fee_revenue": 2076.95
+  },
+  {
+    "date": "2026-08-28",
+    "attempts": 183,
+    "successes": 169,
+    "failures": 14,
+    "gmv": 277584.89,
+    "refund_amount": 38744.19,
+    "fee_revenue": 2696.6800000000003
+  },
+  {
+    "date": "2026-08-29",
+    "attempts": 132,
+    "successes": 120,
+    "failures": 12,
+    "gmv": 172877.02000000002,
+    "refund_amount": 10966.4,
+    "fee_revenue": 1918.37
+  },
+  {
+    "date": "2026-08-30",
+    "attempts": 160,
+    "successes": 143,
+    "failures": 17,
+    "gmv": 362484.18999999994,
+    "refund_amount": 16276.02,
+    "fee_revenue": 4166.09
+  },
+  {
+    "date": "2026-08-31",
+    "attempts": 171,
+    "successes": 162,
+    "failures": 9,
+    "gmv": 268832.98,
+    "refund_amount": 11246.61,
+    "fee_revenue": 2168.92
+  },
+  {
+    "date": "2026-09-01",
+    "attempts": 198,
+    "successes": 186,
+    "failures": 12,
+    "gmv": 345530.86,
+    "refund_amount": 8133.19,
+    "fee_revenue": 3189.23
+  },
+  {
+    "date": "2026-09-02",
+    "attempts": 159,
+    "successes": 149,
+    "failures": 10,
+    "gmv": 280981.61,
+    "refund_amount": 32848.52,
+    "fee_revenue": 2047.79
+  },
+  {
+    "date": "2026-09-03",
+    "attempts": 192,
+    "successes": 179,
+    "failures": 13,
+    "gmv": 318280.8,
+    "refund_amount": 16607.32,
+    "fee_revenue": 2762.27
+  },
+  {
+    "date": "2026-09-04",
+    "attempts": 213,
+    "successes": 194,
+    "failures": 19,
+    "gmv": 418949.49,
+    "refund_amount": 41020.79,
+    "fee_revenue": 3134.0600000000004
+  },
+  {
+    "date": "2026-09-05",
+    "attempts": 150,
+    "successes": 137,
+    "failures": 13,
+    "gmv": 265668.8,
+    "refund_amount": 31052.989999999998,
+    "fee_revenue": 2603.0299999999997
+  },
+  {
+    "date": "2026-09-06",
+    "attempts": 155,
+    "successes": 141,
+    "failures": 14,
+    "gmv": 218854.37,
+    "refund_amount": 1982.72,
+    "fee_revenue": 2332.3199999999997
+  },
+  {
+    "date": "2026-09-07",
+    "attempts": 197,
+    "successes": 184,
+    "failures": 13,
+    "gmv": 291486.42000000004,
+    "refund_amount": 10647.949999999999,
+    "fee_revenue": 2248.76
+  },
+  {
+    "date": "2026-09-08",
+    "attempts": 192,
+    "successes": 178,
+    "failures": 14,
+    "gmv": 231721.26,
+    "refund_amount": 9775.07,
+    "fee_revenue": 2300.92
+  },
+  {
+    "date": "2026-09-09",
+    "attempts": 169,
+    "successes": 154,
+    "failures": 15,
+    "gmv": 249404.38999999998,
+    "refund_amount": 15306.689999999999,
+    "fee_revenue": 2780.0200000000004
+  },
+  {
+    "date": "2026-09-10",
+    "attempts": 198,
+    "successes": 176,
+    "failures": 22,
+    "gmv": 308909.64,
+    "refund_amount": 3953.5,
+    "fee_revenue": 3742.75
+  },
+  {
+    "date": "2026-09-11",
+    "attempts": 163,
+    "successes": 143,
+    "failures": 20,
+    "gmv": 293021.25,
+    "refund_amount": 1945.1799999999998,
+    "fee_revenue": 2962.4799999999996
+  },
+  {
+    "date": "2026-09-12",
+    "attempts": 146,
+    "successes": 135,
+    "failures": 11,
+    "gmv": 176719.38,
+    "refund_amount": 7577.68,
+    "fee_revenue": 1669.7199999999998
+  },
+  {
+    "date": "2026-09-13",
+    "attempts": 141,
+    "successes": 126,
+    "failures": 15,
+    "gmv": 145774.87000000002,
+    "refund_amount": 12085.26,
+    "fee_revenue": 1346.04
+  },
+  {
+    "date": "2026-09-14",
+    "attempts": 187,
+    "successes": 168,
+    "failures": 19,
+    "gmv": 223940.27000000002,
+    "refund_amount": 23284.22,
+    "fee_revenue": 2232.94
+  },
+  {
+    "date": "2026-09-15",
+    "attempts": 189,
+    "successes": 176,
+    "failures": 13,
+    "gmv": 203473.32,
+    "refund_amount": 23192.91,
+    "fee_revenue": 1832.88
+  },
+  {
+    "date": "2026-09-16",
+    "attempts": 179,
+    "successes": 165,
+    "failures": 14,
+    "gmv": 254564.61,
+    "refund_amount": 19371.289999999997,
+    "fee_revenue": 2825.37
+  },
+  {
+    "date": "2026-09-17",
+    "attempts": 192,
+    "successes": 164,
+    "failures": 28,
+    "gmv": 233510.07,
+    "refund_amount": 23859.86,
+    "fee_revenue": 2366.1800000000003
+  },
+  {
+    "date": "2026-09-18",
+    "attempts": 180,
+    "successes": 169,
+    "failures": 11,
+    "gmv": 296557.35,
+    "refund_amount": 7771.64,
+    "fee_revenue": 2820.6399999999994
+  },
+  {
+    "date": "2026-09-19",
+    "attempts": 161,
+    "successes": 145,
+    "failures": 16,
+    "gmv": 197874.31,
+    "refund_amount": 31057.91,
+    "fee_revenue": 1851.4299999999998
+  },
+  {
+    "date": "2026-09-20",
+    "attempts": 143,
+    "successes": 131,
+    "failures": 12,
+    "gmv": 151262.6,
+    "refund_amount": 6410.98,
+    "fee_revenue": 1177.43
+  },
+  {
+    "date": "2026-09-21",
+    "attempts": 170,
+    "successes": 154,
+    "failures": 16,
+    "gmv": 196721.3,
+    "refund_amount": 3785.02,
+    "fee_revenue": 1965.46
+  },
+  {
+    "date": "2026-09-22",
+    "attempts": 217,
+    "successes": 198,
+    "failures": 19,
+    "gmv": 236343.66999999998,
+    "refund_amount": 9308.449999999999,
+    "fee_revenue": 2546.37
+  },
+  {
+    "date": "2026-09-23",
+    "attempts": 182,
+    "successes": 170,
+    "failures": 12,
+    "gmv": 249591.56999999998,
+    "refund_amount": 10530.67,
+    "fee_revenue": 2795.24
+  },
+  {
+    "date": "2026-09-24",
+    "attempts": 187,
+    "successes": 171,
+    "failures": 16,
+    "gmv": 280170.12,
+    "refund_amount": 6005.08,
+    "fee_revenue": 2626.8500000000004
+  },
+  {
+    "date": "2026-09-25",
+    "attempts": 183,
+    "successes": 172,
+    "failures": 11,
+    "gmv": 179392.12,
+    "refund_amount": 9988.27,
+    "fee_revenue": 1501.8200000000002
+  },
+  {
+    "date": "2026-09-26",
+    "attempts": 150,
+    "successes": 142,
+    "failures": 8,
+    "gmv": 297329.35,
+    "refund_amount": 14775.57,
+    "fee_revenue": 2947.6200000000003
+  },
+  {
+    "date": "2026-09-27",
+    "attempts": 131,
+    "successes": 116,
+    "failures": 15,
+    "gmv": 288442.39999999997,
+    "refund_amount": 7567.599999999999,
+    "fee_revenue": 4352.580000000001
+  },
+  {
+    "date": "2026-09-28",
+    "attempts": 197,
+    "successes": 177,
+    "failures": 20,
+    "gmv": 237326.82,
+    "refund_amount": 35909.77,
+    "fee_revenue": 2451.76
+  },
+  {
+    "date": "2026-09-29",
+    "attempts": 193,
+    "successes": 178,
+    "failures": 15,
+    "gmv": 244344.41000000003,
+    "refund_amount": 36054.04,
+    "fee_revenue": 2655.9400000000005
+  },
+  {
+    "date": "2026-09-30",
+    "attempts": 212,
+    "successes": 195,
+    "failures": 17,
+    "gmv": 282090.5399999999,
+    "refund_amount": 7275.549999999999,
+    "fee_revenue": 2322.54
+  },
+  {
+    "date": "2026-10-01",
+    "attempts": 226,
+    "successes": 205,
+    "failures": 21,
+    "gmv": 331972.51,
+    "refund_amount": 11141.13,
+    "fee_revenue": 2789.32
+  },
+  {
+    "date": "2026-10-02",
+    "attempts": 252,
+    "successes": 234,
+    "failures": 18,
+    "gmv": 296763.89,
+    "refund_amount": 15492.37,
+    "fee_revenue": 2766.62
+  },
+  {
+    "date": "2026-10-03",
+    "attempts": 186,
+    "successes": 175,
+    "failures": 11,
+    "gmv": 308432.17,
+    "refund_amount": 13484.210000000001,
+    "fee_revenue": 2725.8500000000004
+  },
+  {
+    "date": "2026-10-04",
+    "attempts": 149,
+    "successes": 137,
+    "failures": 12,
+    "gmv": 160880.32,
+    "refund_amount": 8421.8,
+    "fee_revenue": 1338.58
+  },
+  {
+    "date": "2026-10-05",
+    "attempts": 230,
+    "successes": 210,
+    "failures": 20,
+    "gmv": 261121.93,
+    "refund_amount": 10298.87,
+    "fee_revenue": 2762.61
+  },
+  {
+    "date": "2026-10-06",
+    "attempts": 226,
+    "successes": 209,
+    "failures": 17,
+    "gmv": 389964.05000000005,
+    "refund_amount": 7983.900000000001,
+    "fee_revenue": 3788.5899999999997
+  },
+  {
+    "date": "2026-10-07",
+    "attempts": 234,
+    "successes": 214,
+    "failures": 20,
+    "gmv": 434617.94,
+    "refund_amount": 8892.119999999999,
+    "fee_revenue": 4014.0799999999995
+  },
+  {
+    "date": "2026-10-08",
+    "attempts": 249,
+    "successes": 227,
+    "failures": 22,
+    "gmv": 292114.30000000005,
+    "refund_amount": 6818.0599999999995,
+    "fee_revenue": 2630.5299999999997
+  },
+  {
+    "date": "2026-10-09",
+    "attempts": 224,
+    "successes": 205,
+    "failures": 19,
+    "gmv": 296164.63,
+    "refund_amount": 17222.899999999998,
+    "fee_revenue": 3217.9799999999996
+  },
+  {
+    "date": "2026-10-10",
+    "attempts": 186,
+    "successes": 166,
+    "failures": 20,
+    "gmv": 311241.30999999994,
+    "refund_amount": 20152.32,
+    "fee_revenue": 2538.55
+  },
+  {
+    "date": "2026-10-11",
+    "attempts": 166,
+    "successes": 150,
+    "failures": 16,
+    "gmv": 175670.12,
+    "refund_amount": 6273.81,
+    "fee_revenue": 1821.59
+  },
+  {
+    "date": "2026-10-12",
+    "attempts": 231,
+    "successes": 211,
+    "failures": 20,
+    "gmv": 237160.13999999996,
+    "refund_amount": 7902.47,
+    "fee_revenue": 2554.29
+  },
+  {
+    "date": "2026-10-13",
+    "attempts": 228,
+    "successes": 202,
+    "failures": 26,
+    "gmv": 271047.87,
+    "refund_amount": 15291.880000000001,
+    "fee_revenue": 2836.1099999999997
+  },
+  {
+    "date": "2026-10-14",
+    "attempts": 257,
+    "successes": 230,
+    "failures": 27,
+    "gmv": 354193.13,
+    "refund_amount": 48584.62999999999,
+    "fee_revenue": 2826.8099999999995
+  },
+  {
+    "date": "2026-10-15",
+    "attempts": 254,
+    "successes": 229,
+    "failures": 25,
+    "gmv": 375124.20999999996,
+    "refund_amount": 18394.02,
+    "fee_revenue": 3247.8199999999997
+  },
+  {
+    "date": "2026-10-16",
+    "attempts": 246,
+    "successes": 228,
+    "failures": 18,
+    "gmv": 332666.37,
+    "refund_amount": 12517.09,
+    "fee_revenue": 3002.43
+  },
+  {
+    "date": "2026-10-17",
+    "attempts": 187,
+    "successes": 171,
+    "failures": 16,
+    "gmv": 248436.3,
+    "refund_amount": 10798.05,
+    "fee_revenue": 2917.66
+  },
+  {
+    "date": "2026-10-18",
+    "attempts": 174,
+    "successes": 162,
+    "failures": 12,
+    "gmv": 236129.36,
+    "refund_amount": 6161.75,
+    "fee_revenue": 1836.98
+  },
+  {
+    "date": "2026-10-19",
+    "attempts": 247,
+    "successes": 229,
+    "failures": 18,
+    "gmv": 255173.45,
+    "refund_amount": 5774.46,
+    "fee_revenue": 2328.94
+  },
+  {
+    "date": "2026-10-20",
+    "attempts": 241,
+    "successes": 218,
+    "failures": 23,
+    "gmv": 457850.01,
+    "refund_amount": 59802.09,
+    "fee_revenue": 4272.87
+  },
+  {
+    "date": "2026-10-21",
+    "attempts": 265,
+    "successes": 242,
+    "failures": 23,
+    "gmv": 396444.0,
+    "refund_amount": 9484.619999999999,
+    "fee_revenue": 4082.1099999999997
+  },
+  {
+    "date": "2026-10-22",
+    "attempts": 239,
+    "successes": 225,
+    "failures": 14,
+    "gmv": 311897.96,
+    "refund_amount": 17741.18,
+    "fee_revenue": 2892.3199999999997
+  },
+  {
+    "date": "2026-10-23",
+    "attempts": 254,
+    "successes": 238,
+    "failures": 16,
+    "gmv": 333554.1,
+    "refund_amount": 18924.53,
+    "fee_revenue": 2841.94
+  },
+  {
+    "date": "2026-10-24",
+    "attempts": 182,
+    "successes": 176,
+    "failures": 6,
+    "gmv": 330339.77,
+    "refund_amount": 10463.56,
+    "fee_revenue": 3591.82
+  },
+  {
+    "date": "2026-10-25",
+    "attempts": 174,
+    "successes": 162,
+    "failures": 12,
+    "gmv": 221767.09000000003,
+    "refund_amount": 18330.13,
+    "fee_revenue": 2303.5299999999997
+  },
+  {
+    "date": "2026-10-26",
+    "attempts": 234,
+    "successes": 216,
+    "failures": 18,
+    "gmv": 341318.41000000003,
+    "refund_amount": 3154.18,
+    "fee_revenue": 2634.1800000000003
+  },
+  {
+    "date": "2026-10-27",
+    "attempts": 239,
+    "successes": 218,
+    "failures": 21,
+    "gmv": 328440.71,
+    "refund_amount": 14973.66,
+    "fee_revenue": 2738.7699999999995
+  },
+  {
+    "date": "2026-10-28",
+    "attempts": 261,
+    "successes": 237,
+    "failures": 24,
+    "gmv": 353145.92000000004,
+    "refund_amount": 17800.74,
+    "fee_revenue": 3662.99
+  },
+  {
+    "date": "2026-10-29",
+    "attempts": 234,
+    "successes": 211,
+    "failures": 23,
+    "gmv": 294689.04,
+    "refund_amount": 7788.150000000001,
+    "fee_revenue": 2310.01
+  },
+  {
+    "date": "2026-10-30",
+    "attempts": 239,
+    "successes": 223,
+    "failures": 16,
+    "gmv": 281794.02,
+    "refund_amount": 8873.17,
+    "fee_revenue": 2704.4100000000003
+  },
+  {
+    "date": "2026-10-31",
+    "attempts": 158,
+    "successes": 140,
+    "failures": 18,
+    "gmv": 158453.84999999998,
+    "refund_amount": 1078.1799999999998,
+    "fee_revenue": 1772.21
+  }
+]

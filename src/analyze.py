@@ -1,5 +1,5 @@
 """
-src/analyze.py — Complete analytics module producing legacy aggregates for app.js and columnar cubes.
+src/analyze.py — Complete analytics module producing columnar cubes and legacy aggregates.
 """
 
 import logging
@@ -10,10 +10,18 @@ log = logging.getLogger("pipeline.analyze")
 
 
 def compute_all_analyses(merchants_df: pd.DataFrame, txn_df: pd.DataFrame, config: dict) -> dict:
-    """Run all analytical computations and return dictionary of results for dashboard."""
-    log.info("Starting analytics computations...")
+    """Run all analytical computations and return dictionary of results for dashboard & cubes."""
+    log.info("Starting analytics computations & cube generation...")
     analysis_cfg = config.get("analysis", {})
     min_group_size = analysis_cfg.get("min_group_size", 10)
+
+    # Generate columnar cubes
+    joint_cube = compute_joint_cube(merchants_df, txn_df, config)
+    daily_total_cube = compute_daily_total_cube(txn_df, config)
+    bank_method_cube = compute_bank_method_cube(txn_df, config)
+    failure_reason_cube = compute_failure_reason_cube(txn_df, config)
+    hourly_method_cube = compute_hourly_method_cube(txn_df, config)
+    monthly_cube = compute_monthly_cube(txn_df, config)
 
     kpis = compute_kpis(txn_df, config)
     payment_mix = compute_payment_mix(txn_df, config)
@@ -21,6 +29,12 @@ def compute_all_analyses(merchants_df: pd.DataFrame, txn_df: pd.DataFrame, confi
     incidents = detect_incidents(txn_df, config)
 
     results = {
+        "joint_cube": joint_cube,
+        "daily_total_cube": daily_total_cube,
+        "bank_method_cube": bank_method_cube,
+        "failure_reason_cube": failure_reason_cube,
+        "hourly_method_cube": hourly_method_cube,
+        "monthly_cube": monthly_cube,
         "kpis": kpis,
         "daily_trend": compute_daily_trend(txn_df, config),
         "monthly": compute_monthly(txn_df, config),
@@ -35,8 +49,183 @@ def compute_all_analyses(merchants_df: pd.DataFrame, txn_df: pd.DataFrame, confi
         "insights": generate_insights(kpis, payment_mix, incidents, latency),
     }
 
-    log.info("All analytics computations completed successfully.")
+    log.info("All analytics computations and cubes generated successfully.")
     return results
+
+
+def compute_joint_cube(merchants: pd.DataFrame, txn: pd.DataFrame, config: dict) -> list[dict]:
+    """Joint cube: month x category x payment_method -> attempts, successes, failures, gmv, refund_amount, fee_revenue."""
+    cfg = config.get("analysis", {})
+    min_group_size = cfg.get("min_group_size", 10)
+    success_statuses = cfg.get("success_statuses", ["captured", "refunded", "partially_refunded"])
+    failed_status = cfg.get("failed_status", "failed")
+
+    df = txn.merge(merchants[["merchant_id", "category"]], on="merchant_id", how="left")
+    df["month"] = df["created_at"].dt.to_period("M").astype(str)
+    df["_is_success"] = df["status"].isin(success_statuses)
+    df["_is_fail"] = df["status"] == failed_status
+
+    grouped = df.groupby(["month", "category", "payment_method"]).agg(
+        attempts=("txn_id", "count"),
+        successes=("_is_success", "sum"),
+        failures=("_is_fail", "sum"),
+        gmv=("amount_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+        refund_amount=("refund_amount_inr", "sum"),
+        fee_revenue=("fee_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+    ).reset_index()
+
+    bad = grouped[grouped["attempts"] < min_group_size]
+    if len(bad) > 0:
+        bad_cats = bad["category"].unique()
+        df.loc[df["category"].isin(bad_cats), "category"] = "Other"
+        grouped = df.groupby(["month", "category", "payment_method"]).agg(
+            attempts=("txn_id", "count"),
+            successes=("_is_success", "sum"),
+            failures=("_is_fail", "sum"),
+            gmv=("amount_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+            refund_amount=("refund_amount_inr", "sum"),
+            fee_revenue=("fee_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+        ).reset_index()
+
+    return grouped.to_dict(orient="records")
+
+
+def compute_daily_total_cube(txn: pd.DataFrame, config: dict) -> list[dict]:
+    """Daily total cube for unfiltered trend."""
+    if len(txn) == 0:
+        return []
+    cfg = config.get("analysis", {})
+    success_statuses = cfg.get("success_statuses", ["captured", "refunded", "partially_refunded"])
+    failed_status = cfg.get("failed_status", "failed")
+
+    df = txn.copy()
+    df["date"] = df["created_at"].dt.date.astype(str)
+    df["_is_success"] = df["status"].isin(success_statuses)
+    df["_is_fail"] = df["status"] == failed_status
+
+    grouped = df.groupby("date").agg(
+        attempts=("txn_id", "count"),
+        successes=("_is_success", "sum"),
+        failures=("_is_fail", "sum"),
+        gmv=("amount_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+        refund_amount=("refund_amount_inr", "sum"),
+        fee_revenue=("fee_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+    ).reset_index()
+
+    return grouped.to_dict(orient="records")
+
+
+def compute_bank_method_cube(txn: pd.DataFrame, config: dict) -> list[dict]:
+    """Bank x Method cube enforcing min_group_size."""
+    cfg = config.get("analysis", {})
+    min_group_size = cfg.get("min_group_size", 10)
+    success_statuses = cfg.get("success_statuses", ["captured", "refunded", "partially_refunded"])
+    failed_status = cfg.get("failed_status", "failed")
+
+    df = txn.dropna(subset=["issuing_bank"]).copy()
+    df["_is_success"] = df["status"].isin(success_statuses)
+    df["_is_fail"] = df["status"] == failed_status
+
+    grouped = df.groupby(["issuing_bank", "payment_method"]).agg(
+        attempts=("txn_id", "count"),
+        successes=("_is_success", "sum"),
+        failures=("_is_fail", "sum"),
+        gmv=("amount_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+        refund_amount=("refund_amount_inr", "sum"),
+        fee_revenue=("fee_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+    ).reset_index()
+
+    bad = grouped[grouped["attempts"] < min_group_size]
+    if len(bad) > 0:
+        bad_banks = bad["issuing_bank"].unique()
+        df.loc[df["issuing_bank"].isin(bad_banks), "issuing_bank"] = "Other Bank"
+        grouped = df.groupby(["issuing_bank", "payment_method"]).agg(
+            attempts=("txn_id", "count"),
+            successes=("_is_success", "sum"),
+            failures=("_is_fail", "sum"),
+            gmv=("amount_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+            refund_amount=("refund_amount_inr", "sum"),
+            fee_revenue=("fee_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+        ).reset_index()
+
+    return grouped.to_dict(orient="records")
+
+
+def compute_failure_reason_cube(txn: pd.DataFrame, config: dict) -> list[dict]:
+    """Failure reason x Method cube enforcing min_group_size."""
+    cfg = config.get("analysis", {})
+    min_group_size = cfg.get("min_group_size", 10)
+    failed_status = cfg.get("failed_status", "failed")
+
+    df = txn[txn["status"] == failed_status].dropna(subset=["failure_reason"]).copy()
+    df["_is_success"] = False
+    df["_is_fail"] = True
+
+    grouped = df.groupby(["failure_reason", "payment_method"]).agg(
+        attempts=("txn_id", "count"),
+        successes=("_is_success", "sum"),
+        failures=("_is_fail", "sum"),
+        gmv=("amount_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+        refund_amount=("refund_amount_inr", "sum"),
+        fee_revenue=("fee_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+    ).reset_index()
+
+    bad = grouped[grouped["attempts"] < min_group_size]
+    if len(bad) > 0:
+        bad_reasons = bad["failure_reason"].unique()
+        df.loc[df["failure_reason"].isin(bad_reasons), "failure_reason"] = "Other Reason"
+        grouped = df.groupby(["failure_reason", "payment_method"]).agg(
+            attempts=("txn_id", "count"),
+            successes=("_is_success", "sum"),
+            failures=("_is_fail", "sum"),
+            gmv=("amount_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+            refund_amount=("refund_amount_inr", "sum"),
+            fee_revenue=("fee_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+        ).reset_index()
+
+    return grouped.to_dict(orient="records")
+
+
+def compute_hourly_method_cube(txn: pd.DataFrame, config: dict) -> list[dict]:
+    """Weekday x Hour block x Method cube enforcing min_group_size."""
+    cfg = config.get("analysis", {})
+    min_group_size = cfg.get("min_group_size", 10)
+    success_statuses = cfg.get("success_statuses", ["captured", "refunded", "partially_refunded"])
+    failed_status = cfg.get("failed_status", "failed")
+
+    df = txn.copy()
+    df["_is_success"] = df["status"].isin(success_statuses)
+    df["_is_fail"] = df["status"] == failed_status
+    df["hour_block"] = (df["hour"] // 4) * 4
+
+    grouped = df.groupby(["day_of_week", "hour_block", "payment_method"]).agg(
+        attempts=("txn_id", "count"),
+        successes=("_is_success", "sum"),
+        failures=("_is_fail", "sum"),
+        gmv=("amount_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+        refund_amount=("refund_amount_inr", "sum"),
+        fee_revenue=("fee_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+    ).reset_index()
+
+    bad = grouped[grouped["attempts"] < min_group_size]
+    if len(bad) > 0:
+        bad_methods = bad["payment_method"].unique()
+        df.loc[df["payment_method"].isin(bad_methods), "payment_method"] = "Other"
+        grouped = df.groupby(["day_of_week", "hour_block", "payment_method"]).agg(
+            attempts=("txn_id", "count"),
+            successes=("_is_success", "sum"),
+            failures=("_is_fail", "sum"),
+            gmv=("amount_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+            refund_amount=("refund_amount_inr", "sum"),
+            fee_revenue=("fee_inr", lambda x: float(x[df.loc[x.index, "_is_success"]].sum())),
+        ).reset_index()
+
+    return grouped.to_dict(orient="records")
+
+
+def compute_monthly_cube(txn: pd.DataFrame, config: dict) -> list[dict]:
+    """Monthly cube."""
+    return compute_monthly(txn, config)
 
 
 def compute_kpis(txn: pd.DataFrame, config: dict) -> dict:
@@ -176,8 +365,7 @@ def compute_bank_success(txn: pd.DataFrame, config: dict, min_group_size: int) -
     """Compute bank-wise success rate with minimum group size filtering."""
     if len(txn) == 0 or "issuing_bank" not in txn.columns:
         return []
-    cfg = config.get("analysis", {})
-    success_statuses = cfg.get("success_statuses", ["captured", "refunded", "partially_refunded"])
+    success_statuses = config.get("analysis", {}).get("success_statuses", ["captured", "refunded", "partially_refunded"])
 
     df = txn.dropna(subset=["issuing_bank"]).copy()
     df["_is_success"] = df["status"].isin(success_statuses)
@@ -198,8 +386,7 @@ def compute_failure_reasons(txn: pd.DataFrame, config: dict, min_group_size: int
     """Compute breakdown of failure reasons with min group size filtering."""
     if len(txn) == 0 or "failure_reason" not in txn.columns:
         return []
-    cfg = config.get("analysis", {})
-    failed_status = cfg.get("failed_status", "failed")
+    failed_status = config.get("analysis", {}).get("failed_status", "failed")
 
     failed_df = txn[txn["status"] == failed_status].dropna(subset=["failure_reason"]).copy()
     if len(failed_df) == 0:
@@ -224,8 +411,7 @@ def compute_hourly_heatmap(txn: pd.DataFrame, config: dict, min_group_size: int)
     """Compute hour x day-of-week failure rate heatmap."""
     if len(txn) == 0:
         return []
-    cfg = config.get("analysis", {})
-    failed_status = cfg.get("failed_status", "failed")
+    failed_status = config.get("analysis", {}).get("failed_status", "failed")
 
     df = txn.copy()
     df["_is_fail"] = df["status"] == failed_status
@@ -244,8 +430,7 @@ def compute_category_perf(txn: pd.DataFrame, merchants: pd.DataFrame, config: di
     """Compute performance by merchant category."""
     if len(txn) == 0 or len(merchants) == 0:
         return []
-    cfg = config.get("analysis", {})
-    success_statuses = cfg.get("success_statuses", ["captured", "refunded", "partially_refunded"])
+    success_statuses = config.get("analysis", {}).get("success_statuses", ["captured", "refunded", "partially_refunded"])
 
     merged = txn.merge(merchants[["merchant_id", "category"]], on="merchant_id", how="left")
     merged["_is_success"] = merged["status"].isin(success_statuses)
