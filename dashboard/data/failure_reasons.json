@@ -1,42 +1,42 @@
 [
   {
-    "failure_reason": "expired_card",
-    "count": 674,
-    "share_pct": 13.3
+    "failure_reason": "insufficient funds",
+    "count": 920,
+    "share_pct": 20.5
   },
   {
-    "failure_reason": "bank_server_down",
-    "count": 657,
-    "share_pct": 12.96
+    "failure_reason": "otp failed / timeout",
+    "count": 807,
+    "share_pct": 17.99
   },
   {
-    "failure_reason": "authentication_failed",
-    "count": 640,
-    "share_pct": 12.63
+    "failure_reason": "bank server down",
+    "count": 740,
+    "share_pct": 16.49
   },
   {
-    "failure_reason": "limit_exceeded",
-    "count": 640,
-    "share_pct": 12.63
+    "failure_reason": "customer cancelled",
+    "count": 527,
+    "share_pct": 11.75
   },
   {
-    "failure_reason": "invalid_card",
-    "count": 629,
-    "share_pct": 12.41
+    "failure_reason": "card declined",
+    "count": 445,
+    "share_pct": 9.92
   },
   {
-    "failure_reason": "insufficient_funds",
-    "count": 619,
-    "share_pct": 12.21
+    "failure_reason": "network timeout",
+    "count": 445,
+    "share_pct": 9.92
   },
   {
-    "failure_reason": "risk_check_failed",
-    "count": 614,
-    "share_pct": 12.12
+    "failure_reason": "upi pin incorrect",
+    "count": 364,
+    "share_pct": 8.11
   },
   {
-    "failure_reason": "network_timeout",
-    "count": 595,
-    "share_pct": 11.74
+    "failure_reason": "risk check declined",
+    "count": 239,
+    "share_pct": 5.33
   }
 ]

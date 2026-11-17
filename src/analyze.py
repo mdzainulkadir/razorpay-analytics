@@ -347,71 +347,99 @@ def compute_latency(txn: pd.DataFrame) -> list[dict]:
 
 
 def detect_incidents(txn: pd.DataFrame, config: dict) -> list[dict]:
-    """Data-driven incident detection."""
-    analysis_cfg = config.get("analysis", {})
-    z_threshold = analysis_cfg.get("incident_zscore_threshold", 2.0)
-    min_vol = analysis_cfg.get("incident_min_volume", 10)
-    failed_status = analysis_cfg.get("failed_status", "failed")
-
-    df = txn.copy()
-    df["hour_bin"] = df["created_at"].dt.floor("h")
-    hourly = df.groupby("hour_bin").agg(
-        attempts=("txn_id", "count"),
-        failures=("status", lambda s: (s == failed_status).sum()),
-    ).reset_index()
-
-    hourly["fail_rate"] = hourly.apply(lambda r: r["failures"] / r["attempts"] if r["attempts"] > 0 else 0.0, axis=1)
-    mean_rate = hourly["fail_rate"].mean()
-    std_rate = hourly["fail_rate"].std() or 0.001
-    hourly["is_anomaly"] = (hourly["fail_rate"] > (mean_rate + z_threshold * std_rate)) & (hourly["attempts"] >= min_vol)
-
-    anomalies = hourly[hourly["is_anomaly"]]
-    if len(anomalies) == 0:
+    """
+    Detect incidents using daily failure-rate z-scores.
+    """
+    if len(txn) == 0:
         return []
 
+    cfg = config.get("analysis", {})
+    z_thresh = cfg.get("incident_zscore_threshold", 3.0)
+    min_vol = cfg.get("incident_min_volume", 30)
+    failed_status = cfg.get("failed_status", "failed")
+    window_days = cfg.get("incident_rolling_window_days", 7)
+
+    df = txn.copy()
+    df["_day"] = df["created_at"].dt.floor("D")
+    df["_hour"] = df["created_at"].dt.floor("h")
+    df["_is_fail"] = df["status"] == failed_status
+
+    # Daily aggregation
+    daily = df.groupby("_day").agg(
+        txn_count=("txn_id", "count"),
+        fail_count=("_is_fail", "sum"),
+    ).reset_index()
+    daily["failure_rate"] = daily["fail_count"] / daily["txn_count"].replace(0, 1) * 100
+
+    # Fill missing days
+    full_days = pd.date_range(daily["_day"].min(), daily["_day"].max(), freq="D")
+    daily = daily.set_index("_day").reindex(full_days, fill_value=0).reset_index()
+    daily = daily.rename(columns={"index": "_day"})
+
+    # Rolling baseline
+    daily["roll_mean"] = daily["failure_rate"].rolling(window_days, min_periods=3).mean().shift(1)
+    daily["roll_std"] = daily["failure_rate"].rolling(window_days, min_periods=3).std().shift(1)
+    daily["roll_std"] = daily["roll_std"].fillna(daily["failure_rate"].std() or 1.0)
+
+    daily["z_score"] = np.where(
+        (daily["roll_std"] > 0) & (daily["txn_count"] >= min_vol),
+        (daily["failure_rate"] - daily["roll_mean"]) / daily["roll_std"],
+        0.0,
+    )
+
+    # Flag with z-score AND relative lift (2x baseline)
+    daily["relative_lift"] = daily["failure_rate"] / daily["roll_mean"].replace(0, np.nan)
+    flagged = daily[
+        (daily["z_score"] > z_thresh)
+        & (daily["txn_count"] >= min_vol)
+        & (daily["relative_lift"] > 2.0)
+    ]
+
+    if len(flagged) == 0:
+        return []
+
+    # Merge adjacent days
+    flagged = flagged.sort_values("_day").reset_index(drop=True)
+    flagged["_gap_days"] = flagged["_day"].diff().dt.days.fillna(999)
+    flagged["_incident_group"] = (flagged["_gap_days"] > 1).cumsum()
+
     incidents = []
-    current_start = None
-    current_end = None
-    peak_rate = 0.0
-    affected_txns = 0
-    top_reason = "Gateway Timeout"
+    for _, grp in flagged.groupby("_incident_group"):
+        start_day = grp["_day"].min()
+        end_day = grp["_day"].max()
 
-    for _, row in anomalies.iterrows():
-        t = row["hour_bin"]
-        rate = row["fail_rate"]
-        if current_start is None:
-            current_start = t
-            current_end = t
-            peak_rate = rate
-            affected_txns = row["failures"]
-        elif (t - current_end).total_seconds() <= 3600:
-            current_end = t
-            peak_rate = max(peak_rate, rate)
-            affected_txns += row["failures"]
-        else:
-            incidents.append({
-                "start_time": str(current_start),
-                "end_time": str(current_end),
-                "peak_failure_rate_pct": round(float(peak_rate * 100), 2),
-                "affected_txns": int(affected_txns),
-                "top_failure_reason": top_reason,
-            })
-            current_start = t
-            current_end = t
-            peak_rate = rate
-            affected_txns = row["failures"]
+        day_mask = (df["_day"] >= start_day) & (df["_day"] <= end_day)
+        inc_txns = df[day_mask]
 
-    if current_start is not None:
+        hourly = inc_txns.groupby("_hour").agg(
+            txn_count=("txn_id", "count"),
+            fail_count=("_is_fail", "sum"),
+        ).reset_index()
+        hourly["failure_rate"] = hourly["fail_count"] / hourly["txn_count"].replace(0, 1) * 100
+
+        if len(hourly) == 0:
+            continue
+
+        hourly["severity"] = hourly["failure_rate"] * hourly["fail_count"]
+        peak = hourly.loc[hourly["severity"].idxmax()]
+
+        daily_rate = float(grp["failure_rate"].max())
+        affected = int(grp["txn_count"].sum())
+
+        reasons = inc_txns[inc_txns["_is_fail"]]["failure_reason"].dropna()
+        top_reason = str(reasons.mode()[0]) if len(reasons) else "unknown"
+
         incidents.append({
-            "start_time": str(current_start),
-            "end_time": str(current_end),
-            "peak_failure_rate_pct": round(float(peak_rate * 100), 2),
-            "affected_txns": int(affected_txns),
+            "start_time": str(start_day),
+            "end_time": str(end_day + pd.Timedelta(days=1)),
+            "peak_hour": str(peak["_hour"]),
+            "peak_failure_rate_pct": round(daily_rate, 1),
+            "affected_txns": affected,
             "top_failure_reason": top_reason,
         })
 
+    incidents.sort(key=lambda x: x["peak_failure_rate_pct"] * x["affected_txns"], reverse=True)
     return incidents
-
 
 def generate_insights(kpis: dict, payment_mix: list, incidents: list) -> list[dict]:
     """Template-based insights."""

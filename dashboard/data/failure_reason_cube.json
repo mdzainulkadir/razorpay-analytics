@@ -1,26 +1,66 @@
 [
   {
-    "failure_reason": "authentication_failed",
-    "payment_method": "Bnpl",
-    "attempts": 13,
-    "successes": 0,
-    "failures": 13,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "authentication_failed",
+    "failure_reason": "bank server down",
     "payment_method": "Card",
-    "attempts": 161,
+    "attempts": 231,
     "successes": 0,
-    "failures": 161,
+    "failures": 231,
     "gmv": 0.0,
     "refund_amount": 0.0,
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "authentication_failed",
+    "failure_reason": "bank server down",
+    "payment_method": "Emi",
+    "attempts": 24,
+    "successes": 0,
+    "failures": 24,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "bank server down",
+    "payment_method": "Netbanking",
+    "attempts": 81,
+    "successes": 0,
+    "failures": 81,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "bank server down",
+    "payment_method": "Upi",
+    "attempts": 380,
+    "successes": 0,
+    "failures": 380,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "bank server down",
+    "payment_method": "Wallet",
+    "attempts": 20,
+    "successes": 0,
+    "failures": 20,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "card declined",
+    "payment_method": "Card",
+    "attempts": 120,
+    "successes": 0,
+    "failures": 120,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "card declined",
     "payment_method": "Emi",
     "attempts": 16,
     "successes": 0,
@@ -30,7 +70,217 @@
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "authentication_failed",
+    "failure_reason": "card declined",
+    "payment_method": "Netbanking",
+    "attempts": 60,
+    "successes": 0,
+    "failures": 60,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "card declined",
+    "payment_method": "Upi",
+    "attempts": 233,
+    "successes": 0,
+    "failures": 233,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "customer cancelled",
+    "payment_method": "Bnpl",
+    "attempts": 10,
+    "successes": 0,
+    "failures": 10,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "customer cancelled",
+    "payment_method": "Card",
+    "attempts": 147,
+    "successes": 0,
+    "failures": 147,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "customer cancelled",
+    "payment_method": "Emi",
+    "attempts": 17,
+    "successes": 0,
+    "failures": 17,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "customer cancelled",
+    "payment_method": "Netbanking",
+    "attempts": 51,
+    "successes": 0,
+    "failures": 51,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "customer cancelled",
+    "payment_method": "Upi",
+    "attempts": 290,
+    "successes": 0,
+    "failures": 290,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "customer cancelled",
+    "payment_method": "Wallet",
+    "attempts": 12,
+    "successes": 0,
+    "failures": 12,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "insufficient funds",
+    "payment_method": "Bnpl",
+    "attempts": 15,
+    "successes": 0,
+    "failures": 15,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "insufficient funds",
+    "payment_method": "Card",
+    "attempts": 261,
+    "successes": 0,
+    "failures": 261,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "insufficient funds",
+    "payment_method": "Emi",
+    "attempts": 29,
+    "successes": 0,
+    "failures": 29,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "insufficient funds",
+    "payment_method": "Netbanking",
+    "attempts": 94,
+    "successes": 0,
+    "failures": 94,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "insufficient funds",
+    "payment_method": "Upi",
+    "attempts": 490,
+    "successes": 0,
+    "failures": 490,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "insufficient funds",
+    "payment_method": "Wallet",
+    "attempts": 31,
+    "successes": 0,
+    "failures": 31,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "network timeout",
+    "payment_method": "Card",
+    "attempts": 126,
+    "successes": 0,
+    "failures": 126,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "network timeout",
+    "payment_method": "Emi",
+    "attempts": 10,
+    "successes": 0,
+    "failures": 10,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "network timeout",
+    "payment_method": "Netbanking",
+    "attempts": 51,
+    "successes": 0,
+    "failures": 51,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "network timeout",
+    "payment_method": "Upi",
+    "attempts": 236,
+    "successes": 0,
+    "failures": 236,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "network timeout",
+    "payment_method": "Wallet",
+    "attempts": 17,
+    "successes": 0,
+    "failures": 17,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "otp failed / timeout",
+    "payment_method": "Card",
+    "attempts": 233,
+    "successes": 0,
+    "failures": 233,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "otp failed / timeout",
+    "payment_method": "Emi",
+    "attempts": 27,
+    "successes": 0,
+    "failures": 27,
+    "gmv": 0.0,
+    "refund_amount": 0.0,
+    "fee_revenue": 0.0
+  },
+  {
+    "failure_reason": "otp failed / timeout",
     "payment_method": "Netbanking",
     "attempts": 90,
     "successes": 0,
@@ -40,308 +290,38 @@
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "authentication_failed",
+    "failure_reason": "otp failed / timeout",
     "payment_method": "Upi",
-    "attempts": 339,
+    "attempts": 426,
     "successes": 0,
-    "failures": 339,
+    "failures": 426,
     "gmv": 0.0,
     "refund_amount": 0.0,
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "authentication_failed",
+    "failure_reason": "otp failed / timeout",
     "payment_method": "Wallet",
-    "attempts": 21,
+    "attempts": 22,
     "successes": 0,
-    "failures": 21,
+    "failures": 22,
     "gmv": 0.0,
     "refund_amount": 0.0,
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "bank_server_down",
-    "payment_method": "Bnpl",
-    "attempts": 17,
-    "successes": 0,
-    "failures": 17,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "bank_server_down",
+    "failure_reason": "risk check declined",
     "payment_method": "Card",
-    "attempts": 157,
+    "attempts": 69,
     "successes": 0,
-    "failures": 157,
+    "failures": 69,
     "gmv": 0.0,
     "refund_amount": 0.0,
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "bank_server_down",
-    "payment_method": "Emi",
-    "attempts": 27,
-    "successes": 0,
-    "failures": 27,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "bank_server_down",
+    "failure_reason": "risk check declined",
     "payment_method": "Netbanking",
-    "attempts": 78,
-    "successes": 0,
-    "failures": 78,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "bank_server_down",
-    "payment_method": "Upi",
-    "attempts": 348,
-    "successes": 0,
-    "failures": 348,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "bank_server_down",
-    "payment_method": "Wallet",
-    "attempts": 30,
-    "successes": 0,
-    "failures": 30,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "expired_card",
-    "payment_method": "Bnpl",
-    "attempts": 14,
-    "successes": 0,
-    "failures": 14,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "expired_card",
-    "payment_method": "Card",
-    "attempts": 185,
-    "successes": 0,
-    "failures": 185,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "expired_card",
-    "payment_method": "Emi",
-    "attempts": 21,
-    "successes": 0,
-    "failures": 21,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "expired_card",
-    "payment_method": "Netbanking",
-    "attempts": 83,
-    "successes": 0,
-    "failures": 83,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "expired_card",
-    "payment_method": "Upi",
-    "attempts": 346,
-    "successes": 0,
-    "failures": 346,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "expired_card",
-    "payment_method": "Wallet",
-    "attempts": 25,
-    "successes": 0,
-    "failures": 25,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "insufficient_funds",
-    "payment_method": "Bnpl",
-    "attempts": 16,
-    "successes": 0,
-    "failures": 16,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "insufficient_funds",
-    "payment_method": "Card",
-    "attempts": 182,
-    "successes": 0,
-    "failures": 182,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "insufficient_funds",
-    "payment_method": "Emi",
-    "attempts": 18,
-    "successes": 0,
-    "failures": 18,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "insufficient_funds",
-    "payment_method": "Netbanking",
-    "attempts": 84,
-    "successes": 0,
-    "failures": 84,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "insufficient_funds",
-    "payment_method": "Upi",
-    "attempts": 303,
-    "successes": 0,
-    "failures": 303,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "insufficient_funds",
-    "payment_method": "Wallet",
-    "attempts": 16,
-    "successes": 0,
-    "failures": 16,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "invalid_card",
-    "payment_method": "Card",
-    "attempts": 148,
-    "successes": 0,
-    "failures": 148,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "invalid_card",
-    "payment_method": "Emi",
-    "attempts": 37,
-    "successes": 0,
-    "failures": 37,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "invalid_card",
-    "payment_method": "Netbanking",
-    "attempts": 66,
-    "successes": 0,
-    "failures": 66,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "invalid_card",
-    "payment_method": "Upi",
-    "attempts": 342,
-    "successes": 0,
-    "failures": 342,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "invalid_card",
-    "payment_method": "Wallet",
-    "attempts": 27,
-    "successes": 0,
-    "failures": 27,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "limit_exceeded",
-    "payment_method": "Bnpl",
-    "attempts": 11,
-    "successes": 0,
-    "failures": 11,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "limit_exceeded",
-    "payment_method": "Card",
-    "attempts": 179,
-    "successes": 0,
-    "failures": 179,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "limit_exceeded",
-    "payment_method": "Emi",
-    "attempts": 28,
-    "successes": 0,
-    "failures": 28,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "limit_exceeded",
-    "payment_method": "Netbanking",
-    "attempts": 77,
-    "successes": 0,
-    "failures": 77,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "limit_exceeded",
-    "payment_method": "Upi",
-    "attempts": 326,
-    "successes": 0,
-    "failures": 326,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "limit_exceeded",
-    "payment_method": "Wallet",
     "attempts": 19,
     "successes": 0,
     "failures": 19,
@@ -350,101 +330,51 @@
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "network_timeout",
-    "payment_method": "Card",
-    "attempts": 159,
-    "successes": 0,
-    "failures": 159,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "network_timeout",
-    "payment_method": "Emi",
-    "attempts": 22,
-    "successes": 0,
-    "failures": 22,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "network_timeout",
-    "payment_method": "Netbanking",
-    "attempts": 75,
-    "successes": 0,
-    "failures": 75,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "network_timeout",
+    "failure_reason": "risk check declined",
     "payment_method": "Upi",
-    "attempts": 302,
+    "attempts": 133,
     "successes": 0,
-    "failures": 302,
+    "failures": 133,
     "gmv": 0.0,
     "refund_amount": 0.0,
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "network_timeout",
-    "payment_method": "Wallet",
-    "attempts": 28,
-    "successes": 0,
-    "failures": 28,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "risk_check_failed",
+    "failure_reason": "upi pin incorrect",
     "payment_method": "Card",
-    "attempts": 169,
+    "attempts": 103,
     "successes": 0,
-    "failures": 169,
+    "failures": 103,
     "gmv": 0.0,
     "refund_amount": 0.0,
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "risk_check_failed",
-    "payment_method": "Emi",
-    "attempts": 22,
-    "successes": 0,
-    "failures": 22,
-    "gmv": 0.0,
-    "refund_amount": 0.0,
-    "fee_revenue": 0.0
-  },
-  {
-    "failure_reason": "risk_check_failed",
+    "failure_reason": "upi pin incorrect",
     "payment_method": "Netbanking",
-    "attempts": 67,
+    "attempts": 43,
     "successes": 0,
-    "failures": 67,
+    "failures": 43,
     "gmv": 0.0,
     "refund_amount": 0.0,
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "risk_check_failed",
+    "failure_reason": "upi pin incorrect",
     "payment_method": "Upi",
-    "attempts": 330,
+    "attempts": 193,
     "successes": 0,
-    "failures": 330,
+    "failures": 193,
     "gmv": 0.0,
     "refund_amount": 0.0,
     "fee_revenue": 0.0
   },
   {
-    "failure_reason": "risk_check_failed",
+    "failure_reason": "upi pin incorrect",
     "payment_method": "Wallet",
-    "attempts": 17,
+    "attempts": 12,
     "successes": 0,
-    "failures": 17,
+    "failures": 12,
     "gmv": 0.0,
     "refund_amount": 0.0,
     "fee_revenue": 0.0

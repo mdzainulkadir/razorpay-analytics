@@ -1,27 +1,27 @@
 {
   "gmv": {
-    "current": 85109907.96000001,
-    "previous": 72343421.766,
+    "current": 180211143.20999998,
+    "previous": 153179471.72849998,
     "change_pct": 17.6
   },
   "success_rate": {
-    "current": 91.54,
-    "previous": 91.04,
+    "current": 92.52,
+    "previous": 92.02,
     "change_pct": 1.2
   },
   "net_revenue": {
-    "current": 818283.81,
-    "previous": 670992.7242,
+    "current": 1814394.33,
+    "previous": 1487803.3506,
     "change_pct": 21.9
   },
   "refund_rate": {
-    "current": 6.23,
-    "previous": 6.33,
+    "current": 3.08,
+    "previous": 3.18,
     "change_pct": -3.4
   },
   "avg_ticket": {
-    "current": 1552.85,
-    "previous": 1521.793,
+    "current": 3246.29,
+    "previous": 3181.3642,
     "change_pct": 2.1
   },
   "active_merchants": {

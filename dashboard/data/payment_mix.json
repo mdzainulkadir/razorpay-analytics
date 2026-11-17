@@ -1,50 +1,50 @@
 [
   {
     "payment_method": "Upi",
-    "txn_count": 32459,
-    "success_count": 29823,
-    "gmv": 45789350.73,
-    "share_pct": 54.21,
-    "success_rate": 91.88
+    "txn_count": 32625,
+    "success_count": 30244,
+    "gmv": 78550036.37,
+    "share_pct": 54.37,
+    "success_rate": 92.7
   },
   {
     "payment_method": "Card",
-    "txn_count": 16738,
-    "success_count": 15398,
-    "gmv": 23939548.159999996,
-    "share_pct": 27.95,
-    "success_rate": 91.99
+    "txn_count": 16708,
+    "success_count": 15418,
+    "gmv": 49479179.72,
+    "share_pct": 27.85,
+    "success_rate": 92.28
   },
   {
     "payment_method": "Netbanking",
-    "txn_count": 4727,
-    "success_count": 4107,
-    "gmv": 6632448.66,
-    "share_pct": 7.89,
-    "success_rate": 86.88
+    "txn_count": 4979,
+    "success_count": 4490,
+    "gmv": 13162857.740000002,
+    "share_pct": 8.3,
+    "success_rate": 90.18
   },
   {
     "payment_method": "Emi",
-    "txn_count": 2380,
-    "success_count": 2189,
-    "gmv": 3655777.27,
-    "share_pct": 3.97,
-    "success_rate": 91.97
+    "txn_count": 2356,
+    "success_count": 2216,
+    "gmv": 23998314.68,
+    "share_pct": 3.93,
+    "success_rate": 94.06
   },
   {
     "payment_method": "Wallet",
-    "txn_count": 2376,
-    "success_count": 2193,
-    "gmv": 3293588.41,
-    "share_pct": 3.97,
-    "success_rate": 92.3
+    "txn_count": 2233,
+    "success_count": 2105,
+    "gmv": 5210736.23,
+    "share_pct": 3.72,
+    "success_rate": 94.27
   },
   {
     "payment_method": "Bnpl",
-    "txn_count": 1197,
-    "success_count": 1099,
-    "gmv": 1799194.73,
-    "share_pct": 2.0,
-    "success_rate": 91.81
+    "txn_count": 1099,
+    "success_count": 1040,
+    "gmv": 9810018.469999999,
+    "share_pct": 1.83,
+    "success_rate": 94.63
   }
 ]

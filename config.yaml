@@ -1,11 +1,11 @@
 # config.yaml — Configuration for Razorpay Payments Analytics Pipeline
 data:
-  data_path: "data/synthetic"
+  data_path: "D:/razorpay_private_data/razorpay"
   merchants_filename: "merchants.csv"
   transactions_filename: "transactions.csv"
 
 outputs:
-  dashboard_data_dir: "dashboard/data"
+  dashboard_data_dir: "outputs_real/dashboard_data"
   outputs_real_dir: "outputs_real"
 
 cleaning:

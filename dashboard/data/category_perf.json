@@ -1,101 +1,101 @@
 [
   {
     "category": "Travel",
-    "txn_count": 5593,
-    "success_count": 5077,
-    "gmv": 30594312.92,
-    "merchant_count": 36,
-    "success_rate": 90.77,
-    "avg_gmv_per_merchant": 849842.03
-  },
-  {
-    "category": "Saas",
-    "txn_count": 5899,
-    "success_count": 5365,
-    "gmv": 12481855.43,
-    "merchant_count": 40,
-    "success_rate": 90.95,
-    "avg_gmv_per_merchant": 312046.39
-  },
-  {
-    "category": "Healthcare",
-    "txn_count": 4728,
-    "success_count": 4323,
-    "gmv": 7113204.699999999,
-    "merchant_count": 32,
-    "success_rate": 91.43,
-    "avg_gmv_per_merchant": 222287.65
+    "txn_count": 4247,
+    "success_count": 3907,
+    "gmv": 32244889.700000003,
+    "merchant_count": 34,
+    "success_rate": 91.99,
+    "avg_gmv_per_merchant": 948379.11
   },
   {
     "category": "Education",
-    "txn_count": 7149,
-    "success_count": 6575,
-    "gmv": 7084939.26,
-    "merchant_count": 41,
-    "success_rate": 91.97,
-    "avg_gmv_per_merchant": 172803.4
-  },
-  {
-    "category": "E-Commerce",
-    "txn_count": 4126,
-    "success_count": 3763,
-    "gmv": 6875167.24,
-    "merchant_count": 39,
-    "success_rate": 91.2,
-    "avg_gmv_per_merchant": 176286.34
+    "txn_count": 6875,
+    "success_count": 6384,
+    "gmv": 30558357.189999998,
+    "merchant_count": 36,
+    "success_rate": 92.86,
+    "avg_gmv_per_merchant": 848843.26
   },
   {
     "category": "Fintech",
-    "txn_count": 3655,
-    "success_count": 3329,
-    "gmv": 6871913.57,
-    "merchant_count": 29,
-    "success_rate": 91.08,
-    "avg_gmv_per_merchant": 236962.54
+    "txn_count": 5446,
+    "success_count": 5061,
+    "gmv": 29467428.04,
+    "merchant_count": 34,
+    "success_rate": 92.93,
+    "avg_gmv_per_merchant": 866689.06
   },
   {
     "category": "Retail & D2C",
-    "txn_count": 5550,
-    "success_count": 5120,
-    "gmv": 5181948.11,
-    "merchant_count": 41,
-    "success_rate": 92.25,
-    "avg_gmv_per_merchant": 126388.98
+    "txn_count": 11325,
+    "success_count": 10442,
+    "gmv": 27839038.560000002,
+    "merchant_count": 31,
+    "success_rate": 92.2,
+    "avg_gmv_per_merchant": 898033.5
   },
   {
-    "category": "Gaming",
-    "txn_count": 7341,
-    "success_count": 6723,
-    "gmv": 2754536.83,
-    "merchant_count": 36,
-    "success_rate": 91.58,
-    "avg_gmv_per_merchant": 76514.91
+    "category": "E-Commerce",
+    "txn_count": 12657,
+    "success_count": 11724,
+    "gmv": 25116388.73,
+    "merchant_count": 100,
+    "success_rate": 92.63,
+    "avg_gmv_per_merchant": 251163.89
   },
   {
-    "category": "Nonprofit",
-    "txn_count": 4459,
-    "success_count": 4092,
-    "gmv": 2660177.46,
+    "category": "Saas",
+    "txn_count": 4896,
+    "success_count": 4547,
+    "gmv": 21784665.779999997,
     "merchant_count": 37,
-    "success_rate": 91.77,
-    "avg_gmv_per_merchant": 71896.69
+    "success_rate": 92.87,
+    "avg_gmv_per_merchant": 588774.75
   },
   {
     "category": "Utilities & Bills",
-    "txn_count": 7578,
-    "success_count": 6936,
-    "gmv": 2022091.15,
-    "merchant_count": 35,
-    "success_rate": 91.53,
-    "avg_gmv_per_merchant": 57774.03
+    "txn_count": 3505,
+    "success_count": 3214,
+    "gmv": 4606169.9399999995,
+    "merchant_count": 24,
+    "success_rate": 91.7,
+    "avg_gmv_per_merchant": 191923.75
+  },
+  {
+    "category": "Healthcare",
+    "txn_count": 1170,
+    "success_count": 1090,
+    "gmv": 2770063.3,
+    "merchant_count": 18,
+    "success_rate": 93.16,
+    "avg_gmv_per_merchant": 153892.41
+  },
+  {
+    "category": "Gaming",
+    "txn_count": 4866,
+    "success_count": 4520,
+    "gmv": 2409924.94,
+    "merchant_count": 33,
+    "success_rate": 92.89,
+    "avg_gmv_per_merchant": 73028.03
   },
   {
     "category": "Food & Delivery",
-    "txn_count": 3799,
-    "success_count": 3506,
-    "gmv": 1469761.29,
-    "merchant_count": 34,
-    "success_rate": 92.29,
-    "avg_gmv_per_merchant": 43228.27
+    "txn_count": 3436,
+    "success_count": 3166,
+    "gmv": 1797580.33,
+    "merchant_count": 42,
+    "success_rate": 92.14,
+    "avg_gmv_per_merchant": 42799.53
+  },
+  {
+    "category": "Nonprofit",
+    "txn_count": 1577,
+    "success_count": 1458,
+    "gmv": 1616636.6999999997,
+    "merchant_count": 11,
+    "success_rate": 92.45,
+    "avg_gmv_per_merchant": 146966.97
   }
 ]

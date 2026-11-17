@@ -1,9 +1,9 @@
 {
-  "data_type": "synthetic",
-  "generated_at": "2026-11-17 04:30:07",
+  "data_type": "real",
+  "generated_at": "2026-11-18 02:06:48",
   "merchants_count": 400,
-  "transactions_count": 59877,
-  "excluded_edge_rows": 108,
+  "transactions_count": 60000,
+  "excluded_edge_rows": 0,
   "detected_window_start": "2025-11-01",
   "detected_window_end": "2026-10-31",
   "min_date": "2025-11-01",

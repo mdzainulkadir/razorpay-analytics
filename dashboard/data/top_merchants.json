@@ -1,52 +1,52 @@
 [
   {
     "merchant_rank": 1,
-    "gmv": 3769564.52,
-    "gmv_share_pct": 4.43
+    "gmv": 17560411.73,
+    "gmv_share_pct": 9.74
   },
   {
     "merchant_rank": 2,
-    "gmv": 3479817.94,
-    "gmv_share_pct": 4.09
+    "gmv": 7515731.82,
+    "gmv_share_pct": 4.17
   },
   {
     "merchant_rank": 3,
-    "gmv": 2325745.4,
-    "gmv_share_pct": 2.73
+    "gmv": 7117790.03,
+    "gmv_share_pct": 3.95
   },
   {
     "merchant_rank": 4,
-    "gmv": 2229239.85,
-    "gmv_share_pct": 2.62
+    "gmv": 6940861.24,
+    "gmv_share_pct": 3.85
   },
   {
     "merchant_rank": 5,
-    "gmv": 2224187.46,
-    "gmv_share_pct": 2.61
+    "gmv": 5480970.96,
+    "gmv_share_pct": 3.04
   },
   {
     "merchant_rank": 6,
-    "gmv": 2191530.08,
-    "gmv_share_pct": 2.57
+    "gmv": 5127480.59,
+    "gmv_share_pct": 2.85
   },
   {
     "merchant_rank": 7,
-    "gmv": 2073203.13,
-    "gmv_share_pct": 2.44
+    "gmv": 4446047.63,
+    "gmv_share_pct": 2.47
   },
   {
     "merchant_rank": 8,
-    "gmv": 1879881.33,
-    "gmv_share_pct": 2.21
+    "gmv": 4078827.92,
+    "gmv_share_pct": 2.26
   },
   {
     "merchant_rank": 9,
-    "gmv": 1814490.58,
-    "gmv_share_pct": 2.13
+    "gmv": 4006966.46,
+    "gmv_share_pct": 2.22
   },
   {
     "merchant_rank": 10,
-    "gmv": 1558105.56,
-    "gmv_share_pct": 1.83
+    "gmv": 3777581.0,
+    "gmv_share_pct": 2.1
   }
 ]
